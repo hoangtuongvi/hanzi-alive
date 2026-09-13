@@ -3,18 +3,14 @@ import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import type {VisualPart} from '../theatre/types';
 import {disposeObject} from './geometry';
 import type {MeaningModel} from './scenes';
-
-const blenderScenes:Record<string,{file:string;anchors:string[]}>= {
-  '休':{file:'rest',anchors:['anchor_person','anchor_tree']},
-  '清':{file:'clear',anchors:['anchor_water','anchor_green']},
-  '晴':{file:'sunny',anchors:['anchor_sun','anchor_green']},
-};
+import {getSceneDefinition} from './scene-catalog';
 
 /** GLBs are self-contained Blender exports; their empty nodes locate callouts. */
 export async function loadBlenderMeaningModel(word:string,parts:VisualPart[],signal:AbortSignal):Promise<MeaningModel|null> {
-  const asset=blenderScenes[word];if(!asset)return null;
+  const asset=getSceneDefinition(word);if(asset?.format!=='blender')return null;
+  if(!asset.asset||!asset.anchors)throw new Error(`The Blender scene for ${word} has no asset or callout definition.`);
   signal.throwIfAborted();
-  const url=`/models/blender/${asset.file}.glb`;
+  const url=asset.asset;
   const response=await fetch(url,{signal});
   if(!response.ok)throw new Error(`The Blender scene for ${word} could not load (${response.status}).`);
   const bytes=await response.arrayBuffer();signal.throwIfAborted();
@@ -27,8 +23,9 @@ export async function loadBlenderMeaningModel(word:string,parts:VisualPart[],sig
     const group=model.group;group.updateMatrixWorld(true);
     if(parts.length!==asset.anchors.length)throw new Error(`The Blender scene for ${word} has a different number of learning parts.`);
     model.labels=parts.map((part,index)=>{
-      const node=group.getObjectByName(asset.anchors[index]);
-      if(!node)throw new Error(`The Blender scene for ${word} is missing ${asset.anchors[index]}.`);
+      const anchorName=asset.anchors![index];
+      const node=group.getObjectByName(anchorName);
+      if(!node)throw new Error(`The Blender scene for ${word} is missing ${anchorName}.`);
       const anchor=group.worldToLocal(node.getWorldPosition(new THREE.Vector3()));
       return {...part,anchor};
     });

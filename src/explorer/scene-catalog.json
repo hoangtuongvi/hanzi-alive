@@ -1,0 +1,135 @@
+[
+  {
+    "word": "休",
+    "scene": "rest",
+    "format": "blender",
+    "asset": "/models/blender/rest.glb",
+    "anchors": [
+      "anchor_person",
+      "anchor_tree"
+    ],
+    "history": true
+  },
+  {
+    "word": "林",
+    "scene": "woods",
+    "format": "blender",
+    "history": false,
+    "asset": "/models/blender/woods.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ]
+  },
+  {
+    "word": "森",
+    "scene": "forest",
+    "format": "blender",
+    "asset": "/models/blender/forest.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false
+  },
+  {
+    "word": "清",
+    "scene": "clear",
+    "format": "blender",
+    "asset": "/models/blender/clear.glb",
+    "anchors": [
+      "anchor_water",
+      "anchor_green"
+    ],
+    "history": false
+  },
+  {
+    "word": "晴",
+    "scene": "sunny",
+    "format": "blender",
+    "asset": "/models/blender/sunny.glb",
+    "anchors": [
+      "anchor_sun",
+      "anchor_green"
+    ],
+    "history": false
+  },
+  {
+    "word": "情",
+    "scene": "emotion",
+    "format": "blender",
+    "history": false,
+    "asset": "/models/blender/emotion.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ]
+  },
+  {
+    "word": "请",
+    "scene": "invite",
+    "format": "blender",
+    "history": false,
+    "asset": "/models/blender/invite.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ]
+  },
+  {
+    "word": "手机",
+    "scene": "phone",
+    "format": "blender",
+    "history": false,
+    "asset": "/models/blender/phone.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ]
+  },
+  {
+    "word": "电脑",
+    "scene": "computer",
+    "format": "blender",
+    "history": false,
+    "asset": "/models/blender/computer.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ]
+  },
+  {
+    "word": "分手",
+    "scene": "parting",
+    "format": "blender",
+    "history": false,
+    "asset": "/models/blender/parting.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ]
+  },
+  {
+    "word": "高手",
+    "scene": "expert",
+    "format": "blender",
+    "history": false,
+    "asset": "/models/blender/expert.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ]
+  },
+  {
+    "word": "好",
+    "scene": "good",
+    "format": "blender",
+    "asset": "/models/blender/good.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  }
+]

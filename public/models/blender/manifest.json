@@ -57,11 +57,219 @@
         },
         "design": "An apricot-and-ochre ceramic sun over the identical botanical grass motif."
       }
+    },
+    "woods": {
+      "word": "林",
+      "url": "/models/blender/woods.glb",
+      "blendFile": "assets/blender/woods.blend",
+      "sha256": "55a1ed48bf9121ea38060d689f5c32280bd96aa968e19ca6a80f4f7b33233eb0",
+      "bytes": 2194012,
+      "meshes": 12,
+      "triangles": 122360,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1"
+      ],
+      "design": {
+        "title": "One tree finds another",
+        "anchors": {
+          "anchor_part_0": "木",
+          "anchor_part_1": "木"
+        },
+        "design": "Two copies of the original broadleaf shade tree stand side by side on a mossy island, beside a small stepping-stone clearing.",
+        "sharedMotifs": [
+          "rest / broadleaf tree"
+        ]
+      }
+    },
+    "forest": {
+      "word": "森",
+      "url": "/models/blender/forest.glb",
+      "blendFile": "assets/blender/forest.blend",
+      "sha256": "d058a2aafe775041f14d40d10393e7352e30d36efef3d00dc9595360b1ba5ac0",
+      "bytes": 3112268,
+      "meshes": 12,
+      "triangles": 175132,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1",
+        "anchor_part_2"
+      ],
+      "design": {
+        "title": "Three trees deepen the woods",
+        "anchors": {
+          "anchor_part_0": "木",
+          "anchor_part_1": "木",
+          "anchor_part_2": "木"
+        },
+        "design": "Three copies of the established broadleaf tree form a layered forest, with a tall tree behind two lower trees and a path between the trunks.",
+        "sharedMotifs": [
+          "rest / broadleaf tree",
+          "woods / woodland clearing"
+        ]
+      }
+    },
+    "emotion": {
+      "word": "情",
+      "url": "/models/blender/emotion.glb",
+      "blendFile": "assets/blender/emotion.blend",
+      "sha256": "d67f48a0488525e32521810734d63ba6af59b88ebbd45c1d312d16913442767e",
+      "bytes": 1349292,
+      "meshes": 12,
+      "triangles": 69616,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1"
+      ],
+      "design": {
+        "title": "Let the heart feel",
+        "anchors": {
+          "anchor_part_0": "忄",
+          "anchor_part_1": "青"
+        },
+        "design": "A rounded terracotta heart rests among the same curved green plants seen in 清 and 晴, sheltered by leaves with two small companion hearts.",
+        "sharedMotifs": [
+          "clear / green meadow",
+          "sunny / green meadow"
+        ]
+      }
+    },
+    "invite": {
+      "word": "请",
+      "url": "/models/blender/invite.glb",
+      "blendFile": "assets/blender/invite.blend",
+      "sha256": "dd9b6f7b7a6a5eedc54ba662f2cd4f16bef6019f448ae0c456cfc0e4494c4a8d",
+      "bytes": 1101004,
+      "meshes": 13,
+      "triangles": 49788,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1"
+      ],
+      "design": {
+        "title": "A green invitation",
+        "anchors": {
+          "anchor_part_0": "讠",
+          "anchor_part_1": "青"
+        },
+        "design": "A rounded porcelain speech bubble offers a welcome above the shared green meadow, with a stepping-stone entrance and two small golden flowers.",
+        "sharedMotifs": [
+          "clear / green meadow",
+          "sunny / green meadow"
+        ]
+      }
+    },
+    "phone": {
+      "word": "手机",
+      "url": "/models/blender/phone.glb",
+      "blendFile": "assets/blender/phone.blend",
+      "sha256": "971be023e4e4bf44f7e71882d26639315c5ec9b7efa868a48616665e31c31001",
+      "bytes": 392716,
+      "meshes": 12,
+      "triangles": 14812,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1"
+      ],
+      "design": {
+        "title": "A machine in your hand",
+        "design": "A sculpted hand wraps around a rounded mobile phone with raised call and app details.",
+        "anchors": {
+          "anchor_part_0": "手",
+          "anchor_part_1": "机"
+        }
+      }
+    },
+    "computer": {
+      "word": "电脑",
+      "url": "/models/blender/computer.glb",
+      "blendFile": "assets/blender/computer.blend",
+      "sha256": "8de6ab185612d6b5714579968d1d6d63e7e8091b0ec67f087d767b08530326da",
+      "bytes": 669036,
+      "meshes": 10,
+      "triangles": 25968,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1"
+      ],
+      "design": {
+        "title": "A brain comes to life",
+        "design": "A crafted desktop computer with a sculpted two-hemisphere brain and a golden electricity bolt powering it.",
+        "anchors": {
+          "anchor_part_0": "电",
+          "anchor_part_1": "脑"
+        }
+      }
+    },
+    "parting": {
+      "word": "分手",
+      "url": "/models/blender/parting.glb",
+      "blendFile": "assets/blender/parting.blend",
+      "sha256": "a574bd94a0cbf0bd6d24523ae1e27bea253e2bdd78dc529088e8dd4acda2ff35",
+      "bytes": 626884,
+      "meshes": 12,
+      "triangles": 24292,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1"
+      ],
+      "design": {
+        "title": "Two hands part ways",
+        "design": "Two sculpted hands separate beneath a knife; a ribbon hangs in two frayed, visibly disconnected lengths.",
+        "anchors": {
+          "anchor_part_0": "分",
+          "anchor_part_1": "手"
+        }
+      }
+    },
+    "expert": {
+      "word": "高手",
+      "url": "/models/blender/expert.glb",
+      "blendFile": "assets/blender/expert.blend",
+      "sha256": "a8a20b90c5faae57b2626a0e1f65f7d28235eaa520bee7664606f66c74805adb",
+      "bytes": 580140,
+      "meshes": 10,
+      "triangles": 24028,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1"
+      ],
+      "design": {
+        "title": "The winning hand",
+        "design": "A raised, pinching hand carries a golden king above a crafted chessboard to make the winning move.",
+        "anchors": {
+          "anchor_part_0": "高",
+          "anchor_part_1": "手"
+        }
+      }
+    },
+    "good": {
+      "word": "好",
+      "url": "/models/blender/good.glb",
+      "blendFile": "assets/blender/good.blend",
+      "sha256": "78303f0553a74db37bfcdb8feb1ec59a9b3b3c529bcf6b1554a15a1067928646",
+      "bytes": 2226204,
+      "meshes": 26,
+      "triangles": 84996,
+      "anchors": [
+        "anchor_part_0",
+        "anchor_part_1"
+      ],
+      "design": {
+        "title": "A good meal together",
+        "anchors": {
+          "anchor_part_0": "女",
+          "anchor_part_1": "子"
+        },
+        "design": "A smiling woman and child sit at a low wooden table and share warm soup and steamed buns. Sculpted faces, draped clothes, bent arms, little spoons and rising steam make the memory story tangible.",
+        "story": "A woman and a child share a warm meal and both declare it good.",
+        "interpretation": "An invented learning mnemonic; not an etymological reconstruction or a universal claim about family and goodness."
+      }
     }
   },
   "authoringTool": "Blender",
   "blenderVersion": "4.5.9 LTS",
-  "generatedAt": "2026-09-13T07:57:06.288787+00:00",
+  "generatedAt": "2026-09-13T12:47:25.146019+00:00",
   "coordinateSystem": "glTF Y-up",
   "generator": "scripts/blender/build_assets.py",
   "notes": "Original scene geometry authored for Hanzi Alive with Blender Python; glyph outlines remain sourced independently."

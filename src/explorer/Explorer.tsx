@@ -46,7 +46,7 @@ function FocusedLesson({lesson,characters,run}:{lesson:Lesson;characters:Record<
         </div>
 
         <div className="focused-caption" aria-live="polite" aria-atomic="true">
-          {isStory&&<p className="focused-story focused-enter">{lesson.word==='清'?<>Only in <em>clear water</em> can you see the <em className="focused-green">green grass.</em></>:story}</p>}
+          <p className={`focused-story ${isStory?'focused-enter':'focused-story-reserve'}`} aria-hidden={!isStory}>{lesson.word==='清'?<>Only in <em>clear water</em> can you see the <em className="focused-green">green grass.</em></>:story}</p>
           {isHistory&&<div className="focused-history-note focused-enter" key={step.key}><p className="focused-history-era">{step.key==='modern'?'Today':`${step.label} script`}</p><p>{step.period}{step.source&&<><span aria-hidden="true"> · </span><a href={step.source} target="_blank" rel="noreferrer">Source <ArrowUpRight size={12}/></a></>}</p></div>}
         </div>
       </div>

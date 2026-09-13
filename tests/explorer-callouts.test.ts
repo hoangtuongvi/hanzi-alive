@@ -50,6 +50,41 @@ test('a written-parts row with insufficient room hides colliding labels',()=>{
   assertClear(labels.filter(label=>label.visible),[],200,160);
 });
 
+test('three and four written cues wrap into centered rows on a narrow screen',()=>{
+  for(const count of [3,4]){
+    const measures=Array.from({length:count},(_,index)=>({key:`part-${index}`,anchor:{x:20+index*40,y:30+index*25},width:94,height:40}));
+    const labels=layoutBreakdownCallouts(measures,240,220);
+    assertClear(labels,[],240,220);
+    assert.deepEqual(labels.map(label=>label.key),measures.map(item=>item.key));
+    assert.equal(new Set(labels.map(label=>label.y)).size,2);
+    for(const y of new Set(labels.map(label=>label.y))){
+      const row=labels.filter(label=>label.y===y);
+      assert.equal((rectangle(row[0]).left+rectangle(row[row.length-1]).right)/2,120);
+    }
+    assert.equal(Math.max(...labels.map(label=>rectangle(label).bottom)),208);
+    const moved=layoutBreakdownCallouts(measures.map(item=>({...item,anchor:{x:240-item.anchor.x,y:220-item.anchor.y}})),240,220);
+    assert.deepEqual(moved.map(({x,y})=>({x,y})),labels.map(({x,y})=>({x,y})));
+  }
+});
+
+test('wide multi-cue rows stay together and unequal labels wrap without clipping',()=>{
+  const measures=[80,115,90,135].map((width,index)=>({key:`part-${index}`,anchor:{x:index*90,y:100},width,height:36+index*8}));
+  const wide=layoutBreakdownCallouts(measures,800,300);
+  assertClear(wide,[],800,300);
+  assert.equal(new Set(wide.map(label=>label.y)).size,1);
+  for(const width of [320,240,180]){
+    const labels=layoutBreakdownCallouts(measures,width,320);
+    assertClear(labels,[],width,320);
+    assert.deepEqual(labels.map(label=>label.key),measures.map(item=>item.key));
+  }
+});
+
+test('an impossibly small multi-cue viewport keeps every visible label within its bounds',()=>{
+  const labels=layoutBreakdownCallouts(Array.from({length:4},(_,index)=>({key:`part-${index}`,anchor:{x:50,y:40},width:140,height:55})),180,90);
+  assert.ok(labels.some(label=>!label.visible));
+  assertClear(labels.filter(label=>label.visible),[],180,90);
+});
+
 test('sun label stays beside the sun, independently of the grass below it, on a phone',()=>{
   const obstacles=[{left:80,right:180,top:85,bottom:185},{left:115,right:285,top:225,bottom:360},{left:50,right:330,top:365,bottom:397}];
   const labels=layoutCallouts([
@@ -90,6 +125,22 @@ test('label collisions are resolved without losing their element association',()
   ],390,420,obstacles);
   assertClear(labels,obstacles,390,420);
   assert.deepEqual(labels.map(label=>label.key),['water','green']);
+});
+
+test('three forest callouts remain distinct and avoid every tree on a narrow screen',()=>{
+  const obstacles=[
+    {left:32,right:138,top:105,bottom:255},
+    {left:120,right:230,top:52,bottom:242},
+    {left:208,right:312,top:110,bottom:266},
+    {left:22,right:322,top:277,bottom:305},
+  ];
+  const labels=layoutCallouts([
+    {key:'tree-0',anchor:{x:85,y:185},width:83,height:40,preferred:{x:-1,y:0}},
+    {key:'tree-1',anchor:{x:175,y:150},width:83,height:40,preferred:{x:0,y:-1}},
+    {key:'tree-2',anchor:{x:260,y:187},width:83,height:40,preferred:{x:1,y:0}},
+  ],344,400,obstacles);
+  assertClear(labels,obstacles,344,400);
+  assert.deepEqual(labels.map(label=>label.key),['tree-0','tree-1','tree-2']);
 });
 
 test('a completely filled view cannot force labels over the illustration',()=>{

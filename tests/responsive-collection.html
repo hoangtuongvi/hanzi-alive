@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hanzi Alive · Responsive collection check</title>
+    <style>
+      body{margin:20px;background:#26332a;color:#eef0e7;font:14px/1.5 system-ui,sans-serif}
+      h1{font-size:18px}button{padding:8px;margin:0 8px 12px 0;cursor:pointer}iframe{display:block;border:1px solid #73866b;width:317px;height:660px;box-sizing:content-box}
+      output{display:block;max-width:940px;white-space:pre-wrap;margin:12px 0;font-size:13px}
+    </style>
+  </head>
+  <body>
+    <h1>Responsive collection check · development only</h1>
+    <p>The frame loads the real app. Check multi-character headings, full stories and model labels at narrow sizes.</p>
+    <button data-size="317,660">Narrow panel</button><button data-size="393,660">Phone</button><button data-size="568,360">Landscape phone</button>
+    <button id="check">Measure visible content</button>
+    <output id="result" aria-live="polite">Waiting for a measurement.</output>
+    <iframe id="app" title="Illustrated collection" src="/?view=collection&amp;word=手机"></iframe>
+    <script type="module">
+      const frame=document.querySelector('#app');
+      for(const button of document.querySelectorAll('[data-size]'))button.addEventListener('click',()=>{
+        const [width,height]=button.dataset.size.split(',');frame.style.width=width+'px';frame.style.height=height+'px';
+      });
+      document.querySelector('#check').addEventListener('click',()=>{
+        const doc=frame.contentDocument,view=frame.contentWindow;
+        const items=[...doc.querySelectorAll('.focused-hanzi,.focused-story,.focused-controls,.explorer-callout')].filter(el=>{
+          const style=view.getComputedStyle(el);return style.visibility!=='hidden'&&style.opacity!=='0';
+        }).map(el=>{
+          const r=el.getBoundingClientRect();
+          return {text:el.textContent.trim(),fitsWidth:r.left>=-1&&r.right<=view.innerWidth+1,fitsHeight:r.top>=-1&&r.bottom<=view.innerHeight+1,clipped:el.scrollHeight>el.clientHeight+1};
+        });
+        document.querySelector('#result').textContent=JSON.stringify({viewport:[view.innerWidth,view.innerHeight],horizontalOverflow:doc.documentElement.scrollWidth>view.innerWidth,items},null,2);
+      });
+    </script>
+  </body>
+</html>

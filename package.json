@@ -1,1 +1,31 @@
-{"name":"hanzi-alive-pilot","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"tsc && vite build","preview":"vite preview --host 127.0.0.1","data":"python3 scripts/build_data.py","test":"node --import tsx --test tests/*.test.ts && python3 scripts/check_data.py"},"dependencies":{"lucide-react":"^0.468.0","react":"^19.1.0","react-dom":"^19.1.0","three":"^0.180.0"},"devDependencies":{"@types/node":"^22.20.2","@types/react":"^19.1.0","@types/react-dom":"^19.1.0","@types/three":"^0.180.0","@vitejs/plugin-react":"^4.7.0","tsx":"^4.20.0","typescript":"^5.9.0","vite":"^6.3.0"}}
+{
+  "name": "hanzi-alive-pilot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "data": "python3 scripts/build_data.py",
+    "test": "node --import tsx --test tests/*.test.ts && python3 scripts/check_data.py",
+    "coverage": "python3 scripts/audit_coverage.py",
+    "coverage:check": "python3 scripts/audit_coverage.py --check"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^6.3.0"
+  }
+}

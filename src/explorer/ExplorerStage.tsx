@@ -5,6 +5,7 @@ import type {Character,GeometryData,Lesson} from '../types';
 import {disposeObject,lessonParts,makeGlyph,makeModernWord,type GlyphLabel} from './geometry';
 import {createMeaningModel,type MeaningModel,type SceneLabel} from './scenes';
 import {disposeBlenderMeaningModel,loadBlenderMeaningModel} from './blender-models';
+import {getSceneDefinition} from './scene-catalog';
 import {blendExplorerPoses,easeTransition,explorerPose,TRANSITION_DURATION} from './transitions';
 import {layoutBreakdownCallouts,layoutCallouts,type ScreenBounds,type ScreenPoint} from './callout-layout';
 
@@ -314,7 +315,9 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
         if(disposed)return;
         const modern=makeModernWord(data,parts);content=[modern.group];root.add(modern.group);
         for(const svg of historical){const group=makeGlyph(svg);content.push(group);root.add(group);}
-        const meaning=blenderModel??createMeaningModel(lesson.word,parts);sceneGroup=meaning?.group;
+        const meaning=blenderModel??createMeaningModel(lesson.word,parts);
+        if(!meaning&&getSceneDefinition(lesson.word))throw new Error('The authored illustration is unavailable.');
+        sceneGroup=meaning?.group;
         if(sceneGroup)root.add(sceneGroup);
         renderer.domElement.dataset.sceneSource=blenderModel?'blender':meaning?'procedural':'writing';
         if(blenderModel)renderer.domElement.dataset.sceneAsset=blenderModel.group.userData.blenderAsset;
@@ -325,7 +328,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
       }catch(reason){
         abort.abort();
         if(blenderModel){disposeBlenderMeaningModel(blenderModel);blenderModel=null;}
-        if(!disposed&&!(reason instanceof DOMException&&reason.name==='AbortError'))fail('The 3D view could not load. You can still read the character’s story and explore its stages.');
+        if(!disposed&&!(reason instanceof DOMException&&reason.name==='AbortError'))fail('The 3D view could not load. Reload it to try again.');
       }
     }
     void init();

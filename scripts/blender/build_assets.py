@@ -1,5 +1,5 @@
 """Rebuild editable Blender sources, self-contained GLBs and preview renders.
-Usage: Blender --background --factory-startup --python scripts/blender/build_assets.py -- [rest|clear|sunny] [--render]
+Usage: Blender --background --factory-startup --python scripts/blender/build_assets.py -- [scene names|--all] [--render]
 """
 import bpy
 import sys
@@ -15,6 +15,18 @@ ROOT=HERE.parent.parent
 sys.path.insert(0,str(HERE))
 from rest_scene import build_rest, v
 from nature_scenes import build_clear, build_sunny
+from shared_scenes import build_woods, build_forest, build_emotion, build_invite
+from device_scenes import build_phone, build_computer, build_parting, build_expert
+from family_scene import build_good
+
+SCENES={
+    'rest':('休',build_rest), 'clear':('清',build_clear), 'sunny':('晴',build_sunny),
+    'woods':('林',build_woods), 'forest':('森',build_forest),
+    'emotion':('情',build_emotion), 'invite':('请',build_invite),
+    'phone':('手机',build_phone), 'computer':('电脑',build_computer),
+    'parting':('分手',build_parting), 'expert':('高手',build_expert),
+    'good':('好',build_good),
+}
 
 
 def reset():
@@ -29,6 +41,9 @@ def prepare_meshes(name):
     # material. This retains editable geometry with far fewer browser draw calls.
     for obj in list(bpy.context.scene.objects):
         if obj.type not in {'MESH','CURVE'}:continue
+        # Applying modifiers to shared authoring data would apply them again
+        # through the next instance, multiplying leaf subdivisions per tree.
+        if obj.data.users>1:obj.data=obj.data.copy()
         bpy.ops.object.select_all(action='DESELECT')
         obj.select_set(True);bpy.context.view_layer.objects.active=obj
         bpy.ops.object.convert(target='MESH')
@@ -50,7 +65,7 @@ def prepare_meshes(name):
         if obj!=root:obj.parent=root
     root['authoring_tool']='Blender'
     root['authoring_version']=bpy.app.version_string
-    root['lesson']={'rest':'休','clear':'清','sunny':'晴'}[name]
+    root['lesson']=SCENES[name][0]
     root['source_script']='scripts/blender/build_assets.py'
     return root
 
@@ -100,11 +115,13 @@ def run(names, render):
     manifest.update({'authoringTool':'Blender','blenderVersion':bpy.app.version_string,'generatedAt':datetime.now(timezone.utc).isoformat(),'coordinateSystem':'glTF Y-up','generator':'scripts/blender/build_assets.py','notes':'Original scene geometry authored for Hanzi Alive with Blender Python; glyph outlines remain sourced independently.'})
     for name in names:
         reset()
-        meta={'rest':build_rest,'clear':build_clear,'sunny':build_sunny}[name]() or {}
+        meta=SCENES[name][1]() or {}
         model=prepare_meshes(name)
         bpy.context.view_layer.update()
         meshes=[o for o in bpy.context.scene.objects if o.type=='MESH']
         triangles=sum(sum(len(p.vertices)-2 for p in o.data.polygons) for o in meshes)
+        if triangles>250000:
+            raise ValueError(f'{name}: {triangles} triangles exceeds the per-scene browser budget of 250000')
         anchors=[o.name for o in bpy.context.scene.objects if o.name.startswith('anchor_')]
         bpy.ops.object.select_all(action='SELECT')
         glb=out/(name+'.glb')
@@ -115,10 +132,12 @@ def run(names, render):
         if render:
             bpy.context.scene.render.filepath=str(previews/(name+'.png'))
             bpy.ops.render.render(write_still=True)
-        manifest['assets'][name]={'word':{'rest':'休','clear':'清','sunny':'晴'}[name],'url':'/models/blender/'+name+'.glb','blendFile':'assets/blender/'+name+'.blend','sha256':hashlib.sha256(glb.read_bytes()).hexdigest(),'bytes':glb.stat().st_size,'meshes':len(meshes),'triangles':triangles,'anchors':anchors,'design':meta}
+        manifest['assets'][name]={'word':SCENES[name][0],'url':'/models/blender/'+name+'.glb','blendFile':'assets/blender/'+name+'.blend','sha256':hashlib.sha256(glb.read_bytes()).hexdigest(),'bytes':glb.stat().st_size,'meshes':len(meshes),'triangles':triangles,'anchors':anchors,'design':meta}
         manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
         print('HANZI_ASSET',name,json.dumps(manifest['assets'][name],ensure_ascii=False),flush=True)
 
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
-names=[a for a in args if a in ['rest','clear','sunny']] or ['rest','clear','sunny']
+unknown=[a for a in args if a not in SCENES and a not in ['--all','--render']]
+if unknown:raise ValueError('Unknown scene names or options: '+', '.join(unknown))
+names=list(SCENES) if '--all' in args else [a for a in args if a in SCENES] or ['rest','clear','sunny']
 run(names,'--render' in args)

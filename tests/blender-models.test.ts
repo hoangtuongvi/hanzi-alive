@@ -5,16 +5,19 @@ import * as THREE from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {loadBlenderMeaningModel,disposeBlenderMeaningModel} from '../src/explorer/blender-models';
 import {THEATRE_LESSONS} from '../src/theatre/lessons';
+import {SCENE_CATALOG} from '../src/explorer/scene-catalog';
+import {lessonParts} from '../src/explorer/geometry';
+import type {Character,Lesson} from '../src/types';
 
-const assets=[
-  {word:'休',file:'rest',anchors:['anchor_person','anchor_tree']},
-  {word:'清',file:'clear',anchors:['anchor_water','anchor_green']},
-  {word:'晴',file:'sunny',anchors:['anchor_sun','anchor_green']},
-];
+const lessons=JSON.parse(readFileSync(new URL('../public/data/lessons.json',import.meta.url),'utf8')) as Lesson[];
+const characters=JSON.parse(readFileSync(new URL('../public/data/characters.json',import.meta.url),'utf8')) as Record<string,Character>;
+const assets=SCENE_CATALOG.filter(scene=>scene.format==='blender');
+const manifest=JSON.parse(readFileSync(new URL('../public/models/blender/manifest.json',import.meta.url),'utf8'));
 
-test('the three Blender exports load with embedded resources, ordered callouts and usable scene bounds',async t=>{
+test('every registered Blender export loads with embedded resources, ordered callouts and usable scene bounds',async t=>{
   for(const asset of assets){
-    const bytes=readFileSync(new URL(`../public/models/blender/${asset.file}.glb`,import.meta.url));
+    assert.ok(asset.asset);assert.ok(asset.anchors);
+    const bytes=readFileSync(new URL(`../public${asset.asset}`,import.meta.url));
     assert.equal(bytes.toString('ascii',0,4),'glTF',asset.word);
     assert.equal(bytes.readUInt32LE(4),2,asset.word);
     assert.equal(bytes.readUInt32LE(8),bytes.byteLength,asset.word);
@@ -22,10 +25,16 @@ test('the three Blender exports load with embedded resources, ordered callouts a
     assert.match(document.asset.generator,/Blender/i,asset.word);
     assert.ok((document.buffers??[]).every((buffer:{uri?:string})=>!buffer.uri||buffer.uri.startsWith('data:')),asset.word);
     assert.ok((document.images??[]).every((image:{uri?:string})=>!image.uri||image.uri.startsWith('data:')),asset.word);
+    const triangles=document.meshes.reduce((sum:number,mesh:{primitives:{indices?:number;attributes:{POSITION:number};mode?:number}[]})=>sum+mesh.primitives.reduce((count,primitive)=>{
+      assert.ok(primitive.mode===undefined||primitive.mode===4,`${asset.word}: triangle mesh required`);
+      return count+document.accessors[primitive.indices??primitive.attributes.POSITION].count/3;
+    },0),0);
+    assert.ok(triangles>0&&triangles<=250000,`${asset.word}: ${triangles} triangles exceeds the scene budget`);
+    assert.equal(triangles,manifest.assets[asset.scene].triangles,`${asset.word}: exported geometry must match the manifest budget`);
     const authoredOpacity=(document.materials??[]).map((material:{pbrMetallicRoughness?:{baseColorFactor?:number[]}})=>material.pbrMetallicRoughness?.baseColorFactor?.[3]??1);
     if(asset.word==='清')assert.ok(authoredOpacity.some((opacity:number)=>opacity>0&&opacity<1),'The clear pool must retain transparent water.');
     const fetch=t.mock.method(globalThis,'fetch',async()=>new Response(bytes));
-    const parts=THEATRE_LESSONS.find(lesson=>lesson.word===asset.word)!.parts;
+    const parts=lessonParts(lessons.find(lesson=>lesson.word===asset.word)!,characters);
     const model=await loadBlenderMeaningModel(asset.word,parts,new AbortController().signal);
     assert.ok(model,asset.word);
     try{
@@ -80,7 +89,7 @@ test('changing lessons during GLB parsing discards and disposes the late model',
 
 test('other lessons do not fetch a Blender model and failed assets remain explicit to the caller',async t=>{
   const fetch=t.mock.method(globalThis,'fetch',async()=>new Response(null,{status:404}));
-  assert.equal(await loadBlenderMeaningModel('林',[],new AbortController().signal),null);
+  assert.equal(await loadBlenderMeaningModel('not-a-word',[],new AbortController().signal),null);
   assert.equal(fetch.mock.callCount(),0);
   await assert.rejects(loadBlenderMeaningModel('休',THEATRE_LESSONS[0].parts,new AbortController().signal),/could not load \(404\)/);
 });
