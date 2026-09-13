@@ -1,0 +1,100 @@
+休|rest|A tired traveler leans against a tree and finally rests in its shade.
+木|wood; tree|A carpenter follows a tree from the forest to a wooden table.
+人|person|One person steps out of a crowd and introduces herself.
+林|woods|Two neighboring trees invite you into a small patch of woods.
+森|dense forest|Trees crowd the path until the traveler is surrounded by dense forest.
+清|clear|Muddy water settles, revealing a pebble through the now clear water.
+晴|sunny|The clouds part and sunlight returns to the picnic blanket.
+请|please; invite|A host opens the door and politely invites a guest inside.
+情|feeling; emotion|An old photograph brings a rush of feeling to its owner.
+青|blue-green|A painter mixes a blue-green shade for distant hills.
+河|river|A paper boat follows the river past a village.
+可|may; can|A teacher gives permission, and the waiting student enters.
+月|moon; month|A child watches the moon change shape over a month.
+肝|liver|A doctor points to the liver on a model of the body.
+手|hand|An open hand catches a falling orange.
+手掌|palm|A child opens her hand and balances a marble on her palm.
+手机|mobile phone|A phone buzzes in your hand with a message from home.
+高手|expert|An expert player calmly wins a game that puzzled everyone else.
+分手|break up; part ways|Two people release each other's hands and walk in separate directions.
+对手|opponent|Two players face each other across a chessboard, each the other's opponent.
+快乐|happy|Friends burst into happy laughter when the surprise cake appears.
+音乐|music|A violin begins to play, filling a quiet room with music.
+银行|bank|A customer walks into a bank to deposit her savings.
+行走|walk|A traveler leaves the car behind and walks along the river.
+长大|grow up|Marks on a doorframe rise as a child grows up.
+长江|Yangtze River|A traveler traces the Yangtze River across a map of China.
+重要|important|A traveler checks her passport twice because it is important for the journey.
+重复|repeat|A teacher says a phrase and the class repeats it together.
+便宜|inexpensive|A shopper finds a good coat at a surprisingly low price.
+方便|convenient|A station beside your home makes the daily journey convenient.
+东西|things; stuff|Before leaving, you gather your things: keys, phone, and wallet.
+马虎|careless|A careless student hands in homework without noticing a missing page.
+咖啡|coffee|A barista pours hot coffee into your waiting cup.
+葡萄|grape|A child plucks one grape from a hanging bunch.
+蝴蝶|butterfly|A butterfly lands on a flower, then folds its colorful wings.
+巧克力|chocolate|A square of chocolate slowly melts on your tongue.
+不好意思|sorry; embarrassed|You interrupt a meeting by mistake and apologize with an embarrassed smile.
+莫名其妙|baffling; inexplicable|Every clock in the room runs backward, leaving the visitor completely baffled.
+理所当然|only natural; to be expected|After borrowing a friend's umbrella, returning it seems only natural.
+自相矛盾|self-contradictory|Someone calls a box completely empty, then says it contains three books.
+画蛇添足|spoil by adding too much|An artist adds legs to a finished snake drawing and spoils it.
+一举两得|achieve two things at once|Walking to work saves bus fare and gives you exercise in one trip.
+不知不觉|without noticing|Absorbed in a book, you reach midnight without noticing the time pass.
+的|possessive or modifying particle|You label a notebook 我的书, linking yourself to the book you own.
+了|completed action; changed situation|An unfinished task becomes finished: 我做完了, you announce with relief.
+我|I; me|You point to yourself when the teacher asks who wants a turn.
+是|to be|A name badge confirms the introduction: 我是老师, I am a teacher.
+你|you|Across the table, you point to your friend and offer the next turn.
+在|at; in|A pin marks where your friend is: 在学校, at school.
+不|not|Someone offers a second cup; you shake your head and say 不要.
+有|have; there is|You open your bag and show that you have an umbrella.
+他|he; him|A boy leaves his coat behind, and you point after him.
+这|this|You choose the apple nearest you: this one.
+个|general classifier|A shopkeeper counts apples: 一个, 两个, 三个, one by one.
+和|and|You invite your sister and your brother, joining both names with 和.
+我们|we; us|You gather your friends together and say that we will go together.
+好|good|A baker tastes a fresh loaf and gives a satisfied thumbs-up.
+一|one|A single candle stands in the center of the cake.
+会|know how to; can|After many lessons, a swimmer proudly says she can swim.
+都|all|Every student raises a hand; they all know the answer.
+上|up; above|A balloon rises up above the roof.
+来|come|You wave from the doorway and ask your friend to come closer.
+很|very|A steaming bowl makes you say 很热, very hot.
+去|go|You leave home and go toward the station.
+她|she; her|A girl wins the race, and everyone cheers for her.
+想|think; want|Looking at a holiday photograph, you think about visiting again.
+能|be able to|After her leg heals, the runner is able to run again.
+那|that|You point past the nearby apples to that pear across the stall.
+看|look; watch|You look through a window and watch the rain.
+做|do; make|A child makes a paper boat, turning an idea into an activity.
+什么|what|A wrapped gift arrives, and you ask what is inside.
+点|o'clock|The clock strikes three as your meeting begins at 三点.
+没|have not; did not|An untouched breakfast shows that you have not eaten yet.
+大|big|A tiny kitten curls up inside a very big shoe.
+下|down; below|A leaf falls down and lands below the window.
+里|inside|You find the missing key inside your bag.
+现在|now|You put away tomorrow's plans and focus on what is happening now.
+年|year|A calendar runs from January to December, completing one year.
+多|many; much|So many visitors arrive that the hall needs more chairs.
+吗|yes-or-no question particle|You add 吗 to 你忙, turning a statement into a question.
+太|too; excessively|The suitcase is too heavy, so you take some books out.
+呢|what about…? particle|Your friend answers, then asks 你呢 to give you the same question.
+小|small|A small cup disappears between two large bowls.
+时候|time; when|You remember the time when you first rode a bicycle.
+工作|work; job|A carpenter arrives at the workshop and starts work.
+家|home; family|Warm lights welcome you home to your family.
+怎么|how|Faced with an unfamiliar machine, you ask how to use it.
+爱|love|A parent waits in the rain to bring a loved child home.
+喜欢|like|You choose the same song again because you like it.
+吃|eat|A hungry traveler sits down to eat a bowl of noodles.
+谁|who|Someone knocks, and you ask who is at the door.
+今天|today|You circle today's date on the kitchen calendar.
+几|how many; a few|You see some guests arriving and ask how many cups are needed.
+听|listen; hear|You close your eyes and listen to distant birds.
+开|open|A shopkeeper lifts the shutter and opens the shop.
+叫|be called; call|At an introduction, you say 我叫安娜 and give your name.
+钱|money|A shopper counts her money before paying for lunch.
+本|classifier for books|A librarian places three books on a desk and counts 三本书.
+回|return|After a long journey, you return to the same welcoming door.
+三|three|Three friends each hold one of three brightly colored balloons.

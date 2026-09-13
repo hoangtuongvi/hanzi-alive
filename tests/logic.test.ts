@@ -1,0 +1,18 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {normalize,matchesQuery,planExperiment,distractors,overlappingMeanings,summarize,isSaved,elementQuestion} from '../src/logic';
+import type {Lesson} from '../src/types';
+const lessons:Lesson[]=JSON.parse(readFileSync('public/data/lessons.json','utf8'));
+test('Search handles tone marks, joined pinyin, traditional Chinese and English',()=>{
+ const l=lessons.find(x=>x.word==='银行')!;assert.equal(normalize('yín háng'),'yinhang');assert.ok(matchesQuery(l,'yinhang'));assert.ok(matchesQuery(l,'銀行'));assert.ok(matchesQuery(l,'bank'));assert.ok(!matchesQuery(l,'music'));
+});
+test('Experiment balances conditions and never repeats a word within a session',()=>{for(const n of [10,20,40]){const p=planExperiment(lessons,n);assert.equal(p.length,n);assert.equal(new Set(p.map(x=>x.lesson.id)).size,n);assert.equal(p.filter(x=>x.condition==='story').length,n/2);}});
+test('Every recall question has four distinct options and contains its correct meaning once',()=>{for(const l of lessons){const options=distractors(l,lessons);assert.equal(options.length,4,l.word);assert.equal(new Set(options).size,4);assert.equal(options.filter(x=>x===l.meaning).length,1);}});
+test('Recall choices do not treat shared dictionary glosses as wrong answers',()=>{assert.ok(overlappingMeanings('rest','rest; take a break'));assert.ok(overlappingMeanings('happy','glad; happy'));assert.ok(overlappingMeanings('to study','study; learn'));assert.ok(!overlappingMeanings('bank','river'));for(const l of lessons){const options=distractors(l,lessons);for(let i=0;i<options.length;i++)for(let j=i+1;j<options.length;j++)assert.ok(!overlappingMeanings(options[i],options[j]),l.word);}});
+test('Recall summaries use the actual denominators and study times',()=>{const stats=summarize([{id:'test',date:'test',trials:[{lessonId:'a',condition:'story',correct:true,selected:'x',responseMs:100,studyMs:6000},{lessonId:'b',condition:'story',correct:false,selected:'z',responseMs:100,studyMs:2000},{lessonId:'c',condition:'definition',correct:false,selected:'z',responseMs:100,studyMs:3000}]}]);assert.deepEqual(stats,[{condition:'story',total:2,correct:1,meanStudyMs:4000},{condition:'definition',total:1,correct:0,meanStudyMs:3000}]);});
+test('Malformed local results cannot crash the review dashboard',()=>{assert.ok(!isSaved(null));assert.ok(!isSaved({version:1,reviews:{bad:{}},sessions:[]}));assert.ok(!isSaved({version:1,reviews:{},sessions:[{}]}));assert.ok(isSaved({version:1,reviews:{},sessions:[]}));});
+test('Saved recall timing must be finite and nonnegative',()=>{const value=(studyMs:number)=>({version:1,reviews:{},sessions:[{id:'test',date:'2026-09-13',trials:[{lessonId:'w0001',condition:'story',correct:true,selected:'rest',responseMs:200,studyMs}]}]});assert.ok(isSaved(value(1000)));assert.ok(!isSaved(value(NaN)));assert.ok(!isSaved(value(-1)));});
+
+test('Search finds the reusable image inside single and multi-character words',()=>{for(const word of ['清','晴','情','心情','热情']){const l=lessons.find(x=>x.word===word)!;assert.ok(matchesQuery(l,'green'),word);assert.ok(matchesQuery(l,'青'),word);}});
+test('Every element question can reconstruct the ordered writing with one correct option',()=>{for(const l of lessons){for(const random of [()=>0,()=>0.999]){const q=elementQuestion(l,lessons,random);assert.equal(q.choices.length,4,l.word);assert.equal(new Set(q.choices).size,4,l.word);assert.equal(q.choices.filter(g=>g===q.answer.glyph).length,1);assert.deepEqual(q.answer,l.memoryElements[q.missing]);assert.ok(q.choices.filter(g=>g!==q.answer.glyph).every(g=>!l.memoryElements.some(e=>e.glyph===g)));}}});

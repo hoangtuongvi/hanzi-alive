@@ -1,0 +1,137 @@
+[
+  {
+    "id": "w0001",
+    "word": "休",
+    "traditional": "休",
+    "pinyin": "xiū",
+    "meaning": "rest",
+    "dictionaryMeanings": [
+      "to rest; to stop; to retire"
+    ],
+    "story": "A person leans against a tree and finally rests in its shade.",
+    "connection": "Picture each image, join them in the scene, then use the scene to recall the meaning and rebuild the writing.",
+    "strategy": "mnemonic",
+    "stressTest": true,
+    "level": null,
+    "characters": [
+      "休"
+    ],
+    "syllables": 1,
+    "readings": [
+      "xiū"
+    ],
+    "status": "draft",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=休",
+    "formSource": "Make Me a Hanzi",
+    "author": "AI-authored pilot draft; no independent linguistic review",
+    "selectedForm": {
+      "traditional": "休",
+      "pinyin": "xiū"
+    },
+    "memoryElements": [
+      {
+        "glyph": "亻",
+        "image": "person"
+      },
+      {
+        "glyph": "木",
+        "image": "tree"
+      }
+    ],
+    "memorySearch": "亻 person 木 tree",
+    "mnemonicKind": "parts",
+    "contentRevision": "elements-2"
+  },
+  {
+    "id": "w0006",
+    "word": "清",
+    "traditional": "清",
+    "pinyin": "qīng",
+    "meaning": "clear",
+    "dictionaryMeanings": [
+      "(of water etc) clear; clean",
+      "quiet; still",
+      "pure; uncorrupted",
+      "clear; distinct",
+      "to clear; to settle (accounts)"
+    ],
+    "story": "Water reflects green plants so clearly that you can see every leaf through the clear pool.",
+    "connection": "Picture each image, join them in the scene, then use the scene to recall the meaning and rebuild the writing.",
+    "strategy": "mnemonic",
+    "stressTest": true,
+    "level": null,
+    "characters": [
+      "清"
+    ],
+    "syllables": 1,
+    "readings": [
+      "Qīng",
+      "qīng"
+    ],
+    "status": "draft",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=清",
+    "formSource": "Complete HSK Vocabulary / CC-CEDICT",
+    "author": "AI-authored pilot draft; no independent linguistic review",
+    "selectedForm": {
+      "traditional": "清",
+      "pinyin": "qīng"
+    },
+    "memoryElements": [
+      {
+        "glyph": "氵",
+        "image": "water"
+      },
+      {
+        "glyph": "青",
+        "image": "green"
+      }
+    ],
+    "memorySearch": "氵 water 青 green",
+    "mnemonicKind": "parts",
+    "contentRevision": "elements-2"
+  },
+  {
+    "id": "w0007",
+    "word": "晴",
+    "traditional": "晴",
+    "pinyin": "qíng",
+    "meaning": "sunny",
+    "dictionaryMeanings": [
+      "clear",
+      "fine (weather)"
+    ],
+    "story": "The sun lights up green grass; its vivid green announces a sunny day.",
+    "connection": "Picture each image, join them in the scene, then use the scene to recall the meaning and rebuild the writing.",
+    "strategy": "mnemonic",
+    "stressTest": true,
+    "level": 2,
+    "characters": [
+      "晴"
+    ],
+    "syllables": 1,
+    "readings": [
+      "qíng"
+    ],
+    "status": "draft",
+    "source": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=晴",
+    "formSource": "Complete HSK Vocabulary / CC-CEDICT",
+    "author": "AI-authored pilot draft; no independent linguistic review",
+    "selectedForm": {
+      "traditional": "晴",
+      "pinyin": "qíng"
+    },
+    "memoryElements": [
+      {
+        "glyph": "日",
+        "image": "sun"
+      },
+      {
+        "glyph": "青",
+        "image": "green"
+      }
+    ],
+    "memorySearch": "日 sun 青 green",
+    "mnemonicKind": "parts",
+    "contentRevision": "elements-2"
+  }
+]

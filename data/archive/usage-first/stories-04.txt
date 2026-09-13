@@ -1,0 +1,100 @@
+妹妹|younger sister|Your younger sister asks you to read her a bedtime story.
+报纸|newspaper|You unfold a newspaper at breakfast to read the day's news.
+贵|expensive|An expensive watch costs more than the shopper has saved.
+机场|airport|Travelers wheel their suitcases through the airport toward their flights.
+踢|kick|A child kicks a ball across the playground.
+弟弟|younger brother|Your younger brother proudly shows you his first school drawing.
+百|hundred|Ten rows of ten seats make space for one hundred guests.
+好吃|delicious|You taste a dumpling and immediately reach for another because it is delicious.
+旅游|travel; tourism|You travel to a new city and explore its markets and museums.
+起床|get out of bed|The alarm rings, and you swing your feet out of bed.
+题|question; exercise|You read the next question on the exam paper carefully.
+唱歌|sing|A singer takes a breath and fills the room with a song.
+右边|right side|At the junction, you take the path on the right side.
+牛奶|cow's milk|You pour milk from a carton into your breakfast bowl.
+自行车|bicycle|You pedal a bicycle past the traffic waiting at the lights.
+鸡蛋|egg|You crack an egg into a pan for breakfast.
+姓|surname|On a form, you write your family name in the surname box.
+游泳|swim|A swimmer pushes away from the pool wall and glides forward.
+跳舞|dance|Music starts, and two friends begin to dance.
+阴|overcast|A gray blanket of clouds hides the sun all afternoon.
+生病|fall ill|You wake with a fever and stay home because you have fallen ill.
+左边|left side|You follow a sign pointing to the library on the left.
+公斤|kilogram|A market scale shows one kilogram when the apples balance the weight.
+教室|classroom|Students arrange their desks inside the classroom before the teacher arrives.
+服务员|server; attendant|A server notices your empty glass and brings more water.
+手表|wristwatch|You turn your wrist to read the time on your watch.
+跑步|run; jog|At sunrise, you jog around the park's familiar path.
+西瓜|watermelon|A knife opens a green watermelon to reveal its red center.
+羊肉|mutton; lamb|A cook adds pieces of lamb to a fragrant stew.
+公共汽车|bus|A public bus stops and opens its doors for waiting passengers.
+打篮球|play basketball|Friends shoot hoops together on the basketball court after school.
+啊|ah; oh|You open an unexpected gift and let out a surprised 啊.
+把|object-handling construction|You move the book onto the desk: 把书放在桌上.
+被|passive marker|The wind opens the door: 门被风吹开了 puts the affected door first.
+自己|oneself|A child insists on tying her shoes herself without help.
+用|use|You use a key to unlock the door.
+如果|if|You plan a picnic if tomorrow's weather is fine.
+又|again, already happened|A forgetful friend loses his keys again, just as he did yesterday.
+只|only|You open the box and find only one biscuit left.
+更|even more|Today's hill is even steeper than the one you climbed yesterday.
+需要|need|A plant droops until you give it the water it needs.
+地|adverbial marker|The child sings happily: 高兴地唱歌 links the manner to the action.
+才|not until|The last guest does not arrive until ten o'clock.
+跟|with; follow|You go with a friend, following her along the unfamiliar path.
+像|resemble; like|A cloud looks like a sleeping rabbit.
+还是|or, in a question|The host offers a choice: tea or coffee?
+认为|think; consider|After checking the map, you think the shorter route is better.
+应该|should|You notice a borrowed book is overdue and think you should return it.
+位|polite classifier for people|A host asks how many guests, politely counting 三位客人.
+带|bring; carry|You bring an umbrella when you leave home.
+种|kind; type|A gardener grows three kinds of flowers in separate beds.
+发现|discover|Moving an old cupboard, you discover a forgotten letter behind it.
+一定|definitely; certainly|You promise that you will definitely attend your friend's performance.
+一直|continuously; all along|Rain falls continuously from morning until evening.
+为了|in order to|You leave early in order to catch the first train.
+一样|same|Two friends arrive wearing exactly the same coat.
+世界|world|You spin a globe and imagine journeys around the world.
+而且|and also; moreover|The room is bright and also has a beautiful view.
+必须|must|A locked gate means every visitor must show a pass.
+地方|place|You find a quiet place beneath the trees to read.
+老|old|An old tree has sheltered several generations of the same family.
+其他|other|After choosing one book, you return the other books to the shelf.
+比赛|competition; match|Two teams gather on the field before their match begins.
+然后|then; after that|You wash the vegetables, then start cooking.
+担心|worry|A parent worries when a child is late coming home.
+条|classifier for long things|You count 一条鱼 as a fish swims past the window.
+放|put; place|You put the fragile bowl gently onto the table.
+拿|take; hold|You take a book from the shelf and hold it carefully.
+为什么|why|The bus stops unexpectedly, and a passenger asks why.
+先|first; before|You wash your hands first, before sitting down to eat.
+关系|relationship|A family tree shows the relationships connecting several generations.
+出现|appear|A rainbow appears when the rain stops and sunlight returns.
+了解|understand; learn about|After hearing both sides, you understand why the friends disagreed.
+过去|the past|An old photograph brings a scene from the past back to life.
+参加|participate|You join a community cleanup and help collect litter.
+国家|country|A traveler crosses a border and enters another country.
+决定|decide|After comparing two routes, you decide to take the train.
+分|divide|You divide an orange into sections so everyone can share.
+选择|choose|Three coats hang before you, and you choose the warmest.
+或者|or|You can return the book today or tomorrow; either option works.
+机会|opportunity|An unexpected free afternoon gives you an opportunity to visit a friend.
+别人|other people|You lower your voice so other people can keep reading.
+站|stand|Everyone stands when the audience begins to applaud.
+使|make; cause|A funny drawing makes everyone in the room laugh.
+其实|actually|The cake looks homemade, but actually it came from a bakery.
+以后|after; later|After the meeting, you will have time to talk.
+要求|request; require|A teacher requests that everyone bring a notebook tomorrow.
+信|letter|A handwritten letter arrives from a friend far away.
+当然|of course|A friend asks to borrow a pen, and you answer of course.
+接|receive; answer|You answer the ringing phone before it stops.
+相信|believe|A reliable friend explains what happened, and you believe her.
+花|flower|A flower opens slowly in the morning sunlight.
+虽然|although|Although it is raining, you enjoy the walk beneath your umbrella.
+解决|solve|You untangle a difficult problem and finally find a solution.
+关于|about; concerning|A notice about tomorrow's trip appears on the classroom board.
+完成|complete|You add the last detail and complete your model.
+结束|end; finish|The final song ends, and the concert lights come on.
+努力|make an effort|A learner practices a difficult phrase every day and gradually improves.
+以前|before; previously|You compare the street today with how it looked before.
+办法|method; way|A stuck lid opens when you discover a better way to grip it.

@@ -1,0 +1,100 @@
+买|buy|You hand over money and take home the book you wanted to buy.
+岁|years old|Six candles on a birthday cake show that the child is six years old.
+住|live; stay|You unpack your suitcase in the house where you will live.
+朋友|friend|A friend saves you a seat when the bus is crowded.
+水|water|After a long walk, you fill your bottle with fresh water.
+写|write|Your pen leaves a line of words as you write a letter.
+日|day; date|You read the date aloud: 九月十三日, the thirteenth of September.
+喝|drink|A thirsty runner lifts a bottle and drinks deeply.
+学校|school|Children cross the playground and enter school for their first lesson.
+坐|sit|After standing all morning, you gratefully sit on an empty bench.
+认识|recognize; know|You recognize an old classmate in a crowded station.
+分钟|minute|You watch the second hand complete one circle: a minute has passed.
+明天|tomorrow|You put tomorrow's packed lunch in the fridge before going to bed.
+四|four|Four chairs surround the four sides of a square table.
+块|piece; yuan|The baker cuts a cake into pieces and sells one for five yuan.
+谢谢|thank you|A stranger returns your wallet, and you thank them warmly.
+多少|how much; how many|You point to a jacket and ask how much it costs.
+妈妈|mother|A child spots her mother at the gate and runs into her arms.
+少|few; less|Only a few biscuits remain, so everyone takes less.
+电影|movie|The cinema lights dim and the movie begins on the screen.
+哪|which|Two roads fork ahead, and you ask which one leads home.
+昨天|yesterday|You look at yesterday's photograph and remember the rain.
+书|book|You open a book and discover a story on its pages.
+五|five|Five fingers spread out as you count to five.
+先生|Mr.; gentleman|At reception, you politely greet Mr. Wang as 王先生.
+医院|hospital|An ambulance arrives at the hospital, where a medical team is waiting.
+些|some; a few|You offer some grapes from a bowl without counting them exactly.
+狗|dog|A dog brings its lead to the door, ready for a walk.
+学生|student|A student opens her notebook when the lesson starts.
+二|two|Two shoes wait together beside the door.
+儿子|son|A father proudly watches his son perform in the school play.
+中国|China|A traveler finds China on a globe before planning a journey.
+电视|television|The family gathers around the television to watch the news.
+下午|afternoon|After lunch, the afternoon sun falls across your desk.
+学习|study; learn|You study a new word, practice it, and remember it tomorrow.
+老师|teacher|A teacher notices a puzzled face and explains the idea again.
+六|six|You place six eggs into the six spaces of a small carton.
+医生|doctor|A doctor listens to a patient's heartbeat through a stethoscope.
+名字|name|A blank name tag waits for you to write your name.
+十|ten|You count all ten fingers and then start again.
+看见|see; catch sight of|Through the crowd, you suddenly see the friend you were waiting for.
+女儿|daughter|A mother pins her daughter's drawing proudly on the wall.
+说话|speak; talk|Two friends stop typing messages and talk face to face.
+爸爸|father|A child calls for Dad to help fix a broken toy.
+字|written character|You carefully copy one Chinese character into a square on the page.
+漂亮|beautiful|A visitor stops to admire a beautiful garden after the rain.
+高兴|glad; happy|You are glad to see a friend return safely from a journey.
+热|hot|You touch a hot cup and quickly pull your hand back.
+睡觉|sleep|You close the curtains, settle under the blanket, and fall asleep.
+电脑|computer|An electric brain on your desk helps you calculate: imagine your computer thinking.
+读|read|You read a letter slowly to understand every word.
+冷|cold|Cold air makes you pull your scarf tightly around your neck.
+飞机|airplane|An airplane lifts from the runway and disappears into the clouds.
+猫|cat|A cat curls into a warm circle on your favorite chair.
+打电话|make a phone call|You pick up your phone and call a friend to share good news.
+后面|behind|A child hides behind a curtain, leaving only her shoes visible.
+喂|hello on the phone|The phone rings; you answer with a questioning 喂.
+八|eight|Eight slices of pizza give each of eight friends one slice.
+怎么样|how is it?|Your friend returns from a trip, and you ask how it was.
+七|seven|Seven boxes on a weekly planner each hold one day's plans.
+菜|dish; vegetables|A waiter brings a hot vegetable dish to the table.
+衣服|clothes|You choose clean clothes from the wardrobe for the morning.
+小姐|Miss; young lady|An invitation addresses Miss Wang politely as 王小姐.
+对不起|sorry|You step on someone's foot and immediately apologize.
+天气|weather|Before leaving, you check whether the weather calls for sunglasses or an umbrella.
+前面|in front|A queue forms in front of the bakery door.
+同学|classmate|Your classmate lends you a pen during a lesson.
+茶|tea|Hot water turns fragrant as tea leaves unfold in the pot.
+星期|week|You move through seven days and complete another week.
+九|nine|Nine lanterns glow above nine tables at the festival.
+上午|morning|You finish your morning work before the lunch bell rings.
+再见|goodbye|You wave goodbye as your friend's train pulls away.
+苹果|apple|You polish a red apple on your sleeve before taking a bite.
+中午|noon|The clock reaches twelve and everyone stops for a midday meal.
+出租车|taxi|You flag down a taxi and tell the driver your destination.
+水果|fruit|A market basket fills with apples, oranges, and other fruit.
+商店|shop|You enter a small shop to buy a notebook.
+没关系|it doesn't matter|A friend apologizes for a small mistake; you reassure them that it doesn't matter.
+零|zero|You empty the jar and count zero remaining sweets.
+桌子|table; desk|You spread a map across the table to plan your route.
+椅子|chair|You pull out a chair and offer it to a guest.
+北京|Beijing|A train passenger arrives in Beijing and unfolds a city map.
+下雨|rain|Raindrops begin falling, and everyone opens an umbrella.
+杯子|cup; glass|You choose a cup and fill it with warm tea.
+火车站|train station|Travelers check departure boards as they enter the train station.
+米饭|cooked rice|Steam rises when you lift the lid from freshly cooked rice.
+汉语|Chinese language|You practice a short conversation in Chinese with a language partner.
+饭馆|restaurant|A restaurant host leads you to a table and brings a menu.
+不客气|you're welcome|Someone thanks you for holding the door; you reply that they are welcome.
+就|as soon as; then|As soon as the bell rings, you pack your bag and leave.
+要|want; need|At the counter, you point to the bread you want.
+也|also; too|Your friend likes swimming, and you say that you like it too.
+到|arrive; reach|After a long climb, you finally reach the top.
+还|still|The street grows quiet, but one shop is still open.
+着|ongoing-state marker|The door remains open: 门开着 describes that continuing state.
+给|give|You give your friend a wrapped birthday present.
+让|let; allow|A driver steps aside and lets a pedestrian cross first.
+为|for|You prepare a special meal for a friend who helped you.
+可以|may; can|You ask permission to enter, and the teacher says you may.
+吧|suggestion particle|You soften a suggestion with 吧: 我们走吧, let's go.

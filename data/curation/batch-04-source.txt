@@ -1,0 +1,100 @@
+301. 妹妹 | mèi mei | younger sister; young woman
+302. 报纸 | bào zhǐ | newspaper; newsprint
+303. 贵 | guì | expensive; noble; precious
+304. 机场 | jī chǎng | airport; airfield; (slang) service provider for Shadowsocks or similar software for circumventing Internet censorship
+305. 踢 | tī | to kick; to play (e.g. soccer); (slang) butch (in a lesbian relationship)
+306. 弟弟 | dì di | younger brother
+307. 百 | Bǎi | surname Bai
+308. 好吃 | hǎo chī | tasty; delicious
+309. 旅游 | lǚ yóu | trip; journey; tourism
+310. 起床 | qǐ chuáng | to get out of bed; to get up
+311. 题 | Tí | surname Ti
+312. 唱歌 | chàng gē | to sing a song
+313. 右边 | yòu bian | right side; right, to the right
+314. 牛奶 | niú nǎi | cow's milk
+315. 自行车 | zì xíng chē | bicycle; bike
+316. 鸡蛋 | jī dàn | (chicken) egg; hen's egg
+317. 姓 | xìng | family name; surname; to be surnamed
+318. 游泳 | yóu yǒng | swimming; to swim
+319. 跳舞 | tiào wǔ | to dance
+320. 阴 | Yīn | surname Yin
+321. 生病 | shēng bìng | to fall ill
+322. 左边 | zuǒ bian | left; the left side; to the left of
+323. 公斤 | gōng jīn | kilogram (kg)
+324. 教室 | jiào shì | classroom
+325. 服务员 | fú wù yuán | waiter; waitress; attendant
+326. 手表 | shǒu biǎo | wristwatch
+327. 跑步 | pǎo bù | to run; to jog; (military) to march at the double
+328. 西瓜 | xī guā | watermelon
+329. 羊肉 | yáng ròu | mutton; goat meat
+330. 公共汽车 | gōng gòng qì chē | bus
+331. 打篮球 | dǎ lán qiú | to play basketball
+332. 啊 | ā | interjection of surprise; Ah!; Oh!
+333. 把 | bǎ | to hold; to grasp; to hold a baby in position to help it urinate or defecate; handlebar
+334. 被 | bèi | quilt; to cover (with); (literary) to suffer (a misfortune)
+335. 自己 | zì jǐ | oneself; one's own
+336. 用 | yòng | to use; to employ; to have to
+337. 如果 | rú guǒ | if; in case; in the event that
+338. 又 | yòu | (once) again; also; both... and...
+339. 只 | zhǐ | only; merely; just
+340. 更 | gēng | to change or replace; to experience; one of the five two-hour periods into which the night was formerly divided
+341. 需要 | xū yào | to need; to want; to demand; to require; needs
+342. 地 | de | -ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct
+343. 才 | cái | ability; talent; sb of a certain type; a capable individual
+344. 跟 | gēn | heel; to follow closely; to go with
+345. 像 | xiàng | to resemble; to be like; to look as if
+346. 还是 | hái shi | still (as before); had better; unexpectedly
+347. 认为 | rèn wéi | to believe; to think; to consider; to feel
+348. 应该 | yīng gāi | ought to; should; must
+349. 位 | wèi | position; location; place
+350. 带 | dài | band; belt; girdle
+351. 种 | zhǒng | seed; species; kind
+352. 发现 | fā xiàn | to notice; to become aware of; to discover; to find; to detect; a discovery
+353. 一定 | yī dìng | surely; certainly; necessarily
+354. 一直 | yī zhí | straight (in a straight line); continuously; always; all the way through
+355. 为了 | wèi le | for; for the purpose of; in order to
+356. 一样 | yī yàng | same; like; equal to
+357. 世界 | shì jiè | world
+358. 而且 | ér qiě | (not only ...) but also; moreover; in addition
+359. 必须 | bì xū | to have to; must; compulsory
+360. 地方 | dì fāng | region; regional (away from the central administration); local
+361. 老 | lǎo | prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity; old (of people); venerable (person)
+362. 其他 | qí tā | other; (sth or sb) else; the rest
+363. 比赛 | bǐ sài | competition (sports etc); match; to compete
+364. 然后 | rán hòu | then; after that; afterwards
+365. 担心 | dān xīn | anxious; worried; uneasy
+366. 条 | tiáo | strip; item; article
+367. 放 | fàng | to put; to place; to release
+368. 拿 | ná | old variant of 拿
+369. 为什么 | wèi shén me | why?; for what reason?
+370. 先 | xiān | early; prior; former
+371. 关系 | guān xi | relation; relationship; to concern
+372. 出现 | chū xiàn | to appear; to arise; to emerge
+373. 了解 | liǎo jiě | to understand; to realize; to find out
+374. 过去 | guò qù | (in the) past; former; previous
+375. 参加 | cān jiā | to participate; to take part; to join
+376. 国家 | guó jiā | country; nation; state
+377. 决定 | jué dìng | to decide (to do something); to resolve; decision
+378. 分 | fēn | to divide; to separate; to distribute; to allocate; to distinguish (good and bad)
+379. 选择 | xuǎn zé | to select; to pick; choice
+380. 或者 | huò zhě | or; possibly; maybe; perhaps
+381. 机会 | jī huì | opportunity; chance; occasion
+382. 别人 | bié ren | other people; others; other person
+383. 站 | zhàn | station; to stand; to halt
+384. 使 | shǐ | to make; to cause; to enable
+385. 其实 | qí shí | actually; in fact; really
+386. 以后 | yǐ hòu | after; later; afterwards
+387. 要求 | yāo qiú | to request; to require; requirement
+388. 信 | xìn | letter; mail; to trust
+389. 当然 | dāng rán | only natural; as it should be; certainly
+390. 接 | jiē | to receive; to answer (the phone); to meet or welcome sb
+391. 相信 | xiāng xìn | to be convinced (that sth is true); to believe; to accept sth as true
+392. 花 | Huā | surname Hua
+393. 虽然 | suī rán | although; even though (often used correlatively with 是 or 是 etc)
+394. 解决 | jiě jué | to solve; to resolve; to settle (a problem); to eliminate; to wipe out (an enemy, bandits etc)
+395. 关于 | guān yú | pertaining to; concerning; with regard to
+396. 完成 | wán chéng | to complete; to accomplish
+397. 结束 | jié shù | termination; to finish; to end
+398. 努力 | nǔ lì | to make an effort; to try hard; to strive; hard-working; conscientious
+399. 以前 | yǐ qián | before; formerly; previous
+400. 办法 | bàn fǎ | means; method; way (of doing sth)

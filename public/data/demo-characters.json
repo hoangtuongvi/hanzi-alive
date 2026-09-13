@@ -1,0 +1,150 @@
+{
+  "休": {
+    "character": "休",
+    "definition": "to rest; to stop; to retire",
+    "pinyin": [
+      "xiū"
+    ],
+    "radical": "亻",
+    "decomposition": "⿰亻木",
+    "tree": {
+      "operator": "⿰",
+      "children": [
+        {
+          "glyph": "亻"
+        },
+        {
+          "glyph": "木"
+        }
+      ]
+    },
+    "components": [
+      "亻",
+      "木"
+    ],
+    "etymology": {
+      "type": "ideographic",
+      "hint": "A person 亻 leaning against a tree 木"
+    },
+    "usages": [
+      "w0001"
+    ],
+    "source": "https://github.com/skishore/makemeahanzi",
+    "geometryUrl": "/data/characters/20241.json",
+    "mnemonic": {
+      "image": "rest",
+      "elements": [
+        {
+          "glyph": "亻",
+          "image": "person"
+        },
+        {
+          "glyph": "木",
+          "image": "tree"
+        }
+      ],
+      "story": "A person leans against a tree and finally rests in its shade.",
+      "kind": "parts"
+    }
+  },
+  "清": {
+    "character": "清",
+    "definition": "clean, pure; clear, distinct; peaceful",
+    "pinyin": [
+      "qīng"
+    ],
+    "radical": "氵",
+    "decomposition": "⿰氵青",
+    "tree": {
+      "operator": "⿰",
+      "children": [
+        {
+          "glyph": "氵"
+        },
+        {
+          "glyph": "青"
+        }
+      ]
+    },
+    "components": [
+      "氵",
+      "青"
+    ],
+    "etymology": {
+      "type": "pictophonetic",
+      "phonetic": "青",
+      "semantic": "氵",
+      "hint": "water"
+    },
+    "usages": [
+      "w0006"
+    ],
+    "source": "https://github.com/skishore/makemeahanzi",
+    "geometryUrl": "/data/characters/28165.json",
+    "mnemonic": {
+      "image": "clear",
+      "elements": [
+        {
+          "glyph": "氵",
+          "image": "water"
+        },
+        {
+          "glyph": "青",
+          "image": "green"
+        }
+      ],
+      "story": "Water reflects green plants so clearly that you can see every leaf through the clear pool.",
+      "kind": "parts"
+    }
+  },
+  "晴": {
+    "character": "晴",
+    "definition": "clear weather, fine weather",
+    "pinyin": [
+      "qíng"
+    ],
+    "radical": "日",
+    "decomposition": "⿰日青",
+    "tree": {
+      "operator": "⿰",
+      "children": [
+        {
+          "glyph": "日"
+        },
+        {
+          "glyph": "青"
+        }
+      ]
+    },
+    "components": [
+      "日",
+      "青"
+    ],
+    "etymology": {
+      "type": "pictophonetic",
+      "phonetic": "青",
+      "semantic": "日",
+      "hint": "sun"
+    },
+    "usages": [
+      "w0007"
+    ],
+    "source": "https://github.com/skishore/makemeahanzi",
+    "geometryUrl": "/data/characters/26228.json",
+    "mnemonic": {
+      "image": "sunny",
+      "elements": [
+        {
+          "glyph": "日",
+          "image": "sun"
+        },
+        {
+          "glyph": "青",
+          "image": "green"
+        }
+      ],
+      "story": "The sun lights up green grass; its vivid green announces a sunny day.",
+      "kind": "parts"
+    }
+  }
+}

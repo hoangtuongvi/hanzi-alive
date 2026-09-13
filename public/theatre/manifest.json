@@ -1,0 +1,319 @@
+{
+  "version": "theatre-1",
+  "date": "2026-09-13",
+  "corpusRevision": "elements-2",
+  "count": 10,
+  "selections": [
+    {
+      "word": "休",
+      "sourceWordId": "w0001",
+      "pinyin": "xiū",
+      "meaning": "rest",
+      "scene": "rest",
+      "story": "A person leans against a tree and finally rests in its shade.",
+      "animation": "Follow the traveler into the shade. Watch the person and tree become 亻 and 木.",
+      "parts": [
+        {
+          "glyph": "亻",
+          "image": "person",
+          "color": "#d37c53",
+          "characterIndex": 0,
+          "sourceGroup": 0
+        },
+        {
+          "glyph": "木",
+          "image": "tree",
+          "color": "#315e4b",
+          "characterIndex": 0,
+          "sourceGroup": 1
+        }
+      ],
+      "dictionarySource": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=休"
+    },
+    {
+      "word": "林",
+      "sourceWordId": "w0004",
+      "pinyin": "lín",
+      "meaning": "woods",
+      "scene": "woods",
+      "story": "Two trees stand together, forming a small patch of woods.",
+      "animation": "Grow a second tree beside the first. Both keep the same tree image.",
+      "parts": [
+        {
+          "glyph": "木",
+          "image": "tree",
+          "color": "#315e4b",
+          "characterIndex": 0,
+          "sourceGroup": 0
+        },
+        {
+          "glyph": "木",
+          "image": "tree",
+          "color": "#315e4b",
+          "characterIndex": 0,
+          "sourceGroup": 1
+        }
+      ],
+      "dictionarySource": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=林"
+    },
+    {
+      "word": "清",
+      "sourceWordId": "w0006",
+      "pinyin": "qīng",
+      "meaning": "clear",
+      "scene": "clear",
+      "story": "Water reflects green plants so clearly that you can see every leaf through the clear pool.",
+      "animation": "Watch the sediment settle and the green reflection become visible in the clear water.",
+      "parts": [
+        {
+          "glyph": "氵",
+          "image": "water",
+          "color": "#527f91",
+          "characterIndex": 0,
+          "sourceGroup": 0
+        },
+        {
+          "glyph": "青",
+          "image": "green",
+          "color": "#315e4b",
+          "characterIndex": 0,
+          "sourceGroup": 1
+        }
+      ],
+      "dictionarySource": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=清"
+    },
+    {
+      "word": "晴",
+      "sourceWordId": "w0007",
+      "pinyin": "qíng",
+      "meaning": "sunny",
+      "scene": "sunny",
+      "story": "The sun lights up green grass; its vivid green announces a sunny day.",
+      "animation": "Move the clouds aside. The sun makes the green grass shine.",
+      "parts": [
+        {
+          "glyph": "日",
+          "image": "sun",
+          "color": "#c29a39",
+          "characterIndex": 0,
+          "sourceGroup": 0
+        },
+        {
+          "glyph": "青",
+          "image": "green",
+          "color": "#315e4b",
+          "characterIndex": 0,
+          "sourceGroup": 1
+        }
+      ],
+      "dictionarySource": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=晴"
+    },
+    {
+      "word": "情",
+      "sourceWordId": "w0009",
+      "pinyin": "qíng",
+      "meaning": "feeling; emotion",
+      "scene": "emotion",
+      "story": "A heart rests in green nature; as it relaxes, its hidden emotions begin to flow.",
+      "animation": "Let the heart settle among green plants. Watch its feelings emerge.",
+      "parts": [
+        {
+          "glyph": "忄",
+          "image": "heart",
+          "color": "#b97568",
+          "characterIndex": 0,
+          "sourceGroup": 0
+        },
+        {
+          "glyph": "青",
+          "image": "green",
+          "color": "#315e4b",
+          "characterIndex": 0,
+          "sourceGroup": 1
+        }
+      ],
+      "dictionarySource": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=情"
+    },
+    {
+      "word": "请",
+      "sourceWordId": "w0008",
+      "pinyin": "qǐng",
+      "meaning": "please; invite",
+      "scene": "invite",
+      "story": "A speech bubble offers a green invitation: “Please come into my garden.”",
+      "animation": "Open the green invitation and welcome the visitor into the garden.",
+      "parts": [
+        {
+          "glyph": "讠",
+          "image": "speech bubble",
+          "color": "#c29a39",
+          "characterIndex": 0,
+          "sourceGroup": 0
+        },
+        {
+          "glyph": "青",
+          "image": "green",
+          "color": "#315e4b",
+          "characterIndex": 0,
+          "sourceGroup": 1
+        }
+      ],
+      "dictionarySource": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=请"
+    },
+    {
+      "word": "手机",
+      "sourceWordId": "w0017",
+      "pinyin": "shǒu jī",
+      "meaning": "mobile phone",
+      "scene": "phone",
+      "story": "A hand picks up a tiny tree-and-table machine; it rings and becomes your mobile phone.",
+      "animation": "Lift the little machine into a hand and answer its ring.",
+      "parts": [
+        {
+          "glyph": "手",
+          "image": "hand",
+          "color": "#d37c53",
+          "characterIndex": 0,
+          "sourceGroup": null
+        },
+        {
+          "glyph": "机",
+          "image": "machine",
+          "color": "#315e4b",
+          "characterIndex": 1,
+          "sourceGroup": null
+        }
+      ],
+      "dictionarySource": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=手机"
+    },
+    {
+      "word": "电脑",
+      "sourceWordId": "w0150",
+      "pinyin": "diàn nǎo",
+      "meaning": "computer",
+      "scene": "computer",
+      "story": "Electricity sparks through a moon-shaped brain on your desk: the computer begins thinking.",
+      "animation": "Send a spark through the brain and watch the computer wake up.",
+      "parts": [
+        {
+          "glyph": "电",
+          "image": "electricity",
+          "color": "#c29a39",
+          "characterIndex": 0,
+          "sourceGroup": null
+        },
+        {
+          "glyph": "脑",
+          "image": "brain",
+          "color": "#8b86ad",
+          "characterIndex": 1,
+          "sourceGroup": null
+        }
+      ],
+      "dictionarySource": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=电脑"
+    },
+    {
+      "word": "分手",
+      "sourceWordId": "w0019",
+      "pinyin": "fēn shǒu",
+      "meaning": "break up; part ways",
+      "scene": "parting",
+      "story": "A dividing knife cuts a ribbon between two hands; the hands separate as the couple breaks up.",
+      "animation": "Let the ribbon divide, then watch the hands move apart.",
+      "parts": [
+        {
+          "glyph": "分",
+          "image": "divide",
+          "color": "#c29a39",
+          "characterIndex": 0,
+          "sourceGroup": null
+        },
+        {
+          "glyph": "手",
+          "image": "hand",
+          "color": "#d37c53",
+          "characterIndex": 1,
+          "sourceGroup": null
+        }
+      ],
+      "dictionarySource": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=分手"
+    },
+    {
+      "word": "高手",
+      "sourceWordId": "w0018",
+      "pinyin": "gāo shǒu",
+      "meaning": "expert",
+      "scene": "expert",
+      "story": "A hand reaches high above every player to make the winning move: the expert's high hand.",
+      "animation": "Raise the hand above the board and make the winning move.",
+      "parts": [
+        {
+          "glyph": "高",
+          "image": "high",
+          "color": "#8b86ad",
+          "characterIndex": 0,
+          "sourceGroup": null
+        },
+        {
+          "glyph": "手",
+          "image": "hand",
+          "color": "#d37c53",
+          "characterIndex": 1,
+          "sourceGroup": null
+        }
+      ],
+      "dictionarySource": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=高手"
+    }
+  ],
+  "geometry": {
+    "provider": "Make Me a Hanzi",
+    "revision": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92",
+    "license": "/licenses/ARPHIC-PUBLIC-LICENSE.txt",
+    "method": "Exact source stroke paths; top-level parts for six single characters, whole characters for four compounds; stroke order and shape retained."
+  },
+  "artwork": {
+    "path": "/theatre/props.png",
+    "width": 1448,
+    "height": 1086,
+    "alpha": true,
+    "sha256": "7a90e8fe57325b579967c2d85835b17bb74eb3c3ff0971acaf5ac5044b9fc204",
+    "prompt": "/theatre/asset-prompt.txt",
+    "generationTool": "built-in image_gen.imagegen",
+    "model": "not exposed by generation tool; Sunburst unverified",
+    "method": "One generated atlas, copied intact; explicit SVG crops and code-controlled object transformations."
+  },
+  "interaction": {
+    "playbackSeconds": 12,
+    "stages": [
+      "visual story",
+      "separated elements",
+      "assembled word",
+      "reconstruction"
+    ],
+    "controls": [
+      "play/pause",
+      "restart",
+      "keyboard/touch range",
+      "explicit stage buttons",
+      "still steps",
+      "object selection"
+    ],
+    "recallStorage": "In-memory completion ticks only; existing corpus reviews and experiment results preserved."
+  },
+  "visualUnderstanding": {
+    "model": "gpt-6-astra",
+    "endpoint": "/api/visual-tutor",
+    "request": "Rendered PNG frame plus selected glyph, progress, question and source-verified lesson state.",
+    "authenticatedCallVerified": false,
+    "reason": "No authenticated API credentials available in the environment.",
+    "fallback": "Explicitly labeled scripted hints; no image understanding claim.",
+    "imageModelDocs": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "visionModelDocs": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+  },
+  "limitations": [
+    "Invented learning stories, not etymology; independent language review and delayed retention evidence remain outstanding.",
+    "Ten illustrated lessons, not 1,000 animations.",
+    "No historic glyph timeline fabricated; historical references are outbound links.",
+    "No public deployment."
+  ]
+}
