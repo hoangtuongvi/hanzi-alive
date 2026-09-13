@@ -17,6 +17,8 @@ Open [the demo](http://localhost:5173/?view=theatre&word=休). All assets load l
 
 Open [the illustrated collection](http://localhost:5173/?view=collection&word=休) to explore completed scene definitions, with the same simple Back/Next flow as the demo. Words without an illustration remain in the production queue instead of entering this collection.
 
+The hosted demo uses Sites, configured in `.openai/hosting.json`, and serves the static production build from `dist/`. Use `?view=collection&word=休` to open all 11 illustrated lessons, or `?view=theatre&word=休` for the original three-word demo.
+
 ```sh
 npm test
 npm run build
