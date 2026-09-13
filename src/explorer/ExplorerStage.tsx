@@ -3,7 +3,8 @@ import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import type {Character,GeometryData,Lesson} from '../types';
 import {disposeObject,lessonParts,makeGlyph,makeModernWord,type GlyphLabel} from './geometry';
-import {createMeaningModel,type SceneLabel} from './scenes';
+import {createMeaningModel,type MeaningModel,type SceneLabel} from './scenes';
+import {disposeBlenderMeaningModel,loadBlenderMeaningModel} from './blender-models';
 import {blendExplorerPoses,easeTransition,explorerPose,TRANSITION_DURATION} from './transitions';
 import {layoutBreakdownCallouts,layoutCallouts,type ScreenBounds,type ScreenPoint} from './callout-layout';
 
@@ -26,6 +27,7 @@ const sceneLabelDirections:Record<string,ScreenPoint[]>={
 export default function ExplorerStage({lesson,characters,progress,show3D,resetKey,onReady}:ExplorerStageProps){
   const host=useRef<HTMLDivElement>(null);
   const renderHost=useRef<HTMLDivElement>(null);
+  const rendererRef=useRef<THREE.WebGLRenderer|null>(null);
   const labelsRef=useRef(new Map<string,HTMLDivElement>());
   const linesRef=useRef(new Map<string,SVGPathElement>());
   const dotsRef=useRef(new Map<string,SVGCircleElement>());
@@ -33,7 +35,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
   const controlsRef=useRef<OrbitControls|null>(null);
   const wakeRef=useRef<(()=>void)|null>(null);
   const stateRef=useRef({progress,show3D,onReady});stateRef.current={progress,show3D,onReady};
-  const [status,setStatus]=useState<'loading'|'ready'|'error'>('loading');
+  const [status,setStatus]=useState<'loading'|'ready'|'recovering'|'error'>('loading');
   const [error,setError]=useState('');
   const [labels,setLabels]=useState<Label[]>([]);
   const [retry,setRetry]=useState(0);
@@ -49,11 +51,13 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
   useEffect(()=>{controlsRef.current?.reset();wakeRef.current?.();},[resetKey]);
   useEffect(()=>{
     const viewport=renderHost.current;if(!viewport)return;
-    let disposed=false,frameId=0,lastTime:number|null=null,ready=false;
+    let disposed=false,frameId=0,lastTime:number|null=null,ready=false,loaded=false,contextUnavailable=false;
+    let recoveryTimeout:ReturnType<typeof setTimeout>|undefined;
     let renderer:THREE.WebGLRenderer|undefined,controls:OrbitControls|undefined,observer:ResizeObserver|undefined;
     let scene:THREE.Scene|undefined,camera:THREE.PerspectiveCamera|undefined,root:THREE.Group|undefined;
     let content:THREE.Group[]=[];
     let sceneGroup:THREE.Group|undefined,activeLabels:Label[]=[];
+    let blenderModel:MeaningModel|null=null;
     const geometryCorners=new WeakMap<THREE.BufferGeometry,THREE.Vector3[]>();
     let pose=explorerPose(stateRef.current.progress,lesson.word==='休',true,stateRef.current.show3D);
     let fromPose=pose,targetPose=pose,targetKey='',elapsed=TRANSITION_DURATION;
@@ -185,7 +189,29 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
       if(renderer)renderer.domElement.style.visibility='hidden';
       setStatus('error');setError(message);setLabels([]);stateRef.current.onReady?.(false);
     }
-    function contextLost(event:Event){event.preventDefault();fail('The 3D view paused. Restore the view to continue exploring.');}
+    function pauseForContextLoss(){
+      if(disposed)return;
+      contextUnavailable=true;ready=false;lastTime=null;
+      cancelAnimationFrame(frameId);frameId=0;
+      if(renderer)renderer.domElement.style.visibility='hidden';
+      setStatus('recovering');setLabels([]);stateRef.current.onReady?.(false);
+      clearTimeout(recoveryTimeout);
+      recoveryTimeout=setTimeout(()=>{
+        if(contextUnavailable)fail('The browser could not restore the 3D view. Reload it to continue.');
+      },8000);
+    }
+    function contextLost(event:Event){event.preventDefault();pauseForContextLoss();}
+    function resumeWhenReady(){
+      if(disposed||!loaded||contextUnavailable||!renderer||renderer.getContext().isContextLost())return;
+      renderer.domElement.style.visibility='visible';
+      setLabels(activeLabels);setStatus('ready');ready=true;lastTime=null;
+      stateRef.current.onReady?.(true);wake();
+    }
+    function contextRestored(){
+      if(disposed)return;
+      contextUnavailable=false;clearTimeout(recoveryTimeout);
+      setStatus('loading');resize();resumeWhenReady();
+    }
     function cameraFocus(){
       if(renderer){renderer.domElement.style.outline='2px solid #ebb08d';renderer.domElement.style.outlineOffset='-3px';}
     }
@@ -225,6 +251,8 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
       }else camera.position.multiplyScalar(newFit/oldFit);
       camera.aspect=aspect;camera.updateProjectionMatrix();
       if(leaders.current&&host.current)leaders.current.setAttribute('viewBox',`0 0 ${width} ${host.current.clientHeight}`);
+      // Bound the drawing buffer on Retina displays without changing CSS size.
+      renderer.setPixelRatio(Math.min(devicePixelRatio,1.5,Math.sqrt(1500000/(width*height))));
       renderer.setSize(width,height,false);wake();
     }
     async function loadText(url:string){
@@ -233,10 +261,13 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     }
     async function init(){
       try{
-        renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,powerPreference:'low-power'});
-        renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;
+        // The renderer belongs to the mounted explorer, not an individual word.
+        renderer=rendererRef.current??new THREE.WebGLRenderer({antialias:true,alpha:true,powerPreference:'low-power'});
+        rendererRef.current=renderer;
+        renderer.outputColorSpace=THREE.SRGBColorSpace;
         renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.65;
-        Object.assign(renderer.domElement.style,{display:'block',position:'absolute',inset:'0',width:'100%',height:'100%',touchAction:'none',cursor:'grab'});
+        Object.assign(renderer.domElement.style,{display:'block',position:'absolute',inset:'0',width:'100%',height:'100%',touchAction:'none',cursor:'grab',visibility:'hidden'});
+        delete renderer.domElement.dataset.sceneSource;delete renderer.domElement.dataset.sceneAsset;
         renderer.domElement.setAttribute('aria-label',`${lesson.word}: interactive three dimensional model. Arrow keys rotate; plus and minus zoom; zero resets the view. You can also drag to rotate and scroll to zoom.`);
         renderer.domElement.setAttribute('role','img');
         renderer.domElement.setAttribute('aria-roledescription','interactive 3D view');
@@ -245,6 +276,8 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
         renderer.domElement.addEventListener('focus',cameraFocus);
         renderer.domElement.addEventListener('blur',cameraBlur);
         renderer.domElement.addEventListener('webglcontextlost',contextLost);
+        renderer.domElement.addEventListener('webglcontextrestored',contextRestored);
+        if(renderer.getContext().isContextLost())pauseForContextLoss();
         viewport!.prepend(renderer.domElement);
         scene=new THREE.Scene();camera=new THREE.PerspectiveCamera(35,1,.1,100);camera.position.set(.5,.3,10.4);
         controls=new OrbitControls(camera,renderer.domElement);controlsRef.current=controls;
@@ -270,44 +303,67 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
         const [data,historical]=await Promise.all([
           Promise.all(urls.map(async url=>JSON.parse(await loadText(url)) as GeometryData)),
           lesson.word==='休'?Promise.all(['seal','bronze','oracle'].map(name=>loadText(`/reference/assets/xiu-${name}.svg`))):Promise.resolve([]),
+          loadBlenderMeaningModel(lesson.word,parts,abort.signal).then(model=>{
+            if(disposed||abort.signal.aborted){if(model)disposeBlenderMeaningModel(model);abort.signal.throwIfAborted();return;}
+            blenderModel=model;
+          }).catch(reason=>{
+            if(abort.signal.aborted)throw reason;
+            console.warn(`Using the fallback illustration for ${lesson.word}:`,reason);
+          }),
         ]);
         if(disposed)return;
         const modern=makeModernWord(data,parts);content=[modern.group];root.add(modern.group);
         for(const svg of historical){const group=makeGlyph(svg);content.push(group);root.add(group);}
-        const meaning=createMeaningModel(lesson.word,parts);sceneGroup=meaning?.group;
+        const meaning=blenderModel??createMeaningModel(lesson.word,parts);sceneGroup=meaning?.group;
         if(sceneGroup)root.add(sceneGroup);
+        renderer.domElement.dataset.sceneSource=blenderModel?'blender':meaning?'procedural':'writing';
+        if(blenderModel)renderer.domElement.dataset.sceneAsset=blenderModel.group.userData.blenderAsset;
         activeLabels=parts.map((part,index)=>({...part,key:`part-${index}`,modern:modern.labels[index],scene:meaning?.labels[index]}));
         pose=explorerPose(stateRef.current.progress,content.length>1,!!sceneGroup,stateRef.current.show3D);
         fromPose=pose;targetPose=pose;targetKey=`${stateRef.current.progress}|${stateRef.current.show3D}`;elapsed=TRANSITION_DURATION;
-        setLabels(activeLabels);setStatus('ready');ready=true;stateRef.current.onReady?.(true);wake();
+        loaded=true;resumeWhenReady();
       }catch(reason){
+        abort.abort();
+        if(blenderModel){disposeBlenderMeaningModel(blenderModel);blenderModel=null;}
         if(!disposed&&!(reason instanceof DOMException&&reason.name==='AbortError'))fail('The 3D view could not load. You can still read the character’s story and explore its stages.');
       }
     }
     void init();
     return ()=>{
-      disposed=true;ready=false;abort.abort();cancelAnimationFrame(frameId);observer?.disconnect();
+      disposed=true;ready=false;abort.abort();cancelAnimationFrame(frameId);clearTimeout(recoveryTimeout);observer?.disconnect();
       document.removeEventListener('visibilitychange',visibility);motion.removeEventListener('change',motionChange);
       controls?.removeEventListener('change',wake);controls?.dispose();controlsRef.current=null;wakeRef.current=null;
+      if(blenderModel){disposeBlenderMeaningModel(blenderModel);blenderModel=null;}
       if(scene)disposeObject(scene);cameraMaterials.forEach(material=>material.dispose());
       if(renderer){
         renderer.domElement.removeEventListener('webglcontextlost',contextLost);
+        renderer.domElement.removeEventListener('webglcontextrestored',contextRestored);
         renderer.domElement.removeEventListener('keydown',cameraKey);
         renderer.domElement.removeEventListener('focus',cameraFocus);
         renderer.domElement.removeEventListener('blur',cameraBlur);
-        renderer.dispose();renderer.domElement.remove();
+        renderer.renderLists.dispose();
       }
       labelsRef.current.clear();linesRef.current.clear();dotsRef.current.clear();
     };
   },[lesson.id,lesson.word,geometryKey,parts,retry]);
+
+  useEffect(()=>()=>{
+    const renderer=rendererRef.current;rendererRef.current=null;
+    if(!renderer)return;
+    // Release the context only when leaving the explorer, after scene cleanup.
+    renderer.dispose();renderer.forceContextLoss();renderer.domElement.remove();
+  },[]);
 
   useEffect(()=>{wakeRef.current?.();},[labels]);
   return <div ref={host} className="explorer-three-stage" aria-hidden={concealed} inert={concealed} style={{position:'absolute',inset:0,overflow:'hidden',pointerEvents:concealed?'none':undefined}}>
     <div ref={renderHost} className="explorer-render-area" style={{position:'absolute',inset:0,overflow:'hidden'}}/>
     {status!=='ready'&&<div className="explorer-three-loading" role="status" style={{position:'absolute',inset:0,display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column',gap:14,textAlign:'center',padding:30}}>
       <span style={{fontFamily:'serif',fontSize:100,color:'#e5e8d8',lineHeight:1.2}}>{lesson.word}</span>
-      <p style={{maxWidth:320,color:'#9da69b',fontSize:14}}>{status==='error'?error:'Preparing your 3D explorer…'}</p>
-      {status==='error'&&<button className="quiet" type="button" onClick={()=>setRetry(value=>value+1)}>Restore 3D view ↻</button>}
+      <p style={{maxWidth:320,color:'#9da69b',fontSize:14}}>{status==='error'?error:status==='recovering'?'Restoring the 3D view…':'Preparing your 3D explorer…'}</p>
+      {status==='error'&&<button className="quiet" type="button" onClick={()=>{
+        if(!rendererRef.current||rendererRef.current.getContext().isContextLost())window.location.reload();
+        else setRetry(value=>value+1);
+      }}>Reload 3D view ↻</button>}
     </div>}
     <svg ref={leaders} className="explorer-callout-lines" aria-hidden="true" style={{position:'absolute',inset:0,width:'100%',height:'100%',pointerEvents:'none',overflow:'hidden'}}>
       {labels.map(label=><path key={label.key} ref={element=>{if(element)linesRef.current.set(label.key,element);else linesRef.current.delete(label.key);}} fill="none" stroke={label.color} strokeWidth="1" strokeLinecap="round" style={{opacity:0}}/>)}

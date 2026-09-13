@@ -1,5 +1,11 @@
 # Sources and attribution
 
+## Blender scene assets
+
+The models in `public/models/blender/` were authored for this project in Blender 4.5 LTS using the scripts in `scripts/blender/`. Editable scene files are included in `assets/blender/`. Geometry, colored PBR materials, and label anchor nodes are exported into each self-contained GLB; preview lights and cameras remain in the native files. No third-party model library or image textures are used by these models. `public/models/blender/manifest.json` records the generating Blender version and per-asset checksums.
+
+These are illustrative memory scenes. The resting figure is a stylized traveler, not a reconstruction of historical clothing. Blender models replace the illustrated objects only; Chinese stroke geometry and historical forms continue to use the separately attributed sources below.
+
 ## Vocabulary
 
 **Complete HSK Vocabulary**, by drkameleon and contributors:

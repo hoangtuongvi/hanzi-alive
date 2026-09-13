@@ -13,11 +13,17 @@ interface Props {
   onWordChange:(word:string)=>void;
 }
 
-function FocusedLesson({lesson,characters}:{lesson:Lesson;characters:Record<string,Character>}){
+function FocusedLesson({lesson,characters,run}:{lesson:Lesson;characters:Record<string,Character>;run:number}){
   const steps=useMemo(()=>getFocusedSteps(lesson),[lesson]);
-  const [stepIndex,setStepIndex]=useState(0);
+  const lessonRun=`${lesson.id}:${run}`;
+  const [playback,setPlayback]=useState({lessonRun,stepIndex:0});
   const [ready,setReady]=useState(false);
-  const step=steps[stepIndex];
+  // Restart the lesson without unmounting its canvas and graphics context.
+  if(playback.lessonRun!==lessonRun){
+    setPlayback({lessonRun,stepIndex:0});
+    setReady(false);
+  }
+  const step=steps[playback.lessonRun===lessonRun?playback.stepIndex:0];
   const isWord=step.key==='word';
   const isStory=step.key==='story'||step.key==='recap';
   const isScene=step.key==='visual'||isStory;
@@ -26,8 +32,8 @@ function FocusedLesson({lesson,characters}:{lesson:Lesson;characters:Record<stri
 
   // Preload 3D during the opening word. Later phases count only visible,
   // ready time, so loading or switching tabs cannot skip them.
-  usePlaybackTimer(step.key,step.durationMs,isWord||ready,()=>{
-    setStepIndex(index=>Math.min(index+1,steps.length-1));
+  usePlaybackTimer(`${lessonRun}:${step.key}`,step.durationMs,isWord||ready,()=>{
+    setPlayback(current=>current.lessonRun===lessonRun?{...current,stepIndex:Math.min(current.stepIndex+1,steps.length-1)}:current);
   });
 
   return <section className="focused-content" aria-label={`${lesson.word} lesson`} data-step={isScene?'visual':step.key} data-phase={step.key} data-history={isHistory} data-story-visible={isStory}>
@@ -61,7 +67,7 @@ export default function Explorer({lessons,characters,word,onWordChange}:Props){
     setRun(value=>value+1);
   };
   return <main className="focused-study">
-    <FocusedLesson key={`${lesson.id}:${run}`} lesson={lesson} characters={characters}/>
+    <FocusedLesson lesson={lesson} characters={characters} run={run}/>
     <nav className="focused-controls" aria-label="Words">
       <button className="focused-back" onClick={()=>move(-1)}><ArrowLeft size={18}/>Back</button>
       <button className="focused-next" onClick={()=>move(1)}>Next<ArrowRight size={18}/></button>

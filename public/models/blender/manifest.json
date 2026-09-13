@@ -1,0 +1,68 @@
+{
+  "assets": {
+    "rest": {
+      "word": "休",
+      "url": "/models/blender/rest.glb",
+      "blendFile": "assets/blender/rest.blend",
+      "sha256": "1bdeddf2cfe33dbe01c9b0ccad83a201c8751b3400562c39c9e7206ade5ddd16",
+      "bytes": 1795112,
+      "meshes": 18,
+      "triangles": 85800,
+      "anchors": [
+        "anchor_person",
+        "anchor_tree"
+      ],
+      "design": {
+        "design": "A relaxed traveler in draped linen under a layered broadleaf tree; historical clothing is not asserted."
+      }
+    },
+    "clear": {
+      "word": "清",
+      "url": "/models/blender/clear.glb",
+      "blendFile": "assets/blender/clear.blend",
+      "sha256": "101cbed983175363c5b0c4fe22ab1540c085401c104214db801142f19332cf01",
+      "bytes": 887992,
+      "meshes": 13,
+      "triangles": 44632,
+      "anchors": [
+        "anchor_water",
+        "anchor_green"
+      ],
+      "design": {
+        "title": "Clear water, visible green",
+        "anchors": {
+          "anchor_water": "氵",
+          "anchor_green": "青"
+        },
+        "design": "Transparent pale-jade pond above a detailed riverbed and curved grass leaves."
+      }
+    },
+    "sunny": {
+      "word": "晴",
+      "url": "/models/blender/sunny.glb",
+      "blendFile": "assets/blender/sunny.blend",
+      "sha256": "30b66ace1c317e75e9898d601029fb58e719d34173a0189c72d52d70e8cb662f",
+      "bytes": 977328,
+      "meshes": 13,
+      "triangles": 48264,
+      "anchors": [
+        "anchor_sun",
+        "anchor_green"
+      ],
+      "design": {
+        "title": "Sun over the same green meadow",
+        "anchors": {
+          "anchor_sun": "日",
+          "anchor_green": "青"
+        },
+        "design": "An apricot-and-ochre ceramic sun over the identical botanical grass motif."
+      }
+    }
+  },
+  "authoringTool": "Blender",
+  "blenderVersion": "4.5.9 LTS",
+  "generatedAt": "2026-09-13T07:57:06.288787+00:00",
+  "coordinateSystem": "glTF Y-up",
+  "generator": "scripts/blender/build_assets.py",
+  "notes": "Original scene geometry authored for Hanzi Alive with Blender Python; glyph outlines remain sourced independently."
+}
