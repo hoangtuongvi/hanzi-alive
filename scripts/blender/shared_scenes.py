@@ -88,12 +88,26 @@ def _grove(specs):
 def build_woods():
     """林: two recognizably identical trees become a little woodland."""
     _grove([(-.99, .02, .76, -.12), (1.02, -.17, .76, .16)])
+    wood = material('Collected wood / bark', '#79573b', .92)
+    cut = material('Collected wood / cut ends', '#d1ae70', .91)
+    cord = material('Collected wood / cord', '#c3b086', .98)
+    # A small bundle of fallen branches makes collecting wood tangible while
+    # keeping both complete trees visible above it.
+    for index, (y,z) in enumerate([(-1.43,.89),(-1.43,1.07),(-1.28,.97)]):
+        tube('Collected fallen branch %d' % index,
+             [(.53,y,z),(.91,y+.014,z-.025),(1.38,y-.015,z+.02)],
+             [.092,.096,.075],wood,2)
+        oval('Branch cut end %d' % index,(.525,y,z),(.014,.079,.079),cut,20,12)
+    for x in (.72,1.19):
+        points=[(x,-1.365+math.cos(step*math.tau/32)*.20,.98+math.sin(step*math.tau/32)*.19) for step in range(33)]
+        tube('Wood bundle tied cord',points,[.014]*len(points),cord,1)
     _label(0, (-.99, -.29, .24), "木", "Tree")
     _label(1, (1.02, -.29, .07), "木", "Tree")
     return {
-        "title": "One tree finds another",
+        "title": "A few trees provide wood",
         "anchors": {"anchor_part_0": "木", "anchor_part_1": "木"},
-        "design": "Two copies of the original broadleaf shade tree stand side by side on a mossy island, beside a small stepping-stone clearing.",
+        "design": "Two broadleaf shade trees stand on a mossy island beside a small bundle of fallen branches ready to collect as wood.",
+        "story": "With a few trees—two—you can start collecting wood.",
         "sharedMotifs": ["rest / broadleaf tree"],
     }
 
@@ -217,11 +231,11 @@ def build_invite():
     _meadow(palette)
     cream = material("Invitation / warm porcelain", "#e2d7b6", .69)
     gold = material("Invitation / honey accent", "#c28c40", .66)
-    _speech_bubble(cream)
+    _speech_bubble(palette['grass'])
     for index in range(3):
         _pebble("Invitation / spoken dot %d" % index,
                 (-.49 + .49 * index, .96, .036), (.087, .087, .043),
-                palette["grass_deep"], 600 + index, 24, 12)
+                cream, 600 + index, 24, 12)
     # A low, curved garden path welcomes the viewer into the scene itself.
     for index, (x, z, size) in enumerate([(-.12, 1.00, .18), (-.02, .73, .155), (.08, .51, .13)]):
         _pebble("Invitation / welcoming path %d" % index, (x, -.887, z),
@@ -239,11 +253,12 @@ def build_invite():
                  (.057, .050, .025), gold, 16, 8)
         oval("Invitation / flower center %d" % index, (x + .02, -.15, z + .052),
              (.032, .032, .018), palette["seed"], 16, 8)
-    _label(0, (-1.18, 1.01, .08), "讠", "Speech bubble")
+    _label(0, (-1.18, 1.01, .08), "讠", "Everything related to speaking")
     _label(1, (1.06, -.32, .17), "青", "Green grass")
     return {
-        "title": "A green invitation",
+        "title": "A polite green way of talking",
         "anchors": {"anchor_part_0": "讠", "anchor_part_1": "青"},
-        "design": "A rounded porcelain speech bubble offers a welcome above the shared green meadow, with a stepping-stone entrance and two small golden flowers.",
+        "design": "A green speech symbol shows polite talking above the shared green meadow, with a welcoming path and two small golden flowers.",
+        "story": "‘Please’ is a polite, green way of talking.",
         "sharedMotifs": ["clear / green meadow", "sunny / green meadow"],
     }

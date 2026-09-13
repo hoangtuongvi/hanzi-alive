@@ -16,8 +16,8 @@ The collection already contains **1,000 words and 919 distinct characters**. Eve
 | Complete top-level stroke grouping | 812 / 902 split characters | 90 have some unassigned strokes; 17 other characters have no top-level split |
 | Shared visual image cues | 1,204 | Reusable labels for characters and component shapes |
 | Independently reviewed word stories recorded | 0 / 1,000 | All 1,000 lessons remain marked draft |
-| Blender model scenes | 12 / 1,000 | 清、电脑、情、高手、森、好、请、分手、手机、休、晴、林; native files and GLB checksums verified |
-| Authored scene definitions | 12 / 1,000 | 休、林、森、清、晴、情、请、手机、电脑、分手、高手、好; includes the Blender words |
+| Blender model scenes | 11 / 1,000 | 清、电脑、情、森、好、请、分手、手机、休、晴、林; native files and GLB checksums verified |
+| Authored scene definitions | 11 / 1,000 | 休、林、森、清、晴、情、请、手机、电脑、分手、好; includes the Blender words |
 | Characters with routed historical forms | 1 / 919 | 休; 3 bundled oracle, bronze and seal SVGs |
 
 The visual counts are not additive. Three-dimensional writing, reusable scene rendering, authored illustrations and native Blender models are different levels of coverage. This report inventories checked-in content; runtime routing and browser behavior require separate tests.
@@ -33,7 +33,7 @@ The visual counts are not additive. Three-dimensional writing, reusable scene re
 
 1. **Review the drafts.** The collection records 0 independently reviewed words. Files in `data/curation/element-review/` contain source/gloss worklists, not reviewer verdicts. Automated checks establish consistency and coverage, not memorability, linguistic accuracy or learner outcomes.
 2. **Resolve uncertain splits without inventing strokes.** 90 characters have partial source mappings, affecting 176 word lessons. Those split characters contain 246 unassigned strokes. Preserve them intact and neutral unless stronger source evidence supports a mapping. Whole-outline mnemonic cues are a separate category and can overlap partial mappings.
-3. **Expand authored visual scenes.** Only 12 words currently have Blender exports and 12 have bespoke scene definitions. Generic rendering can broaden access but should not be counted as 1,000 bespoke Blender artworks.
+3. **Expand authored visual scenes.** Only 11 words currently have Blender exports and 11 have bespoke scene definitions. Generic rendering can broaden access but should not be counted as 1,000 bespoke Blender artworks.
 4. **Expand sourced history separately.** Imported etymology metadata exists for 818 characters. That does not make their invented memory stories historical explanations, and it does not provide bundled ancient glyphs beyond 休.
 
 ### Characters with partial stroke mappings

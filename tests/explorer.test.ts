@@ -1,3 +1,4 @@
+import {getSceneDefinition} from '../src/explorer/scene-catalog';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -9,7 +10,7 @@ const lessons = JSON.parse(readFileSync(new URL('../public/data/lessons.json', i
 
 test('the explorer preserves every lesson’s ordered memory images, pronunciation and selected meaning', () => {
   for (const lesson of lessons) {
-    assert.deepEqual(getExplorerParts(lesson).map(({glyph, image}) => ({glyph, image})), lesson.memoryElements, lesson.word);
+    assert.deepEqual(getExplorerParts(lesson).map(({glyph, image}) => ({glyph, image})), lesson.memoryElements.map(part=>({...part,image:getSceneDefinition(lesson.word)?.mnemonicImages?.[part.glyph]??part.image})), lesson.word);
     const meaning = getExplorerContent(lesson, 3);
     assert.ok(meaning.description.includes(lesson.word), lesson.word);
     assert.ok(meaning.description.includes(lesson.pinyin), lesson.word);

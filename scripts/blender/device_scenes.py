@@ -132,6 +132,51 @@ def build_phone():
     return {'title':'A machine in your hand','design':'A sculpted hand wraps around a rounded mobile phone with raised call and app details.','anchors':{'anchor_part_0':'手','anchor_part_1':'机'}}
 
 
+def _command_robot(name, center, mats, waving=False):
+    """A small physical robot with articulated arms and a friendly inset face."""
+    x,y,z=center
+    def p(a):return (x+a[0],y+a[1],z+a[2])
+    shell=mats['cream'] if waving else mats['screen_light']
+    accent=mats['gold'] if waving else mats['ribbon']
+    box(name+' rounded torso',p((0,.58,0)),(.49,.55,.38),shell,.11)
+    box(name+' chest panel',p((0,.59,.205)),(.30,.27,.036),mats['edge'],.045)
+    oval(name+' command receiver',p((0,.65,.234)),(.047,.047,.015),accent,20,12)
+    for index in range(3):
+        box(name+' indicator '+str(index),p((-.068+index*.068,.51,.232)),(.036,.026,.014),mats['gold_light'],.008)
+    tube(name+' neck', [p((0,.82,0)),p((0,.93,0))],[.092,.077],mats['edge'],2)
+    box(name+' soft square head',p((0,1.13,.006)),(.66,.47,.45),shell,.13)
+    box(name+' dark face inset',p((0,1.13,.247)),(.53,.31,.032),mats['dark'],.076)
+    for sign in (-1,1):
+        oval(name+' bright eye '+str(sign),p((sign*.132,1.165,.273)),(.037,.055,.013),mats['gold_light'],20,12)
+        oval(name+' cheek '+str(sign),p((sign*.183,1.068,.272)),(.034,.015,.008),accent,16,8)
+        oval(name+' round ear '+str(sign),p((sign*.350,1.13,.008)),(.043,.106,.107),accent,20,12)
+    tube(name+' smiling mouth',[p((-.069,1.061,.272)),p((0,1.030,.282)),p((.069,1.061,.272))],
+         [.008,.010,.008],mats['cream'],1)
+    tube(name+' antenna',[p((0,1.366,0)),p((0,1.57,0))],[.021,.016],mats['edge'],2)
+    oval(name+' antenna light',p((0,1.592,0)),(.053,.053,.053),accent,20,12)
+    for sign in (-1,1):
+        tube(name+' lower leg '+str(sign),[p((sign*.14,.34,0)),p((sign*.14,.155,.04))],[.071,.055],mats['edge'],2)
+        box(name+' rounded boot '+str(sign),p((sign*.145,.079,.086)),(.225,.155,.35),accent,.057)
+        oval(name+' shoulder joint '+str(sign),p((sign*.278,.74,0)),(.077,.079,.075),mats['edge'],20,12)
+        # The first robot raises its outside hand; the other grips a block.
+        if waving and sign==-1:
+            elbow=(-.47,.97,.014);wrist=(-.50,1.205,.026)
+        else:
+            elbow=(sign*.39,.52,.10);wrist=(sign*(.34 if waving else .20),.54,.30)
+        tube(name+' upper arm '+str(sign),[p((sign*.28,.74,0)),p(elbow)],[.059,.048],shell,2)
+        oval(name+' elbow '+str(sign),p(elbow),(.066,.063,.062),accent,20,12)
+        tube(name+' forearm '+str(sign),[p(elbow),p(wrist)],[.054,.042],shell,2)
+        oval(name+' palm '+str(sign),p(wrist),(.063,.072,.041),mats['edge'],20,12)
+        if waving and sign==-1:
+            for finger in range(3):
+                fx=-.55+finger*.045
+                tube(name+' waving finger '+str(finger),[p((fx,1.24,.027)),p((fx-.006,1.33+(finger==1)*.032,.027))],[.014,.010],mats['edge'],1)
+    if not waving:
+        box(name+' carried parcel',p((0,.51,.39)),(.30,.27,.26),mats['wood_light'],.033)
+        box(name+' parcel ribbon upright',p((0,.51,.526)),(.040,.276,.014),mats['ribbon'],.006)
+        box(name+' parcel ribbon across',p((0,.51,.529)),(.306,.041,.014),mats['ribbon'],.006)
+
+
 def build_computer():
     mats=palette('Computer')
     box('Desk top',(0,-1.63,0),(3.92,.17,1.72),mats['wood'],.09)
@@ -171,8 +216,22 @@ def build_computer():
     polygon('Electricity lightning bolt',[(-.66,.71),(-1.27,-.03),(-.92,-.03),(-1.12,-.71),(-.42,.13),(-.77,.13)],.39,.13,mats['gold'],.026)
     for i in range(3):
         tube('Electric connection %d'%i,[(-.50,.29-i*.22,.29),(-.24,.29-i*.22,.38),(-.15,.21-i*.18,.45)],[.018,.025,.014],mats['gold_light'],2)
+    # Keep the brain and electricity central while showing two smaller machines
+    # responding to it: one waves, and the other carries a carefully wrapped box.
+    oval('Computer workshop floor',(0,-2.09,.12),(2.97,.10,1.29),mats['dark'],48,12)
+    _command_robot('Waving helper robot',(-2.23,-2.0,.21),mats,waving=True)
+    _command_robot('Parcel helper robot',(2.23,-2.0,.27),mats,waving=False)
+    for sign in (-1,1):
+        points=[(sign*1.47,-.72,-.14),(sign*1.72,-.78,-.08),
+                (sign*1.93,-.80,.02),(sign*2.10,-.74,.13)]
+        tube('Robot command cable '+str(sign),points,[.024,.026,.026,.020],mats['gold'],2)
+        oval('Computer output socket '+str(sign),(sign*1.505,-.715,-.14),(.056,.060,.054),mats['edge'],20,12)
+        for index in range(3):
+            oval('Traveling command pulse %d %d'%(sign,index),
+                 (sign*(1.66+index*.13),-.76-index*.009,-.055+index*.045),
+                 (.035,.035,.035),mats['gold_light'],16,8)
     set_anchors([(-1.16,.49,.53),(1.00,.36,.65)],['电','脑'],['electricity','brain'])
-    return {'title':'A brain comes to life','design':'A crafted desktop computer with a sculpted two-hemisphere brain and a golden electricity bolt powering it.','anchors':{'anchor_part_0':'电','anchor_part_1':'脑'}}
+    return {'title':'A brain guides its helpers','story':'A brain powered by electricity is a computer. It thinks and gives other robots their commands.','design':'A crafted desktop computer with a sculpted two-hemisphere brain and a golden electricity bolt powering it sends commands along gold cables to two small, friendly robots. One waves an articulated hand and the other carries a wrapped parcel.','anchors':{'anchor_part_0':'电','anchor_part_1':'脑'}}
 
 
 def ribbon(name, points, mat, width=.13):

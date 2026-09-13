@@ -69,13 +69,6 @@ export const THEATRE_LESSONS:TheatreLesson[] = [
     action:'Let the ribbon divide, then watch the hands move apart.',
     parts:[part('分','divide','#c29a39',0,null),part('手','hand','#d37c53',1,null)],source:dictionary('分手'),
     stageCaptions:['The connecting ribbon divides. Two hands move apart.','Keep divide 分 and hand 手 in the same parting scene.','Read the pair together: 分手 — break up; part ways.']
-  },
-  {
-    word:'高手',wordId:'w0018',scene:'expert',title:'The winning hand',
-    story:"A hand reaches high above every player to make the winning move: the expert's high hand.",
-    action:'Raise the hand above the board and make the winning move.',
-    parts:[part('高','high','#8b86ad',0,null),part('手','hand','#d37c53',1,null)],source:dictionary('高手'),
-    stageCaptions:['A hand reaches high and makes the winning move.','Remember high 高 and hand 手 as a single winning scene.','Read the pair together: 高手 — expert.']
   }
 ];
 
@@ -84,7 +77,7 @@ export const THEATRE_META:Record<string,{pinyin:string;meaning:string}> = {
   '清':{pinyin:'qīng',meaning:'clear'}, '晴':{pinyin:'qíng',meaning:'sunny'},
   '情':{pinyin:'qíng',meaning:'feeling; emotion'}, '请':{pinyin:'qǐng',meaning:'please; invite'},
   '手机':{pinyin:'shǒu jī',meaning:'mobile phone'}, '电脑':{pinyin:'diàn nǎo',meaning:'computer'},
-  '分手':{pinyin:'fēn shǒu',meaning:'break up; part ways'}, '高手':{pinyin:'gāo shǒu',meaning:'expert'}
+  '分手':{pinyin:'fēn shǒu',meaning:'break up; part ways'}
 };
 
 const distractors:Record<string,string[]> = {

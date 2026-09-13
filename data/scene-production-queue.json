@@ -3,15 +3,17 @@
   "scope": "Production planning only. Draft story/element records are not authored scene compositions or reviewed lessons.",
   "statusDefinitions": {
     "ready-existing": "An authored illustration exists in the scene catalog. This does not certify editorial review or Blender format.",
-    "needs-illustration": "The word has source data and draft memory content but no authored scene in the catalog."
+    "needs-illustration": "The word has source data and draft memory content but no authored scene in the catalog.",
+    "excluded": "Explicitly removed from illustration; do not restore in future batches without a new user request."
   },
   "priorityMethod": "Missing scenes first, then sum of distinct-word reuse counts for each unique image in the union of the word's direct memory elements and its characters' nested elements. An image is counted once per word even when repeated or present at both levels; aliases with the same image name share its count. Ties use stable lesson ID. Review priority can override this asset reuse heuristic.",
   "cueReuseScope": "wordsReusingGlyph and wordsReusingImage count the per-word union of direct memory elements and nested character elements. Direct and nested occurrence fields remain separate and may contain repeats.",
   "cueCategoryMethod": "Explicit design seed list for common images; every other image is marked needs concept design. These are unreviewed planning categories, not linguistic analysis.",
   "summary": {
     "lessons": 1000,
-    "readyExisting": 12,
+    "readyExisting": 11,
     "needsIllustration": 988,
+    "excluded": 1,
     "characterCues": 919,
     "componentOnlyCues": 285,
     "cuePlanningCategories": {
@@ -65575,73 +65577,6 @@
       "priority": 988
     },
     {
-      "lessonId": "w0018",
-      "word": "高手",
-      "pinyin": "gāo shǒu",
-      "meaning": "expert",
-      "story": "A hand reaches high above every player to make the winning move: the expert's high hand.",
-      "memoryElements": [
-        {
-          "glyph": "高",
-          "image": "high"
-        },
-        {
-          "glyph": "手",
-          "image": "hand"
-        }
-      ],
-      "characterBreakdowns": [
-        {
-          "character": "高",
-          "kind": "parts",
-          "elements": [
-            {
-              "glyph": "亠",
-              "image": "lid"
-            },
-            {
-              "glyph": "口",
-              "image": "mouth"
-            },
-            {
-              "glyph": "冋",
-              "image": "window tower"
-            }
-          ],
-          "story": "A lid caps a tower of mouths and windows, stacked so high you crane your neck."
-        },
-        {
-          "character": "手",
-          "kind": "outline",
-          "elements": [
-            {
-              "glyph": "手",
-              "image": "hand"
-            }
-          ],
-          "story": "Trace the fingers crossing a palm and the long wrist below: an open hand."
-        }
-      ],
-      "storyReviewStatus": "draft",
-      "illustrationStatus": "ready-existing",
-      "knownAssets": [
-        {
-          "word": "高手",
-          "scene": "expert",
-          "format": "blender",
-          "history": false,
-          "asset": "/models/blender/expert.glb",
-          "anchors": [
-            "anchor_part_0",
-            "anchor_part_1"
-          ]
-        }
-      ],
-      "sharedCueReuseScore": 194,
-      "missingIllustrationRequirements": [],
-      "priority": 989
-    },
-    {
       "lessonId": "w0001",
       "word": "休",
       "pinyin": "xiū",
@@ -65691,14 +65626,14 @@
       ],
       "sharedCueReuseScore": 155,
       "missingIllustrationRequirements": [],
-      "priority": 990
+      "priority": 989
     },
     {
       "lessonId": "w0017",
       "word": "手机",
       "pinyin": "shǒu jī",
       "meaning": "mobile phone",
-      "story": "A hand picks up a tiny tree-and-table machine; it rings and becomes your mobile phone.",
+      "story": "The machine often held in your hand is the handphone.",
       "memoryElements": [
         {
           "glyph": "手",
@@ -65749,12 +65684,13 @@
           "anchors": [
             "anchor_part_0",
             "anchor_part_1"
-          ]
+          ],
+          "story": "The machine often held in your hand is the handphone."
         }
       ],
       "sharedCueReuseScore": 143,
       "missingIllustrationRequirements": [],
-      "priority": 991
+      "priority": 990
     },
     {
       "lessonId": "w0019",
@@ -65817,14 +65753,14 @@
       ],
       "sharedCueReuseScore": 133,
       "missingIllustrationRequirements": [],
-      "priority": 992
+      "priority": 991
     },
     {
       "lessonId": "w0150",
       "word": "电脑",
       "pinyin": "diàn nǎo",
       "meaning": "computer",
-      "story": "Electricity sparks through a moon-shaped brain on your desk: the computer begins thinking.",
+      "story": "A brain powered by electricity is a computer. It thinks and gives other robots their commands.",
       "memoryElements": [
         {
           "glyph": "电",
@@ -65883,12 +65819,13 @@
           "anchors": [
             "anchor_part_0",
             "anchor_part_1"
-          ]
+          ],
+          "story": "A brain powered by electricity is a computer. It thinks and gives other robots their commands."
         }
       ],
       "sharedCueReuseScore": 93,
       "missingIllustrationRequirements": [],
-      "priority": 993
+      "priority": 992
     },
     {
       "lessonId": "w0009",
@@ -65940,22 +65877,22 @@
       ],
       "sharedCueReuseScore": 73,
       "missingIllustrationRequirements": [],
-      "priority": 994
+      "priority": 993
     },
     {
       "lessonId": "w0057",
       "word": "好",
       "pinyin": "hǎo",
       "meaning": "good",
-      "story": "A woman and a child share a warm meal and both declare it good.",
+      "story": "A girl and a boy in one family: a good combination in this Chinese family mnemonic.",
       "memoryElements": [
         {
           "glyph": "女",
-          "image": "woman"
+          "image": "girl"
         },
         {
           "glyph": "子",
-          "image": "child"
+          "image": "boy"
         }
       ],
       "characterBreakdowns": [
@@ -65987,12 +65924,18 @@
             "anchor_part_0",
             "anchor_part_1"
           ],
-          "history": false
+          "history": false,
+          "story": "A girl and a boy in one family: a good combination in this Chinese family mnemonic.",
+          "mnemonicImages": {
+            "女": "girl",
+            "子": "boy"
+          },
+          "interpretation": "The girl-and-boy family scene is a learning mnemonic, not a historical derivation or a universal claim about Chinese families. Source component readings remain woman and child."
         }
       ],
       "sharedCueReuseScore": 69,
       "missingIllustrationRequirements": [],
-      "priority": 995
+      "priority": 994
     },
     {
       "lessonId": "w0007",
@@ -66044,14 +65987,14 @@
       ],
       "sharedCueReuseScore": 66,
       "missingIllustrationRequirements": [],
-      "priority": 996
+      "priority": 995
     },
     {
       "lessonId": "w0004",
       "word": "林",
       "pinyin": "lín",
       "meaning": "woods",
-      "story": "Two trees stand together, forming a small patch of woods.",
+      "story": "With a few trees—two—you can start collecting wood.",
       "memoryElements": [
         {
           "glyph": "木",
@@ -66091,19 +66034,20 @@
           "anchors": [
             "anchor_part_0",
             "anchor_part_1"
-          ]
+          ],
+          "story": "With a few trees—two—you can start collecting wood."
         }
       ],
       "sharedCueReuseScore": 64,
       "missingIllustrationRequirements": [],
-      "priority": 997
+      "priority": 996
     },
     {
       "lessonId": "w0005",
       "word": "森",
       "pinyin": "sēn",
       "meaning": "dense forest",
-      "story": "One tree towers above two others, crowding your view into a dense forest.",
+      "story": "With many trees—three—we have a forest.",
       "memoryElements": [
         {
           "glyph": "木",
@@ -66152,12 +66096,13 @@
             "anchor_part_1",
             "anchor_part_2"
           ],
-          "history": false
+          "history": false,
+          "story": "With many trees—three—we have a forest."
         }
       ],
       "sharedCueReuseScore": 64,
       "missingIllustrationRequirements": [],
-      "priority": 998
+      "priority": 997
     },
     {
       "lessonId": "w0006",
@@ -66209,18 +66154,18 @@
       ],
       "sharedCueReuseScore": 62,
       "missingIllustrationRequirements": [],
-      "priority": 999
+      "priority": 998
     },
     {
       "lessonId": "w0008",
       "word": "请",
       "pinyin": "qǐng",
       "meaning": "please; invite",
-      "story": "A speech bubble offers a green invitation: “Please come into my garden.”",
+      "story": "“Please” is a polite, green way of talking.",
       "memoryElements": [
         {
           "glyph": "讠",
-          "image": "speech bubble"
+          "image": "everything related to speaking"
         },
         {
           "glyph": "青",
@@ -66256,10 +66201,70 @@
           "anchors": [
             "anchor_part_0",
             "anchor_part_1"
-          ]
+          ],
+          "story": "“Please” is a polite, green way of talking.",
+          "mnemonicImages": {
+            "讠": "everything related to speaking"
+          }
         }
       ],
       "sharedCueReuseScore": 61,
+      "missingIllustrationRequirements": [],
+      "priority": 999
+    },
+    {
+      "lessonId": "w0018",
+      "word": "高手",
+      "pinyin": "gāo shǒu",
+      "meaning": "expert",
+      "story": "A hand reaches high above every player to make the winning move: the expert's high hand.",
+      "memoryElements": [
+        {
+          "glyph": "高",
+          "image": "high"
+        },
+        {
+          "glyph": "手",
+          "image": "hand"
+        }
+      ],
+      "characterBreakdowns": [
+        {
+          "character": "高",
+          "kind": "parts",
+          "elements": [
+            {
+              "glyph": "亠",
+              "image": "lid"
+            },
+            {
+              "glyph": "口",
+              "image": "mouth"
+            },
+            {
+              "glyph": "冋",
+              "image": "window tower"
+            }
+          ],
+          "story": "A lid caps a tower of mouths and windows, stacked so high you crane your neck."
+        },
+        {
+          "character": "手",
+          "kind": "outline",
+          "elements": [
+            {
+              "glyph": "手",
+              "image": "hand"
+            }
+          ],
+          "story": "Trace the fingers crossing a palm and the long wrist below: an open hand."
+        }
+      ],
+      "storyReviewStatus": "draft",
+      "illustrationStatus": "excluded",
+      "exclusionReason": "Removed from the illustrated collection at the user's request. Do not restore it in expansion batches.",
+      "knownAssets": [],
+      "sharedCueReuseScore": 194,
       "missingIllustrationRequirements": [],
       "priority": 1000
     }

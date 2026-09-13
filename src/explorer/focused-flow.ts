@@ -1,6 +1,7 @@
 import type {Lesson} from '../types';
 import {THEATRE_LESSONS} from '../theatre/lessons';
 import {getExplorerContent, historyAvailable} from './content';
+import {getSceneDefinition} from './scene-catalog';
 
 export interface FocusedStep {
   key:'word'|'parts'|'visual'|'story'|'oracle'|'bronze'|'seal'|'modern'|'recap';
@@ -38,6 +39,8 @@ export function getFocusedSteps(lesson:Lesson):FocusedStep[] {
 
 /** Keep this mnemonic copy local to the focused lesson. */
 export function getFocusedStory(lesson:Lesson):string {
+  const sceneStory=getSceneDefinition(lesson.word)?.story;
+  if(sceneStory)return sceneStory;
   if (lesson.word === '清') return 'Only in clear water can you see the green grass.';
   return THEATRE_LESSONS.find(item => item.word === lesson.word)?.story || lesson.story;
 }

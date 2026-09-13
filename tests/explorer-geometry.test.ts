@@ -1,3 +1,4 @@
+import {getSceneDefinition} from '../src/explorer/scene-catalog';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -37,7 +38,7 @@ test('a mnemonic expanded through another character never invents stroke assignm
 test('every corpus lesson keeps cue order and no supplied stroke belongs to two mnemonic parts',()=>{
   for(const item of lessons){
     const parts=lessonParts(item,characters);
-    assert.deepEqual(parts.map(({glyph,image})=>({glyph,image})),item.memoryElements,item.word);
+    assert.deepEqual(parts.map(({glyph,image})=>({glyph,image})),item.memoryElements.map(part=>({...part,image:getSceneDefinition(item.word)?.mnemonicImages?.[part.glyph]??part.image})),item.word);
     item.characters.forEach((glyph,index)=>{
       const source=geometry(glyph),assigned=new Set<number>();
       for(const part of parts.filter(part=>part.characterIndex===index)){

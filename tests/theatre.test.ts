@@ -7,9 +7,9 @@ import type {Character,GeometryData,Lesson} from '../src/types';
 const corpus=JSON.parse(readFileSync(new URL('../public/data/lessons.json',import.meta.url),'utf8')) as Lesson[];
 const characters=JSON.parse(readFileSync(new URL('../public/data/characters.json',import.meta.url),'utf8')) as Record<string,Character>;
 
-test('all ten visual lessons preserve the corpus ID, chosen sense and pronunciation',()=>{
-  assert.equal(THEATRE_LESSONS.length,10);
-  assert.equal(new Set(THEATRE_LESSONS.map(lesson=>lesson.wordId)).size,10);
+test('all legacy visual lessons preserve the corpus ID, chosen sense and pronunciation',()=>{
+  assert.equal(THEATRE_LESSONS.length,9);
+  assert.equal(new Set(THEATRE_LESSONS.map(lesson=>lesson.wordId)).size,9);
   for(const lesson of THEATRE_LESSONS){
     const original=corpus.find(candidate=>candidate.id===lesson.wordId);
     assert.ok(original,lesson.word);

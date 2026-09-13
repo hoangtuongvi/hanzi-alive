@@ -1,6 +1,6 @@
 """A warm meal for 好, authored as an explicit visual memory story.
 
-The woman and child are the story's characters, not a historical reconstruction
+The girl and boy are the story's characters, not a historical reconstruction
 or a claim that one family arrangement defines goodness. Coordinates follow
 rest_scene's x-right / y-up / z-front convention.
 """
@@ -109,6 +109,32 @@ def _hand(name, center, size, mat, toward=1):
              [.014 * size, .014 * size, .006 * size], mat, 1)
     oval(name + " thumb", (x + toward * .04 * size, y + .018 * size, z + .067 * size),
          (.039 * size, .023 * size, .020 * size), mat, 16, 10)
+
+
+def _girl_head(name, center, scale, turn, mats):
+    """Use the same child's face and head scale, with two short tied pigtails."""
+    _head(name, center, scale, turn, False, mats)
+    before = set(bpy.context.scene.objects)
+    for side in (-1, 1):
+        for index, (x, y, z, width, height) in enumerate([
+            (.250, -.055, -.045, .083, .105),
+            (.286, -.145, -.055, .078, .091),
+            (.308, -.223, -.043, .063, .079),
+        ]):
+            oval("Girl's short pigtail %d %d" % (side, index),
+                 (side * x, y, z), (width, height, .070), mats["hair"], 24, 14)
+        tube("Girl's cloth hair tie %d" % side,
+             [(side * .24, -.094, .014), (side * .285, -.087, .023),
+              (side * .325, -.098, .010)],
+             [.014, .020, .014], mats["shirt_light"], 2)
+        for direction in (-1, 1):
+            oval("Girl's small ribbon loop %d %d" % (side, direction),
+                 (side * .283 + direction * .039, -.093, .025),
+                 (.038, .023, .018), mats["shirt_light"], 20, 10)
+    placement = Matrix.Translation(v(center)) @ Matrix.Rotation(turn, 4, "Z") @ Matrix.Scale(scale, 4)
+    for obj in set(bpy.context.scene.objects) - before:
+        obj.name = name + " / " + obj.name
+        obj.matrix_world = placement @ obj.matrix_world
 
 
 def _body(name, x, smaller, mats):
@@ -243,10 +269,12 @@ def build_good():
                    .15 + rz * math.sin(step * math.tau / 64)) for step in range(65)]
         tube("Home / woven border %d" % index, points, [.007] * len(points), mats["rug_edge"], 1)
 
-    _body("Woman", -1.20, False, mats)
-    _body("Child", 1.20, True, mats)
-    _head("Woman", (-1.18, .36, -.12), 1.04, .43, True, mats)
-    _head("Child", (1.16, .08, -.08), .91, -.46, False, mats)
+    girl_mats = {**mats, "child_shirt": mats["shirt"],
+                 "child_shirt_light": mats["shirt_light"]}
+    _body("Girl", -1.20, True, girl_mats)
+    _body("Boy", 1.20, True, mats)
+    _girl_head("Girl", (-1.18, .08, -.08), .91, .43, mats)
+    _head("Boy", (1.16, .08, -.08), .91, -.46, False, mats)
     # Table edge remains below their hands, so the act of sharing a meal reads
     # from the initial camera and continues to make sense when rotated.
     _box("Meal / low wooden table", (0, -.675, .34), (1.96, .145, 1.22), mats["wood"], .07)
@@ -258,8 +286,8 @@ def build_good():
         tube("Meal / subtle wood grain %d" % index,
              [(-.82, -.598, z), (-.23, -.596, z + .018), (.42, -.596, z - .012), (.84, -.598, z)],
              [.002, .004, .003, .002], mats["wood_light"], 1)
-    _bowl("Woman's meal", (-.55, -.598, .48), .26, .22, mats["ceramic"], mats["broth"], mats)
-    _bowl("Child's meal", (.57, -.598, .46), .23, .20, mats["ceramic"], mats["broth"], mats)
+    _bowl("Girl's meal", (-.55, -.598, .48), .23, .20, mats["ceramic"], mats["broth"], mats)
+    _bowl("Boy's meal", (.57, -.598, .46), .23, .20, mats["ceramic"], mats["broth"], mats)
     # A plate in reach of both diners makes the shared meal concrete.
     oval("Meal / shared serving plate", (.01, -.567, .08), (.28, .036, .20), mats["cream"], 32, 12)
     for index, (x, z) in enumerate([(-.11, .04), (.10, .03), (0, .17)]):
@@ -272,31 +300,31 @@ def build_good():
                   (x - .037 + ridge * .027, -.425, z - .039)],
                  [.003, .005, .002], mats["sole"], 1)
 
-    _arm("Woman near arm", [(-1.22, -.065, .08), (-1.24, -.47, .38), (-.66, -.20, .60)],
-         1, mats["shirt"], mats["shirt_light"], mats["skin"], 1)
-    _arm("Woman sharing arm", [(-1.07, -.075, -.30), (-.85, -.33, -.24), (-.35, -.32, .05)],
-         .93, mats["shirt"], mats["shirt_light"], mats["skin"], 1)
-    _arm("Child cupping arm", [(1.23, -.31, .045), (1.16, -.65, .34), (.77, -.43, .57)],
+    _arm("Girl near arm", [(-1.22, -.31, .045), (-1.19, -.61, .34), (-.66, -.33, .60)],
+         .79, mats["shirt"], mats["shirt_light"], mats["child_skin"], 1)
+    _arm("Girl sharing arm", [(-1.06, -.30, -.23), (-.88, -.56, -.18), (-.35, -.35, .05)],
+         .79, mats["shirt"], mats["shirt_light"], mats["child_skin"], 1)
+    _arm("Boy cupping arm", [(1.23, -.31, .045), (1.16, -.65, .34), (.77, -.43, .57)],
          .79, mats["child_shirt"], mats["child_shirt_light"], mats["child_skin"], -1)
-    _arm("Child tasting arm", [(1.06, -.30, -.23), (.80, -.49, -.14), (.91, -.16, .20)],
+    _arm("Boy tasting arm", [(1.06, -.30, -.23), (.80, -.49, -.14), (.91, -.16, .20)],
          .79, mats["child_shirt"], mats["child_shirt_light"], mats["child_skin"], 1)
-    tube("Meal / woman's spoon handle", [(-.59, -.207, .607), (-.45, -.34, .52)],
+    tube("Meal / girl's spoon handle", [(-.59, -.337, .607), (-.45, -.402, .52)],
          [.013, .011], mats["wood_dark"], 2)
-    oval("Meal / woman's spoon bowl", (-.43, -.364, .508),
+    oval("Meal / girl's spoon bowl", (-.43, -.414, .508),
          (.047, .018, .064), mats["wood_dark"], 20, 10)
-    tube("Meal / child's spoon handle", [(.96, -.166, .21), (1.04, -.050, .247)],
+    tube("Meal / boy's spoon handle", [(.96, -.166, .21), (1.04, -.050, .247)],
          [.012, .010], mats["wood_dark"], 2)
-    oval("Meal / child's spoon bowl", (1.057, -.025, .258),
+    oval("Meal / boy's spoon bowl", (1.057, -.025, .258),
          (.040, .016, .050), mats["wood_dark"], 20, 10)
     for index, x in enumerate((-.60, -.42, .52)):
         tube("Meal / rising steam %d" % index,
              [(x, -.37, .35), (x + .030, -.23, .32),
               (x - .025, -.06, .30), (x + .014, .065, .28)],
              [.006, .010, .008, .001], steam, 2)
-    woman = anchor("anchor_part_0", (-1.35, .17, .18))
-    woman["glyph"] = "女"; woman["label"] = "Woman"
-    child = anchor("anchor_part_1", (1.32, .0, .19))
-    child["glyph"] = "子"; child["label"] = "Child"
+    girl = anchor("anchor_part_0", (-1.35, .0, .18))
+    girl["glyph"] = "女"; girl["label"] = "Girl"
+    boy = anchor("anchor_part_1", (1.32, .0, .19))
+    boy["glyph"] = "子"; boy["label"] = "Boy"
     # Center the whole meal in the same fixed camera used by the other lessons.
     # Anchors move with the physical people, so labels remain attached.
     for obj in bpy.context.scene.objects:
@@ -304,7 +332,7 @@ def build_good():
     return {
         "title": "A good meal together",
         "anchors": {"anchor_part_0": "女", "anchor_part_1": "子"},
-        "design": "A smiling woman and child sit at a low wooden table and share warm soup and steamed buns. Sculpted faces, draped clothes, bent arms, little spoons and rising steam make the memory story tangible.",
-        "story": "A woman and a child share a warm meal and both declare it good.",
+        "design": "A smiling girl and boy of similar child-sized proportions sit at a low wooden table and share warm soup and steamed buns. The girl has short tied pigtails and coral clothing; the boy has a soft fringe and blue clothing. Sculpted faces, draped clothes, bent arms, little spoons and rising steam make the memory story tangible.",
+        "story": "A girl and a boy share a warm family meal and both declare it good.",
         "interpretation": "An invented learning mnemonic; not an etymological reconstruction or a universal claim about family and goodness.",
     }

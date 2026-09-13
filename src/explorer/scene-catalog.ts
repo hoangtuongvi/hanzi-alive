@@ -7,6 +7,10 @@ export interface SceneDefinition {
   format:'blender'|'procedural';
   asset?:string;
   anchors?:string[];
+  /** Lesson-specific memory copy; source dictionary meanings remain separate. */
+  story?:string;
+  mnemonicImages?:Record<string,string>;
+  interpretation?:string;
   history:boolean;
 }
 

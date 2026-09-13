@@ -19,7 +19,8 @@
     "anchors": [
       "anchor_part_0",
       "anchor_part_1"
-    ]
+    ],
+    "story": "With a few trees—two—you can start collecting wood."
   },
   {
     "word": "森",
@@ -31,7 +32,8 @@
       "anchor_part_1",
       "anchor_part_2"
     ],
-    "history": false
+    "history": false,
+    "story": "With many trees—three—we have a forest."
   },
   {
     "word": "清",
@@ -75,7 +77,11 @@
     "anchors": [
       "anchor_part_0",
       "anchor_part_1"
-    ]
+    ],
+    "story": "“Please” is a polite, green way of talking.",
+    "mnemonicImages": {
+      "讠": "everything related to speaking"
+    }
   },
   {
     "word": "手机",
@@ -86,7 +92,8 @@
     "anchors": [
       "anchor_part_0",
       "anchor_part_1"
-    ]
+    ],
+    "story": "The machine often held in your hand is the handphone."
   },
   {
     "word": "电脑",
@@ -97,7 +104,8 @@
     "anchors": [
       "anchor_part_0",
       "anchor_part_1"
-    ]
+    ],
+    "story": "A brain powered by electricity is a computer. It thinks and gives other robots their commands."
   },
   {
     "word": "分手",
@@ -105,17 +113,6 @@
     "format": "blender",
     "history": false,
     "asset": "/models/blender/parting.glb",
-    "anchors": [
-      "anchor_part_0",
-      "anchor_part_1"
-    ]
-  },
-  {
-    "word": "高手",
-    "scene": "expert",
-    "format": "blender",
-    "history": false,
-    "asset": "/models/blender/expert.glb",
     "anchors": [
       "anchor_part_0",
       "anchor_part_1"
@@ -130,6 +127,12 @@
       "anchor_part_0",
       "anchor_part_1"
     ],
-    "history": false
+    "history": false,
+    "story": "A girl and a boy in one family: a good combination in this Chinese family mnemonic.",
+    "mnemonicImages": {
+      "女": "girl",
+      "子": "boy"
+    },
+    "interpretation": "The girl-and-boy family scene is a learning mnemonic, not a historical derivation or a universal claim about Chinese families. Source component readings remain woman and child."
   }
 ]

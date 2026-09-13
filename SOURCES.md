@@ -6,6 +6,8 @@ The models in `public/models/blender/` were authored for this project in Blender
 
 These are illustrative memory scenes. The resting figure is a stylized traveler, not a reconstruction of historical clothing. Blender models replace the illustrated objects only; Chinese stroke geometry and historical forms continue to use the separately attributed sources below.
 
+The girl-and-boy family scene for 好 is a requested learning mnemonic. It is not presented as the character's historical derivation or a universal belief about Chinese families. For historical discussion of the 女 and 子 components, see the [Chinese University of Hong Kong character database](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E5%A5%BD).
+
 ## Vocabulary
 
 **Complete HSK Vocabulary**, by drkameleon and contributors:

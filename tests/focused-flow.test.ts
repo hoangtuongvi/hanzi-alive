@@ -1,3 +1,4 @@
+import {getSceneDefinition} from '../src/explorer/scene-catalog';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -63,7 +64,7 @@ test('the clear-water story follows the requested wording without rewriting sour
 
   for (const lesson of lessons.filter(lesson => lesson.word !== '清')) {
     const curatedStory = THEATRE_LESSONS.find(item => item.word === lesson.word)?.story;
-    assert.equal(getFocusedStory(lesson), curatedStory || lesson.story, lesson.word);
+    assert.equal(getFocusedStory(lesson), getSceneDefinition(lesson.word)?.story || curatedStory || lesson.story, lesson.word);
   }
 });
 

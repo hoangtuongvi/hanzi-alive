@@ -19,6 +19,8 @@
     <iframe id="app" title="Illustrated collection" src="/?view=collection&amp;word=手机"></iframe>
     <script type="module">
       const frame=document.querySelector('#app');
+      const word=new URLSearchParams(location.search).get('word');
+      if(word)frame.src='/?view=collection&word='+encodeURIComponent(word);
       for(const button of document.querySelectorAll('[data-size]'))button.addEventListener('click',()=>{
         const [width,height]=button.dataset.size.split(',');frame.style.width=width+'px';frame.style.height=height+'px';
       });

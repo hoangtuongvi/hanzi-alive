@@ -47,6 +47,8 @@ Editable Blender files live in `assets/blender/`, and browser exports live in `p
 
 The mnemonic stories are invented memory connections, not historical derivations. For example, 清 uses: “Only in clear water can you see the green grass.” Green remains the image for 青 in both 清 and 晴.
 
+The scene catalog holds the current presentation stories and any lesson-specific mnemonic labels. 好 uses a girl-and-boy family story, while the source dictionary component records remain separate. The production queue includes these presentation revisions. 高手 is excluded from the illustrated collection.
+
 The 3D written forms use sourced stroke geometry from Make Me a Hanzi. The supplied reference assets provide 休’s oracle, bronze, and seal forms, each with a source link shown during its historical phase. The oracle form represents a Shang tradition; the bronze form a Western Zhou tradition; the seal form belongs to the tradition recorded in the Shuowen dictionary, rather than a dated Qin inscription. No historical forms are invented for 清 or 晴.
 
 Reference asset notices remain in `public/reference/assets/`, and dataset licenses remain in `public/licenses/`. See [SOURCES.md](SOURCES.md) for the underlying corpus provenance.
@@ -68,7 +70,7 @@ Use the path to your Blender executable if `blender` is not on PATH. On this dev
 - `src/explorer/focused-flow.ts`: playback phases, story copy, and word navigation.
 - `src/explorer/ExplorerStage.tsx`: persistent 3D viewer, transitions, and component labels.
 - `src/explorer/blender-models.ts`: cancellable GLB loading, authored anchor positions, transparency, and resource cleanup.
-- `src/explorer/scene-catalog.json`: authored scene inventory and ordered model anchors.
+- `src/explorer/scene-catalog.json`: authored scene inventory, current story copy, mnemonic labels and ordered model anchors.
 - `src/explorer/illustrated-lessons.ts`: scene-gated collection selection and URLs.
 - `data/scene-production-queue.json`: all 1,000 lesson IDs with story, shared image cues and remaining illustration work.
 - `scripts/audit_coverage.py`: reproducible word, glyph, story, model and source coverage.

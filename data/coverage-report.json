@@ -73,7 +73,7 @@
     "learningEffectiveness": "Not measured by this audit; draft story presence is not evidence of memorability or cultural accuracy."
   },
   "visualAssets": {
-    "blenderWords": 12,
+    "blenderWords": 11,
     "blenderAssets": [
       {
         "word": "清",
@@ -94,13 +94,6 @@
         "scene": "emotion",
         "glb": "/models/blender/emotion.glb",
         "native": "assets/blender/emotion.blend",
-        "verified": true
-      },
-      {
-        "word": "高手",
-        "scene": "expert",
-        "glb": "/models/blender/expert.glb",
-        "native": "assets/blender/expert.blend",
         "verified": true
       },
       {
@@ -160,7 +153,7 @@
         "verified": true
       }
     ],
-    "authoredSceneDefinitions": 12,
+    "authoredSceneDefinitions": 11,
     "authoredScenes": [
       {
         "word": "休",
@@ -182,7 +175,8 @@
         "anchors": [
           "anchor_part_0",
           "anchor_part_1"
-        ]
+        ],
+        "story": "With a few trees—two—you can start collecting wood."
       },
       {
         "word": "森",
@@ -194,7 +188,8 @@
           "anchor_part_1",
           "anchor_part_2"
         ],
-        "history": false
+        "history": false,
+        "story": "With many trees—three—we have a forest."
       },
       {
         "word": "清",
@@ -238,7 +233,11 @@
         "anchors": [
           "anchor_part_0",
           "anchor_part_1"
-        ]
+        ],
+        "story": "“Please” is a polite, green way of talking.",
+        "mnemonicImages": {
+          "讠": "everything related to speaking"
+        }
       },
       {
         "word": "手机",
@@ -249,7 +248,8 @@
         "anchors": [
           "anchor_part_0",
           "anchor_part_1"
-        ]
+        ],
+        "story": "The machine often held in your hand is the handphone."
       },
       {
         "word": "电脑",
@@ -260,7 +260,8 @@
         "anchors": [
           "anchor_part_0",
           "anchor_part_1"
-        ]
+        ],
+        "story": "A brain powered by electricity is a computer. It thinks and gives other robots their commands."
       },
       {
         "word": "分手",
@@ -268,17 +269,6 @@
         "format": "blender",
         "history": false,
         "asset": "/models/blender/parting.glb",
-        "anchors": [
-          "anchor_part_0",
-          "anchor_part_1"
-        ]
-      },
-      {
-        "word": "高手",
-        "scene": "expert",
-        "format": "blender",
-        "history": false,
-        "asset": "/models/blender/expert.glb",
         "anchors": [
           "anchor_part_0",
           "anchor_part_1"
@@ -293,7 +283,13 @@
           "anchor_part_0",
           "anchor_part_1"
         ],
-        "history": false
+        "history": false,
+        "story": "A girl and a boy in one family: a good combination in this Chinese family mnemonic.",
+        "mnemonicImages": {
+          "女": "girl",
+          "子": "boy"
+        },
+        "interpretation": "The girl-and-boy family scene is a learning mnemonic, not a historical derivation or a universal claim about Chinese families. Source component readings remain woman and child."
       }
     ],
     "historicalCharactersRouted": 1,
@@ -777,8 +773,9 @@
       "public/data/characters.json": "0f5d1c657ec982138ab76f966d98c3a1e3f327c4c8e196876b898e44796fe760",
       "public/data/element-cues.json": "d60379f2a0836df3025b1a096e0905c3b3104b215c872237b679f59ff743f995",
       "public/data/manifest.json": "eee78f20516705f4b8e895903f9b30c089d209661bedf9a2e88e74338b5ecf91",
-      "public/models/blender/manifest.json": "adc58b75fdd7641992ff134f3d5ddf4c10b03da0bd98c6da46948bae58ec4f9f",
-      "src/explorer/scene-catalog.json": "060e47592b635cb4ce1e6a0fa1194a0fbe1c79d149404840c95a544f3c4e084f"
+      "public/models/blender/manifest.json": "f0040ddeae94d94adf0a0cd7df1d12797cc71adb08b52e28c08bf68cea06c475",
+      "src/explorer/scene-catalog.json": "807dad61a6006179bc6c82453e82b4882eb677243dd5e133e675b1a1acc241df",
+      "data/curation/illustration-exclusions.json": "13905c6aadd3cb0d15a06a6c7289727b20bd9d45cee2037669de1ab27efbdfad"
     }
   }
 }

@@ -16,7 +16,7 @@ sys.path.insert(0,str(HERE))
 from rest_scene import build_rest, v
 from nature_scenes import build_clear, build_sunny
 from shared_scenes import build_woods, build_forest, build_emotion, build_invite
-from device_scenes import build_phone, build_computer, build_parting, build_expert
+from device_scenes import build_phone, build_computer, build_parting
 from family_scene import build_good
 
 SCENES={
@@ -24,7 +24,7 @@ SCENES={
     'woods':('林',build_woods), 'forest':('森',build_forest),
     'emotion':('情',build_emotion), 'invite':('请',build_invite),
     'phone':('手机',build_phone), 'computer':('电脑',build_computer),
-    'parting':('分手',build_parting), 'expert':('高手',build_expert),
+    'parting':('分手',build_parting),
     'good':('好',build_good),
 }
 

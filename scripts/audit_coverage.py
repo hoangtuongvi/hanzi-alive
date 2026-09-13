@@ -137,12 +137,18 @@ def build_report() -> dict:
     verify(len({item["word"] for item in authored_scenes}) == len(authored_scenes), "Duplicate scene-catalog word entries.")
     corpus_words = {lesson["word"] for lesson in lessons}
     catalog_words = {scene["word"] for scene in authored_scenes}
+    excluded_words = read("data/curation/illustration-exclusions.json")
+    verify(not catalog_words.intersection(excluded_words), "The scene catalog contains a word explicitly excluded from illustration.")
     blender_words = {asset["word"] for asset in blender_assets}
     verify(len(blender_words) == len(blender_assets), "Duplicate word entries in the Blender asset manifest.")
     verify(catalog_words <= corpus_words, "The scene catalog contains words outside the selected corpus.")
     verify(blender_words <= corpus_words, "The Blender manifest contains words outside the selected corpus.")
     verify(blender_words <= catalog_words, "The Blender manifest contains words not admitted by the scene catalog.")
     for scene in authored_scenes:
+        source_lesson = next((lesson for lesson in lessons if lesson["word"] == scene["word"]), None)
+        if source_lesson:
+            verify(set(scene.get("mnemonicImages", {})) <= {part["glyph"] for part in source_lesson["memoryElements"]}, f"Mnemonic label overrides name unknown parts in {scene['word']}.")
+            verify(all(isinstance(image, str) and image.strip() for image in scene.get("mnemonicImages", {}).values()), f"Empty mnemonic label override in {scene['word']}.")
         if scene["format"] == "blender":
             verify(any(asset["word"] == scene["word"] and asset["glb"] == scene["asset"] for asset in blender_assets), f"Catalog Blender asset is not in the model manifest: {scene['word']}.")
     historical_files = sorted(
@@ -163,6 +169,7 @@ def build_report() -> dict:
         "public/data/lessons.json", "public/data/characters.json", "public/data/element-cues.json",
         "public/data/manifest.json", "public/models/blender/manifest.json",
         "src/explorer/scene-catalog.json",
+        "data/curation/illustration-exclusions.json",
     ]
     return {
         "schemaVersion": 1,
@@ -301,6 +308,7 @@ def build_production_queue(report: dict) -> dict:
     characters = read("public/data/characters.json")
     cues = read("public/data/element-cues.json")
     catalog = {scene["word"]: scene for scene in report["visualAssets"]["authoredScenes"]}
+    excluded = read("data/curation/illustration-exclusions.json")
     direct = Counter(element["glyph"] for lesson in lessons for element in lesson["memoryElements"])
     nested = Counter(element["glyph"] for lesson in lessons for char in lesson["characters"] for element in characters[char]["mnemonic"]["elements"])
     image_word_usage = Counter()
@@ -343,16 +351,20 @@ def build_production_queue(report: dict) -> dict:
             element["image"] for breakdown in breakdowns for element in breakdown["elements"]
         }
         existing = catalog.get(lesson["word"])
+        mnemonic_images = (existing or {}).get("mnemonicImages", {})
         rows.append({
             "lessonId": lesson["id"], "word": lesson["word"], "pinyin": lesson["pinyin"], "meaning": lesson["meaning"],
-            "story": lesson["story"], "memoryElements": lesson["memoryElements"], "characterBreakdowns": breakdowns,
+            "story": (existing or {}).get("story", lesson["story"]),
+            "memoryElements": [{**element, "image": mnemonic_images.get(element["glyph"], element["image"])} for element in lesson["memoryElements"]],
+            "characterBreakdowns": breakdowns,
             "storyReviewStatus": lesson["status"],
-            "illustrationStatus": "ready-existing" if existing else "needs-illustration",
+            "illustrationStatus": "excluded" if lesson["word"] in excluded else "ready-existing" if existing else "needs-illustration",
+            **({"exclusionReason": excluded[lesson["word"]]} if lesson["word"] in excluded else {}),
             "knownAssets": [existing] if existing else [],
             "sharedCueReuseScore": sum(image_word_usage[image] for image in images),
-            "missingIllustrationRequirements": [] if existing else ["Word-specific visual composition connecting all selected memory elements", "Authored scene geometry and label anchors", "Visual review of story, readability and transitions"],
+            "missingIllustrationRequirements": [] if existing or lesson["word"] in excluded else ["Word-specific visual composition connecting all selected memory elements", "Authored scene geometry and label anchors", "Visual review of story, readability and transitions"],
         })
-    rows.sort(key=lambda row: (row["illustrationStatus"] == "ready-existing", -row["sharedCueReuseScore"], row["lessonId"]))
+    rows.sort(key=lambda row: ({"needs-illustration": 0, "ready-existing": 1, "excluded": 2}[row["illustrationStatus"]], -row["sharedCueReuseScore"], row["lessonId"]))
     for priority, row in enumerate(rows, 1):
         row["priority"] = priority
     return {
@@ -361,6 +373,7 @@ def build_production_queue(report: dict) -> dict:
         "statusDefinitions": {
             "ready-existing": "An authored illustration exists in the scene catalog. This does not certify editorial review or Blender format.",
             "needs-illustration": "The word has source data and draft memory content but no authored scene in the catalog.",
+            "excluded": "Explicitly removed from illustration; do not restore in future batches without a new user request.",
         },
         "priorityMethod": "Missing scenes first, then sum of distinct-word reuse counts for each unique image in the union of the word's direct memory elements and its characters' nested elements. An image is counted once per word even when repeated or present at both levels; aliases with the same image name share its count. Ties use stable lesson ID. Review priority can override this asset reuse heuristic.",
         "cueReuseScope": "wordsReusingGlyph and wordsReusingImage count the per-word union of direct memory elements and nested character elements. Direct and nested occurrence fields remain separate and may contain repeats.",
@@ -368,6 +381,7 @@ def build_production_queue(report: dict) -> dict:
         "summary": {
             "lessons": len(rows), "readyExisting": sum(row["illustrationStatus"] == "ready-existing" for row in rows),
             "needsIllustration": sum(row["illustrationStatus"] == "needs-illustration" for row in rows),
+            "excluded": sum(row["illustrationStatus"] == "excluded" for row in rows),
             "characterCues": sum(glyph in characters for glyph in cues), "componentOnlyCues": sum(glyph not in characters for glyph in cues),
             "cuePlanningCategories": counts(item["planningCategory"] for item in inventory),
         },

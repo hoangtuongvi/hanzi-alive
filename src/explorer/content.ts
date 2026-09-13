@@ -1,5 +1,6 @@
 import {componentColor, type Lesson} from '../types';
 import {THEATRE_LESSONS} from '../theatre/lessons';
+import {getSceneDefinition} from './scene-catalog';
 
 export const JOURNEY_STOPS = [
   {key:'visual', label:'Image', subtitle:'The scene', value:0},
@@ -44,12 +45,12 @@ export function historyAvailable(lesson:Lesson):boolean {
 
 export function getExplorerParts(lesson:Lesson):ExplorerPart[] {
   const theatreLesson = THEATRE_LESSONS.find(item => item.word === lesson.word);
-  if (theatreLesson) {
-    return theatreLesson.parts.map(({glyph, image, color}) => ({glyph, image, color:explorerColor(color)}));
-  }
-  return lesson.memoryElements.map(({glyph, image}, index) => ({
+  const parts=theatreLesson?theatreLesson.parts.map(({glyph,image,color})=>({glyph,image,color:explorerColor(color)})):
+    lesson.memoryElements.map(({glyph, image}, index) => ({
     glyph, image, color:explorerColor(componentColor(glyph, index)),
   }));
+  const images=getSceneDefinition(lesson.word)?.mnemonicImages;
+  return parts.map(part=>({...part,image:images?.[part.glyph]??part.image}));
 }
 
 const restHistory:ExplorerContent[] = [
@@ -91,7 +92,7 @@ export function getExplorerContent(lesson:Lesson, stage:number):ExplorerContent 
   const partNames = parts.map(part => part.image);
   const partCount = parts.length;
   const partsLabel = partCount === 2 ? 'the two parts' : partCount === 1 ? 'the shape' : 'the parts';
-  const story = theatreLesson?.story || lesson.story;
+  const story = getSceneDefinition(lesson.word)?.story || theatreLesson?.story || lesson.story;
 
   if (index >= 4) {
     if (rest) return {...restHistory[index - 4]};
