@@ -36,7 +36,7 @@ The form allows **up to two** tracks, so one supported selection is sufficient. 
 | --- | --- | --- |
 | Demo URL | Local app inspected; public address pending | To add |
 | Video URL | Script prepared; recording and upload pending | To add |
-| GitHub repository URL | Private GitHub repository | [hoangtuongvi/hanzi-alive](https://github.com/hoangtuongvi/hanzi-alive) |
+| GitHub repository URL | Public GitHub repository | [hoangtuongvi/hanzi-alive](https://github.com/hoangtuongvi/hanzi-alive) |
 | Show project in gallery | Team preference pending | To choose in portal |
 
 Local rehearsal entry: [休 character journey](http://127.0.0.1:5173/?view=theatre&word=%E4%BC%91). This address is for the development machine, not the judges’ Demo URL.
