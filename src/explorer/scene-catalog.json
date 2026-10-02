@@ -134,5 +134,4664 @@
       "子": "boy"
     },
     "interpretation": "The girl-and-boy family scene is a learning mnemonic, not a historical derivation or a universal claim about Chinese families. Source component readings remain woman and child."
+  },
+  {
+    "word": "木",
+    "scene": "tree",
+    "format": "blender",
+    "asset": "/models/blender/tree.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  },
+  {
+    "word": "人",
+    "scene": "person",
+    "format": "blender",
+    "asset": "/models/blender/person.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false
+  },
+  {
+    "word": "青",
+    "scene": "green",
+    "format": "blender",
+    "asset": "/models/blender/green.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  },
+  {
+    "word": "河",
+    "scene": "river",
+    "format": "blender",
+    "asset": "/models/blender/river.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  },
+  {
+    "word": "可",
+    "scene": "permission",
+    "format": "blender",
+    "asset": "/models/blender/permission.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  },
+  {
+    "word": "月",
+    "scene": "moon",
+    "format": "blender",
+    "asset": "/models/blender/moon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  },
+  {
+    "word": "肝",
+    "scene": "liver",
+    "format": "blender",
+    "asset": "/models/blender/liver.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  },
+  {
+    "word": "手",
+    "scene": "hand",
+    "format": "blender",
+    "asset": "/models/blender/hand.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false
+  },
+  {
+    "word": "手掌",
+    "scene": "palm",
+    "format": "blender",
+    "asset": "/models/blender/palm.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  },
+  {
+    "word": "对手",
+    "scene": "opponent",
+    "format": "blender",
+    "asset": "/models/blender/opponent.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false
+  },
+  {
+    "word": "本",
+    "scene": "root-books",
+    "format": "blender",
+    "asset": "/models/blender/root-books.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One line points to a tree's root; imagine books growing from that root, counted with 本.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "水",
+    "scene": "water",
+    "format": "blender",
+    "asset": "/models/blender/water.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A central stream splits into splashing side branches; trace the flowing water.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "雪",
+    "scene": "snow",
+    "format": "blender",
+    "asset": "/models/blender/snow.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A broom sweeps falling rain into soft white snow.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "大",
+    "scene": "big",
+    "format": "blender",
+    "asset": "/models/blender/big.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person stretches both arms along one wide bar to show how big something is.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "太",
+    "scene": "too-much",
+    "format": "blender",
+    "asset": "/models/blender/too-much.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A big load receives one extra drop and becomes too much to carry.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "从",
+    "scene": "follow",
+    "format": "blender",
+    "asset": "/models/blender/follow.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One person follows another; point to the place they came from to remember 从 as “from.”",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "书",
+    "scene": "book",
+    "format": "blender",
+    "asset": "/models/blender/book.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A bound stack of pages becomes a book; follow its spine and cover as you recall 书.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "门",
+    "scene": "doorway",
+    "format": "blender",
+    "asset": "/models/blender/doorway.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "Two posts and a lintel frame a door standing open, ready for you to enter.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "鸟",
+    "scene": "bird",
+    "format": "blender",
+    "asset": "/models/blender/bird.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A bird balances on two feet, with a pointed beak, a folded wing and a tail.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "马",
+    "scene": "horse",
+    "format": "blender",
+    "asset": "/models/blender/horse.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "The horse stretches its long body between four legs; its mane and tail complete the picture.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "伞",
+    "scene": "umbrella",
+    "format": "blender",
+    "asset": "/models/blender/umbrella.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A broad canopy spreads over one hooked handle: open your umbrella before the rain arrives.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "春",
+    "scene": "spring",
+    "format": "blender",
+    "asset": "/models/blender/spring.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A warm sun rises over fresh shoots and flowers: new growth announces spring.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "辣",
+    "scene": "chili",
+    "format": "blender",
+    "asset": "/models/blender/chili.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A bright red chili curves to a sharp tip; one bite reminds you of the heat of spicy food.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "酸",
+    "scene": "sour",
+    "format": "blender",
+    "asset": "/models/blender/sour.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "Picture a tart yellow lemon: the imagined taste helps you recall sour.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "盐",
+    "scene": "salt",
+    "format": "blender",
+    "asset": "/models/blender/salt.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "White crystals spill from a little container onto a plate: a pinch of salt.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "长",
+    "scene": "long",
+    "format": "blender",
+    "asset": "/models/blender/long.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A ribbon of silk stretches far across the island: follow its length to remember long.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "白",
+    "scene": "white",
+    "format": "blender",
+    "asset": "/models/blender/white.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A clean white sheet catches the sunlight; its pale surface is your cue for white.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "黄",
+    "scene": "yellow",
+    "format": "blender",
+    "asset": "/models/blender/yellow.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "Golden grain and a ripe yellow fruit gather on a plate: hold that yellow color in mind.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "黑",
+    "scene": "black",
+    "format": "blender",
+    "asset": "/models/blender/black.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A blackened cooking board sits over fire: imagine soot darkening it until it is black.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "云",
+    "scene": "cloud",
+    "format": "blender",
+    "asset": "/models/blender/cloud.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two bars press a curled cocoon; imagine it puffing upward into a soft white cloud.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "日",
+    "scene": "day-sun",
+    "format": "blender",
+    "asset": "/models/blender/day-sun.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Imagine a mouth-shaped frame enclosing one bright band of sunlight: another day begins.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "草",
+    "scene": "early-grass",
+    "format": "blender",
+    "asset": "/models/blender/early-grass.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Grass reaches toward an early rising sun; fresh green blades greet the morning.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "花",
+    "scene": "flower-change",
+    "format": "blender",
+    "asset": "/models/blender/flower-change.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A patch of grass changes into an open flower: follow the arrow from green blades to petals.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "树",
+    "scene": "facing-tree",
+    "format": "blender",
+    "asset": "/models/blender/facing-tree.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tree faces its own image in a mirror: the reflection helps you remember the facing part of 树.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "秋",
+    "scene": "autumn-grain",
+    "format": "blender",
+    "asset": "/models/blender/autumn-grain.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Ripe grain glows beside fire; their shared golden color brings autumn to mind.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "冬",
+    "scene": "winter-walk",
+    "format": "blender",
+    "asset": "/models/blender/winter-walk.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Footsteps lead back past two pieces of ice: feel the cold of winter on the walk home.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "家",
+    "scene": "pig-home",
+    "format": "blender",
+    "asset": "/models/blender/pig-home.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A pig rests beneath a protective roof: this imagined shelter is its home.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "灯",
+    "scene": "fire-lamp",
+    "format": "blender",
+    "asset": "/models/blender/fire-lamp.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A small flame balances above a nail-shaped stand and lights up as a lamp.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "桥",
+    "scene": "tree-bridge",
+    "format": "blender",
+    "asset": "/models/blender/tree-bridge.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Wood from a tree follows a tall arch across water, becoming a bridge.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "地球",
+    "scene": "earth-ball",
+    "format": "blender",
+    "asset": "/models/blender/earth-ball.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Patches of ground wrap around a round blue ball: picture the Earth with land and oceans.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "海洋",
+    "scene": "ocean",
+    "format": "blender",
+    "asset": "/models/blender/ocean.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two stretches of blue water meet without a dividing shore: together they suggest the ocean.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "空气",
+    "scene": "air",
+    "format": "blender",
+    "asset": "/models/blender/air.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An empty frame reveals curling air passing through it; the movement makes invisible air imaginable.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "森林",
+    "scene": "deep-forest",
+    "format": "blender",
+    "asset": "/models/blender/deep-forest.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Three trees crowd beside a pair of trees; forest and woods join into a dense forest.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "花园",
+    "scene": "flower-garden",
+    "format": "blender",
+    "asset": "/models/blender/flower-garden.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Flowers bloom inside a small enclosed garden, turning its planted beds into a flower garden.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "公园",
+    "scene": "public-park",
+    "format": "blender",
+    "asset": "/models/blender/public-park.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "People gather among garden plants: this shared green place is a public park.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "月亮",
+    "scene": "bright-moon",
+    "format": "blender",
+    "asset": "/models/blender/bright-moon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "The moon borrows a glowing lamp; imagine their combined light shining through the night.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "太阳",
+    "scene": "blazing-sun",
+    "format": "blender",
+    "asset": "/models/blender/blazing-sun.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A little sun swells into an oversized sun: imagine too much sunlight filling the sky.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "今天",
+    "scene": "today-clock",
+    "format": "blender",
+    "asset": "/models/blender/today-clock.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A clock hangs beneath a cloud: the time is now, under this sky, today.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "明天",
+    "scene": "tomorrow-sky",
+    "format": "blender",
+    "asset": "/models/blender/tomorrow-sky.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Sun and moon brighten the sky above a fresh calendar page: imagine turning it to tomorrow.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "昨天",
+    "scene": "yesterday-page",
+    "format": "blender",
+    "asset": "/models/blender/yesterday-page.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A backward arrow points across a calendar beneath the sky: turn back one day to yesterday.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "明白",
+    "scene": "bright-understanding",
+    "format": "blender",
+    "asset": "/models/blender/bright-understanding.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Sunlight falls on a white page; imagine its message becoming bright and clear as you understand.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "下雨",
+    "scene": "falling-rain",
+    "format": "blender",
+    "asset": "/models/blender/falling-rain.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A downward arrow follows raindrops from a cloud toward an open umbrella: rain is falling.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "水果",
+    "scene": "water-fruit",
+    "format": "blender",
+    "asset": "/models/blender/water-fruit.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Water gathers beside ripe fruit; imagine the splash filling the fruit with juice.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "苹果",
+    "scene": "apple-fruit",
+    "format": "blender",
+    "asset": "/models/blender/apple-fruit.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Pick a red fruit from the apple tree: the apple waits just below its leafy branch.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "葡萄",
+    "scene": "grape-harvest",
+    "format": "blender",
+    "asset": "/models/blender/grape-harvest.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Grapes hang from a vine above a basket; lower the bunch into the basket at harvest time.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "香蕉",
+    "scene": "fragrant-banana",
+    "format": "blender",
+    "asset": "/models/blender/fragrant-banana.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Curling fragrance rises from a ripe bunch of bananas: remember their smell and curved shape together.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "西瓜",
+    "scene": "west-melon",
+    "format": "blender",
+    "asset": "/models/blender/west-melon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A west-pointing arrow faces the setting sun beside a striped melon: imagine a watermelon cooling at sunset.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "牛奶",
+    "scene": "cow-milk",
+    "format": "blender",
+    "asset": "/models/blender/cow-milk.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A cow stands beside a bottle of fresh milk: cow plus milk gives you cow’s milk.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "羊肉",
+    "scene": "lamb-counter",
+    "format": "blender",
+    "asset": "/models/blender/lamb-counter.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A sheep beside a cut of meat on a plate marks its source: mutton or lamb.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "鸡蛋",
+    "scene": "chicken-egg",
+    "format": "blender",
+    "asset": "/models/blender/chicken-egg.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hen watches over a pale egg in a nest-like basket: connect chicken with egg.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "米饭",
+    "scene": "rice-bowl",
+    "format": "blender",
+    "asset": "/models/blender/rice-bowl.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Loose rice grains spill toward a filled bowl: the grains become a cooked rice meal.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "面包",
+    "scene": "bread-package",
+    "format": "blender",
+    "asset": "/models/blender/bread-package.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A smiling face appears beside a loaf tucked into a package: imagine unwrapping face-shaped bread.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "面条",
+    "scene": "noodle-strips",
+    "format": "blender",
+    "asset": "/models/blender/noodle-strips.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Imagine a dough face stretching into strips; the strips curl into a bowl of noodles.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "果汁",
+    "scene": "fruit-juice",
+    "format": "blender",
+    "asset": "/models/blender/fruit-juice.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A ripe fruit sits above a waiting cup: imagine squeezing its juice into the cup.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "咖啡",
+    "scene": "coffee-cup",
+    "format": "blender",
+    "asset": "/models/blender/coffee-cup.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One mouth asks for coffee; the other refuses anything else. Both guard the same steaming cup.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "啤酒",
+    "scene": "beer-mug",
+    "format": "blender",
+    "asset": "/models/blender/beer-mug.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A mug waits beside a bottle; imagine the bottle pouring beer into the mug.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "茶",
+    "scene": "tea-leaves",
+    "format": "blender",
+    "asset": "/models/blender/tea-leaves.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A person gathers green leaves beneath a tree and sets them beside a cup for brewing tea.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "甜",
+    "scene": "sweet-taste",
+    "format": "blender",
+    "asset": "/models/blender/sweet-taste.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tongue reaches toward a wrapped sweet: imagine the sweet taste on your tongue.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "糖",
+    "scene": "rice-candy",
+    "format": "blender",
+    "asset": "/models/blender/rice-candy.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Rice arrives at a palace-like house and emerges as candy: a sweet transformation to remember sugar.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "吃",
+    "scene": "eating",
+    "format": "blender",
+    "asset": "/models/blender/eating.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An open mouth asks for food; a begging question bubble hovers above one waiting rice bowl.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "喝",
+    "scene": "drinking",
+    "format": "blender",
+    "asset": "/models/blender/drinking.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A mouth keeps asking why until a full cup arrives: remember the moment of taking a drink.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "桌子",
+    "scene": "child-table",
+    "format": "blender",
+    "asset": "/models/blender/child-table.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child stands at a broad wooden table, ready to spread out a book and work.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "椅子",
+    "scene": "child-chair",
+    "format": "blender",
+    "asset": "/models/blender/child-chair.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child sits on a wooden chair; its back and four legs make the seat easy to remember.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "杯子",
+    "scene": "child-cup",
+    "format": "blender",
+    "asset": "/models/blender/child-cup.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child carries a large handled cup: picture the child beside the cup before recalling 杯子.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "盘子",
+    "scene": "child-plate",
+    "format": "blender",
+    "asset": "/models/blender/child-plate.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child sets a tiny toy boat on a broad plate and imagines docking it there.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "筷子",
+    "scene": "child-chopsticks",
+    "format": "blender",
+    "asset": "/models/blender/child-chopsticks.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child holds two long chopsticks above a bowl of noodles, ready to eat.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "帽子",
+    "scene": "child-hat",
+    "format": "blender",
+    "asset": "/models/blender/child-hat.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A broad hat rests on a child’s head: the child makes the hat’s purpose immediately visible.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "裤子",
+    "scene": "child-trousers",
+    "format": "blender",
+    "asset": "/models/blender/child-trousers.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child stands next to a pair of long trousers: imagine stepping one leg into each side.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "裙子",
+    "scene": "child-skirt",
+    "format": "blender",
+    "asset": "/models/blender/child-skirt.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child stands beside a flaring skirt, ready to twirl its wide hem.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "袜子",
+    "scene": "child-socks",
+    "format": "blender",
+    "asset": "/models/blender/child-socks.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child finds two warm socks waiting together: one for each foot.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "衣服",
+    "scene": "wardrobe",
+    "format": "blender",
+    "asset": "/models/blender/wardrobe.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A shirt and a pair of trousers hang together: clothes to put on before going out.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "衬衫",
+    "scene": "lined-shirt",
+    "format": "blender",
+    "asset": "/models/blender/lined-shirt.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A pale cloth lining sits beside a blue shirt: imagine stitching the lining inside to finish the shirt.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "包",
+    "scene": "wrapped-coil",
+    "format": "blender",
+    "asset": "/models/blender/wrapped-coil.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A bag wraps around a curled green snake: imagine carefully enclosing the coil in a package.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "行李箱",
+    "scene": "travel-suitcase",
+    "format": "blender",
+    "asset": "/models/blender/travel-suitcase.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A traveler’s footsteps lead past a plum packed beside a wheeled box: imagine taking the plum in your suitcase.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "黑板",
+    "scene": "school-blackboard",
+    "format": "blender",
+    "asset": "/models/blender/school-blackboard.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A dark slate surface covers a wooden board, making a blackboard for the next lesson.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "铅笔",
+    "scene": "writing-pencil",
+    "format": "blender",
+    "asset": "/models/blender/writing-pencil.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A lead-colored writing point takes the place of a brush: use this pencil for your next line.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "眼镜",
+    "scene": "eye-glasses",
+    "format": "blender",
+    "asset": "/models/blender/eye-glasses.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An eye looks through two polished mirror-like lenses; imagine the pair as eyeglasses.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "冰箱",
+    "scene": "ice-box",
+    "format": "blender",
+    "asset": "/models/blender/ice-box.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Blocks of ice fill a cupboard-like box: imagine it keeping food cold as a refrigerator.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "钥匙",
+    "scene": "lock-key",
+    "format": "blender",
+    "asset": "/models/blender/lock-key.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A spoon lies beside a lock; imagine reshaping its handle into the toothed key resting below.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "信封",
+    "scene": "letter-envelope",
+    "format": "blender",
+    "asset": "/models/blender/letter-envelope.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A trusted message, marked with a heart, rests beside a sealed envelope: tuck it inside before sending it.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "日记",
+    "scene": "daily-diary",
+    "format": "blender",
+    "asset": "/models/blender/daily-diary.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A small sun marks a day beside an openable notebook: record a memory of that day in a diary.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "叶子",
+    "scene": "little-leaf",
+    "format": "blender",
+    "asset": "/models/blender/little-leaf.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child holds a large green leaf; its central vein and branching sides stand out clearly.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "房间",
+    "scene": "room-between",
+    "format": "blender",
+    "asset": "/models/blender/room-between.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A little room stands beside the space between a pair of doorposts: picture the room beyond that opening.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "厨房",
+    "scene": "cooking-room",
+    "format": "blender",
+    "asset": "/models/blender/cooking-room.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A steaming cooking pot sits beside a room: put the cooking place inside and you have a kitchen.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "客厅",
+    "scene": "guest-room",
+    "format": "blender",
+    "asset": "/models/blender/guest-room.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A visitor arrives beside a sofa and doorway: the room is ready to receive a guest.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "沙发",
+    "scene": "sand-sofa",
+    "format": "blender",
+    "asset": "/models/blender/sand-sofa.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Imagine a sofa rising from a sandy patch; an outward arrow helps recall the send-out sound cue in this loanword.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "口",
+    "scene": "framed-mouth",
+    "format": "blender",
+    "asset": "/models/blender/framed-mouth.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An open frame closes with one lower bar: imagine the enclosure becoming a mouth.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "看",
+    "scene": "shaded-eye",
+    "format": "blender",
+    "asset": "/models/blender/shaded-eye.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand shades an eye from the sun so it can look into the distance.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "听",
+    "scene": "listen-knock",
+    "format": "blender",
+    "asset": "/models/blender/listen-knock.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An axe taps near a mouth-shaped opening; imagine listening carefully to the knock.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "眼睛",
+    "scene": "green-eyes",
+    "format": "blender",
+    "asset": "/models/blender/green-eyes.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One open eye reflects a green pupil in another: picture the pair looking back at you.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "耳朵",
+    "scene": "ear-blossom",
+    "format": "blender",
+    "asset": "/models/blender/ear-blossom.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An ear opens beside a flower; imagine it unfolding like a blossom to catch every sound.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "鼻子",
+    "scene": "child-nose",
+    "format": "blender",
+    "asset": "/models/blender/child-nose.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child leans toward an oversized nose and a fragrant flower: picture taking a deep sniff.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "头发",
+    "scene": "growing-hair",
+    "format": "blender",
+    "asset": "/models/blender/growing-hair.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A head grows strands of hair; an outward arrow pictures the hair being sent out from the scalp.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "脚",
+    "scene": "moon-foot",
+    "format": "blender",
+    "asset": "/models/blender/moon-foot.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A moon seems to step backward on a little foot: imagine its retreat to remember this body-part mnemonic.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "腿",
+    "scene": "moon-legs",
+    "format": "blender",
+    "asset": "/models/blender/moon-legs.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A moon retreats on long legs; follow the backward arrow and notice each leg moving.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "双",
+    "scene": "pair-hands",
+    "format": "blender",
+    "asset": "/models/blender/pair-hands.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two hands reach toward one another, making a matching pair.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "猫",
+    "scene": "cat-seedlings",
+    "format": "blender",
+    "asset": "/models/blender/cat-seedlings.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An animal prowls beside fresh seedlings; pointed ears, whisker-like cheeks and a curled tail reveal a cat.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "狗",
+    "scene": "talking-dog",
+    "format": "blender",
+    "asset": "/models/blender/talking-dog.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An animal speaks a full sentence in a speech bubble: the talking dog wants your attention.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "熊猫",
+    "scene": "bear-cat",
+    "format": "blender",
+    "asset": "/models/blender/bear-cat.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A round panda-like bear sits beside a playful cat: combine the bear and cat cues to remember panda.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "老虎",
+    "scene": "elder-tiger",
+    "format": "blender",
+    "asset": "/models/blender/elder-tiger.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An elder stands at a respectful distance from a striped tiger: old plus tiger helps you recall 老虎.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "蝴蝶",
+    "scene": "paired-butterflies",
+    "format": "blender",
+    "asset": "/models/blender/paired-butterflies.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A bearded butterfly meets a leaf-winged butterfly: their beard and leaf cues help recall the two syllables.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "坐",
+    "scene": "sitting-together",
+    "format": "blender",
+    "asset": "/models/blender/sitting-together.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "Two people lower themselves onto the earth and sit side by side.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "住",
+    "scene": "living-with-host",
+    "format": "blender",
+    "asset": "/models/blender/living-with-host.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A traveler meets the host beside a house: this is the place where the traveler will live.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "女人",
+    "scene": "woman-person",
+    "format": "blender",
+    "asset": "/models/blender/woman-person.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A woman stands beside another person; identify the woman in the pair to recall 女人.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "男人",
+    "scene": "man-person",
+    "format": "blender",
+    "asset": "/models/blender/man-person.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A man stands beside another person; the pair keeps man and person together in your memory.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "孩子",
+    "scene": "children",
+    "format": "blender",
+    "asset": "/models/blender/children.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two children gather beside a toy ball: both written parts lead you back to the idea of a child.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "儿子",
+    "scene": "young-son",
+    "format": "blender",
+    "asset": "/models/blender/young-son.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A pair of small legs leads to a child waiting nearby: picture a young son running to his family.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "女儿",
+    "scene": "young-daughter",
+    "format": "blender",
+    "asset": "/models/blender/young-daughter.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A woman welcomes a small child; the little legs are the cue that completes daughter.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "妈妈",
+    "scene": "mother-call",
+    "format": "blender",
+    "asset": "/models/blender/mother-call.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two mother figures stand together: repeat the mother cue as a child calls Mama.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "爸爸",
+    "scene": "father-call",
+    "format": "blender",
+    "asset": "/models/blender/father-call.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two father figures turn toward a child: repeat the father cue as the child calls Baba.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "姐姐",
+    "scene": "older-sisters",
+    "format": "blender",
+    "asset": "/models/blender/older-sisters.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two older sisters stand beside a smaller child, ready to help her reach a book.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "哥哥",
+    "scene": "older-brothers",
+    "format": "blender",
+    "asset": "/models/blender/older-brothers.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two older brothers stand beside a younger child: the taller pair are the older brothers.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "妹妹",
+    "scene": "younger-sisters",
+    "format": "blender",
+    "asset": "/models/blender/younger-sisters.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two little sisters stand below a taller family member: notice the younger pair.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "弟弟",
+    "scene": "younger-brothers",
+    "format": "blender",
+    "asset": "/models/blender/younger-brothers.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two little brothers play beside a taller family member: notice the younger pair.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "奶奶",
+    "scene": "grandmother-milk",
+    "format": "blender",
+    "asset": "/models/blender/grandmother-milk.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two milk bottles wait beside an elder’s chair: imagine your paternal grandmother offering a warm drink.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "爷爷",
+    "scene": "grandfather",
+    "format": "blender",
+    "asset": "/models/blender/grandfather.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two silver-haired elders greet a child: repeating the grandfather cue recalls paternal grandfather.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "一",
+    "scene": "one",
+    "format": "blender",
+    "asset": "/models/blender/one.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "One single bar spans the island; count it once to remember one.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "二",
+    "scene": "two",
+    "format": "blender",
+    "asset": "/models/blender/two.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One bar rests above another: count the two separate bars.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "三",
+    "scene": "three",
+    "format": "blender",
+    "asset": "/models/blender/three.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One upper bar joins the two lower bars: count all three.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "五",
+    "scene": "five",
+    "format": "blender",
+    "asset": "/models/blender/five.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "Five gold beads sit inside a counting frame; count every bead once.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "八",
+    "scene": "eight",
+    "format": "blender",
+    "asset": "/models/blender/eight.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "Eight gold beads form two rows: count five, then three more.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "十",
+    "scene": "ten",
+    "format": "blender",
+    "asset": "/models/blender/ten.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One bar crosses a pole; ten beads sit beside the cross as a counting aid.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "七",
+    "scene": "seven",
+    "format": "blender",
+    "asset": "/models/blender/seven.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One bar supports a bent hook; seven golden beads hang below the hook.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "九",
+    "scene": "nine",
+    "format": "blender",
+    "asset": "/models/blender/nine.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A slanting rod meets a curl; nine gold beads gather underneath as your counting cue.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "四",
+    "scene": "four",
+    "format": "blender",
+    "asset": "/models/blender/four.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A small child stands inside an enclosure with four corners; count the corners around the child.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "六",
+    "scene": "six",
+    "format": "blender",
+    "asset": "/models/blender/six.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A lid shelters two of eight beads; count the six remaining beside it: eight minus two is six.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "两",
+    "scene": "two-travelers",
+    "format": "blender",
+    "asset": "/models/blender/two-travelers.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "One top bar spans an open frame holding two travelers together: a pair ready to go.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "上",
+    "scene": "above",
+    "format": "blender",
+    "asset": "/models/blender/above.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A signpost points upward above one ground line; follow it up.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "下",
+    "scene": "below",
+    "format": "blender",
+    "asset": "/models/blender/below.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One high bar forms a ceiling; a pointing arrow below it directs your gaze down.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "小",
+    "scene": "tiny-beads",
+    "format": "blender",
+    "asset": "/models/blender/tiny-beads.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Eight tiny beads gather under a hook: compare their small size with the large hook above.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "少",
+    "scene": "few-beads",
+    "format": "blender",
+    "asset": "/models/blender/few-beads.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A slanting bar separates a few small beads from the rest: only a few remain on this side.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "多",
+    "scene": "many-evenings",
+    "format": "blender",
+    "asset": "/models/blender/many-evenings.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One sunset joins another sunset; many evening marks fill the calendar below.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "半",
+    "scene": "half-cow-cake",
+    "format": "blender",
+    "asset": "/models/blender/half-cow-cake.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Imagine a cow-shaped cake marked by two horns; a knife divides it at the middle to make half.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "低",
+    "scene": "low-person",
+    "format": "blender",
+    "asset": "/models/blender/low-person.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person bends attention toward the low base beside them; the arrow points down to that base.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "短",
+    "scene": "short-arrow",
+    "format": "blender",
+    "asset": "/models/blender/short-arrow.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An arrow shrinks until it is scarcely longer than a bean: a very short arrow.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "矮",
+    "scene": "short-height",
+    "format": "blender",
+    "asset": "/models/blender/short-height.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A low arrow points toward a drooping plant that fits beneath a chair: keep the height short.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "高",
+    "scene": "high-tower",
+    "format": "blender",
+    "asset": "/models/blender/high-tower.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A lid caps a tower, while a mouth hovers by its high window; look up to its height.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "中间",
+    "scene": "middle-gap",
+    "format": "blender",
+    "asset": "/models/blender/middle-gap.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A pole stands exactly in the middle of an open doorway: notice the space on both sides.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "旁边",
+    "scene": "beside-edge",
+    "format": "blender",
+    "asset": "/models/blender/beside-edge.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person stands beside a flag at the edge of a road: picture the position beside that boundary.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "左右",
+    "scene": "left-right",
+    "format": "blender",
+    "asset": "/models/blender/left-right.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two arrows point away from the center: the left one goes left and the right one goes right.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "左边",
+    "scene": "left-edge",
+    "format": "blender",
+    "asset": "/models/blender/left-edge.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A left-pointing arrow ends at the road’s left edge; the small flag marks that boundary.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "右边",
+    "scene": "right-edge",
+    "format": "blender",
+    "asset": "/models/blender/right-edge.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A right-pointing arrow ends at the road’s right edge; the small flag marks that boundary.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "前面",
+    "scene": "front-face",
+    "format": "blender",
+    "asset": "/models/blender/front-face.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An arrow leads to a face placed in front of a doorway: the face is on the near side.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "后面",
+    "scene": "behind-face",
+    "format": "blender",
+    "asset": "/models/blender/behind-face.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A face peeks around the far side of a doorway; follow the route to find it behind.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "外",
+    "scene": "outside-at-dusk",
+    "format": "blender",
+    "asset": "/models/blender/outside-at-dusk.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "At dusk a pointing arrow leads away from the house: follow it outside.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "北方",
+    "scene": "north-flag",
+    "format": "blender",
+    "asset": "/models/blender/north-flag.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An upward compass arrow points north beside a square flag: mark the northern direction.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "问",
+    "scene": "door-question",
+    "format": "blender",
+    "asset": "/models/blender/door-question.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A mouth appears in an open doorway and asks a question.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "回",
+    "scene": "return-loop",
+    "format": "blender",
+    "asset": "/models/blender/return-loop.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A mouth waits inside an enclosure; imagine it circling the edge and returning to the same spot.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "开",
+    "scene": "opening-gate",
+    "format": "blender",
+    "asset": "/models/blender/opening-gate.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two raised hands lift one bar above an open passage: the gate is opening.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "关",
+    "scene": "closing-sky",
+    "format": "blender",
+    "asset": "/models/blender/closing-sky.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Imagine two horns pushing a sky-filled doorway shut; the light beyond is about to disappear.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "出",
+    "scene": "sprout-out",
+    "format": "blender",
+    "asset": "/models/blender/sprout-out.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A sprout grows upward and out of an open container: follow its stem to the exit.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "进",
+    "scene": "enter-courtyard",
+    "format": "blender",
+    "asset": "/models/blender/enter-courtyard.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A road leads directly into a well-shaped courtyard opening: follow the path to enter.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "入口",
+    "scene": "entrance",
+    "format": "blender",
+    "asset": "/models/blender/entrance.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An inward arrow leads to a mouth-like opening: that opening is the entrance.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "走",
+    "scene": "walking-ground",
+    "format": "blender",
+    "asset": "/models/blender/walking-ground.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A foot lifts away from its stopping place on the earth; the footprints show where walking begins.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "跑步",
+    "scene": "running-steps",
+    "format": "blender",
+    "asset": "/models/blender/running-steps.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A striding runner follows a trail of steps around the ground: imagine speeding up into a run.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "散步",
+    "scene": "scattered-steps",
+    "format": "blender",
+    "asset": "/models/blender/scattered-steps.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Footprints scatter along a path beside a walker: an easy walk with no hurry.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "跳舞",
+    "scene": "dancing",
+    "format": "blender",
+    "asset": "/models/blender/dancing.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A jumping arrow rises beside a dancer with spread arms: put jumps and dance steps together.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "游泳",
+    "scene": "swimming",
+    "format": "blender",
+    "asset": "/models/blender/swimming.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A little touring flag marks the water beside a swimmer: imagine moving through the pool on a tour.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "学习",
+    "scene": "learning-wings",
+    "format": "blender",
+    "asset": "/models/blender/learning-wings.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child studies a book beside a practice feather: imagine learning how a wing works through practice.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "读",
+    "scene": "reading-aloud",
+    "format": "blender",
+    "asset": "/models/blender/reading-aloud.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A speech bubble rises above a book on a seller’s table: buy the book and read it aloud.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "写",
+    "scene": "writing-gift",
+    "format": "blender",
+    "asset": "/models/blender/writing-gift.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A cover shelters a wrapped gift; a pencil waits nearby to write the recipient’s name.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "说话",
+    "scene": "talking",
+    "format": "blender",
+    "asset": "/models/blender/talking.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two speech bubbles face one another, passing a conversation back and forth.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "唱歌",
+    "scene": "singing",
+    "format": "blender",
+    "asset": "/models/blender/singing.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An open mouth sends out musical notes: voice and song become singing.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "休息",
+    "scene": "rest-breath",
+    "format": "blender",
+    "asset": "/models/blender/rest-breath.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person rests beside a tree while gentle breath curls upward: slow down and take a break.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "睡觉",
+    "scene": "sleep-notice",
+    "format": "blender",
+    "asset": "/models/blender/sleep-notice.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A bed waits beneath a moon; an eye notices the pillow and imagines closing for sleep.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "起床",
+    "scene": "rising-bed",
+    "format": "blender",
+    "asset": "/models/blender/rising-bed.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An upward arrow rises beside a bed: leave the pillow behind and get out of bed.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "飞机",
+    "scene": "flying-machine",
+    "format": "blender",
+    "asset": "/models/blender/flying-machine.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A feather-like wing joins a machine gear; above them a small airplane takes flight.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "自行车",
+    "scene": "self-powered-bicycle",
+    "format": "blender",
+    "asset": "/models/blender/self-powered-bicycle.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A rider supplies the steps that move this vehicle: your own effort powers a bicycle.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "火车站",
+    "scene": "steam-train-station",
+    "format": "blender",
+    "asset": "/models/blender/steam-train-station.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "Fire powers a train toward a waiting platform and doorway: the vehicle stops at the station.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "电视",
+    "scene": "electric-view",
+    "format": "blender",
+    "asset": "/models/blender/electric-view.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An electric bolt powers a screen with an eye on it: electricity lets you view television.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "手表",
+    "scene": "wrist-display",
+    "format": "blender",
+    "asset": "/models/blender/wrist-display.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand holds a small clock face where its wrist meets the sleeve: a watch displays the time.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "时间",
+    "scene": "time-gap",
+    "format": "blender",
+    "asset": "/models/blender/time-gap.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A clock sits in the gap between two doorposts: picture time passing through that opening.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "小时",
+    "scene": "small-hour",
+    "format": "blender",
+    "asset": "/models/blender/small-hour.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tiny clock sits beside a larger clock face: picture one small portion of the day, an hour.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "分钟",
+    "scene": "divided-minute",
+    "format": "blender",
+    "asset": "/models/blender/divided-minute.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A dividing knife approaches a clock face: imagine slicing its hour into sixty minutes.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "踢足球",
+    "scene": "kicking-football",
+    "format": "blender",
+    "asset": "/models/blender/kicking-football.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A kicking foot sends a ball forward; the footprints help you remember the foot in football.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "打篮球",
+    "scene": "basketball",
+    "format": "blender",
+    "asset": "/models/blender/basketball.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A hand sends a ball toward a raised basket: picture the shot dropping inside.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "网球",
+    "scene": "tennis",
+    "format": "blender",
+    "asset": "/models/blender/tennis.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A ball crosses a taut net with a racket waiting nearby: picture a tennis rally.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "乒乓球",
+    "scene": "table-tennis",
+    "format": "blender",
+    "asset": "/models/blender/table-tennis.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "Two small paddles face each other across a table, sending one little ball back and forth.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "羽毛球",
+    "scene": "shuttlecock",
+    "format": "blender",
+    "asset": "/models/blender/shuttlecock.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A feather and a soft patch of fur flank a cork ball with feather ribs: imagine this soft feathered shuttlecock flying.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "爬山",
+    "scene": "climbing-mountain",
+    "format": "blender",
+    "asset": "/models/blender/climbing-mountain.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An upward path points past a walker toward a mountain peak: imagine climbing the mountain.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "洗澡",
+    "scene": "washing-bath",
+    "format": "blender",
+    "asset": "/models/blender/washing-bath.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Water pours toward a bath-like basin while a bather waits beside it: time for a bath.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "冷",
+    "scene": "cold-order",
+    "format": "blender",
+    "asset": "/models/blender/cold-order.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Ice blocks gather beneath a commanding flag: imagine an order that fills the room with cold.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "热",
+    "scene": "hot-hand",
+    "format": "blender",
+    "asset": "/models/blender/hot-hand.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand hovers above small flames; imagine the heat making it pull away.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "温度",
+    "scene": "temperature",
+    "format": "blender",
+    "asset": "/models/blender/temperature.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Heat rises beside a marked measuring pole: compare the warmth with a scale of degrees.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "红",
+    "scene": "red-silk",
+    "format": "blender",
+    "asset": "/models/blender/red-silk.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Red silk lies beside a worker’s tools: imagine the work of dyeing the silk red.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "绿",
+    "scene": "leaf-green-silk",
+    "format": "blender",
+    "asset": "/models/blender/leaf-green-silk.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Silk lies beside a page recording a leaf’s color: imagine that recorded green spreading into the threads.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "蓝",
+    "scene": "blue-supervisor",
+    "format": "blender",
+    "asset": "/models/blender/blue-supervisor.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Grass grows beside a blue-clothed supervisor: imagine the grass painting the uniform blue.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "刀",
+    "scene": "knife",
+    "format": "blender",
+    "asset": "/models/blender/knife.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A broad metal blade meets a wooden handle: picture a small kitchen knife.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "页",
+    "scene": "page",
+    "format": "blender",
+    "asset": "/models/blender/page.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "One sheet carries a few written lines: turn this single page in your mind.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "毛",
+    "scene": "fur",
+    "format": "blender",
+    "asset": "/models/blender/fur.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "Fine strands rise from a small patch of fur: notice each hair in the soft surface.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "猪",
+    "scene": "storytelling-pig",
+    "format": "blender",
+    "asset": "/models/blender/storytelling-pig.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An animal tells its story through a speech bubble; its curly tail and pink snout identify the pig.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "火",
+    "scene": "horns-fire",
+    "format": "blender",
+    "asset": "/models/blender/horns-fire.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two horn-like tips rise above a person-shaped spark: imagine the outline swelling into a flame.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "血",
+    "scene": "blood-dish",
+    "format": "blender",
+    "asset": "/models/blender/blood-dish.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A slanting red mark leads to a dish with a small red drop: picture blood collected in the dish.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "里",
+    "scene": "inside-field",
+    "format": "blender",
+    "asset": "/models/blender/inside-field.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A planted field rests inside a surrounding patch of earth: look within its boundary to remember inside.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "内",
+    "scene": "person-within",
+    "format": "blender",
+    "asset": "/models/blender/person-within.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person stands within an open frame: notice the space inside its boundaries.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "空",
+    "scene": "empty-work",
+    "format": "blender",
+    "asset": "/models/blender/empty-work.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An empty frame waits beside a worker’s axe: imagine the work finished and the space left empty.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "困",
+    "scene": "sleepy-tree",
+    "format": "blender",
+    "asset": "/models/blender/sleepy-tree.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tree stands inside a tight enclosure; imagine growing sleepy while resting in that enclosed shade.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "梦",
+    "scene": "forest-dream",
+    "format": "blender",
+    "asset": "/models/blender/forest-dream.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two trees fade beneath a low evening sun: picture the woods appearing in a dream at dusk.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "近",
+    "scene": "near-axe",
+    "format": "blender",
+    "asset": "/models/blender/near-axe.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An axe stands right beside the end of a short road: it is near enough to reach.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "远",
+    "scene": "distant-coin",
+    "format": "blender",
+    "asset": "/models/blender/distant-coin.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A long road leads away to a tiny coin at its far end: imagine traveling far to collect it.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "旧",
+    "scene": "old-sun-pole",
+    "format": "blender",
+    "asset": "/models/blender/old-sun-pole.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A weathered pole stands beside the sun: imagine many days of sunlight making the pole old.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "香",
+    "scene": "fragrant-grain",
+    "format": "blender",
+    "asset": "/models/blender/fragrant-grain.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Grain warms beneath the sun; imagine its fragrance rising into the air.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "苦",
+    "scene": "bitter-herbs",
+    "format": "blender",
+    "asset": "/models/blender/bitter-herbs.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Grass grows beside an ancient tablet-like slab: imagine an old herbal recipe that tastes bitter.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "满",
+    "scene": "full-pool",
+    "format": "blender",
+    "asset": "/models/blender/full-pool.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "Water fills the space between grass and two figures; imagine the little pool filled to the brim.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "深",
+    "scene": "deep-pit",
+    "format": "blender",
+    "asset": "/models/blender/deep-pit.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A ladder disappears toward water beneath an open frame: imagine exploring a deep pit.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "洗",
+    "scene": "wash-first",
+    "format": "blender",
+    "asset": "/models/blender/wash-first.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Water waits beside one first-place marker: washing comes first before handling food.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "渴",
+    "scene": "thirsty-question",
+    "format": "blender",
+    "asset": "/models/blender/thirsty-question.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Water sits beside a questioning mouth: why wait any longer when you are thirsty?",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "饿",
+    "scene": "hungry-person",
+    "format": "blender",
+    "asset": "/models/blender/hungry-person.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person reaches toward a bowl of food: imagine an empty stomach asking to eat.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "饱",
+    "scene": "full-package",
+    "format": "blender",
+    "asset": "/models/blender/full-package.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A food bowl sits beside a packed bag: imagine your stomach as a package filled after a meal.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "疼",
+    "scene": "winter-ache",
+    "format": "blender",
+    "asset": "/models/blender/winter-ache.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A sickbed stands beside winter ice; imagine the cold making an aching body hurt.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "累",
+    "scene": "tired-fieldwork",
+    "format": "blender",
+    "asset": "/models/blender/tired-fieldwork.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Silk trails across a planted field: imagine the tiring work of gathering every strand.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "懒",
+    "scene": "lazy-rest",
+    "format": "blender",
+    "asset": "/models/blender/lazy-rest.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "A seated person rests beside a sofa while a broom waits unused: picture putting off the work out of laziness.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "胖",
+    "scene": "round-moon",
+    "format": "blender",
+    "asset": "/models/blender/round-moon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A round body cue borrows half of a moon: imagine the moon becoming plump beside a tiny comparison bead.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "瘦",
+    "scene": "slender-elder",
+    "format": "blender",
+    "asset": "/models/blender/slender-elder.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An elder stands beside a sickbed; imagine a slender figure after a long illness as this mnemonic for thin.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "音乐",
+    "scene": "musical-sound",
+    "format": "blender",
+    "asset": "/models/blender/musical-sound.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A drum makes a sound beside musical notes: sounds arranged together become music.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "快乐",
+    "scene": "quick-music",
+    "format": "blender",
+    "asset": "/models/blender/quick-music.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A fast arrow rushes toward musical notes: imagine quick, lively music making you happy.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "开心",
+    "scene": "open-heart",
+    "format": "blender",
+    "asset": "/models/blender/open-heart.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An open door welcomes a bright heart: imagine opening your heart and feeling happy.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "小心",
+    "scene": "small-careful-heart",
+    "format": "blender",
+    "asset": "/models/blender/small-careful-heart.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tiny bead sits beside a large heart: treat something small with care and be careful.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "放心",
+    "scene": "released-heart",
+    "format": "blender",
+    "asset": "/models/blender/released-heart.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An arrow releases a heart into open space: imagine letting your worry go and feeling reassured.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "担心",
+    "scene": "burdened-heart",
+    "format": "blender",
+    "asset": "/models/blender/burdened-heart.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A loaded bag weighs beside a heart: imagine carrying that burden as worry.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "伤心",
+    "scene": "hurt-heart",
+    "format": "blender",
+    "asset": "/models/blender/hurt-heart.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A small bandage-like cross sits beside a heart: imagine an emotional hurt leaving you sad.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "爱情",
+    "scene": "loving-emotion",
+    "format": "blender",
+    "asset": "/models/blender/loving-emotion.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two hearts lean toward one another: love and emotion meet in romantic love.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "心情",
+    "scene": "heart-mood",
+    "format": "blender",
+    "asset": "/models/blender/heart-mood.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A heart reflects another heart like its emotional weather: notice the feeling in your heart, your mood.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "热情",
+    "scene": "warm-heart",
+    "format": "blender",
+    "asset": "/models/blender/warm-heart.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A flame warms a heart: imagine offering a warm and enthusiastic welcome.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "同情",
+    "scene": "shared-feeling",
+    "format": "blender",
+    "asset": "/models/blender/shared-feeling.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two equal beads sit beside a heart: imagine sharing the same feeling with someone in sympathy.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "生气",
+    "scene": "growing-steam",
+    "format": "blender",
+    "asset": "/models/blender/growing-steam.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A sprout grows beneath curling steam: imagine anger growing until steam seems to rise from your head.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "信心",
+    "scene": "trusted-heart",
+    "format": "blender",
+    "asset": "/models/blender/trusted-heart.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A sealed trusted letter sits beside a heart: imagine keeping that trust in your heart as confidence.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "自信",
+    "scene": "self-trust",
+    "format": "blender",
+    "asset": "/models/blender/self-trust.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person faces a heart-sealed letter of trust: imagine that trust directed toward yourself.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "哭",
+    "scene": "crying-mouths",
+    "format": "blender",
+    "asset": "/models/blender/crying-mouths.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "Two open mouths hover above a dog: imagine hearing their sad cries together.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "吵",
+    "scene": "noisy-mouth",
+    "format": "blender",
+    "asset": "/models/blender/noisy-mouth.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An open mouth makes a fuss over a few little beads: imagine the noise of a pointless quarrel.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "响",
+    "scene": "sound-toward",
+    "format": "blender",
+    "asset": "/models/blender/sound-toward.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A mouth sends a sound in the direction of an arrow: imagine the sound ringing toward you.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "学校",
+    "scene": "school-books",
+    "format": "blender",
+    "asset": "/models/blender/school-books.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A learning book stands beside a school building: imagine carrying it through the door to class.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "学生",
+    "scene": "growing-student",
+    "format": "blender",
+    "asset": "/models/blender/growing-student.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A learning book stands beside a growing sprout: a student grows through study.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "老师",
+    "scene": "elder-teacher",
+    "format": "blender",
+    "asset": "/models/blender/elder-teacher.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An elder stands beside a teacher’s blackboard: imagine learning from the older teacher.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "教室",
+    "scene": "teaching-room",
+    "format": "blender",
+    "asset": "/models/blender/teaching-room.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A blackboard for teaching stands beside a small room: put the teaching tools inside to make a classroom.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "图书馆",
+    "scene": "map-book-library",
+    "format": "blender",
+    "asset": "/models/blender/map-book-library.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A map, a book and a public building gather in one scene: a library holds books that open up the world.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "数学",
+    "scene": "counting-study",
+    "format": "blender",
+    "asset": "/models/blender/counting-study.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Ten counting beads lie beside a study book: learning to count leads into mathematics.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "数字",
+    "scene": "written-numbers",
+    "format": "blender",
+    "asset": "/models/blender/written-numbers.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Counting beads sit beside a written page: imagine recording the count as a number.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "字典",
+    "scene": "character-dictionary",
+    "format": "blender",
+    "asset": "/models/blender/character-dictionary.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A written character page sits beside a thick reference book: look up the character in the dictionary.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "句子",
+    "scene": "child-sentence",
+    "format": "blender",
+    "asset": "/models/blender/child-sentence.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child speaks into a bubble with several sound marks: imagine the sounds joining into a complete sentence.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "语言",
+    "scene": "spoken-language",
+    "format": "blender",
+    "asset": "/models/blender/spoken-language.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two speech bubbles trade spoken words: imagine a shared language carrying the conversation.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "词语",
+    "scene": "word-expression",
+    "format": "blender",
+    "asset": "/models/blender/word-expression.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A little written page joins a speech bubble: a written word becomes an expression you can say.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "阅读",
+    "scene": "examining-book",
+    "format": "blender",
+    "asset": "/models/blender/examining-book.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An eye examines a book closely: follow the lines as you read.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "复习",
+    "scene": "repeat-practice",
+    "format": "blender",
+    "asset": "/models/blender/repeat-practice.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A backward arrow returns to a practice feather: revisit the same lesson to review it.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "预习",
+    "scene": "prepare-practice",
+    "format": "blender",
+    "asset": "/models/blender/prepare-practice.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A book waits ready beside a practice feather: prepare the lesson before practicing it.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "学期",
+    "scene": "study-calendar",
+    "format": "blender",
+    "asset": "/models/blender/study-calendar.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A learning book sits beside a calendar: the stretch of scheduled study is a school term.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "工作",
+    "scene": "making-work",
+    "format": "blender",
+    "asset": "/models/blender/making-work.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Tools meet a half-built table: working with the tools makes something useful.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "工具",
+    "scene": "work-tools",
+    "format": "blender",
+    "asset": "/models/blender/work-tools.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An axe and a brush wait together for a job: choose the tool that fits the work.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "修理",
+    "scene": "repair-plan",
+    "format": "blender",
+    "asset": "/models/blender/repair-plan.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tool stands beside a diagram-like page: use a reasoned plan to repair the broken object.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "照片",
+    "scene": "photo-light",
+    "format": "blender",
+    "asset": "/models/blender/photo-light.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Light falls on a small flat picture: imagine saving a slice of the scene as a photograph.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "照相机",
+    "scene": "camera-light",
+    "format": "blender",
+    "asset": "/models/blender/camera-light.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A flash shines toward two facing figures while a camera captures them: the machine makes their picture.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "打电话",
+    "scene": "phone-call",
+    "format": "blender",
+    "asset": "/models/blender/phone-call.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A hand taps an electric phone; a speech bubble shows the conversation starting.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "电子",
+    "scene": "electric-child",
+    "format": "blender",
+    "asset": "/models/blender/electric-child.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tiny child stands beside an electric bolt: picture a small electric helper as the cue for electronic.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "电子邮箱",
+    "scene": "electronic-inbox",
+    "format": "blender",
+    "asset": "/models/blender/electronic-inbox.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2",
+      "anchor_part_3"
+    ],
+    "history": false,
+    "story": "An electric bolt and a tiny child deliver an envelope to a box: imagine mail arriving in an electronic inbox.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "上网",
+    "scene": "online-net",
+    "format": "blender",
+    "asset": "/models/blender/online-net.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An upward arrow rises toward a net while a screen waits below: imagine connecting to the network online.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "网站",
+    "scene": "network-station",
+    "format": "blender",
+    "asset": "/models/blender/network-station.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A net stands beside a small station-like doorway: picture a place to visit on the network, a website.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "地图",
+    "scene": "ground-map",
+    "format": "blender",
+    "asset": "/models/blender/ground-map.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A patch of ground becomes a sheet showing roads and destinations: a map of the place.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "地点",
+    "scene": "place-dot",
+    "format": "blender",
+    "asset": "/models/blender/place-dot.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One bead marks a spot on the ground: that exact location is the place.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "地方",
+    "scene": "square-place",
+    "format": "blender",
+    "asset": "/models/blender/square-place.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A square frame marks out a patch of ground: this defined area is a place.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "地址",
+    "scene": "address-marker",
+    "format": "blender",
+    "asset": "/models/blender/address-marker.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A flag marks the site of a house on a patch of ground: imagine writing the address of that exact spot.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "城市",
+    "scene": "city-market",
+    "format": "blender",
+    "asset": "/models/blender/city-market.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A wall shelters a little market table: imagine the streets and shops of a city behind the wall.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "长城",
+    "scene": "long-wall",
+    "format": "blender",
+    "asset": "/models/blender/long-wall.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A long ribbon runs beside a stretch of brick wall: follow the wall’s length to remember the Great Wall.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "国家",
+    "scene": "country-home",
+    "format": "blender",
+    "asset": "/models/blender/country-home.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A flag marks a territory beside a house: imagine all the homes within a country’s boundary.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "机场",
+    "scene": "plane-field",
+    "format": "blender",
+    "asset": "/models/blender/plane-field.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An airplane machine stands above a broad landing field: this is the airport.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "地铁",
+    "scene": "underground-train",
+    "format": "blender",
+    "asset": "/models/blender/underground-train.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Ground lies above a metal train: imagine riding on tracks beneath the earth, the subway.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "电梯",
+    "scene": "electric-ladder",
+    "format": "blender",
+    "asset": "/models/blender/electric-ladder.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An electric bolt powers a ladder-like shaft: imagine it carrying you between floors as an elevator.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "司机",
+    "scene": "machine-driver",
+    "format": "blender",
+    "asset": "/models/blender/machine-driver.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person manages the controls beside a vehicle machine: picture the driver in charge.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "乘坐",
+    "scene": "riding-seated",
+    "format": "blender",
+    "asset": "/models/blender/riding-seated.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A rider sits beside a vehicle, ready to take the seat inside and ride.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "出发",
+    "scene": "setting-off",
+    "format": "blender",
+    "asset": "/models/blender/setting-off.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An open doorway leads to an outward arrow: leave the doorway and set off.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "降落",
+    "scene": "plane-landing",
+    "format": "blender",
+    "asset": "/models/blender/plane-landing.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two downward arrows guide an airplane toward the ground: imagine descending and landing.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "旅行",
+    "scene": "travel-walk",
+    "format": "blender",
+    "asset": "/models/blender/travel-walk.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A packed suitcase stands beside a trail of footsteps: take your luggage and travel.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "旅游",
+    "scene": "tour-flag",
+    "format": "blender",
+    "asset": "/models/blender/tour-flag.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A suitcase waits beside a tour flag and a small map: follow the route on your travels.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "宾馆",
+    "scene": "visitor-hotel",
+    "format": "blender",
+    "asset": "/models/blender/visitor-hotel.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A visitor arrives beside a house with a bed waiting nearby: picture staying overnight at a hotel.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "医院",
+    "scene": "healing-courtyard",
+    "format": "blender",
+    "asset": "/models/blender/healing-courtyard.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A first-aid case stands beside a courtyard-like building: imagine entering a place of healing, a hospital.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "医生",
+    "scene": "healing-growth",
+    "format": "blender",
+    "asset": "/models/blender/healing-growth.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A medical case stands beside a growing sprout: picture a doctor helping health grow again.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "护士",
+    "scene": "guarding-care",
+    "format": "blender",
+    "asset": "/models/blender/guarding-care.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A medical case stands beside a learned caregiver’s book: imagine a nurse guarding a patient’s well-being.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "药",
+    "scene": "herbal-medicine",
+    "format": "blender",
+    "asset": "/models/blender/herbal-medicine.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Medicinal grass waits beside an appointment clock and a capsule: remember to take medicine at the right time.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "生病",
+    "scene": "growing-illness",
+    "format": "blender",
+    "asset": "/models/blender/growing-illness.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A growing sprout stands beside a sickbed: imagine an illness beginning to grow and needing rest.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "发烧",
+    "scene": "fever-heat",
+    "format": "blender",
+    "asset": "/models/blender/fever-heat.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An outward arrow sends heat from a flame toward a sickbed: imagine the body giving off heat during a fever.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "健康",
+    "scene": "healthy-well",
+    "format": "blender",
+    "asset": "/models/blender/healthy-well.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An upright person stands beside a heart and a sprout: imagine strength, well-being and healthy growth.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "刷牙",
+    "scene": "tooth-brushing",
+    "format": "blender",
+    "asset": "/models/blender/tooth-brushing.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A bristled brush approaches a white tooth: picture brushing every surface clean.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "牙膏",
+    "scene": "tooth-paste",
+    "format": "blender",
+    "asset": "/models/blender/tooth-paste.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tooth waits beside a capsule-shaped dab of paste: imagine squeezing toothpaste onto a brush.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "毛巾",
+    "scene": "soft-towel",
+    "format": "blender",
+    "asset": "/models/blender/soft-towel.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A patch of soft fur sits beside a woven cloth: imagine a towel that feels just as soft.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "洗手间",
+    "scene": "hand-washing-room",
+    "format": "blender",
+    "asset": "/models/blender/hand-washing-room.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "Water and a hand wait between doorposts: picture a room for washing your hands.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "打扫",
+    "scene": "hand-sweep",
+    "format": "blender",
+    "asset": "/models/blender/hand-sweep.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand reaches for a broom: imagine sweeping the floor clean.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "镜子",
+    "scene": "child-mirror",
+    "format": "blender",
+    "asset": "/models/blender/child-mirror.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child stands before a tall mirror: imagine recognizing the reflected face.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "窗户",
+    "scene": "window-door",
+    "format": "blender",
+    "asset": "/models/blender/window-door.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A cross-divided window sits beside a doorway: the two openings connect the room to the world outside.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "盒子",
+    "scene": "child-box",
+    "format": "blender",
+    "asset": "/models/blender/child-box.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child places a small toy into an open box: remember the container beside the child.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "勺子",
+    "scene": "child-spoon",
+    "format": "blender",
+    "asset": "/models/blender/child-spoon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child holds a spoon above a bowl: the long handle brings each scoop within reach.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "包子",
+    "scene": "child-bun",
+    "format": "blender",
+    "asset": "/models/blender/child-bun.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child unwraps a soft steamed bun: imagine the filling tucked inside its dough package.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "饺子",
+    "scene": "child-dumpling",
+    "format": "blender",
+    "asset": "/models/blender/child-dumpling.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A child studies the folded edge of a dumpling before taking a bite.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "蛋糕",
+    "scene": "egg-cake",
+    "format": "blender",
+    "asset": "/models/blender/egg-cake.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An egg sits beside a frosted cake: imagine mixing the egg into the cake before baking.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "生日",
+    "scene": "growing-birthday",
+    "format": "blender",
+    "asset": "/models/blender/growing-birthday.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A sprout grows toward a sun above a candle-topped cake: another year of growth reaches its birthday.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "饼干",
+    "scene": "dry-biscuit",
+    "format": "blender",
+    "asset": "/models/blender/dry-biscuit.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A little cake-like biscuit rests beside dry stalks of grain: imagine its crisp, dry bite.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "菜单",
+    "scene": "single-menu",
+    "format": "blender",
+    "asset": "/models/blender/single-menu.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Vegetable leaves sit beside one printed sheet: choose your meal from the menu.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "饭馆",
+    "scene": "rice-restaurant",
+    "format": "blender",
+    "asset": "/models/blender/rice-restaurant.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A bowl of rice stands beside a public building: imagine the rice meals served in this restaurant.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "餐厅",
+    "scene": "dining-hall",
+    "format": "blender",
+    "asset": "/models/blender/dining-hall.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A mouth waits beside a dining table under a room’s roof: picture a hall for eating.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "小吃",
+    "scene": "little-snack",
+    "format": "blender",
+    "asset": "/models/blender/little-snack.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tiny bun sits beside an open mouth: a little something to eat is a snack.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "矿泉水",
+    "scene": "mineral-spring-water",
+    "format": "blender",
+    "asset": "/models/blender/mineral-spring-water.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A rocky mountain shelters a spring pool beside a water bottle: picture mineral water from a spring.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "垃圾桶",
+    "scene": "rubbish-bin",
+    "format": "blender",
+    "asset": "/models/blender/rubbish-bin.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "Two discarded paper pieces wait beside a bucket: put both pieces of garbage into the bin.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "植物",
+    "scene": "growing-plant",
+    "format": "blender",
+    "asset": "/models/blender/growing-plant.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A living tree stands beside a small potted sprout: these growing things are plants.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "动物",
+    "scene": "moving-animal",
+    "format": "blender",
+    "asset": "/models/blender/moving-animal.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A direction arrow points alongside a walking horse: imagine a living thing moving as an animal.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "阳光",
+    "scene": "sunshine",
+    "format": "blender",
+    "asset": "/models/blender/sunshine.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A bright sun casts light toward a little lamp: imagine sunlight filling everything around it.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "天气",
+    "scene": "sky-air",
+    "format": "blender",
+    "asset": "/models/blender/sky-air.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A cloud hangs over curling air beside the sun: sky and air together make the weather.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "气候",
+    "scene": "air-over-time",
+    "format": "blender",
+    "asset": "/models/blender/air-over-time.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Air curls beside a calendar: picture weather patterns observed over a long wait, the climate.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "季节",
+    "scene": "season-joints",
+    "format": "blender",
+    "asset": "/models/blender/season-joints.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A tree stands beside a pole divided into sections: imagine the year divided into seasons.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "凉快",
+    "scene": "quick-cool",
+    "format": "blender",
+    "asset": "/models/blender/quick-cool.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An ice cube sends a quick arrow of coolness toward you: imagine feeling pleasantly cool.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "暖和",
+    "scene": "warm-together",
+    "format": "blender",
+    "asset": "/models/blender/warm-together.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A warm lamp shines over two people together: imagine sharing its gentle warmth.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "早上",
+    "scene": "morning-rise",
+    "format": "blender",
+    "asset": "/models/blender/morning-rise.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An early sun rises beside an upward arrow: the morning is beginning.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "上午",
+    "scene": "before-noon",
+    "format": "blender",
+    "asset": "/models/blender/before-noon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An upward arrow approaches a high sun: picture the morning hours leading up to noon.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "下午",
+    "scene": "after-noon",
+    "format": "blender",
+    "asset": "/models/blender/after-noon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A downward arrow leads away from the high noon sun: the afternoon follows.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "中午",
+    "scene": "middle-noon",
+    "format": "blender",
+    "asset": "/models/blender/middle-noon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A pole marks the middle below a high sun: imagine the sun over the middle of the day, noon.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "晚上",
+    "scene": "evening-moon",
+    "format": "blender",
+    "asset": "/models/blender/evening-moon.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A moon climbs beside an upward arrow: evening rises into the night.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "星期",
+    "scene": "star-week",
+    "format": "blender",
+    "asset": "/models/blender/star-week.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Seven stars fill a small calendar period: use the seven lights to remember a week.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "按时",
+    "scene": "press-on-time",
+    "format": "blender",
+    "asset": "/models/blender/press-on-time.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand presses toward a clock: imagine matching the required time exactly.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "准时",
+    "scene": "accurate-time",
+    "format": "blender",
+    "asset": "/models/blender/accurate-time.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An arrow points directly at a clock’s center: accuracy and time meet when you arrive on time.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "迟到",
+    "scene": "late-arrival",
+    "format": "blender",
+    "asset": "/models/blender/late-arrival.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A clock waits beside a doorway while a traveler is still outside: imagine arriving late.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "现在",
+    "scene": "here-now",
+    "format": "blender",
+    "asset": "/models/blender/here-now.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An eye notices a flag planted at this spot: what appears here at this moment is now.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "开始",
+    "scene": "open-beginning",
+    "format": "blender",
+    "asset": "/models/blender/open-beginning.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An open doorway leads to the first footprint on a path: opening the way begins the journey.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "结束",
+    "scene": "tied-bundle",
+    "format": "blender",
+    "asset": "/models/blender/tied-bundle.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A curled knot sits beside a bundle of long sticks: tie the bundle when the work is finished.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "相反",
+    "scene": "opposite-directions",
+    "format": "blender",
+    "asset": "/models/blender/opposite-directions.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two arrows face in opposite directions: notice how one reverses the other.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "相同",
+    "scene": "matching-pair",
+    "format": "blender",
+    "asset": "/models/blender/matching-pair.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two matching cups face each other with the same shape and size: they are identical.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "一样",
+    "scene": "one-pattern",
+    "format": "blender",
+    "asset": "/models/blender/one-pattern.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "One bar points to two matching leaf patterns: picture both leaves being the same.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "对面",
+    "scene": "opposite-face",
+    "format": "blender",
+    "asset": "/models/blender/opposite-face.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An arrow faces a smiling head on the other side: the person sits opposite you.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "见面",
+    "scene": "meeting-face",
+    "format": "blender",
+    "asset": "/models/blender/meeting-face.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An eye catches sight of a familiar face: imagine meeting the person in front of you.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "排队",
+    "scene": "people-queue",
+    "format": "blender",
+    "asset": "/models/blender/people-queue.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Three people stand in a neat row beside a team flag: line up and wait your turn.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "排列",
+    "scene": "ordered-row",
+    "format": "blender",
+    "asset": "/models/blender/ordered-row.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Beads line up beside a straight bar: arrange each one in order along the line.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "顺序",
+    "scene": "ordered-steps",
+    "format": "blender",
+    "asset": "/models/blender/ordered-steps.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An arrow runs from one bead to two, then three: follow the sequence in order.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "增加",
+    "scene": "increasing-count",
+    "format": "blender",
+    "asset": "/models/blender/increasing-count.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An upward arrow rises beside a growing pile of beads: imagine adding more to increase the count.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "减少",
+    "scene": "decreasing-count",
+    "format": "blender",
+    "asset": "/models/blender/decreasing-count.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A downward arrow leaves only a few beads behind: reduce the number until fewer remain.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "抬",
+    "scene": "lifting",
+    "format": "blender",
+    "asset": "/models/blender/lifting.glb",
+    "anchors": [
+      "anchor_part_0"
+    ],
+    "history": false,
+    "story": "Two hands raise an open box: picture lifting it together from below.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "抱",
+    "scene": "hug-package",
+    "format": "blender",
+    "asset": "/models/blender/hug-package.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand curls beside a package: imagine holding the package close in your arms.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "拉",
+    "scene": "pulling-person",
+    "format": "blender",
+    "asset": "/models/blender/pulling-person.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand reaches toward a standing person; a backward arrow shows the pull.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "推",
+    "scene": "pushing-bird",
+    "format": "blender",
+    "asset": "/models/blender/pushing-bird.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand gently pushes toward a little bird; the arrow shows the forward direction.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "拿",
+    "scene": "holding-fit",
+    "format": "blender",
+    "asset": "/models/blender/holding-fit.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Two fitting pieces meet above a hand: imagine bringing them together and taking hold.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "扔",
+    "scene": "throwing-pitcher",
+    "format": "blender",
+    "asset": "/models/blender/throwing-pitcher.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand releases a handled cup along an outward arrow: imagine the motion of throwing.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "停",
+    "scene": "stop-pavilion",
+    "format": "blender",
+    "asset": "/models/blender/stop-pavilion.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A traveler reaches a roofed pavilion and stops beside it for a rest.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "停止",
+    "scene": "stop-steps",
+    "format": "blender",
+    "asset": "/models/blender/stop-steps.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A pavilion stands at the end of a trail of feet: imagine stopping there instead of taking another step.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "站",
+    "scene": "standing-booth",
+    "format": "blender",
+    "asset": "/models/blender/standing-booth.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A person stands upright at a little booth-like table: stay on your feet while waiting.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "礼物",
+    "scene": "courtesy-gift",
+    "format": "blender",
+    "asset": "/models/blender/courtesy-gift.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A welcoming hand offers a neatly packed bag: an object given with courtesy becomes a gift.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "购物",
+    "scene": "buying-things",
+    "format": "blender",
+    "asset": "/models/blender/buying-things.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Coins wait beside a bag of goods: exchange the money for the things while shopping.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "付款",
+    "scene": "paying-funds",
+    "format": "blender",
+    "asset": "/models/blender/paying-funds.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A hand moves coins toward a second stack of funds: picture paying the amount due.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "现金",
+    "scene": "visible-cash",
+    "format": "blender",
+    "asset": "/models/blender/visible-cash.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "An eye spots golden coins on the table: money that is present in your hand is cash.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "零钱",
+    "scene": "spare-change",
+    "format": "blender",
+    "asset": "/models/blender/spare-change.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A zero-shaped ring sits beside a few coins: imagine the small change left after a payment.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "工资",
+    "scene": "work-wages",
+    "format": "blender",
+    "asset": "/models/blender/work-wages.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A working tool stands beside a supply of coins: these resources are the wages earned through work.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "奖金",
+    "scene": "gold-prize",
+    "format": "blender",
+    "asset": "/models/blender/gold-prize.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "A star-shaped prize rises above a pile of golden coins: imagine receiving a cash bonus.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "价格",
+    "scene": "price-grid",
+    "format": "blender",
+    "asset": "/models/blender/price-grid.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Coins sit beside a ruled board: imagine each square recording a product’s price.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "商店",
+    "scene": "trade-shop",
+    "format": "blender",
+    "asset": "/models/blender/trade-shop.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1"
+    ],
+    "history": false,
+    "story": "Coins and a market table wait beside a small building: a shop is a place for trade.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "服务员",
+    "scene": "attendant-duty",
+    "format": "blender",
+    "asset": "/models/blender/attendant-duty.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A uniformed person carries out a task beside a tray and a companion: picture an attendant serving the group.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
+  },
+  {
+    "word": "售货员",
+    "scene": "shop-salesperson",
+    "format": "blender",
+    "asset": "/models/blender/shop-salesperson.glb",
+    "anchors": [
+      "anchor_part_0",
+      "anchor_part_1",
+      "anchor_part_2"
+    ],
+    "history": false,
+    "story": "A selling table displays goods beside a person: the salesperson helps customers choose.",
+    "interpretation": "Invented visual mnemonic, not historical etymology. Draft, not independently reviewed."
   }
 ]

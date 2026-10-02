@@ -60,7 +60,7 @@ def build_report() -> dict:
             errors.append(message)
 
     required_characters = set("".join(lesson["word"] for lesson in lessons))
-    verify(len(lessons) == 1000, "The selected corpus must contain exactly 1,000 lessons.")
+    verify(len(lessons) == len(selection), "The compiled lessons must exactly cover the selected corpus.")
     verify(len({lesson["word"] for lesson in lessons}) == len(lessons), "Duplicate word lessons.")
     verify(len({lesson["id"] for lesson in lessons}) == len(lessons), "Duplicate lesson IDs.")
     verify([lesson["word"] for lesson in lessons] == [item["simplified"] for item in selection], "Selection and compiled word order differ.")
@@ -177,7 +177,7 @@ def build_report() -> dict:
         "contentRevision": manifest["version"],
         "selection": manifest["selection"],
         "words": {
-            "target": 1000, "lessons": len(lessons), "uniqueWords": len({lesson["word"] for lesson in lessons}),
+            "target": len(selection), "lessons": len(lessons), "uniqueWords": len({lesson["word"] for lesson in lessons}),
             "dictionaryFieldsComplete": sum(bool(item.get("pinyin") and item.get("meaning") and item.get("dictionaryMeanings") and item.get("source")) for item in lessons),
             "characterOccurrences": sum(len(lesson["characters"]) for lesson in lessons),
             "characterLengthDistribution": counts(len(lesson["word"]) for lesson in lessons),
@@ -215,10 +215,11 @@ def build_report() -> dict:
         },
         "visualAssets": {
             "blenderWords": len(blender_assets), "blenderAssets": blender_assets,
+            "composedExplanationScenes": sum('recipeSha256' in asset.get('design', {}) for asset in blender['assets'].values()),
             "authoredSceneDefinitions": len(authored_scenes), "authoredScenes": authored_scenes,
             "historicalCharactersRouted": len(history_words), "historicalWords": history_words,
             "historicalSvgAssets": historical_files,
-            "note": "The Blender scenes are a subset of the authored scenes. Neither count describes generic glyph rendering or guarantees 1,000 distinct illustrated scenes.",
+            "note": "Word-specific Blender compositions may reuse sculpted props. Counts exclude generic glyph rendering and do not certify independent artistic or editorial review.",
         },
         "sources": {
             "revisions": manifest["sourceRevisions"],
@@ -255,7 +256,7 @@ The collection already contains **{total(w['uniqueWords'])} words and {total(c['
 
 | Layer | Present | Meaning of the count |
 | --- | ---: | --- |
-| Unique word lessons | {total(w['uniqueWords'])} / {total(w['target'])} | Selected corpus, not a universal top-1,000 list |
+| Unique word lessons | {total(w['uniqueWords'])} / {total(w['target'])} | Original corpus plus the supplied HSK 1–4 workbook union |
 | Dictionary reading, selected meaning and source | {total(w['dictionaryFieldsComplete'])} / {total(w['lessons'])} | One selected dictionary form per word |
 | Word memory stories | {total(m['wordStories'])} / {total(w['lessons'])} | Original draft stories; all {total(m['uniqueWordStories'])} sentences are distinct |
 | Character memory stories | {total(m['characterStories'])} / {total(c['records'])} | {total(m['characterKinds']['parts'])} use sourced ordered parts; {total(m['characterKinds']['outline'])} use a whole-outline cue |
@@ -280,7 +281,7 @@ The visual counts are not additive. Three-dimensional writing, reusable scene re
 
 1. **Review the drafts.** The collection records {total(e['independentlyReviewedWordsRecorded'])} independently reviewed words. Files in `data/curation/element-review/` contain source/gloss worklists, not reviewer verdicts. Automated checks establish consistency and coverage, not memorability, linguistic accuracy or learner outcomes.
 2. **Resolve uncertain splits without inventing strokes.** {c['partialTopLevelStrokeMapping']} characters have partial source mappings, affecting {c['wordsContainingPartialStrokeMapping']} word lessons. Those split characters contain {c['unassignedStrokesInSplitCharacters']} unassigned strokes. Preserve them intact and neutral unless stronger source evidence supports a mapping. Whole-outline mnemonic cues are a separate category and can overlap partial mappings.
-3. **Expand authored visual scenes.** Only {v['blenderWords']} words currently have Blender exports and {v['authoredSceneDefinitions']} have bespoke scene definitions. Generic rendering can broaden access but should not be counted as 1,000 bespoke Blender artworks.
+3. **Expand authored visual scenes.** {v['blenderWords']} words currently have Blender exports and {v['authoredSceneDefinitions']} have word-specific scene definitions. Of these, {v['composedExplanationScenes']} are explicit compositions of reusable sculpted props. They are draft explanations, not independently reviewed artworks. {total(w['lessons']-v['blenderWords'])} words remain without a Blender scene; generic glyph rendering is not counted as an illustration.
 4. **Expand sourced history separately.** Imported etymology metadata exists for {c['records'] - s['importedEtymologyTypes'].get('missing', 0)} characters. That does not make their invented memory stories historical explanations, and it does not provide bundled ancient glyphs beyond {history}.
 
 ### Characters with partial stroke mappings

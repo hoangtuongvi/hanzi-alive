@@ -1,5 +1,7 @@
 .explorer-shell{--focus-bg:#101412;--focus-text:#eef0e7;--focus-muted:#929e8e;--focus-peach:#ebb08d;--focus-green:#9bcb81;min-height:100dvh;background:var(--focus-bg);color:var(--focus-text);font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color-scheme:dark}
 .focused-study{height:100svh;height:100dvh;min-height:320px;max-width:1600px;margin:0 auto;display:grid;grid-template-rows:minmax(0,1fr) auto;padding:0 clamp(24px,6vw,90px)}
+/* The concealed word scales during its exit; keep it from widening landscape viewports. */
+.focused-study{overflow-x:clip}
 .explorer-callout-name{min-width:0;white-space:normal;overflow-wrap:break-word}
 .explorer-callout-glyph{flex-shrink:0}
 .focused-content{min-height:0;position:relative;display:flex;flex-direction:column;align-items:center;padding:24px 0 0;text-align:center;isolation:isolate}

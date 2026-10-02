@@ -11,7 +11,7 @@ const characters=JSON.parse(readFileSync(new URL('../public/data/characters.json
 test('the growing collection admits only authored illustrations while preserving the opening demo sequence',()=>{
   const before=JSON.stringify(lessons);
   const selected=selectIllustratedLessons(lessons);
-  assert.equal(lessons.length,1000);
+  assert.equal(lessons.length,1251);
   assert.equal(collectionWordUrl('森'),'?view=collection&word=%E6%A3%AE');
   assert.equal(selected.length,SCENE_CATALOG.length);
   assert.deepEqual(selected.slice(0,3).map(lesson=>lesson.word),['休','清','晴']);

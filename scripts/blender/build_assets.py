@@ -18,6 +18,11 @@ from nature_scenes import build_clear, build_sunny
 from shared_scenes import build_woods, build_forest, build_emotion, build_invite
 from device_scenes import build_phone, build_computer, build_parting
 from family_scene import build_good
+from nature_expansion import build_tree, build_root_books, build_water, build_snow
+from people_expansion import build_person, build_big, build_too_much, build_follow
+from next_ten_scenes import build_green, build_river, build_permission, build_moon, build_liver, build_hand, build_palm, build_opponent
+from explanation_scenes import SCENES as EXPLANATIONS
+from explanation_recipes import source_revision
 
 SCENES={
     'rest':('休',build_rest), 'clear':('清',build_clear), 'sunny':('晴',build_sunny),
@@ -26,12 +31,27 @@ SCENES={
     'phone':('手机',build_phone), 'computer':('电脑',build_computer),
     'parting':('分手',build_parting),
     'good':('好',build_good),
+    'tree':('木',build_tree), 'person':('人',build_person),
+    'green':('青',build_green), 'river':('河',build_river),
+    'permission':('可',build_permission), 'moon':('月',build_moon),
+    'liver':('肝',build_liver), 'hand':('手',build_hand),
+    'palm':('手掌',build_palm), 'opponent':('对手',build_opponent),
+    'root-books':('本',build_root_books), 'water':('水',build_water),
+    'snow':('雪',build_snow), 'big':('大',build_big),
+    'too-much':('太',build_too_much), 'follow':('从',build_follow),
 }
+if SCENES.keys() & EXPLANATIONS.keys():
+    raise ValueError('Duplicate Blender scene names')
+SCENES.update(EXPLANATIONS)
 
 
 def reset():
     bpy.ops.object.select_all(action='SELECT')
     bpy.ops.object.delete(use_global=False)
+    # Long corpus batches must release orphaned data between words.
+    for collection in (bpy.data.meshes,bpy.data.curves,bpy.data.cameras,bpy.data.lights):
+        for dat in list(collection):
+            if dat.users==0:collection.remove(dat)
     for dat in list(bpy.data.materials):
         if dat.users==0:bpy.data.materials.remove(dat)
 
@@ -137,7 +157,18 @@ def run(names, render):
         print('HANZI_ASSET',name,json.dumps(manifest['assets'][name],ensure_ascii=False),flush=True)
 
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
-unknown=[a for a in args if a not in SCENES and a not in ['--all','--render']]
+unknown=[a for a in args if a not in SCENES and a not in ['--all','--render','--missing','--explanations']]
 if unknown:raise ValueError('Unknown scene names or options: '+', '.join(unknown))
-names=list(SCENES) if '--all' in args else [a for a in args if a in SCENES] or ['rest','clear','sunny']
+names=list(SCENES) if '--all' in args else list(EXPLANATIONS) if '--explanations' in args else [a for a in args if a in SCENES] or ['rest','clear','sunny']
+if '--missing' in args:
+    manifest_path=ROOT/'public/models/blender/manifest.json'
+    assets=json.loads(manifest_path.read_text()).get('assets',{}) if manifest_path.exists() else {}
+    def current(name):
+        asset=assets.get(name)
+        if not asset:return False
+        if name in EXPLANATIONS:
+            if any(asset.get('design',{}).get(key)!=value for key,value in source_revision(name).items()):return False
+        glb=ROOT/'public'/asset['url'].lstrip('/')
+        return (ROOT/asset['blendFile']).is_file() and glb.is_file() and hashlib.sha256(glb.read_bytes()).hexdigest()==asset['sha256']
+    names=[name for name in names if not current(name)]
 run(names,'--render' in args)

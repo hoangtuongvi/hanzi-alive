@@ -1,0 +1,100 @@
+哪里|Picture which for 哪, then village for 里; together they cue where? (哪里).
+踢足球|Picture kick for 踢, then foot for 足, then ball for 球; together they cue to play soccer (踢足球).
+电子邮箱|Picture electricity for 电, then child for 子, then mail for 邮, then box for 箱; together they cue email address; email inbox (电子邮箱).
+刮风|Picture scrape for 刮, then wind for 风; together they cue to be windy (刮风).
+刷牙|Picture brush for 刷, then tooth for 牙; together they cue to brush one's teeth (刷牙).
+按时|Picture press down for 按, then time for 时; together they cue on time (按时).
+百分之|Picture hundred for 百, then divide for 分, then linking path for 之; together they cue percent; percentage (百分之).
+包子|Picture package for 包, then child for 子; together they cue bao (steamed stuffed bun) (包子).
+报名|Picture report for 报, then name for 名; together they cue to sign up (报名).
+抱歉|Picture hug for 抱, then deficient for 歉; together they cue to be sorry (抱歉).
+比如|Picture compare for 比, then as if for 如; together they cue for example (比如).
+表格|Picture display for 表, then grid standard for 格; together they cue form (表格).
+表扬|Picture display for 表, then to flutter for 扬; together they cue to praise (表扬).
+饼干|Picture rice-cake for 饼, then dry for 干; together they cue biscuit (饼干).
+参观|Picture join for 参, then observe for 观; together they cue to look around (参观).
+餐厅|Picture to eat for 餐, then hall for 厅; together they cue dining hall (餐厅).
+厕所|Picture toilet for 厕, then place for 所; together they cue toilet (厕所).
+长城|Picture long for 长, then city wall for 城; together they cue the Great Wall (长城).
+诚实|Picture honest for 诚, then real for 实; together they cue honest (诚实).
+乘坐|Picture rider for 乘, then sit for 坐; together they cue to ride (in a vehicle) (乘坐).
+吃惊|Picture eat for 吃, then to frighten for 惊; together they cue to be startled (吃惊).
+抽烟|Picture to draw out for 抽, then smoke for 烟; together they cue to smoke (a cigarette, tobacco) (抽烟).
+出差|Picture exit for 出, then difference for 差; together they cue to go on an official or business trip (出差).
+传真|Picture to pass on for 传, then true for 真; together they cue fax (传真).
+窗户|Picture window for 窗, then door for 户; together they cue window (窗户).
+粗心|Picture rough for 粗, then heart for 心; together they cue careless (粗心).
+错误|Picture wrong for 错, then error for 误; together they cue mistaken (错误).
+打扮|Picture hit for 打, then costume for 扮; together they cue to decorate (打扮).
+打扰|Picture hit for 打, then to poke for 扰; together they cue to disturb (打扰).
+打印|Picture hit for 打, then stamp for 印; together they cue to affix a seal (打印).
+打招呼|Picture hit for 打, then to summon for 招, then to breathe for 呼; together they cue to greet sb by word or action (打招呼).
+打折|Picture hit for 打, then to break for 折; together they cue to give a discount (打折).
+打针|Picture hit for 打, then needle for 针; together they cue to give or have an injection (打针).
+大使馆|Picture big for 大, then make someone act for 使, then public building for 馆; together they cue embassy (大使馆).
+大夫|Picture big for 大, then husband for 夫; together they cue senior official (in imperial China) (大夫).
+导游|Picture to direct for 导, then tour for 游; together they cue tour guide (导游).
+道歉|Picture way for 道, then deficient for 歉; together they cue to apologize (道歉).
+得意|Picture get for 得, then idea for 意; together they cue proud of oneself (得意).
+登机牌|Picture to rise for 登, then machine for 机, then card for 牌; together they cue boarding pass (登机牌).
+地点|Picture ground for 地, then dot for 点; together they cue place (地点).
+堵车|Picture wall for 堵, then vehicle for 车; together they cue traffic jam (堵车).
+肚子|Picture belly for 肚, then child for 子; together they cue belly (肚子).
+短信|Picture short for 短, then trust for 信; together they cue text message (短信).
+对话|Picture facing for 对, then talk for 话; together they cue to talk (with sb) (对话).
+对面|Picture facing for 对, then face for 面; together they cue (sitting) opposite (对面).
+对于|Picture facing for 对, then at marker for 于; together they cue regarding (对于).
+翻译|Picture to upset for 翻, then to translate for 译; together they cue to translate (翻译).
+烦恼|Picture annoyed for 烦, then angry for 恼; together they cue to be worried (烦恼).
+房东|Picture room for 房, then east for 东; together they cue landlord (房东).
+放暑假|Picture release for 放, then hot for 暑, then fake for 假; together they cue to be on summer vacation (放暑假).
+放松|Picture release for 放, then pine looseness for 松; together they cue to relax (放松).
+付款|Picture pay for 付, then funds for 款; together they cue to pay a sum of money (付款).
+复印|Picture repeat for 复, then stamp for 印; together they cue to photocopy (复印).
+干杯|Picture dry for 干, then cup for 杯; together they cue to drink a toast (干杯).
+高速公路|Picture high for 高, then speed for 速, then public for 公, then path for 路; together they cue expressway (高速公路).
+胳膊|Picture arms for 胳, then shoulder for 膊; together they cue arm (胳膊).
+功夫|Picture achievement work for 功, then husband for 夫; together they cue skill (功夫).
+购物|Picture to buy for 购, then thing for 物; together they cue shopping (购物).
+广播|Picture shelter for 广, then to sow seeds for 播; together they cue broadcast (广播).
+国籍|Picture country for 国, then register for 籍; together they cue nationality (国籍).
+海洋|Picture sea for 海, then sea for 洋; together they cue ocean (海洋).
+害羞|Picture harm for 害, then shame for 羞; together they cue shy (害羞).
+寒假|Picture chilly for 寒, then fake for 假; together they cue winter vacation (寒假).
+航班|Picture vessel for 航, then class for 班; together they cue (scheduled) flight (航班).
+合格|Picture fit together for 合, then grid standard for 格; together they cue to meet the standard required (合格).
+盒子|Picture small box or case for 盒, then child for 子; together they cue box (盒子).
+互联网|Picture mutual for 互, then link ears for 联, then net for 网; together they cue Internet (互联网).
+护士|Picture guard for 护, then scholar for 士; together they cue nurse (护士).
+活泼|Picture alive for 活, then to pour for 泼; together they cue lively (活泼).
+积累|Picture accumulate for 积, then tired for 累; together they cue to accumulate (积累).
+加班|Picture add for 加, then class for 班; together they cue to work overtime (加班).
+加油站|Picture add for 加, then oil for 油, then stand for 站; together they cue gas station (加油站).
+家具|Picture home for 家, then tool for 具; together they cue furniture (家具).
+减肥|Picture subtract for 减, then fat for 肥; together they cue to lose weight (减肥).
+建议|Picture build for 建, then discuss for 议; together they cue to propose (建议).
+奖金|Picture prize for 奖, then gold for 金; together they cue premium (奖金).
+降低|Picture to descend for 降, then low for 低; together they cue to reduce (降低).
+降落|Picture to descend for 降, then to fall for 落; together they cue to descend (降落).
+郊区|Picture suburbs for 郊, then district for 区; together they cue suburban district (郊区).
+骄傲|Picture haughty for 骄, then proud for 傲; together they cue pride (骄傲).
+饺子|Picture stuffed dumplings for 饺, then child for 子; together they cue dumpling (饺子).
+接着|Picture receive for 接, then continuing eye for 着; together they cue to catch and hold on (接着).
+节约|Picture joint for 节, then appointment for 约; together they cue to economize (节约).
+禁止|Picture to restrict for 禁, then stop for 止; together they cue to prohibit (禁止).
+京剧|Picture capital for 京, then theatrical plays for 剧; together they cue Beijing opera (京剧).
+景色|Picture landscape for 景, then color for 色; together they cue scenery (景色).
+镜子|Picture mirror for 镜, then child for 子; together they cue mirror (镜子).
+聚会|Picture to assemble for 聚, then can for 会; together they cue party (聚会).
+开玩笑|Picture open for 开, then play for 玩, then laugh for 笑; together they cue to play a joke (开玩笑).
+开心|Picture open for 开, then heart for 心; together they cue to feel happy (开心).
+烤鸭|Picture to bake for 烤, then duck for 鸭; together they cue roast duck (烤鸭).
+咳嗽|Picture to cough for 咳, then to gargle for 嗽; together they cue to cough (咳嗽).
+客厅|Picture guest for 客, then hall for 厅; together they cue drawing room (room for arriving guests) (客厅).
+矿泉水|Picture mine for 矿, then spring for 泉, then water for 水; together they cue mineral water (矿泉水).
+垃圾桶|Picture garbage for 垃, then garbage for 圾, then bucket for 桶; together they cue rubbish bin (垃圾桶).
+来不及|Picture come for 来, then not for 不, then reach for 及; together they cue there's not enough time (to do sth) (来不及).
+来得及|Picture come for 来, then get for 得, then reach for 及; together they cue to have enough time (来得及).
+来自|Picture come for 来, then self for 自; together they cue to come from (a place) (来自).
+老虎|Picture old for 老, then tiger for 虎; together they cue tiger (老虎).
+冷静|Picture cold for 冷, then quiet for 静; together they cue calm (冷静).

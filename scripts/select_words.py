@@ -12,9 +12,20 @@ selected=[byword[w] for w in stress];seen=set(stress)
 for x in pool:
  if x['simplified'] not in seen:selected.append(x);seen.add(x['simplified'])
  if len(selected)==1000:break
+workbook_path=pathlib.Path('data/source/hsk-workbook-1-4.json')
+if workbook_path.exists():
+ workbook=json.loads(workbook_path.read_text())
+ supplements={'踢足球':'to play soccer','电子邮箱':'email address; email inbox','百分之':'percent; percentage','弹钢琴':'to play the piano'}
+ for row in workbook['rows']:
+  word=row['word']
+  if word in seen:continue
+  if word in byword:record=byword[word]
+  else:record={'simplified':word,'level':[f"workbook-{row['level']}"],'pos':[],'forms':[{'traditional':word,'transcriptions':{'pinyin':row['pinyin']},'meanings':[supplements[word]]}],'supplement':'HSK workbook'}
+  record=json.loads(json.dumps(record,ensure_ascii=False));record['workbook']=row
+  selected.append(record);seen.add(word)
 pathlib.Path('data/selection.json').write_text(json.dumps(selected,ensure_ascii=False,indent=2))
 pathlib.Path('data/curation/stress.json').write_text(json.dumps(stress,ensure_ascii=False))
-for start in range(0,1000,100):
+for start in range(0,len(selected),100):
  lines=[]
  for n,x in enumerate(selected[start:start+100],start+1):
   f=x['forms'][0]; lines.append(f"{n}. {x['simplified']} | {f['transcriptions']['pinyin']} | {'; '.join(f['meanings'][:3])}")

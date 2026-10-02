@@ -22,12 +22,12 @@ test('the illustration catalog points only to available words and authored Blend
 
 test('coverage counts writing-only lessons separately and counts a repeated word just once',()=>{
   const coverage=getVisualCoverage(lessons);
-  assert.equal(coverage.words,1000);
+  assert.equal(coverage.words,1251);
   assert.equal(coverage.illustratedScenes,SCENE_CATALOG.length);
   assert.equal(coverage.blenderScenes+coverage.proceduralScenes,coverage.illustratedScenes);
-  assert.equal(coverage.writingOnly+coverage.illustratedScenes,1000);
+  assert.equal(coverage.writingOnly+coverage.illustratedScenes,1251);
   assert.equal(coverage.historicalLessons,1);
-  assert.deepEqual(getVisualCoverage([{word:'休'},{word:'休'},{word:'学习'}]),{
+  assert.deepEqual(getVisualCoverage([{word:'休'},{word:'休'},{word:'高手'}]),{
     words:2,blenderScenes:1,proceduralScenes:0,illustratedScenes:1,writingOnly:1,historicalLessons:1,
   });
 });

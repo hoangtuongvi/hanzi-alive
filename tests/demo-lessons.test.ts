@@ -14,7 +14,7 @@ test('the served demo contains exactly 休, 清, 晴 in order with original less
   assert.deepEqual(DEMO_WORDS, ['休', '清', '晴']);
   assert.deepEqual(demoLessons.map(lesson => lesson.word), ['休', '清', '晴']);
   assert.deepEqual(demoLessons, selectDemoLessons(sourceLessons));
-  assert.equal(sourceLessons.length, 1000);
+  assert.equal(sourceLessons.length, 1251);
   const sourceSnapshot = JSON.stringify(sourceLessons);
   assert.deepEqual(selectDemoLessons([...sourceLessons].reverse()), demoLessons);
   assert.equal(JSON.stringify(sourceLessons), sourceSnapshot);
@@ -31,7 +31,7 @@ test('demo characters retain source metadata and geometry while excluding unrela
     assert.equal(geometry.character, glyph);
     assert.ok(geometry.strokes.length > 0, glyph);
   }
-  assert.equal(Object.keys(sourceCharacters).length, 919);
+  assert.equal(Object.keys(sourceCharacters).length, 1094);
 });
 
 test('valid demo deep links retain their selected word and canonicalize consistently', () => {

@@ -21,7 +21,7 @@ https://www.mdbg.net/chinese/dictionary?page=cc-cedict
 CC-CEDICT uses Creative Commons Attribution-ShareAlike 4.0:
 https://creativecommons.org/licenses/by-sa/4.0/
 
-The pilot selects one sense per entry, shortens English glosses, chooses contextual readings, and adds original AI-authored memory scenes and explanations. The elements-2 revision rewrites all 1,000 word stories and adds 919 character mnemonics with a consistent image-cue inventory. Assigned mnemonic images are separate from dictionary meanings and historical roles. Dictionary-derived adaptations retain CC BY-SA 4.0 terms. The original scenes and connection notes are offered under CC BY-SA 4.0 as well. Source definitions remain distinguishable in `dictionaryMeanings`; the application does not claim independent linguistic review.
+The pilot selects one sense per entry, shortens English glosses, chooses contextual readings, and adds original AI-authored memory scenes and explanations. The elements-2 revision covers all 1,251 planned word stories and 1,094 character mnemonics with a consistent image-cue inventory. Assigned mnemonic images are separate from dictionary meanings and historical roles. Dictionary-derived adaptations retain CC BY-SA 4.0 terms. The original scenes and connection notes are offered under CC BY-SA 4.0 as well. Source definitions remain distinguishable in `dictionaryMeanings`; the application does not claim independent linguistic review.
 
 ## Character structures and stroke outlines
 
@@ -30,7 +30,7 @@ https://github.com/skishore/makemeahanzi/tree/bddc96d41bef78427ed0e034e9f7e31d71
 
 Snapshot: `bddc96d41bef78427ed0e034e9f7e31d71fd1b92`. Dictionary data uses LGPL version 3 or later. Stroke graphics derive from Arphic fonts and use the Arphic Public License. Original data and notices are preserved in `data/source/`; copies of the notices are in `public/licenses/`.
 
-Changes: subset to the 919 selected characters, parse ideographic descriptions into trees, associate vocabulary usage IDs, and derive top-level stroke groups from source matches. Stroke path strings and medians are preserved. The viewer adds extrusion, material, lighting and motion at runtime. Unassigned strokes remain unassigned. Historical structure explanations are source analyses, not independently established facts.
+Changes: subset to the 1,094 selected characters, parse ideographic descriptions into trees, associate vocabulary usage IDs, and derive top-level stroke groups from source matches. Stroke path strings and medians are preserved. The viewer adds extrusion, material, lighting and motion at runtime. Unassigned strokes remain unassigned. Historical structure explanations are source analyses, not independently established facts.
 
 Selected reference links point to the **Chinese University of Hong Kong Multi-function Chinese Character Database**:
 https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/

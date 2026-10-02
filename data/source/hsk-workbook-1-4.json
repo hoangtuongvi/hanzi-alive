@@ -1,0 +1,9365 @@
+{
+  "source": "FULL TỪ VỰNG HSK1- HSK6.xlsx",
+  "spreadsheetId": "1fEfxea3e4_p3OChTmDtkKI-hQpu9KdQW",
+  "sheets": [
+    "HSK1",
+    "HSK2",
+    "HSK3",
+    "HSK4"
+  ],
+  "normalization": "Text before a parenthetical grammar or alias note is the lesson key.",
+  "rows": [
+    {
+      "level": 1,
+      "row": 1,
+      "word": "爱",
+      "rawWord": "爱",
+      "pinyin": "ài",
+      "meaningVi": "yêu"
+    },
+    {
+      "level": 1,
+      "row": 2,
+      "word": "八",
+      "rawWord": "八",
+      "pinyin": "bā",
+      "meaningVi": "tám"
+    },
+    {
+      "level": 1,
+      "row": 3,
+      "word": "爸爸",
+      "rawWord": "爸爸",
+      "pinyin": "bàba",
+      "meaningVi": "bố"
+    },
+    {
+      "level": 1,
+      "row": 4,
+      "word": "杯子",
+      "rawWord": "杯子",
+      "pinyin": "bēizi",
+      "meaningVi": "cốc"
+    },
+    {
+      "level": 1,
+      "row": 5,
+      "word": "北京",
+      "rawWord": "北京",
+      "pinyin": "Běijīng",
+      "meaningVi": "Bắc Kinh"
+    },
+    {
+      "level": 1,
+      "row": 6,
+      "word": "本",
+      "rawWord": "本",
+      "pinyin": "běn",
+      "meaningVi": "cuốn (dùng cho sách)"
+    },
+    {
+      "level": 1,
+      "row": 7,
+      "word": "不客气",
+      "rawWord": "不客气",
+      "pinyin": "bú kèqì",
+      "meaningVi": "không có gì (đáp lại lời cảm ơn)"
+    },
+    {
+      "level": 1,
+      "row": 8,
+      "word": "不",
+      "rawWord": "不",
+      "pinyin": "bù",
+      "meaningVi": "không"
+    },
+    {
+      "level": 1,
+      "row": 9,
+      "word": "菜",
+      "rawWord": "菜",
+      "pinyin": "cài",
+      "meaningVi": "món ăn, rau củ"
+    },
+    {
+      "level": 1,
+      "row": 10,
+      "word": "茶",
+      "rawWord": "茶",
+      "pinyin": "chá",
+      "meaningVi": "trà"
+    },
+    {
+      "level": 1,
+      "row": 11,
+      "word": "吃",
+      "rawWord": "吃",
+      "pinyin": "chī",
+      "meaningVi": "ăn"
+    },
+    {
+      "level": 1,
+      "row": 12,
+      "word": "出租车",
+      "rawWord": "出租车",
+      "pinyin": "chūzūchē",
+      "meaningVi": "taxi"
+    },
+    {
+      "level": 1,
+      "row": 13,
+      "word": "打电话",
+      "rawWord": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "meaningVi": "gọi điện thoại"
+    },
+    {
+      "level": 1,
+      "row": 14,
+      "word": "大",
+      "rawWord": "大",
+      "pinyin": "dà",
+      "meaningVi": "lớn, to"
+    },
+    {
+      "level": 1,
+      "row": 15,
+      "word": "的",
+      "rawWord": "的",
+      "pinyin": "de",
+      "meaningVi": "của (thuộc tính)"
+    },
+    {
+      "level": 1,
+      "row": 16,
+      "word": "点",
+      "rawWord": "点",
+      "pinyin": "diǎn",
+      "meaningVi": "giờ (trong thời gian)"
+    },
+    {
+      "level": 1,
+      "row": 17,
+      "word": "电脑",
+      "rawWord": "电脑",
+      "pinyin": "diànnǎo",
+      "meaningVi": "máy tính"
+    },
+    {
+      "level": 1,
+      "row": 18,
+      "word": "电视",
+      "rawWord": "电视",
+      "pinyin": "diànshì",
+      "meaningVi": "ti vi"
+    },
+    {
+      "level": 1,
+      "row": 19,
+      "word": "电影",
+      "rawWord": "电影",
+      "pinyin": "diànyǐng",
+      "meaningVi": "phim"
+    },
+    {
+      "level": 1,
+      "row": 20,
+      "word": "东西",
+      "rawWord": "东西",
+      "pinyin": "dōngxi",
+      "meaningVi": "đồ vật, thứ"
+    },
+    {
+      "level": 1,
+      "row": 21,
+      "word": "都",
+      "rawWord": "都",
+      "pinyin": "dōu",
+      "meaningVi": "đều"
+    },
+    {
+      "level": 1,
+      "row": 22,
+      "word": "读",
+      "rawWord": "读",
+      "pinyin": "dú",
+      "meaningVi": "đọc"
+    },
+    {
+      "level": 1,
+      "row": 23,
+      "word": "对不起",
+      "rawWord": "对不起",
+      "pinyin": "duìbùqǐ",
+      "meaningVi": "xin lỗi"
+    },
+    {
+      "level": 1,
+      "row": 24,
+      "word": "多",
+      "rawWord": "多",
+      "pinyin": "duō",
+      "meaningVi": "nhiều"
+    },
+    {
+      "level": 1,
+      "row": 25,
+      "word": "多少",
+      "rawWord": "多少",
+      "pinyin": "duōshǎo",
+      "meaningVi": "bao nhiêu"
+    },
+    {
+      "level": 1,
+      "row": 26,
+      "word": "儿子",
+      "rawWord": "儿子",
+      "pinyin": "érzi",
+      "meaningVi": "con trai"
+    },
+    {
+      "level": 1,
+      "row": 27,
+      "word": "二",
+      "rawWord": "二",
+      "pinyin": "èr",
+      "meaningVi": "hai"
+    },
+    {
+      "level": 1,
+      "row": 28,
+      "word": "饭馆",
+      "rawWord": "饭馆",
+      "pinyin": "fànguǎn",
+      "meaningVi": "nhà hàng"
+    },
+    {
+      "level": 1,
+      "row": 29,
+      "word": "飞机",
+      "rawWord": "飞机",
+      "pinyin": "fēijī",
+      "meaningVi": "máy bay"
+    },
+    {
+      "level": 1,
+      "row": 30,
+      "word": "分钟",
+      "rawWord": "分钟",
+      "pinyin": "fēnzhōng",
+      "meaningVi": "phút"
+    },
+    {
+      "level": 1,
+      "row": 31,
+      "word": "高兴",
+      "rawWord": "高兴",
+      "pinyin": "gāoxìng",
+      "meaningVi": "vui"
+    },
+    {
+      "level": 1,
+      "row": 32,
+      "word": "个",
+      "rawWord": "个",
+      "pinyin": "gè",
+      "meaningVi": "cái (đơn vị lượng từ)"
+    },
+    {
+      "level": 1,
+      "row": 33,
+      "word": "工作",
+      "rawWord": "工作",
+      "pinyin": "gōngzuò",
+      "meaningVi": "công việc"
+    },
+    {
+      "level": 1,
+      "row": 34,
+      "word": "狗",
+      "rawWord": "狗",
+      "pinyin": "gǒu",
+      "meaningVi": "chó"
+    },
+    {
+      "level": 1,
+      "row": 35,
+      "word": "汉语",
+      "rawWord": "汉语",
+      "pinyin": "Hànyǔ",
+      "meaningVi": "tiếng Hán"
+    },
+    {
+      "level": 1,
+      "row": 36,
+      "word": "好",
+      "rawWord": "好",
+      "pinyin": "hǎo",
+      "meaningVi": "tốt, khỏe"
+    },
+    {
+      "level": 1,
+      "row": 37,
+      "word": "喝",
+      "rawWord": "喝",
+      "pinyin": "hē",
+      "meaningVi": "uống"
+    },
+    {
+      "level": 1,
+      "row": 38,
+      "word": "和",
+      "rawWord": "和",
+      "pinyin": "hé",
+      "meaningVi": "và"
+    },
+    {
+      "level": 1,
+      "row": 39,
+      "word": "很",
+      "rawWord": "很",
+      "pinyin": "hěn",
+      "meaningVi": "rất"
+    },
+    {
+      "level": 1,
+      "row": 40,
+      "word": "后面",
+      "rawWord": "后面",
+      "pinyin": "hòumiàn",
+      "meaningVi": "phía sau"
+    },
+    {
+      "level": 1,
+      "row": 41,
+      "word": "回",
+      "rawWord": "回",
+      "pinyin": "huí",
+      "meaningVi": "quay lại, về"
+    },
+    {
+      "level": 1,
+      "row": 42,
+      "word": "会",
+      "rawWord": "会",
+      "pinyin": "huì",
+      "meaningVi": "sẽ, biết (kỹ năng)"
+    },
+    {
+      "level": 1,
+      "row": 43,
+      "word": "火车站",
+      "rawWord": "火车站",
+      "pinyin": "huǒchēzhàn",
+      "meaningVi": "ga tàu"
+    },
+    {
+      "level": 1,
+      "row": 44,
+      "word": "几",
+      "rawWord": "几",
+      "pinyin": "jǐ",
+      "meaningVi": "mấy"
+    },
+    {
+      "level": 1,
+      "row": 45,
+      "word": "家",
+      "rawWord": "家",
+      "pinyin": "jiā",
+      "meaningVi": "gia đình, nhà"
+    },
+    {
+      "level": 1,
+      "row": 46,
+      "word": "叫",
+      "rawWord": "叫",
+      "pinyin": "jiào",
+      "meaningVi": "gọi, tên gọi"
+    },
+    {
+      "level": 1,
+      "row": 47,
+      "word": "今天",
+      "rawWord": "今天",
+      "pinyin": "jīntiān",
+      "meaningVi": "hôm nay"
+    },
+    {
+      "level": 1,
+      "row": 48,
+      "word": "九",
+      "rawWord": "九",
+      "pinyin": "jiǔ",
+      "meaningVi": "chín"
+    },
+    {
+      "level": 1,
+      "row": 49,
+      "word": "开",
+      "rawWord": "开",
+      "pinyin": "kāi",
+      "meaningVi": "mở, khởi động"
+    },
+    {
+      "level": 1,
+      "row": 50,
+      "word": "看",
+      "rawWord": "看",
+      "pinyin": "kàn",
+      "meaningVi": "xem"
+    },
+    {
+      "level": 1,
+      "row": 51,
+      "word": "看见",
+      "rawWord": "看见",
+      "pinyin": "kànjiàn",
+      "meaningVi": "nhìn thấy"
+    },
+    {
+      "level": 1,
+      "row": 52,
+      "word": "块",
+      "rawWord": "块",
+      "pinyin": "kuài",
+      "meaningVi": "miếng, đồng (tiền)"
+    },
+    {
+      "level": 1,
+      "row": 53,
+      "word": "来",
+      "rawWord": "来",
+      "pinyin": "lái",
+      "meaningVi": "đến"
+    },
+    {
+      "level": 1,
+      "row": 54,
+      "word": "老师",
+      "rawWord": "老师",
+      "pinyin": "lǎoshī",
+      "meaningVi": "giáo viên"
+    },
+    {
+      "level": 1,
+      "row": 55,
+      "word": "了",
+      "rawWord": "了",
+      "pinyin": "le",
+      "meaningVi": "đã (dùng để chỉ sự thay đổi)"
+    },
+    {
+      "level": 1,
+      "row": 56,
+      "word": "冷",
+      "rawWord": "冷",
+      "pinyin": "lěng",
+      "meaningVi": "lạnh"
+    },
+    {
+      "level": 1,
+      "row": 57,
+      "word": "里",
+      "rawWord": "里",
+      "pinyin": "lǐ",
+      "meaningVi": "trong"
+    },
+    {
+      "level": 1,
+      "row": 58,
+      "word": "零",
+      "rawWord": "零",
+      "pinyin": "líng",
+      "meaningVi": "không (số 0)"
+    },
+    {
+      "level": 1,
+      "row": 59,
+      "word": "六",
+      "rawWord": "六",
+      "pinyin": "liù",
+      "meaningVi": "sáu"
+    },
+    {
+      "level": 1,
+      "row": 60,
+      "word": "妈妈",
+      "rawWord": "妈妈",
+      "pinyin": "māma",
+      "meaningVi": "mẹ"
+    },
+    {
+      "level": 1,
+      "row": 61,
+      "word": "吗",
+      "rawWord": "吗",
+      "pinyin": "ma",
+      "meaningVi": "không (dùng trong câu hỏi)"
+    },
+    {
+      "level": 1,
+      "row": 62,
+      "word": "买",
+      "rawWord": "买",
+      "pinyin": "mǎi",
+      "meaningVi": "mua"
+    },
+    {
+      "level": 1,
+      "row": 63,
+      "word": "猫",
+      "rawWord": "猫",
+      "pinyin": "māo",
+      "meaningVi": "mèo"
+    },
+    {
+      "level": 1,
+      "row": 64,
+      "word": "没",
+      "rawWord": "没",
+      "pinyin": "méi",
+      "meaningVi": "không có, chưa"
+    },
+    {
+      "level": 1,
+      "row": 65,
+      "word": "没关系",
+      "rawWord": "没关系",
+      "pinyin": "méi guānxi",
+      "meaningVi": "không sao, không có gì"
+    },
+    {
+      "level": 1,
+      "row": 66,
+      "word": "米饭",
+      "rawWord": "米饭",
+      "pinyin": "mǐfàn",
+      "meaningVi": "cơm"
+    },
+    {
+      "level": 1,
+      "row": 67,
+      "word": "明天",
+      "rawWord": "明天",
+      "pinyin": "míngtiān",
+      "meaningVi": "ngày mai"
+    },
+    {
+      "level": 1,
+      "row": 68,
+      "word": "名字",
+      "rawWord": "名字",
+      "pinyin": "míngzi",
+      "meaningVi": "tên"
+    },
+    {
+      "level": 1,
+      "row": 69,
+      "word": "哪里",
+      "rawWord": "哪里 (哪儿)",
+      "pinyin": "nǎlǐ (nǎr)",
+      "meaningVi": "đâu, chỗ nào"
+    },
+    {
+      "level": 1,
+      "row": 70,
+      "word": "那",
+      "rawWord": "那",
+      "pinyin": "nà",
+      "meaningVi": "đó, kia"
+    },
+    {
+      "level": 1,
+      "row": 71,
+      "word": "呢",
+      "rawWord": "呢",
+      "pinyin": "ne",
+      "meaningVi": "thì sao? (dùng để hỏi thêm)"
+    },
+    {
+      "level": 1,
+      "row": 72,
+      "word": "能",
+      "rawWord": "能",
+      "pinyin": "néng",
+      "meaningVi": "có thể"
+    },
+    {
+      "level": 1,
+      "row": 73,
+      "word": "你",
+      "rawWord": "你",
+      "pinyin": "nǐ",
+      "meaningVi": "bạn"
+    },
+    {
+      "level": 1,
+      "row": 74,
+      "word": "年",
+      "rawWord": "年",
+      "pinyin": "nián",
+      "meaningVi": "năm"
+    },
+    {
+      "level": 1,
+      "row": 75,
+      "word": "女儿",
+      "rawWord": "女儿",
+      "pinyin": "nǚ'ér",
+      "meaningVi": "con gái"
+    },
+    {
+      "level": 1,
+      "row": 76,
+      "word": "朋友",
+      "rawWord": "朋友",
+      "pinyin": "péngyou",
+      "meaningVi": "bạn"
+    },
+    {
+      "level": 1,
+      "row": 77,
+      "word": "漂亮",
+      "rawWord": "漂亮",
+      "pinyin": "piàoliang",
+      "meaningVi": "đẹp"
+    },
+    {
+      "level": 1,
+      "row": 78,
+      "word": "苹果",
+      "rawWord": "苹果",
+      "pinyin": "píngguǒ",
+      "meaningVi": "táo"
+    },
+    {
+      "level": 1,
+      "row": 79,
+      "word": "七",
+      "rawWord": "七",
+      "pinyin": "qī",
+      "meaningVi": "bảy"
+    },
+    {
+      "level": 1,
+      "row": 80,
+      "word": "钱",
+      "rawWord": "钱",
+      "pinyin": "qián",
+      "meaningVi": "tiền"
+    },
+    {
+      "level": 1,
+      "row": 81,
+      "word": "前面",
+      "rawWord": "前面",
+      "pinyin": "qiánmiàn",
+      "meaningVi": "phía trước"
+    },
+    {
+      "level": 1,
+      "row": 82,
+      "word": "请",
+      "rawWord": "请",
+      "pinyin": "qǐng",
+      "meaningVi": "xin vui lòng, mời"
+    },
+    {
+      "level": 1,
+      "row": 83,
+      "word": "去",
+      "rawWord": "去",
+      "pinyin": "qù",
+      "meaningVi": "đi"
+    },
+    {
+      "level": 1,
+      "row": 84,
+      "word": "热",
+      "rawWord": "热",
+      "pinyin": "rè",
+      "meaningVi": "nóng"
+    },
+    {
+      "level": 1,
+      "row": 85,
+      "word": "人",
+      "rawWord": "人",
+      "pinyin": "rén",
+      "meaningVi": "người"
+    },
+    {
+      "level": 1,
+      "row": 86,
+      "word": "认识",
+      "rawWord": "认识",
+      "pinyin": "rènshi",
+      "meaningVi": "quen biết"
+    },
+    {
+      "level": 1,
+      "row": 87,
+      "word": "日",
+      "rawWord": "日",
+      "pinyin": "rì",
+      "meaningVi": "ngày"
+    },
+    {
+      "level": 1,
+      "row": 88,
+      "word": "三",
+      "rawWord": "三",
+      "pinyin": "sān",
+      "meaningVi": "ba"
+    },
+    {
+      "level": 1,
+      "row": 89,
+      "word": "商店",
+      "rawWord": "商店",
+      "pinyin": "shāngdiàn",
+      "meaningVi": "cửa hàng"
+    },
+    {
+      "level": 1,
+      "row": 90,
+      "word": "上",
+      "rawWord": "上",
+      "pinyin": "shàng",
+      "meaningVi": "lên"
+    },
+    {
+      "level": 1,
+      "row": 91,
+      "word": "上午",
+      "rawWord": "上午",
+      "pinyin": "shàngwǔ",
+      "meaningVi": "buổi sáng"
+    },
+    {
+      "level": 1,
+      "row": 92,
+      "word": "少",
+      "rawWord": "少",
+      "pinyin": "shǎo",
+      "meaningVi": "ít"
+    },
+    {
+      "level": 1,
+      "row": 93,
+      "word": "谁",
+      "rawWord": "谁",
+      "pinyin": "shuí/ shéi",
+      "meaningVi": "ai"
+    },
+    {
+      "level": 1,
+      "row": 94,
+      "word": "什么",
+      "rawWord": "什么",
+      "pinyin": "shénme",
+      "meaningVi": "cái gì"
+    },
+    {
+      "level": 1,
+      "row": 95,
+      "word": "十",
+      "rawWord": "十",
+      "pinyin": "shí",
+      "meaningVi": "mười"
+    },
+    {
+      "level": 1,
+      "row": 96,
+      "word": "时候",
+      "rawWord": "时候",
+      "pinyin": "shíhòu",
+      "meaningVi": "lúc, khi"
+    },
+    {
+      "level": 1,
+      "row": 97,
+      "word": "是",
+      "rawWord": "是",
+      "pinyin": "shì",
+      "meaningVi": "là, thì"
+    },
+    {
+      "level": 1,
+      "row": 98,
+      "word": "书",
+      "rawWord": "书",
+      "pinyin": "shū",
+      "meaningVi": "sách"
+    },
+    {
+      "level": 1,
+      "row": 99,
+      "word": "水",
+      "rawWord": "水",
+      "pinyin": "shuǐ",
+      "meaningVi": "nước"
+    },
+    {
+      "level": 1,
+      "row": 100,
+      "word": "水果",
+      "rawWord": "水果",
+      "pinyin": "shuǐguǒ",
+      "meaningVi": "trái cây"
+    },
+    {
+      "level": 1,
+      "row": 101,
+      "word": "睡觉",
+      "rawWord": "睡觉",
+      "pinyin": "shuìjiào",
+      "meaningVi": "ngủ"
+    },
+    {
+      "level": 1,
+      "row": 102,
+      "word": "说话",
+      "rawWord": "说话",
+      "pinyin": "shuōhuà",
+      "meaningVi": "nói chuyện"
+    },
+    {
+      "level": 1,
+      "row": 103,
+      "word": "四",
+      "rawWord": "四",
+      "pinyin": "sì",
+      "meaningVi": "bốn"
+    },
+    {
+      "level": 1,
+      "row": 104,
+      "word": "岁",
+      "rawWord": "岁",
+      "pinyin": "suì",
+      "meaningVi": "tuổi"
+    },
+    {
+      "level": 1,
+      "row": 105,
+      "word": "他",
+      "rawWord": "他",
+      "pinyin": "tā",
+      "meaningVi": "anh ấy, ông ấy"
+    },
+    {
+      "level": 1,
+      "row": 106,
+      "word": "她",
+      "rawWord": "她",
+      "pinyin": "tā",
+      "meaningVi": "cô ấy, bà ấy"
+    },
+    {
+      "level": 1,
+      "row": 107,
+      "word": "太",
+      "rawWord": "太",
+      "pinyin": "tài",
+      "meaningVi": "quá"
+    },
+    {
+      "level": 1,
+      "row": 108,
+      "word": "天气",
+      "rawWord": "天气",
+      "pinyin": "tiānqì",
+      "meaningVi": "thời tiết"
+    },
+    {
+      "level": 1,
+      "row": 109,
+      "word": "听",
+      "rawWord": "听",
+      "pinyin": "tīng",
+      "meaningVi": "nghe"
+    },
+    {
+      "level": 1,
+      "row": 110,
+      "word": "同学",
+      "rawWord": "同学",
+      "pinyin": "tóngxué",
+      "meaningVi": "bạn học"
+    },
+    {
+      "level": 1,
+      "row": 111,
+      "word": "喂",
+      "rawWord": "喂",
+      "pinyin": "wèi",
+      "meaningVi": "alo"
+    },
+    {
+      "level": 1,
+      "row": 112,
+      "word": "我",
+      "rawWord": "我",
+      "pinyin": "wǒ",
+      "meaningVi": "tôi"
+    },
+    {
+      "level": 1,
+      "row": 113,
+      "word": "我们",
+      "rawWord": "我们",
+      "pinyin": "wǒmen",
+      "meaningVi": "chúng tôi"
+    },
+    {
+      "level": 1,
+      "row": 114,
+      "word": "五",
+      "rawWord": "五",
+      "pinyin": "wǔ",
+      "meaningVi": "năm"
+    },
+    {
+      "level": 1,
+      "row": 115,
+      "word": "喜欢",
+      "rawWord": "喜欢",
+      "pinyin": "xǐhuān",
+      "meaningVi": "thích"
+    },
+    {
+      "level": 1,
+      "row": 116,
+      "word": "下",
+      "rawWord": "下",
+      "pinyin": "xià",
+      "meaningVi": "xuống"
+    },
+    {
+      "level": 1,
+      "row": 117,
+      "word": "下午",
+      "rawWord": "下午",
+      "pinyin": "xiàwǔ",
+      "meaningVi": "buổi chiều"
+    },
+    {
+      "level": 1,
+      "row": 118,
+      "word": "下雨",
+      "rawWord": "下雨",
+      "pinyin": "xià yǔ",
+      "meaningVi": "mưa"
+    },
+    {
+      "level": 1,
+      "row": 119,
+      "word": "先生",
+      "rawWord": "先生",
+      "pinyin": "xiānshēng",
+      "meaningVi": "ông, ngài"
+    },
+    {
+      "level": 1,
+      "row": 120,
+      "word": "现在",
+      "rawWord": "现在",
+      "pinyin": "xiànzài",
+      "meaningVi": "bây giờ"
+    },
+    {
+      "level": 1,
+      "row": 121,
+      "word": "想",
+      "rawWord": "想",
+      "pinyin": "xiǎng",
+      "meaningVi": "nghĩ, muốn"
+    },
+    {
+      "level": 1,
+      "row": 122,
+      "word": "小",
+      "rawWord": "小",
+      "pinyin": "xiǎo",
+      "meaningVi": "nhỏ"
+    },
+    {
+      "level": 1,
+      "row": 123,
+      "word": "小姐",
+      "rawWord": "小姐",
+      "pinyin": "xiǎojiě",
+      "meaningVi": "cô (trong cách gọi)"
+    },
+    {
+      "level": 1,
+      "row": 124,
+      "word": "些",
+      "rawWord": "些",
+      "pinyin": "xiē",
+      "meaningVi": "vài"
+    },
+    {
+      "level": 1,
+      "row": 125,
+      "word": "写",
+      "rawWord": "写",
+      "pinyin": "xiě",
+      "meaningVi": "viết"
+    },
+    {
+      "level": 1,
+      "row": 126,
+      "word": "谢谢",
+      "rawWord": "谢谢",
+      "pinyin": "xièxiè",
+      "meaningVi": "cảm ơn"
+    },
+    {
+      "level": 1,
+      "row": 127,
+      "word": "星期",
+      "rawWord": "星期",
+      "pinyin": "xīngqī",
+      "meaningVi": "tuần"
+    },
+    {
+      "level": 1,
+      "row": 128,
+      "word": "学生",
+      "rawWord": "学生",
+      "pinyin": "xuéshēng",
+      "meaningVi": "học sinh"
+    },
+    {
+      "level": 1,
+      "row": 129,
+      "word": "学习",
+      "rawWord": "学习",
+      "pinyin": "xuéxí",
+      "meaningVi": "học tập"
+    },
+    {
+      "level": 1,
+      "row": 130,
+      "word": "学校",
+      "rawWord": "学校",
+      "pinyin": "xuéxiào",
+      "meaningVi": "trường học"
+    },
+    {
+      "level": 1,
+      "row": 131,
+      "word": "一",
+      "rawWord": "一",
+      "pinyin": "yī",
+      "meaningVi": "một"
+    },
+    {
+      "level": 1,
+      "row": 132,
+      "word": "衣服",
+      "rawWord": "衣服",
+      "pinyin": "yīfu",
+      "meaningVi": "quần áo"
+    },
+    {
+      "level": 1,
+      "row": 133,
+      "word": "医生",
+      "rawWord": "医生",
+      "pinyin": "yīshēng",
+      "meaningVi": "bác sĩ"
+    },
+    {
+      "level": 1,
+      "row": 134,
+      "word": "医院",
+      "rawWord": "医院",
+      "pinyin": "yīyuàn",
+      "meaningVi": "bệnh viện"
+    },
+    {
+      "level": 1,
+      "row": 135,
+      "word": "椅子",
+      "rawWord": "椅子",
+      "pinyin": "yǐzi",
+      "meaningVi": "ghế"
+    },
+    {
+      "level": 1,
+      "row": 136,
+      "word": "月",
+      "rawWord": "月",
+      "pinyin": "yuè",
+      "meaningVi": "tháng, mặt trăng"
+    },
+    {
+      "level": 1,
+      "row": 137,
+      "word": "在",
+      "rawWord": "在",
+      "pinyin": "zài",
+      "meaningVi": "ở, tại"
+    },
+    {
+      "level": 1,
+      "row": 138,
+      "word": "再见",
+      "rawWord": "再见",
+      "pinyin": "zàijiàn",
+      "meaningVi": "tạm biệt"
+    },
+    {
+      "level": 1,
+      "row": 139,
+      "word": "怎么",
+      "rawWord": "怎么",
+      "pinyin": "zěnme",
+      "meaningVi": "làm sao"
+    },
+    {
+      "level": 1,
+      "row": 140,
+      "word": "怎么样",
+      "rawWord": "怎么样",
+      "pinyin": "zěnmeyàng",
+      "meaningVi": "như thế nào"
+    },
+    {
+      "level": 1,
+      "row": 141,
+      "word": "这",
+      "rawWord": "这",
+      "pinyin": "zhè",
+      "meaningVi": "Đây, này"
+    },
+    {
+      "level": 1,
+      "row": 142,
+      "word": "中国",
+      "rawWord": "中国",
+      "pinyin": "Zhōngguó",
+      "meaningVi": "Trung Quốc"
+    },
+    {
+      "level": 1,
+      "row": 143,
+      "word": "中午",
+      "rawWord": "中午",
+      "pinyin": "zhōngwǔ",
+      "meaningVi": "buổi trưa"
+    },
+    {
+      "level": 1,
+      "row": 144,
+      "word": "住",
+      "rawWord": "住",
+      "pinyin": "zhù",
+      "meaningVi": "sống, cư trú"
+    },
+    {
+      "level": 1,
+      "row": 145,
+      "word": "桌子",
+      "rawWord": "桌子",
+      "pinyin": "zhuōzi",
+      "meaningVi": "bàn"
+    },
+    {
+      "level": 1,
+      "row": 146,
+      "word": "字",
+      "rawWord": "字",
+      "pinyin": "zì",
+      "meaningVi": "chữ"
+    },
+    {
+      "level": 1,
+      "row": 147,
+      "word": "昨天",
+      "rawWord": "昨天",
+      "pinyin": "zuótiān",
+      "meaningVi": "hôm qua"
+    },
+    {
+      "level": 1,
+      "row": 148,
+      "word": "坐",
+      "rawWord": "坐",
+      "pinyin": "zuò",
+      "meaningVi": "ngồi"
+    },
+    {
+      "level": 1,
+      "row": 149,
+      "word": "做",
+      "rawWord": "做",
+      "pinyin": "zuò",
+      "meaningVi": "làm"
+    },
+    {
+      "level": 2,
+      "row": 1,
+      "word": "吧",
+      "rawWord": "吧",
+      "pinyin": "ba",
+      "meaningVi": "đi, nhé, nhỉ (đứng cuối câu)"
+    },
+    {
+      "level": 2,
+      "row": 2,
+      "word": "白",
+      "rawWord": "白",
+      "pinyin": "bái",
+      "meaningVi": "trắng"
+    },
+    {
+      "level": 2,
+      "row": 3,
+      "word": "百",
+      "rawWord": "百",
+      "pinyin": "bǎi",
+      "meaningVi": "trăm"
+    },
+    {
+      "level": 2,
+      "row": 4,
+      "word": "帮助",
+      "rawWord": "帮助",
+      "pinyin": "bāngzhù",
+      "meaningVi": "giúp đỡ"
+    },
+    {
+      "level": 2,
+      "row": 5,
+      "word": "报纸",
+      "rawWord": "报纸",
+      "pinyin": "bàozhǐ",
+      "meaningVi": "báo"
+    },
+    {
+      "level": 2,
+      "row": 6,
+      "word": "比",
+      "rawWord": "比",
+      "pinyin": "bǐ",
+      "meaningVi": "so sánh"
+    },
+    {
+      "level": 2,
+      "row": 7,
+      "word": "别",
+      "rawWord": "别",
+      "pinyin": "bié",
+      "meaningVi": "đừng, khác biệt"
+    },
+    {
+      "level": 2,
+      "row": 8,
+      "word": "长",
+      "rawWord": "长",
+      "pinyin": "cháng",
+      "meaningVi": "dài"
+    },
+    {
+      "level": 2,
+      "row": 9,
+      "word": "唱歌",
+      "rawWord": "唱歌",
+      "pinyin": "chànggē",
+      "meaningVi": "hát"
+    },
+    {
+      "level": 2,
+      "row": 10,
+      "word": "出",
+      "rawWord": "出",
+      "pinyin": "chū",
+      "meaningVi": "ra ngoài"
+    },
+    {
+      "level": 2,
+      "row": 11,
+      "word": "穿",
+      "rawWord": "穿",
+      "pinyin": "chuān",
+      "meaningVi": "mặc"
+    },
+    {
+      "level": 2,
+      "row": 12,
+      "word": "船",
+      "rawWord": "船",
+      "pinyin": "chuán",
+      "meaningVi": "thuyền"
+    },
+    {
+      "level": 2,
+      "row": 13,
+      "word": "次",
+      "rawWord": "次",
+      "pinyin": "cì",
+      "meaningVi": "lần"
+    },
+    {
+      "level": 2,
+      "row": 14,
+      "word": "从",
+      "rawWord": "从",
+      "pinyin": "cóng",
+      "meaningVi": "từ, theo"
+    },
+    {
+      "level": 2,
+      "row": 15,
+      "word": "错",
+      "rawWord": "错",
+      "pinyin": "cuò",
+      "meaningVi": "sai"
+    },
+    {
+      "level": 2,
+      "row": 16,
+      "word": "打篮球",
+      "rawWord": "打篮球",
+      "pinyin": "dǎ lánqiú",
+      "meaningVi": "chơi bóng rổ"
+    },
+    {
+      "level": 2,
+      "row": 17,
+      "word": "大家",
+      "rawWord": "大家",
+      "pinyin": "dàjiā",
+      "meaningVi": "mọi người"
+    },
+    {
+      "level": 2,
+      "row": 18,
+      "word": "但是",
+      "rawWord": "但是",
+      "pinyin": "dànshì",
+      "meaningVi": "nhưng"
+    },
+    {
+      "level": 2,
+      "row": 19,
+      "word": "到",
+      "rawWord": "到",
+      "pinyin": "dào",
+      "meaningVi": "đến"
+    },
+    {
+      "level": 2,
+      "row": 20,
+      "word": "得",
+      "rawWord": "得",
+      "pinyin": "děi",
+      "meaningVi": "phải, đạt được"
+    },
+    {
+      "level": 2,
+      "row": 21,
+      "word": "等",
+      "rawWord": "等",
+      "pinyin": "děng",
+      "meaningVi": "đợi"
+    },
+    {
+      "level": 2,
+      "row": 22,
+      "word": "弟弟",
+      "rawWord": "弟弟",
+      "pinyin": "dìdì",
+      "meaningVi": "em trai"
+    },
+    {
+      "level": 2,
+      "row": 23,
+      "word": "第一",
+      "rawWord": "第一",
+      "pinyin": "dì yī",
+      "meaningVi": "đầu tiên"
+    },
+    {
+      "level": 2,
+      "row": 24,
+      "word": "懂",
+      "rawWord": "懂",
+      "pinyin": "dǒng",
+      "meaningVi": "hiểu"
+    },
+    {
+      "level": 2,
+      "row": 25,
+      "word": "对",
+      "rawWord": "对",
+      "pinyin": "duì",
+      "meaningVi": "đúng, đối với"
+    },
+    {
+      "level": 2,
+      "row": 26,
+      "word": "房间",
+      "rawWord": "房间",
+      "pinyin": "fángjiān",
+      "meaningVi": "phòng"
+    },
+    {
+      "level": 2,
+      "row": 27,
+      "word": "非常",
+      "rawWord": "非常",
+      "pinyin": "fēicháng",
+      "meaningVi": "rất, cực kỳ"
+    },
+    {
+      "level": 2,
+      "row": 28,
+      "word": "服务员",
+      "rawWord": "服务员",
+      "pinyin": "fúwùyuán",
+      "meaningVi": "nhân viên phục vụ"
+    },
+    {
+      "level": 2,
+      "row": 29,
+      "word": "高",
+      "rawWord": "高",
+      "pinyin": "gāo",
+      "meaningVi": "cao"
+    },
+    {
+      "level": 2,
+      "row": 30,
+      "word": "告诉",
+      "rawWord": "告诉",
+      "pinyin": "gàosù",
+      "meaningVi": "nói cho, thông báo"
+    },
+    {
+      "level": 2,
+      "row": 31,
+      "word": "哥哥",
+      "rawWord": "哥哥",
+      "pinyin": "gēge",
+      "meaningVi": "anh trai"
+    },
+    {
+      "level": 2,
+      "row": 32,
+      "word": "给",
+      "rawWord": "给",
+      "pinyin": "gěi",
+      "meaningVi": "đưa cho, cho"
+    },
+    {
+      "level": 2,
+      "row": 33,
+      "word": "公共汽车",
+      "rawWord": "公共汽车",
+      "pinyin": "gōnggòng qìchē",
+      "meaningVi": "xe buýt"
+    },
+    {
+      "level": 2,
+      "row": 34,
+      "word": "公斤",
+      "rawWord": "公斤",
+      "pinyin": "gōngjīn",
+      "meaningVi": "kilogram (kg)"
+    },
+    {
+      "level": 2,
+      "row": 35,
+      "word": "公司",
+      "rawWord": "公司",
+      "pinyin": "gōngsī",
+      "meaningVi": "công ty"
+    },
+    {
+      "level": 2,
+      "row": 36,
+      "word": "贵",
+      "rawWord": "贵",
+      "pinyin": "guì",
+      "meaningVi": "đắt, quý"
+    },
+    {
+      "level": 2,
+      "row": 37,
+      "word": "过",
+      "rawWord": "过",
+      "pinyin": "guò",
+      "meaningVi": "qua, đi qua"
+    },
+    {
+      "level": 2,
+      "row": 38,
+      "word": "还",
+      "rawWord": "还",
+      "pinyin": "hái",
+      "meaningVi": "vẫn, còn"
+    },
+    {
+      "level": 2,
+      "row": 39,
+      "word": "孩子",
+      "rawWord": "孩子",
+      "pinyin": "háizi",
+      "meaningVi": "trẻ con"
+    },
+    {
+      "level": 2,
+      "row": 40,
+      "word": "好吃",
+      "rawWord": "好吃",
+      "pinyin": "hǎochī",
+      "meaningVi": "ngon"
+    },
+    {
+      "level": 2,
+      "row": 41,
+      "word": "号",
+      "rawWord": "号",
+      "pinyin": "hào",
+      "meaningVi": "số (như số điện thoại, số nhà)"
+    },
+    {
+      "level": 2,
+      "row": 42,
+      "word": "黑",
+      "rawWord": "黑",
+      "pinyin": "hēi",
+      "meaningVi": "đen"
+    },
+    {
+      "level": 2,
+      "row": 43,
+      "word": "红",
+      "rawWord": "红",
+      "pinyin": "hóng",
+      "meaningVi": "đỏ"
+    },
+    {
+      "level": 2,
+      "row": 44,
+      "word": "欢迎",
+      "rawWord": "欢迎",
+      "pinyin": "huānyíng",
+      "meaningVi": "hoan nghênh, chào mừng"
+    },
+    {
+      "level": 2,
+      "row": 45,
+      "word": "回答",
+      "rawWord": "回答",
+      "pinyin": "huídá",
+      "meaningVi": "trả lời"
+    },
+    {
+      "level": 2,
+      "row": 46,
+      "word": "机场",
+      "rawWord": "机场",
+      "pinyin": "jīchǎng",
+      "meaningVi": "sân bay"
+    },
+    {
+      "level": 2,
+      "row": 47,
+      "word": "鸡蛋",
+      "rawWord": "鸡蛋",
+      "pinyin": "jīdàn",
+      "meaningVi": "trứng gà"
+    },
+    {
+      "level": 2,
+      "row": 48,
+      "word": "件",
+      "rawWord": "件",
+      "pinyin": "jiàn",
+      "meaningVi": "cái (dùng cho sự việc, quần áo)"
+    },
+    {
+      "level": 2,
+      "row": 49,
+      "word": "教室",
+      "rawWord": "教室",
+      "pinyin": "jiàoshì",
+      "meaningVi": "lớp học"
+    },
+    {
+      "level": 2,
+      "row": 50,
+      "word": "姐姐",
+      "rawWord": "姐姐",
+      "pinyin": "jiějie",
+      "meaningVi": "chị gái"
+    },
+    {
+      "level": 2,
+      "row": 51,
+      "word": "介绍",
+      "rawWord": "介绍",
+      "pinyin": "jièshào",
+      "meaningVi": "giới thiệu"
+    },
+    {
+      "level": 2,
+      "row": 52,
+      "word": "进",
+      "rawWord": "进",
+      "pinyin": "jìn",
+      "meaningVi": "vào"
+    },
+    {
+      "level": 2,
+      "row": 53,
+      "word": "近",
+      "rawWord": "近",
+      "pinyin": "jìn",
+      "meaningVi": "gần"
+    },
+    {
+      "level": 2,
+      "row": 54,
+      "word": "就",
+      "rawWord": "就",
+      "pinyin": "jiù",
+      "meaningVi": "thì, ngay"
+    },
+    {
+      "level": 2,
+      "row": 55,
+      "word": "觉得",
+      "rawWord": "觉得",
+      "pinyin": "juéde",
+      "meaningVi": "cảm thấy"
+    },
+    {
+      "level": 2,
+      "row": 56,
+      "word": "咖啡",
+      "rawWord": "咖啡",
+      "pinyin": "kāfēi",
+      "meaningVi": "cà phê"
+    },
+    {
+      "level": 2,
+      "row": 57,
+      "word": "开始",
+      "rawWord": "开始",
+      "pinyin": "kāishǐ",
+      "meaningVi": "bắt đầu"
+    },
+    {
+      "level": 2,
+      "row": 58,
+      "word": "考试",
+      "rawWord": "考试",
+      "pinyin": "kǎoshì",
+      "meaningVi": "thi"
+    },
+    {
+      "level": 2,
+      "row": 59,
+      "word": "可能",
+      "rawWord": "可能",
+      "pinyin": "kěnéng",
+      "meaningVi": "có thể"
+    },
+    {
+      "level": 2,
+      "row": 60,
+      "word": "可以",
+      "rawWord": "可以",
+      "pinyin": "kěyǐ",
+      "meaningVi": "có thể"
+    },
+    {
+      "level": 2,
+      "row": 61,
+      "word": "课",
+      "rawWord": "课",
+      "pinyin": "kè",
+      "meaningVi": "bài học"
+    },
+    {
+      "level": 2,
+      "row": 62,
+      "word": "快",
+      "rawWord": "快",
+      "pinyin": "kuài",
+      "meaningVi": "nhanh"
+    },
+    {
+      "level": 2,
+      "row": 63,
+      "word": "快乐",
+      "rawWord": "快乐",
+      "pinyin": "kuàilè",
+      "meaningVi": "vui vẻ"
+    },
+    {
+      "level": 2,
+      "row": 64,
+      "word": "累",
+      "rawWord": "累",
+      "pinyin": "lèi",
+      "meaningVi": "mệt"
+    },
+    {
+      "level": 2,
+      "row": 65,
+      "word": "离",
+      "rawWord": "离",
+      "pinyin": "lí",
+      "meaningVi": "cách (khoảng cách), rời"
+    },
+    {
+      "level": 2,
+      "row": 66,
+      "word": "两",
+      "rawWord": "两",
+      "pinyin": "liǎng",
+      "meaningVi": "hai (khi đếm số lượng)"
+    },
+    {
+      "level": 2,
+      "row": 67,
+      "word": "路",
+      "rawWord": "路",
+      "pinyin": "lù",
+      "meaningVi": "đường"
+    },
+    {
+      "level": 2,
+      "row": 68,
+      "word": "旅游",
+      "rawWord": "旅游",
+      "pinyin": "lǚyóu",
+      "meaningVi": "du lịch"
+    },
+    {
+      "level": 2,
+      "row": 69,
+      "word": "卖",
+      "rawWord": "卖",
+      "pinyin": "mài",
+      "meaningVi": "bán"
+    },
+    {
+      "level": 2,
+      "row": 70,
+      "word": "慢",
+      "rawWord": "慢",
+      "pinyin": "màn",
+      "meaningVi": "chậm"
+    },
+    {
+      "level": 2,
+      "row": 71,
+      "word": "忙",
+      "rawWord": "忙",
+      "pinyin": "máng",
+      "meaningVi": "bận"
+    },
+    {
+      "level": 2,
+      "row": 72,
+      "word": "每",
+      "rawWord": "每",
+      "pinyin": "měi",
+      "meaningVi": "mỗi"
+    },
+    {
+      "level": 2,
+      "row": 73,
+      "word": "妹妹",
+      "rawWord": "妹妹",
+      "pinyin": "mèimei",
+      "meaningVi": "em gái"
+    },
+    {
+      "level": 2,
+      "row": 74,
+      "word": "门",
+      "rawWord": "门",
+      "pinyin": "mén",
+      "meaningVi": "cửa"
+    },
+    {
+      "level": 2,
+      "row": 75,
+      "word": "男人",
+      "rawWord": "男人",
+      "pinyin": "nánrén",
+      "meaningVi": "đàn ông"
+    },
+    {
+      "level": 2,
+      "row": 76,
+      "word": "您",
+      "rawWord": "您",
+      "pinyin": "nín",
+      "meaningVi": "bạn (dùng lịch sự)"
+    },
+    {
+      "level": 2,
+      "row": 77,
+      "word": "牛奶",
+      "rawWord": "牛奶",
+      "pinyin": "niúnǎi",
+      "meaningVi": "sữa bò"
+    },
+    {
+      "level": 2,
+      "row": 78,
+      "word": "女人",
+      "rawWord": "女人",
+      "pinyin": "nǚrén",
+      "meaningVi": "phụ nữ"
+    },
+    {
+      "level": 2,
+      "row": 79,
+      "word": "旁边",
+      "rawWord": "旁边",
+      "pinyin": "pángbiān",
+      "meaningVi": "bên cạnh"
+    },
+    {
+      "level": 2,
+      "row": 80,
+      "word": "跑步",
+      "rawWord": "跑步",
+      "pinyin": "pǎobù",
+      "meaningVi": "chạy bộ"
+    },
+    {
+      "level": 2,
+      "row": 81,
+      "word": "便宜",
+      "rawWord": "便宜",
+      "pinyin": "piányí",
+      "meaningVi": "rẻ"
+    },
+    {
+      "level": 2,
+      "row": 82,
+      "word": "票",
+      "rawWord": "票",
+      "pinyin": "piào",
+      "meaningVi": "vé"
+    },
+    {
+      "level": 2,
+      "row": 83,
+      "word": "妻子",
+      "rawWord": "妻子",
+      "pinyin": "qīzi",
+      "meaningVi": "vợ"
+    },
+    {
+      "level": 2,
+      "row": 84,
+      "word": "起床",
+      "rawWord": "起床",
+      "pinyin": "qǐchuáng",
+      "meaningVi": "dậy (rời khỏi giường)"
+    },
+    {
+      "level": 2,
+      "row": 85,
+      "word": "千",
+      "rawWord": "千",
+      "pinyin": "qiān",
+      "meaningVi": "nghìn"
+    },
+    {
+      "level": 2,
+      "row": 86,
+      "word": "晴",
+      "rawWord": "晴",
+      "pinyin": "qíng",
+      "meaningVi": "nắng, quang đãng"
+    },
+    {
+      "level": 2,
+      "row": 87,
+      "word": "去年",
+      "rawWord": "去年",
+      "pinyin": "qùnián",
+      "meaningVi": "năm ngoái"
+    },
+    {
+      "level": 2,
+      "row": 88,
+      "word": "让",
+      "rawWord": "让",
+      "pinyin": "ràng",
+      "meaningVi": "để, làm cho, nhường"
+    },
+    {
+      "level": 2,
+      "row": 89,
+      "word": "上班",
+      "rawWord": "上班",
+      "pinyin": "shàngbān",
+      "meaningVi": "đi làm"
+    },
+    {
+      "level": 2,
+      "row": 90,
+      "word": "身体",
+      "rawWord": "身体",
+      "pinyin": "shēntǐ",
+      "meaningVi": "cơ thể, sức khoẻ"
+    },
+    {
+      "level": 2,
+      "row": 91,
+      "word": "生病",
+      "rawWord": "生病",
+      "pinyin": "shēngbìng",
+      "meaningVi": "bị bệnh, bị ốm"
+    },
+    {
+      "level": 2,
+      "row": 92,
+      "word": "生日",
+      "rawWord": "生日",
+      "pinyin": "shēngrì",
+      "meaningVi": "sinh nhật"
+    },
+    {
+      "level": 2,
+      "row": 93,
+      "word": "时间",
+      "rawWord": "时间",
+      "pinyin": "shíjiān",
+      "meaningVi": "thời gian"
+    },
+    {
+      "level": 2,
+      "row": 94,
+      "word": "事情",
+      "rawWord": "事情",
+      "pinyin": "shìqíng",
+      "meaningVi": "việc"
+    },
+    {
+      "level": 2,
+      "row": 95,
+      "word": "手表",
+      "rawWord": "手表",
+      "pinyin": "shǒubiǎo",
+      "meaningVi": "đồng hồ"
+    },
+    {
+      "level": 2,
+      "row": 96,
+      "word": "手机",
+      "rawWord": "手机",
+      "pinyin": "shǒujī",
+      "meaningVi": "điện thoại di động"
+    },
+    {
+      "level": 2,
+      "row": 97,
+      "word": "送",
+      "rawWord": "送",
+      "pinyin": "sòng",
+      "meaningVi": "tặng"
+    },
+    {
+      "level": 2,
+      "row": 98,
+      "word": "所以",
+      "rawWord": "所以",
+      "pinyin": "suǒyǐ",
+      "meaningVi": "vì vậy"
+    },
+    {
+      "level": 2,
+      "row": 99,
+      "word": "它",
+      "rawWord": "它",
+      "pinyin": "tā",
+      "meaningVi": "nó (cho vật, động vật)"
+    },
+    {
+      "level": 2,
+      "row": 100,
+      "word": "踢足球",
+      "rawWord": "踢足球",
+      "pinyin": "tī zúqiú",
+      "meaningVi": "đá bóng"
+    },
+    {
+      "level": 2,
+      "row": 101,
+      "word": "题",
+      "rawWord": "题",
+      "pinyin": "tí",
+      "meaningVi": "câu hỏi, đề bài"
+    },
+    {
+      "level": 2,
+      "row": 102,
+      "word": "跳舞",
+      "rawWord": "跳舞",
+      "pinyin": "tiàowǔ",
+      "meaningVi": "nhảy múa"
+    },
+    {
+      "level": 2,
+      "row": 103,
+      "word": "外",
+      "rawWord": "外",
+      "pinyin": "wài",
+      "meaningVi": "ngoài"
+    },
+    {
+      "level": 2,
+      "row": 104,
+      "word": "玩",
+      "rawWord": "玩",
+      "pinyin": "wán",
+      "meaningVi": "chơi"
+    },
+    {
+      "level": 2,
+      "row": 105,
+      "word": "完",
+      "rawWord": "完",
+      "pinyin": "wán",
+      "meaningVi": "xong, hoàn thành"
+    },
+    {
+      "level": 2,
+      "row": 106,
+      "word": "晚上",
+      "rawWord": "晚上",
+      "pinyin": "wǎnshàng",
+      "meaningVi": "buổi tối"
+    },
+    {
+      "level": 2,
+      "row": 107,
+      "word": "为什么",
+      "rawWord": "为什么",
+      "pinyin": "wèishénme",
+      "meaningVi": "tại sao"
+    },
+    {
+      "level": 2,
+      "row": 108,
+      "word": "问",
+      "rawWord": "问",
+      "pinyin": "wèn",
+      "meaningVi": "hỏi"
+    },
+    {
+      "level": 2,
+      "row": 109,
+      "word": "问题",
+      "rawWord": "问题",
+      "pinyin": "wèntí",
+      "meaningVi": "vấn đề"
+    },
+    {
+      "level": 2,
+      "row": 110,
+      "word": "西瓜",
+      "rawWord": "西瓜",
+      "pinyin": "xīguā",
+      "meaningVi": "dưa hấu"
+    },
+    {
+      "level": 2,
+      "row": 111,
+      "word": "希望",
+      "rawWord": "希望",
+      "pinyin": "xīwàng",
+      "meaningVi": "hy vọng"
+    },
+    {
+      "level": 2,
+      "row": 112,
+      "word": "洗",
+      "rawWord": "洗",
+      "pinyin": "xǐ",
+      "meaningVi": "rửa"
+    },
+    {
+      "level": 2,
+      "row": 113,
+      "word": "向",
+      "rawWord": "向",
+      "pinyin": "xiàng",
+      "meaningVi": "hướng về, đối với"
+    },
+    {
+      "level": 2,
+      "row": 114,
+      "word": "小时",
+      "rawWord": "小时",
+      "pinyin": "xiǎoshí",
+      "meaningVi": "tiếng đồng hồ"
+    },
+    {
+      "level": 2,
+      "row": 115,
+      "word": "笑",
+      "rawWord": "笑",
+      "pinyin": "xiào",
+      "meaningVi": "cười"
+    },
+    {
+      "level": 2,
+      "row": 116,
+      "word": "新",
+      "rawWord": "新",
+      "pinyin": "xīn",
+      "meaningVi": "mới"
+    },
+    {
+      "level": 2,
+      "row": 117,
+      "word": "姓",
+      "rawWord": "姓",
+      "pinyin": "xìng",
+      "meaningVi": "họ"
+    },
+    {
+      "level": 2,
+      "row": 118,
+      "word": "休息",
+      "rawWord": "休息",
+      "pinyin": "xiūxi",
+      "meaningVi": "nghỉ ngơi"
+    },
+    {
+      "level": 2,
+      "row": 119,
+      "word": "雪",
+      "rawWord": "雪",
+      "pinyin": "xuě",
+      "meaningVi": "tuyết"
+    },
+    {
+      "level": 2,
+      "row": 120,
+      "word": "颜色",
+      "rawWord": "颜色",
+      "pinyin": "yánsè",
+      "meaningVi": "màu sắc"
+    },
+    {
+      "level": 2,
+      "row": 121,
+      "word": "眼睛",
+      "rawWord": "眼睛",
+      "pinyin": "yǎnjing",
+      "meaningVi": "mắt"
+    },
+    {
+      "level": 2,
+      "row": 122,
+      "word": "羊肉",
+      "rawWord": "羊肉",
+      "pinyin": "yángròu",
+      "meaningVi": "thịt cừu"
+    },
+    {
+      "level": 2,
+      "row": 123,
+      "word": "要",
+      "rawWord": "要",
+      "pinyin": "yào",
+      "meaningVi": "muốn, cần"
+    },
+    {
+      "level": 2,
+      "row": 124,
+      "word": "药",
+      "rawWord": "药",
+      "pinyin": "yào",
+      "meaningVi": "thuốc"
+    },
+    {
+      "level": 2,
+      "row": 125,
+      "word": "也",
+      "rawWord": "也",
+      "pinyin": "yě",
+      "meaningVi": "cũng"
+    },
+    {
+      "level": 2,
+      "row": 126,
+      "word": "已经",
+      "rawWord": "已经",
+      "pinyin": "yǐjīng",
+      "meaningVi": "đã"
+    },
+    {
+      "level": 2,
+      "row": 127,
+      "word": "一起",
+      "rawWord": "一起",
+      "pinyin": "yìqǐ",
+      "meaningVi": "cùng nhau"
+    },
+    {
+      "level": 2,
+      "row": 128,
+      "word": "意思",
+      "rawWord": "意思",
+      "pinyin": "yìsi",
+      "meaningVi": "ý nghĩa"
+    },
+    {
+      "level": 2,
+      "row": 129,
+      "word": "阴",
+      "rawWord": "阴",
+      "pinyin": "yīn",
+      "meaningVi": "âm u, trời nhiều mây"
+    },
+    {
+      "level": 2,
+      "row": 130,
+      "word": "因为",
+      "rawWord": "因为",
+      "pinyin": "yīnwèi",
+      "meaningVi": "vì"
+    },
+    {
+      "level": 2,
+      "row": 131,
+      "word": "游泳",
+      "rawWord": "游泳",
+      "pinyin": "yóuyǒng",
+      "meaningVi": "bơi"
+    },
+    {
+      "level": 2,
+      "row": 132,
+      "word": "右边",
+      "rawWord": "右边",
+      "pinyin": "yòubiān",
+      "meaningVi": "bên phải"
+    },
+    {
+      "level": 2,
+      "row": 133,
+      "word": "鱼",
+      "rawWord": "鱼",
+      "pinyin": "yú",
+      "meaningVi": "cá"
+    },
+    {
+      "level": 2,
+      "row": 134,
+      "word": "元",
+      "rawWord": "元",
+      "pinyin": "yuán",
+      "meaningVi": "Đồng (đơn vị tiền tệ)"
+    },
+    {
+      "level": 2,
+      "row": 135,
+      "word": "远",
+      "rawWord": "远",
+      "pinyin": "yuǎn",
+      "meaningVi": "xa"
+    },
+    {
+      "level": 2,
+      "row": 136,
+      "word": "运动",
+      "rawWord": "运动",
+      "pinyin": "yùndòng",
+      "meaningVi": "vận"
+    },
+    {
+      "level": 2,
+      "row": 137,
+      "word": "再",
+      "rawWord": "再",
+      "pinyin": "zài",
+      "meaningVi": "lại"
+    },
+    {
+      "level": 2,
+      "row": 138,
+      "word": "早上",
+      "rawWord": "早上",
+      "pinyin": "zǎoshàng",
+      "meaningVi": "buổi sáng"
+    },
+    {
+      "level": 2,
+      "row": 139,
+      "word": "张",
+      "rawWord": "张",
+      "pinyin": "zhāng",
+      "meaningVi": "tờ, bức (dùng cho vật phẳng, giấy, tranh, bàn)"
+    },
+    {
+      "level": 2,
+      "row": 140,
+      "word": "丈夫",
+      "rawWord": "丈夫",
+      "pinyin": "zhàngfu",
+      "meaningVi": "chồng"
+    },
+    {
+      "level": 2,
+      "row": 141,
+      "word": "找",
+      "rawWord": "找",
+      "pinyin": "zhǎo",
+      "meaningVi": "tìm"
+    },
+    {
+      "level": 2,
+      "row": 142,
+      "word": "着",
+      "rawWord": "着",
+      "pinyin": "zhe",
+      "meaningVi": "đang (dùng để chỉ trạng thái hiện tại)"
+    },
+    {
+      "level": 2,
+      "row": 143,
+      "word": "真",
+      "rawWord": "真",
+      "pinyin": "zhēn",
+      "meaningVi": "thật"
+    },
+    {
+      "level": 2,
+      "row": 144,
+      "word": "正在",
+      "rawWord": "正在",
+      "pinyin": "zhèngzài",
+      "meaningVi": "đang"
+    },
+    {
+      "level": 2,
+      "row": 145,
+      "word": "知道",
+      "rawWord": "知道",
+      "pinyin": "zhīdào",
+      "meaningVi": "biết"
+    },
+    {
+      "level": 2,
+      "row": 146,
+      "word": "准备",
+      "rawWord": "准备",
+      "pinyin": "zhǔnbèi",
+      "meaningVi": "chuẩn bị"
+    },
+    {
+      "level": 2,
+      "row": 147,
+      "word": "自行车",
+      "rawWord": "自行车",
+      "pinyin": "zìxíngchē",
+      "meaningVi": "xe đạp"
+    },
+    {
+      "level": 2,
+      "row": 148,
+      "word": "走",
+      "rawWord": "走",
+      "pinyin": "zǒu",
+      "meaningVi": "đi"
+    },
+    {
+      "level": 2,
+      "row": 149,
+      "word": "最",
+      "rawWord": "最",
+      "pinyin": "zuì",
+      "meaningVi": "nhất (so sánh nhất)"
+    },
+    {
+      "level": 2,
+      "row": 150,
+      "word": "左边",
+      "rawWord": "左边",
+      "pinyin": "zuǒbiān",
+      "meaningVi": "bên trái"
+    },
+    {
+      "level": 3,
+      "row": 1,
+      "word": "阿姨",
+      "rawWord": "阿姨",
+      "pinyin": "āyí",
+      "meaningVi": "dì, cô"
+    },
+    {
+      "level": 3,
+      "row": 2,
+      "word": "啊",
+      "rawWord": "啊",
+      "pinyin": "a",
+      "meaningVi": "a, à, ơ (trợ từ ngữ khí)"
+    },
+    {
+      "level": 3,
+      "row": 3,
+      "word": "矮",
+      "rawWord": "矮",
+      "pinyin": "ǎi",
+      "meaningVi": "thấp, lùn"
+    },
+    {
+      "level": 3,
+      "row": 4,
+      "word": "爱好",
+      "rawWord": "爱好",
+      "pinyin": "àihào",
+      "meaningVi": "sở thích"
+    },
+    {
+      "level": 3,
+      "row": 5,
+      "word": "安静",
+      "rawWord": "安静",
+      "pinyin": "ānjìng",
+      "meaningVi": "yên tĩnh"
+    },
+    {
+      "level": 3,
+      "row": 6,
+      "word": "把",
+      "rawWord": "把",
+      "pinyin": "bǎ",
+      "meaningVi": "đem, lấy (giới từ)"
+    },
+    {
+      "level": 3,
+      "row": 7,
+      "word": "班",
+      "rawWord": "班",
+      "pinyin": "bān",
+      "meaningVi": "lớp, ca (làm việc)"
+    },
+    {
+      "level": 3,
+      "row": 8,
+      "word": "搬",
+      "rawWord": "搬",
+      "pinyin": "bān",
+      "meaningVi": "chuyển, dời"
+    },
+    {
+      "level": 3,
+      "row": 9,
+      "word": "半",
+      "rawWord": "半",
+      "pinyin": "bàn",
+      "meaningVi": "một nửa"
+    },
+    {
+      "level": 3,
+      "row": 10,
+      "word": "办法",
+      "rawWord": "办法",
+      "pinyin": "bànfǎ",
+      "meaningVi": "biện pháp"
+    },
+    {
+      "level": 3,
+      "row": 11,
+      "word": "办公室",
+      "rawWord": "办公室",
+      "pinyin": "bàngōngshì",
+      "meaningVi": "văn phòng"
+    },
+    {
+      "level": 3,
+      "row": 12,
+      "word": "帮忙",
+      "rawWord": "帮忙",
+      "pinyin": "bāngmáng",
+      "meaningVi": "giúp đỡ (động từ li hợp)"
+    },
+    {
+      "level": 3,
+      "row": 13,
+      "word": "包",
+      "rawWord": "包",
+      "pinyin": "bāo",
+      "meaningVi": "túi, bao"
+    },
+    {
+      "level": 3,
+      "row": 14,
+      "word": "饱",
+      "rawWord": "饱",
+      "pinyin": "bǎo",
+      "meaningVi": "no"
+    },
+    {
+      "level": 3,
+      "row": 15,
+      "word": "北方",
+      "rawWord": "北方",
+      "pinyin": "běifāng",
+      "meaningVi": "miền Bắc"
+    },
+    {
+      "level": 3,
+      "row": 16,
+      "word": "被",
+      "rawWord": "被",
+      "pinyin": "bèi",
+      "meaningVi": "bị, được (giới từ bị động)"
+    },
+    {
+      "level": 3,
+      "row": 17,
+      "word": "比较",
+      "rawWord": "比较",
+      "pinyin": "bǐjiào",
+      "meaningVi": "khá, tương đối"
+    },
+    {
+      "level": 3,
+      "row": 18,
+      "word": "比赛",
+      "rawWord": "比赛",
+      "pinyin": "bǐsài",
+      "meaningVi": "cuộc thi, thi đấu"
+    },
+    {
+      "level": 3,
+      "row": 19,
+      "word": "必须",
+      "rawWord": "必须",
+      "pinyin": "bìxū",
+      "meaningVi": "phải, cần phải"
+    },
+    {
+      "level": 3,
+      "row": 20,
+      "word": "变化",
+      "rawWord": "变化",
+      "pinyin": "biànhuà",
+      "meaningVi": "thay đổi"
+    },
+    {
+      "level": 3,
+      "row": 21,
+      "word": "表示",
+      "rawWord": "表示",
+      "pinyin": "biǎoshì",
+      "meaningVi": "biểu thị, thể hiện"
+    },
+    {
+      "level": 3,
+      "row": 22,
+      "word": "表演",
+      "rawWord": "表演",
+      "pinyin": "biǎoyǎn",
+      "meaningVi": "biểu diễn"
+    },
+    {
+      "level": 3,
+      "row": 23,
+      "word": "别人",
+      "rawWord": "别人",
+      "pinyin": "biérén",
+      "meaningVi": "người khác"
+    },
+    {
+      "level": 3,
+      "row": 24,
+      "word": "宾馆",
+      "rawWord": "宾馆",
+      "pinyin": "bīnguǎn",
+      "meaningVi": "khách sạn"
+    },
+    {
+      "level": 3,
+      "row": 25,
+      "word": "冰箱",
+      "rawWord": "冰箱",
+      "pinyin": "bīngxiāng",
+      "meaningVi": "tủ lạnh"
+    },
+    {
+      "level": 3,
+      "row": 26,
+      "word": "才",
+      "rawWord": "才",
+      "pinyin": "cái",
+      "meaningVi": "mới (nhấn mạnh thời gian muộn, trễ)"
+    },
+    {
+      "level": 3,
+      "row": 27,
+      "word": "菜单",
+      "rawWord": "菜单",
+      "pinyin": "càidān",
+      "meaningVi": "thực đơn"
+    },
+    {
+      "level": 3,
+      "row": 28,
+      "word": "参加",
+      "rawWord": "参加",
+      "pinyin": "cānjiā",
+      "meaningVi": "tham gia"
+    },
+    {
+      "level": 3,
+      "row": 29,
+      "word": "草",
+      "rawWord": "草",
+      "pinyin": "cǎo",
+      "meaningVi": "cỏ"
+    },
+    {
+      "level": 3,
+      "row": 30,
+      "word": "层",
+      "rawWord": "层",
+      "pinyin": "céng",
+      "meaningVi": "tầng"
+    },
+    {
+      "level": 3,
+      "row": 31,
+      "word": "差",
+      "rawWord": "差",
+      "pinyin": "chà",
+      "meaningVi": "kém, thiếu, tệ"
+    },
+    {
+      "level": 3,
+      "row": 32,
+      "word": "超市",
+      "rawWord": "超市",
+      "pinyin": "chāoshì",
+      "meaningVi": "siêu thị"
+    },
+    {
+      "level": 3,
+      "row": 33,
+      "word": "衬衫",
+      "rawWord": "衬衫",
+      "pinyin": "chènshān",
+      "meaningVi": "áo sơ mi"
+    },
+    {
+      "level": 3,
+      "row": 34,
+      "word": "成绩",
+      "rawWord": "成绩",
+      "pinyin": "chéngjì",
+      "meaningVi": "thành tích"
+    },
+    {
+      "level": 3,
+      "row": 35,
+      "word": "城市",
+      "rawWord": "城市",
+      "pinyin": "chéngshì",
+      "meaningVi": "thành phố"
+    },
+    {
+      "level": 3,
+      "row": 36,
+      "word": "迟到",
+      "rawWord": "迟到",
+      "pinyin": "chídào",
+      "meaningVi": "đến trễ"
+    },
+    {
+      "level": 3,
+      "row": 37,
+      "word": "出现",
+      "rawWord": "出现",
+      "pinyin": "chūxiàn",
+      "meaningVi": "xuất hiện"
+    },
+    {
+      "level": 3,
+      "row": 38,
+      "word": "厨房",
+      "rawWord": "厨房",
+      "pinyin": "chúfáng",
+      "meaningVi": "nhà bếp"
+    },
+    {
+      "level": 3,
+      "row": 39,
+      "word": "除了",
+      "rawWord": "除了",
+      "pinyin": "chúle",
+      "meaningVi": "ngoài ra, trừ ra"
+    },
+    {
+      "level": 3,
+      "row": 40,
+      "word": "春",
+      "rawWord": "春",
+      "pinyin": "chūn",
+      "meaningVi": "mùa xuân"
+    },
+    {
+      "level": 3,
+      "row": 41,
+      "word": "词语",
+      "rawWord": "词语",
+      "pinyin": "cíyǔ",
+      "meaningVi": "từ ngữ"
+    },
+    {
+      "level": 3,
+      "row": 42,
+      "word": "聪明",
+      "rawWord": "聪明",
+      "pinyin": "cōngmíng",
+      "meaningVi": "thông minh"
+    },
+    {
+      "level": 3,
+      "row": 43,
+      "word": "打扫",
+      "rawWord": "打扫",
+      "pinyin": "dǎsǎo",
+      "meaningVi": "quét dọn"
+    },
+    {
+      "level": 3,
+      "row": 44,
+      "word": "打算",
+      "rawWord": "打算",
+      "pinyin": "dǎsuàn",
+      "meaningVi": "dự định"
+    },
+    {
+      "level": 3,
+      "row": 45,
+      "word": "带",
+      "rawWord": "带",
+      "pinyin": "dài",
+      "meaningVi": "mang theo, dẫn theo"
+    },
+    {
+      "level": 3,
+      "row": 46,
+      "word": "担心",
+      "rawWord": "担心",
+      "pinyin": "dānxīn",
+      "meaningVi": "lo lắng"
+    },
+    {
+      "level": 3,
+      "row": 47,
+      "word": "蛋糕",
+      "rawWord": "蛋糕",
+      "pinyin": "dàngāo",
+      "meaningVi": "bánh ngọt"
+    },
+    {
+      "level": 3,
+      "row": 48,
+      "word": "当然",
+      "rawWord": "当然",
+      "pinyin": "dāngrán",
+      "meaningVi": "đương nhiên"
+    },
+    {
+      "level": 3,
+      "row": 49,
+      "word": "地",
+      "rawWord": "地",
+      "pinyin": "de",
+      "meaningVi": "trợ từ của động từ"
+    },
+    {
+      "level": 3,
+      "row": 50,
+      "word": "灯",
+      "rawWord": "灯",
+      "pinyin": "dēng",
+      "meaningVi": "đèn"
+    },
+    {
+      "level": 3,
+      "row": 51,
+      "word": "低",
+      "rawWord": "低",
+      "pinyin": "dī",
+      "meaningVi": "thấp"
+    },
+    {
+      "level": 3,
+      "row": 52,
+      "word": "地方",
+      "rawWord": "地方",
+      "pinyin": "dìfāng",
+      "meaningVi": "nơi, chỗ"
+    },
+    {
+      "level": 3,
+      "row": 53,
+      "word": "地铁",
+      "rawWord": "地铁",
+      "pinyin": "dìtiě",
+      "meaningVi": "tàu điện ngầm"
+    },
+    {
+      "level": 3,
+      "row": 54,
+      "word": "地图",
+      "rawWord": "地图",
+      "pinyin": "dìtú",
+      "meaningVi": "bản đồ"
+    },
+    {
+      "level": 3,
+      "row": 55,
+      "word": "电梯",
+      "rawWord": "电梯",
+      "pinyin": "diàntī",
+      "meaningVi": "thang máy"
+    },
+    {
+      "level": 3,
+      "row": 56,
+      "word": "电子邮箱",
+      "rawWord": "电子邮箱",
+      "pinyin": "diànzǐ yóuxiāng",
+      "meaningVi": "hộp thư điện tử (email)"
+    },
+    {
+      "level": 3,
+      "row": 57,
+      "word": "东",
+      "rawWord": "东",
+      "pinyin": "dōng",
+      "meaningVi": "đông (hướng đông)"
+    },
+    {
+      "level": 3,
+      "row": 58,
+      "word": "冬",
+      "rawWord": "冬",
+      "pinyin": "dōng",
+      "meaningVi": "mùa đông"
+    },
+    {
+      "level": 3,
+      "row": 59,
+      "word": "动物",
+      "rawWord": "动物",
+      "pinyin": "dòngwù",
+      "meaningVi": "động vật"
+    },
+    {
+      "level": 3,
+      "row": 60,
+      "word": "短",
+      "rawWord": "短",
+      "pinyin": "duǎn",
+      "meaningVi": "ngắn"
+    },
+    {
+      "level": 3,
+      "row": 61,
+      "word": "段",
+      "rawWord": "段",
+      "pinyin": "duàn",
+      "meaningVi": "đoạn, quãng"
+    },
+    {
+      "level": 3,
+      "row": 62,
+      "word": "锻炼",
+      "rawWord": "锻炼",
+      "pinyin": "duànliàn",
+      "meaningVi": "luyện tập, rèn luyện"
+    },
+    {
+      "level": 3,
+      "row": 63,
+      "word": "多么",
+      "rawWord": "多么",
+      "pinyin": "duōme",
+      "meaningVi": "bao nhiêu, biết bao"
+    },
+    {
+      "level": 3,
+      "row": 64,
+      "word": "饿",
+      "rawWord": "饿",
+      "pinyin": "è",
+      "meaningVi": "đói"
+    },
+    {
+      "level": 3,
+      "row": 65,
+      "word": "而且",
+      "rawWord": "而且",
+      "pinyin": "érqiě",
+      "meaningVi": "mà còn, hơn nữa"
+    },
+    {
+      "level": 3,
+      "row": 66,
+      "word": "耳朵",
+      "rawWord": "耳朵",
+      "pinyin": "ěrduo",
+      "meaningVi": "tai"
+    },
+    {
+      "level": 3,
+      "row": 67,
+      "word": "发烧",
+      "rawWord": "发烧",
+      "pinyin": "fāshāo",
+      "meaningVi": "sốt"
+    },
+    {
+      "level": 3,
+      "row": 68,
+      "word": "发现",
+      "rawWord": "发现",
+      "pinyin": "fāxiàn",
+      "meaningVi": "phát hiện"
+    },
+    {
+      "level": 3,
+      "row": 69,
+      "word": "方便",
+      "rawWord": "方便",
+      "pinyin": "fāngbiàn",
+      "meaningVi": "thuận tiện"
+    },
+    {
+      "level": 3,
+      "row": 70,
+      "word": "放",
+      "rawWord": "放",
+      "pinyin": "fàng",
+      "meaningVi": "đặt, để"
+    },
+    {
+      "level": 3,
+      "row": 71,
+      "word": "放心",
+      "rawWord": "放心",
+      "pinyin": "fàngxīn",
+      "meaningVi": "yên tâm"
+    },
+    {
+      "level": 3,
+      "row": 72,
+      "word": "分",
+      "rawWord": "分",
+      "pinyin": "fēn",
+      "meaningVi": "phút, phân"
+    },
+    {
+      "level": 3,
+      "row": 73,
+      "word": "附近",
+      "rawWord": "附近",
+      "pinyin": "fùjìn",
+      "meaningVi": "gần đây, vùng lân cận"
+    },
+    {
+      "level": 3,
+      "row": 74,
+      "word": "复习",
+      "rawWord": "复习",
+      "pinyin": "fùxí",
+      "meaningVi": "ôn tập"
+    },
+    {
+      "level": 3,
+      "row": 75,
+      "word": "干净",
+      "rawWord": "干净",
+      "pinyin": "gānjìng",
+      "meaningVi": "sạch sẽ"
+    },
+    {
+      "level": 3,
+      "row": 76,
+      "word": "敢",
+      "rawWord": "敢",
+      "pinyin": "gǎn",
+      "meaningVi": "dám"
+    },
+    {
+      "level": 3,
+      "row": 77,
+      "word": "感冒",
+      "rawWord": "感冒",
+      "pinyin": "gǎnmào",
+      "meaningVi": "cảm mạo, cảm lạnh"
+    },
+    {
+      "level": 3,
+      "row": 78,
+      "word": "刚才",
+      "rawWord": "刚才",
+      "pinyin": "gāngcái",
+      "meaningVi": "vừa mới"
+    },
+    {
+      "level": 3,
+      "row": 79,
+      "word": "跟",
+      "rawWord": "跟",
+      "pinyin": "gēn",
+      "meaningVi": "cùng với"
+    },
+    {
+      "level": 3,
+      "row": 80,
+      "word": "根据",
+      "rawWord": "根据",
+      "pinyin": "gēnjù",
+      "meaningVi": "căn cứ vào"
+    },
+    {
+      "level": 3,
+      "row": 81,
+      "word": "更",
+      "rawWord": "更",
+      "pinyin": "gèng",
+      "meaningVi": "hơn, càng"
+    },
+    {
+      "level": 3,
+      "row": 82,
+      "word": "公园",
+      "rawWord": "公园",
+      "pinyin": "gōngyuán",
+      "meaningVi": "công viên"
+    },
+    {
+      "level": 3,
+      "row": 83,
+      "word": "故事",
+      "rawWord": "故事",
+      "pinyin": "gùshì",
+      "meaningVi": "câu chuyện"
+    },
+    {
+      "level": 3,
+      "row": 84,
+      "word": "刮风",
+      "rawWord": "刮风",
+      "pinyin": "guā fēng",
+      "meaningVi": "gió thổi"
+    },
+    {
+      "level": 3,
+      "row": 85,
+      "word": "关",
+      "rawWord": "关",
+      "pinyin": "guān",
+      "meaningVi": "đóng, tắt"
+    },
+    {
+      "level": 3,
+      "row": 86,
+      "word": "关系",
+      "rawWord": "关系",
+      "pinyin": "guānxì",
+      "meaningVi": "quan hệ"
+    },
+    {
+      "level": 3,
+      "row": 87,
+      "word": "关心",
+      "rawWord": "关心",
+      "pinyin": "guānxīn",
+      "meaningVi": "quan tâm"
+    },
+    {
+      "level": 3,
+      "row": 88,
+      "word": "关于",
+      "rawWord": "关于",
+      "pinyin": "guānyú",
+      "meaningVi": "về (liên quan đến)"
+    },
+    {
+      "level": 3,
+      "row": 89,
+      "word": "国家",
+      "rawWord": "国家",
+      "pinyin": "guójiā",
+      "meaningVi": "quốc gia"
+    },
+    {
+      "level": 3,
+      "row": 90,
+      "word": "果汁",
+      "rawWord": "果汁",
+      "pinyin": "guǒzhī",
+      "meaningVi": "nước ép trái cây"
+    },
+    {
+      "level": 3,
+      "row": 91,
+      "word": "过去",
+      "rawWord": "过去",
+      "pinyin": "guòqù",
+      "meaningVi": "quá khứ"
+    },
+    {
+      "level": 3,
+      "row": 92,
+      "word": "还是",
+      "rawWord": "还是",
+      "pinyin": "háishì",
+      "meaningVi": "vẫn còn, hay là"
+    },
+    {
+      "level": 3,
+      "row": 93,
+      "word": "害怕",
+      "rawWord": "害怕",
+      "pinyin": "hàipà",
+      "meaningVi": "sợ"
+    },
+    {
+      "level": 3,
+      "row": 94,
+      "word": "河",
+      "rawWord": "河",
+      "pinyin": "hé",
+      "meaningVi": "sông"
+    },
+    {
+      "level": 3,
+      "row": 95,
+      "word": "黑板",
+      "rawWord": "黑板",
+      "pinyin": "hēibǎn",
+      "meaningVi": "bảng"
+    },
+    {
+      "level": 3,
+      "row": 96,
+      "word": "护照",
+      "rawWord": "护照",
+      "pinyin": "hùzhào",
+      "meaningVi": "hộ chiếu"
+    },
+    {
+      "level": 3,
+      "row": 97,
+      "word": "花",
+      "rawWord": "花",
+      "pinyin": "huā",
+      "meaningVi": "hoa, tiêu (tiền, thời gian)"
+    },
+    {
+      "level": 3,
+      "row": 98,
+      "word": "花园",
+      "rawWord": "花园",
+      "pinyin": "huāyuán",
+      "meaningVi": "vườn hoa"
+    },
+    {
+      "level": 3,
+      "row": 99,
+      "word": "画",
+      "rawWord": "画",
+      "pinyin": "huà",
+      "meaningVi": "vẽ, tranh"
+    },
+    {
+      "level": 3,
+      "row": 100,
+      "word": "坏",
+      "rawWord": "坏",
+      "pinyin": "huài",
+      "meaningVi": "hỏng, xấu"
+    },
+    {
+      "level": 3,
+      "row": 102,
+      "word": "环境",
+      "rawWord": "环境",
+      "pinyin": "huánjìng",
+      "meaningVi": "môi trường"
+    },
+    {
+      "level": 3,
+      "row": 103,
+      "word": "换",
+      "rawWord": "换",
+      "pinyin": "huàn",
+      "meaningVi": "đổi"
+    },
+    {
+      "level": 3,
+      "row": 104,
+      "word": "黄",
+      "rawWord": "黄",
+      "pinyin": "huáng",
+      "meaningVi": "màu vàng"
+    },
+    {
+      "level": 3,
+      "row": 105,
+      "word": "会议",
+      "rawWord": "会议",
+      "pinyin": "huìyì",
+      "meaningVi": "hội nghị, cuộc họp"
+    },
+    {
+      "level": 3,
+      "row": 106,
+      "word": "或者",
+      "rawWord": "或者",
+      "pinyin": "huòzhě",
+      "meaningVi": "hoặc là"
+    },
+    {
+      "level": 3,
+      "row": 107,
+      "word": "机会",
+      "rawWord": "机会",
+      "pinyin": "jīhuì",
+      "meaningVi": "cơ hội"
+    },
+    {
+      "level": 3,
+      "row": 108,
+      "word": "几乎",
+      "rawWord": "几乎",
+      "pinyin": "jīhū",
+      "meaningVi": "hầu như, gần như"
+    },
+    {
+      "level": 3,
+      "row": 109,
+      "word": "极",
+      "rawWord": "极",
+      "pinyin": "jí",
+      "meaningVi": "cực kỳ"
+    },
+    {
+      "level": 3,
+      "row": 110,
+      "word": "记得",
+      "rawWord": "记得",
+      "pinyin": "jìdé",
+      "meaningVi": "nhớ, nhớ đến"
+    },
+    {
+      "level": 3,
+      "row": 111,
+      "word": "季节",
+      "rawWord": "季节",
+      "pinyin": "jìjié",
+      "meaningVi": "mùa"
+    },
+    {
+      "level": 3,
+      "row": 112,
+      "word": "检查",
+      "rawWord": "检查",
+      "pinyin": "jiǎnchá",
+      "meaningVi": "kiểm tra"
+    },
+    {
+      "level": 3,
+      "row": 113,
+      "word": "简单",
+      "rawWord": "简单",
+      "pinyin": "jiǎndān",
+      "meaningVi": "đơn giản"
+    },
+    {
+      "level": 3,
+      "row": 114,
+      "word": "健康",
+      "rawWord": "健康",
+      "pinyin": "jiànkāng",
+      "meaningVi": "khỏe mạnh"
+    },
+    {
+      "level": 3,
+      "row": 115,
+      "word": "见面",
+      "rawWord": "见面",
+      "pinyin": "jiànmiàn",
+      "meaningVi": "gặp mặt"
+    },
+    {
+      "level": 3,
+      "row": 116,
+      "word": "讲",
+      "rawWord": "讲",
+      "pinyin": "jiǎng",
+      "meaningVi": "nói, giảng"
+    },
+    {
+      "level": 3,
+      "row": 117,
+      "word": "教",
+      "rawWord": "教",
+      "pinyin": "jiāo",
+      "meaningVi": "dạy"
+    },
+    {
+      "level": 3,
+      "row": 118,
+      "word": "角",
+      "rawWord": "角",
+      "pinyin": "jiǎo",
+      "meaningVi": "góc"
+    },
+    {
+      "level": 3,
+      "row": 119,
+      "word": "脚",
+      "rawWord": "脚",
+      "pinyin": "jiǎo",
+      "meaningVi": "chân"
+    },
+    {
+      "level": 3,
+      "row": 120,
+      "word": "接",
+      "rawWord": "接",
+      "pinyin": "jiē",
+      "meaningVi": "nhận, tiếp"
+    },
+    {
+      "level": 3,
+      "row": 121,
+      "word": "街道",
+      "rawWord": "街道",
+      "pinyin": "jiēdào",
+      "meaningVi": "đường phố"
+    },
+    {
+      "level": 3,
+      "row": 122,
+      "word": "结婚",
+      "rawWord": "结婚",
+      "pinyin": "jiéhūn",
+      "meaningVi": "kết hôn"
+    },
+    {
+      "level": 3,
+      "row": 123,
+      "word": "结束",
+      "rawWord": "结束",
+      "pinyin": "jiéshù",
+      "meaningVi": "kết thúc"
+    },
+    {
+      "level": 3,
+      "row": 124,
+      "word": "节目",
+      "rawWord": "节目",
+      "pinyin": "jiémù",
+      "meaningVi": "chương trình"
+    },
+    {
+      "level": 3,
+      "row": 125,
+      "word": "节日",
+      "rawWord": "节日",
+      "pinyin": "jiérì",
+      "meaningVi": "ngày lễ"
+    },
+    {
+      "level": 3,
+      "row": 126,
+      "word": "解决",
+      "rawWord": "解决",
+      "pinyin": "jiějué",
+      "meaningVi": "giải quyết"
+    },
+    {
+      "level": 3,
+      "row": 127,
+      "word": "借",
+      "rawWord": "借",
+      "pinyin": "jiè",
+      "meaningVi": "mượn"
+    },
+    {
+      "level": 3,
+      "row": 128,
+      "word": "经常",
+      "rawWord": "经常",
+      "pinyin": "jīngcháng",
+      "meaningVi": "thường xuyên"
+    },
+    {
+      "level": 3,
+      "row": 129,
+      "word": "经过",
+      "rawWord": "经过",
+      "pinyin": "jīngguò",
+      "meaningVi": "trải qua"
+    },
+    {
+      "level": 3,
+      "row": 130,
+      "word": "经历",
+      "rawWord": "经历",
+      "pinyin": "jīnglì",
+      "meaningVi": "kinh nghiệm"
+    },
+    {
+      "level": 3,
+      "row": 131,
+      "word": "久",
+      "rawWord": "久",
+      "pinyin": "jiǔ",
+      "meaningVi": "lâu"
+    },
+    {
+      "level": 3,
+      "row": 132,
+      "word": "旧",
+      "rawWord": "旧",
+      "pinyin": "jiù",
+      "meaningVi": "cũ"
+    },
+    {
+      "level": 3,
+      "row": 133,
+      "word": "举行",
+      "rawWord": "举行",
+      "pinyin": "jǔxíng",
+      "meaningVi": "tổ chức"
+    },
+    {
+      "level": 3,
+      "row": 134,
+      "word": "句子",
+      "rawWord": "句子",
+      "pinyin": "jùzi",
+      "meaningVi": "câu"
+    },
+    {
+      "level": 3,
+      "row": 135,
+      "word": "决定",
+      "rawWord": "决定",
+      "pinyin": "juédìng",
+      "meaningVi": "quyết định"
+    },
+    {
+      "level": 3,
+      "row": 136,
+      "word": "可爱",
+      "rawWord": "可爱",
+      "pinyin": "kě'ài",
+      "meaningVi": "đáng yêu"
+    },
+    {
+      "level": 3,
+      "row": 137,
+      "word": "刻",
+      "rawWord": "刻",
+      "pinyin": "kè",
+      "meaningVi": "khắc (15 phút)"
+    },
+    {
+      "level": 3,
+      "row": 138,
+      "word": "客人",
+      "rawWord": "客人",
+      "pinyin": "kèrén",
+      "meaningVi": "khách"
+    },
+    {
+      "level": 3,
+      "row": 139,
+      "word": "空调",
+      "rawWord": "空调",
+      "pinyin": "kòngtiáo",
+      "meaningVi": "máy điều hòa"
+    },
+    {
+      "level": 3,
+      "row": 140,
+      "word": "口",
+      "rawWord": "口",
+      "pinyin": "kǒu",
+      "meaningVi": "miệng, khẩu"
+    },
+    {
+      "level": 3,
+      "row": 141,
+      "word": "哭",
+      "rawWord": "哭",
+      "pinyin": "kū",
+      "meaningVi": "khóc"
+    },
+    {
+      "level": 3,
+      "row": 142,
+      "word": "裤子",
+      "rawWord": "裤子",
+      "pinyin": "kùzi",
+      "meaningVi": "quần"
+    },
+    {
+      "level": 3,
+      "row": 143,
+      "word": "筷子",
+      "rawWord": "筷子",
+      "pinyin": "kuàizi",
+      "meaningVi": "đũa"
+    },
+    {
+      "level": 3,
+      "row": 144,
+      "word": "蓝",
+      "rawWord": "蓝",
+      "pinyin": "lán",
+      "meaningVi": "màu xanh"
+    },
+    {
+      "level": 3,
+      "row": 145,
+      "word": "老",
+      "rawWord": "老",
+      "pinyin": "lǎo",
+      "meaningVi": "già, cũ"
+    },
+    {
+      "level": 3,
+      "row": 146,
+      "word": "离开",
+      "rawWord": "离开",
+      "pinyin": "líkāi",
+      "meaningVi": "rời khỏi"
+    },
+    {
+      "level": 3,
+      "row": 147,
+      "word": "礼物",
+      "rawWord": "礼物",
+      "pinyin": "lǐwù",
+      "meaningVi": "quà"
+    },
+    {
+      "level": 3,
+      "row": 148,
+      "word": "历史",
+      "rawWord": "历史",
+      "pinyin": "lìshǐ",
+      "meaningVi": "lịch sử"
+    },
+    {
+      "level": 3,
+      "row": 149,
+      "word": "脸",
+      "rawWord": "脸",
+      "pinyin": "liǎn",
+      "meaningVi": "mặt"
+    },
+    {
+      "level": 3,
+      "row": 150,
+      "word": "练习",
+      "rawWord": "练习",
+      "pinyin": "liànxí",
+      "meaningVi": "luyện tập"
+    },
+    {
+      "level": 3,
+      "row": 151,
+      "word": "辆",
+      "rawWord": "辆",
+      "pinyin": "liàng",
+      "meaningVi": "chiếc (xe)"
+    },
+    {
+      "level": 3,
+      "row": 152,
+      "word": "了解",
+      "rawWord": "了解",
+      "pinyin": "liǎojiě",
+      "meaningVi": "hiểu rõ"
+    },
+    {
+      "level": 3,
+      "row": 153,
+      "word": "邻居",
+      "rawWord": "邻居",
+      "pinyin": "línjū",
+      "meaningVi": "hàng xóm"
+    },
+    {
+      "level": 3,
+      "row": 154,
+      "word": "楼",
+      "rawWord": "楼",
+      "pinyin": "lóu",
+      "meaningVi": "tòa nhà"
+    },
+    {
+      "level": 3,
+      "row": 155,
+      "word": "马",
+      "rawWord": "马",
+      "pinyin": "mǎ",
+      "meaningVi": "con ngựa"
+    },
+    {
+      "level": 3,
+      "row": 156,
+      "word": "马上",
+      "rawWord": "马上",
+      "pinyin": "mǎshàng",
+      "meaningVi": "ngay lập tức"
+    },
+    {
+      "level": 3,
+      "row": 157,
+      "word": "满意",
+      "rawWord": "满意",
+      "pinyin": "mǎnyì",
+      "meaningVi": "hài lòng"
+    },
+    {
+      "level": 3,
+      "row": 158,
+      "word": "帽子",
+      "rawWord": "帽子",
+      "pinyin": "màozi",
+      "meaningVi": "mũ"
+    },
+    {
+      "level": 3,
+      "row": 159,
+      "word": "米",
+      "rawWord": "米",
+      "pinyin": "mǐ",
+      "meaningVi": "gạo, mét"
+    },
+    {
+      "level": 3,
+      "row": 160,
+      "word": "面包",
+      "rawWord": "面包",
+      "pinyin": "miànbāo",
+      "meaningVi": "bánh mì"
+    },
+    {
+      "level": 3,
+      "row": 161,
+      "word": "面条",
+      "rawWord": "面条",
+      "pinyin": "miàntiáo",
+      "meaningVi": "mì sợi"
+    },
+    {
+      "level": 3,
+      "row": 162,
+      "word": "明白",
+      "rawWord": "明白",
+      "pinyin": "míngbái",
+      "meaningVi": "hiểu rõ"
+    },
+    {
+      "level": 3,
+      "row": 163,
+      "word": "拿",
+      "rawWord": "拿",
+      "pinyin": "ná",
+      "meaningVi": "cầm, lấy"
+    },
+    {
+      "level": 3,
+      "row": 164,
+      "word": "奶奶",
+      "rawWord": "奶奶",
+      "pinyin": "nǎinai",
+      "meaningVi": "bà nội"
+    },
+    {
+      "level": 3,
+      "row": 165,
+      "word": "南",
+      "rawWord": "南",
+      "pinyin": "nán",
+      "meaningVi": "phía nam"
+    },
+    {
+      "level": 3,
+      "row": 166,
+      "word": "难",
+      "rawWord": "难",
+      "pinyin": "nán",
+      "meaningVi": "khó"
+    },
+    {
+      "level": 3,
+      "row": 167,
+      "word": "难过",
+      "rawWord": "难过",
+      "pinyin": "nánguò",
+      "meaningVi": "buồn"
+    },
+    {
+      "level": 3,
+      "row": 168,
+      "word": "年级",
+      "rawWord": "年级",
+      "pinyin": "niánjí",
+      "meaningVi": "lớp, năm học"
+    },
+    {
+      "level": 3,
+      "row": 169,
+      "word": "年轻",
+      "rawWord": "年轻",
+      "pinyin": "niánqīng",
+      "meaningVi": "trẻ"
+    },
+    {
+      "level": 3,
+      "row": 170,
+      "word": "鸟",
+      "rawWord": "鸟",
+      "pinyin": "niǎo",
+      "meaningVi": "chim"
+    },
+    {
+      "level": 3,
+      "row": 171,
+      "word": "努力",
+      "rawWord": "努力",
+      "pinyin": "nǔlì",
+      "meaningVi": "nỗ lực, chăm chỉ"
+    },
+    {
+      "level": 3,
+      "row": 172,
+      "word": "爬山",
+      "rawWord": "爬山",
+      "pinyin": "páshān",
+      "meaningVi": "leo núi"
+    },
+    {
+      "level": 3,
+      "row": 173,
+      "word": "盘子",
+      "rawWord": "盘子",
+      "pinyin": "pánzi",
+      "meaningVi": "đĩa"
+    },
+    {
+      "level": 3,
+      "row": 174,
+      "word": "胖",
+      "rawWord": "胖",
+      "pinyin": "pàng",
+      "meaningVi": "béo"
+    },
+    {
+      "level": 3,
+      "row": 175,
+      "word": "啤酒",
+      "rawWord": "啤酒",
+      "pinyin": "píjiǔ",
+      "meaningVi": "bia"
+    },
+    {
+      "level": 3,
+      "row": 176,
+      "word": "葡萄",
+      "rawWord": "葡萄",
+      "pinyin": "pútao",
+      "meaningVi": "nho"
+    },
+    {
+      "level": 3,
+      "row": 177,
+      "word": "普通话",
+      "rawWord": "普通话",
+      "pinyin": "pǔtōnghuà",
+      "meaningVi": "tiếng Phổ thông (tiếng Trung chuẩn)"
+    },
+    {
+      "level": 3,
+      "row": 178,
+      "word": "骑",
+      "rawWord": "骑",
+      "pinyin": "qí",
+      "meaningVi": "cưỡi, đi (xe đạp, xe máy)"
+    },
+    {
+      "level": 3,
+      "row": 179,
+      "word": "其实",
+      "rawWord": "其实",
+      "pinyin": "qíshí",
+      "meaningVi": "thực ra"
+    },
+    {
+      "level": 3,
+      "row": 180,
+      "word": "其他",
+      "rawWord": "其他",
+      "pinyin": "qítā",
+      "meaningVi": "khác"
+    },
+    {
+      "level": 3,
+      "row": 181,
+      "word": "奇怪",
+      "rawWord": "奇怪",
+      "pinyin": "qíguài",
+      "meaningVi": "kỳ lạ"
+    },
+    {
+      "level": 3,
+      "row": 182,
+      "word": "铅笔",
+      "rawWord": "铅笔",
+      "pinyin": "qiānbǐ",
+      "meaningVi": "bút chì"
+    },
+    {
+      "level": 3,
+      "row": 183,
+      "word": "清楚",
+      "rawWord": "清楚",
+      "pinyin": "qīngchǔ",
+      "meaningVi": "rõ ràng"
+    },
+    {
+      "level": 3,
+      "row": 184,
+      "word": "秋",
+      "rawWord": "秋",
+      "pinyin": "qiū",
+      "meaningVi": "mùa thu"
+    },
+    {
+      "level": 3,
+      "row": 185,
+      "word": "裙子",
+      "rawWord": "裙子",
+      "pinyin": "qúnzi",
+      "meaningVi": "váy"
+    },
+    {
+      "level": 3,
+      "row": 186,
+      "word": "然后",
+      "rawWord": "然后",
+      "pinyin": "ránhòu",
+      "meaningVi": "sau đó"
+    },
+    {
+      "level": 3,
+      "row": 187,
+      "word": "热情",
+      "rawWord": "热情",
+      "pinyin": "rèqíng",
+      "meaningVi": "nhiệt tình"
+    },
+    {
+      "level": 3,
+      "row": 188,
+      "word": "认为",
+      "rawWord": "认为",
+      "pinyin": "rènwéi",
+      "meaningVi": "cho rằng"
+    },
+    {
+      "level": 3,
+      "row": 189,
+      "word": "认真",
+      "rawWord": "认真",
+      "pinyin": "rènzhēn",
+      "meaningVi": "nghiêm túc"
+    },
+    {
+      "level": 3,
+      "row": 190,
+      "word": "容易",
+      "rawWord": "容易",
+      "pinyin": "róngyì",
+      "meaningVi": "dễ dàng"
+    },
+    {
+      "level": 3,
+      "row": 191,
+      "word": "如果",
+      "rawWord": "如果",
+      "pinyin": "rúguǒ",
+      "meaningVi": "nếu như"
+    },
+    {
+      "level": 3,
+      "row": 192,
+      "word": "伞",
+      "rawWord": "伞",
+      "pinyin": "sǎn",
+      "meaningVi": "ô, dù"
+    },
+    {
+      "level": 3,
+      "row": 193,
+      "word": "上网",
+      "rawWord": "上网",
+      "pinyin": "shàngwǎng",
+      "meaningVi": "lên mạng"
+    },
+    {
+      "level": 3,
+      "row": 194,
+      "word": "生气",
+      "rawWord": "生气",
+      "pinyin": "shēngqì",
+      "meaningVi": "giận dữ"
+    },
+    {
+      "level": 3,
+      "row": 195,
+      "word": "声音",
+      "rawWord": "声音",
+      "pinyin": "shēngyīn",
+      "meaningVi": "âm thanh"
+    },
+    {
+      "level": 3,
+      "row": 196,
+      "word": "使",
+      "rawWord": "使",
+      "pinyin": "shǐ",
+      "meaningVi": "khiến, làm cho"
+    },
+    {
+      "level": 3,
+      "row": 197,
+      "word": "世界",
+      "rawWord": "世界",
+      "pinyin": "shìjiè",
+      "meaningVi": "thế giới"
+    },
+    {
+      "level": 3,
+      "row": 198,
+      "word": "瘦",
+      "rawWord": "瘦",
+      "pinyin": "shòu",
+      "meaningVi": "gầy"
+    },
+    {
+      "level": 3,
+      "row": 199,
+      "word": "舒服",
+      "rawWord": "舒服",
+      "pinyin": "shūfu",
+      "meaningVi": "thoải mái"
+    },
+    {
+      "level": 3,
+      "row": 200,
+      "word": "叔叔",
+      "rawWord": "叔叔",
+      "pinyin": "shūshu",
+      "meaningVi": "chú"
+    },
+    {
+      "level": 3,
+      "row": 201,
+      "word": "树",
+      "rawWord": "树",
+      "pinyin": "shù",
+      "meaningVi": "cây"
+    },
+    {
+      "level": 3,
+      "row": 202,
+      "word": "数学",
+      "rawWord": "数学",
+      "pinyin": "shùxué",
+      "meaningVi": "toán học"
+    },
+    {
+      "level": 3,
+      "row": 203,
+      "word": "刷牙",
+      "rawWord": "刷牙",
+      "pinyin": "shuāyá",
+      "meaningVi": "đánh răng"
+    },
+    {
+      "level": 3,
+      "row": 204,
+      "word": "双",
+      "rawWord": "双",
+      "pinyin": "shuāng",
+      "meaningVi": "đôi"
+    },
+    {
+      "level": 3,
+      "row": 205,
+      "word": "水平",
+      "rawWord": "水平",
+      "pinyin": "shuǐpíng",
+      "meaningVi": "trình độ"
+    },
+    {
+      "level": 3,
+      "row": 206,
+      "word": "司机",
+      "rawWord": "司机",
+      "pinyin": "sījī",
+      "meaningVi": "lái xe, tài xế"
+    },
+    {
+      "level": 3,
+      "row": 207,
+      "word": "虽然",
+      "rawWord": "虽然",
+      "pinyin": "suīrán",
+      "meaningVi": "tuy rằng"
+    },
+    {
+      "level": 3,
+      "row": 208,
+      "word": "太阳",
+      "rawWord": "太阳",
+      "pinyin": "tàiyáng",
+      "meaningVi": "mặt trời"
+    },
+    {
+      "level": 3,
+      "row": 209,
+      "word": "糖",
+      "rawWord": "糖",
+      "pinyin": "táng",
+      "meaningVi": "kẹo, đường"
+    },
+    {
+      "level": 3,
+      "row": 210,
+      "word": "特别",
+      "rawWord": "特别",
+      "pinyin": "tèbié",
+      "meaningVi": "đặc biệt"
+    },
+    {
+      "level": 3,
+      "row": 211,
+      "word": "疼",
+      "rawWord": "疼",
+      "pinyin": "téng",
+      "meaningVi": "đau"
+    },
+    {
+      "level": 3,
+      "row": 212,
+      "word": "提高",
+      "rawWord": "提高",
+      "pinyin": "tígāo",
+      "meaningVi": "nâng cao"
+    },
+    {
+      "level": 3,
+      "row": 213,
+      "word": "体育",
+      "rawWord": "体育",
+      "pinyin": "tǐyù",
+      "meaningVi": "thể dục, thể thao"
+    },
+    {
+      "level": 3,
+      "row": 214,
+      "word": "甜",
+      "rawWord": "甜",
+      "pinyin": "tián",
+      "meaningVi": "ngọt"
+    },
+    {
+      "level": 3,
+      "row": 215,
+      "word": "条",
+      "rawWord": "条",
+      "pinyin": "tiáo",
+      "meaningVi": "sợi, cái"
+    },
+    {
+      "level": 3,
+      "row": 216,
+      "word": "同事",
+      "rawWord": "同事",
+      "pinyin": "tóngshì",
+      "meaningVi": "đồng nghiệp"
+    },
+    {
+      "level": 3,
+      "row": 217,
+      "word": "同意",
+      "rawWord": "同意",
+      "pinyin": "tóngyì",
+      "meaningVi": "đồng ý"
+    },
+    {
+      "level": 3,
+      "row": 218,
+      "word": "头发",
+      "rawWord": "头发",
+      "pinyin": "tóufa",
+      "meaningVi": "tóc"
+    },
+    {
+      "level": 3,
+      "row": 219,
+      "word": "突然",
+      "rawWord": "突然",
+      "pinyin": "tūrán",
+      "meaningVi": "đột nhiên"
+    },
+    {
+      "level": 3,
+      "row": 220,
+      "word": "图书馆",
+      "rawWord": "图书馆",
+      "pinyin": "túshūguǎn",
+      "meaningVi": "thư viện"
+    },
+    {
+      "level": 3,
+      "row": 221,
+      "word": "腿",
+      "rawWord": "腿",
+      "pinyin": "tuǐ",
+      "meaningVi": "chân"
+    },
+    {
+      "level": 3,
+      "row": 222,
+      "word": "完成",
+      "rawWord": "完成",
+      "pinyin": "wánchéng",
+      "meaningVi": "hoàn thành"
+    },
+    {
+      "level": 3,
+      "row": 223,
+      "word": "碗",
+      "rawWord": "碗",
+      "pinyin": "wǎn",
+      "meaningVi": "bát"
+    },
+    {
+      "level": 3,
+      "row": 224,
+      "word": "万",
+      "rawWord": "万",
+      "pinyin": "wàn",
+      "meaningVi": "vạn, mười nghìn"
+    },
+    {
+      "level": 3,
+      "row": 225,
+      "word": "忘记",
+      "rawWord": "忘记",
+      "pinyin": "wàngjì",
+      "meaningVi": "quên"
+    },
+    {
+      "level": 3,
+      "row": 226,
+      "word": "位",
+      "rawWord": "位",
+      "pinyin": "wèi",
+      "meaningVi": "vị, ngài"
+    },
+    {
+      "level": 3,
+      "row": 227,
+      "word": "为",
+      "rawWord": "为",
+      "pinyin": "wèi",
+      "meaningVi": "vì"
+    },
+    {
+      "level": 3,
+      "row": 228,
+      "word": "为了",
+      "rawWord": "为了",
+      "pinyin": "wèile",
+      "meaningVi": "để, vì"
+    },
+    {
+      "level": 3,
+      "row": 229,
+      "word": "文化",
+      "rawWord": "文化",
+      "pinyin": "wénhuà",
+      "meaningVi": "văn hóa"
+    },
+    {
+      "level": 3,
+      "row": 230,
+      "word": "西",
+      "rawWord": "西",
+      "pinyin": "xī",
+      "meaningVi": "phía tây"
+    },
+    {
+      "level": 3,
+      "row": 231,
+      "word": "习惯",
+      "rawWord": "习惯",
+      "pinyin": "xíguàn",
+      "meaningVi": "thói quen"
+    },
+    {
+      "level": 3,
+      "row": 232,
+      "word": "洗手间",
+      "rawWord": "洗手间",
+      "pinyin": "xǐshǒujiān",
+      "meaningVi": "nhà vệ sinh"
+    },
+    {
+      "level": 3,
+      "row": 233,
+      "word": "洗澡",
+      "rawWord": "洗澡",
+      "pinyin": "xǐzǎo",
+      "meaningVi": "tắm"
+    },
+    {
+      "level": 3,
+      "row": 236,
+      "word": "香蕉",
+      "rawWord": "香蕉",
+      "pinyin": "xiāngjiāo",
+      "meaningVi": "chuối"
+    },
+    {
+      "level": 3,
+      "row": 237,
+      "word": "相同",
+      "rawWord": "相同",
+      "pinyin": "xiāngtóng",
+      "meaningVi": "giống nhau"
+    },
+    {
+      "level": 3,
+      "row": 238,
+      "word": "相信",
+      "rawWord": "相信",
+      "pinyin": "xiāngxìn",
+      "meaningVi": "tin tưởng"
+    },
+    {
+      "level": 3,
+      "row": 239,
+      "word": "像",
+      "rawWord": "像",
+      "pinyin": "xiàng",
+      "meaningVi": "giống"
+    },
+    {
+      "level": 3,
+      "row": 240,
+      "word": "小心",
+      "rawWord": "小心",
+      "pinyin": "xiǎoxīn",
+      "meaningVi": "cẩn thận"
+    },
+    {
+      "level": 3,
+      "row": 241,
+      "word": "校长",
+      "rawWord": "校长",
+      "pinyin": "xiàozhǎng",
+      "meaningVi": "hiệu trưởng"
+    },
+    {
+      "level": 3,
+      "row": 242,
+      "word": "鞋",
+      "rawWord": "鞋",
+      "pinyin": "xié",
+      "meaningVi": "giày"
+    },
+    {
+      "level": 3,
+      "row": 243,
+      "word": "新闻",
+      "rawWord": "新闻",
+      "pinyin": "xīnwén",
+      "meaningVi": "tin tức"
+    },
+    {
+      "level": 3,
+      "row": 244,
+      "word": "新鲜",
+      "rawWord": "新鲜",
+      "pinyin": "xīnxiān",
+      "meaningVi": "tươi mới"
+    },
+    {
+      "level": 3,
+      "row": 245,
+      "word": "信",
+      "rawWord": "信",
+      "pinyin": "xìn",
+      "meaningVi": "thư, tin tưởng"
+    },
+    {
+      "level": 3,
+      "row": 246,
+      "word": "行李箱",
+      "rawWord": "行李箱",
+      "pinyin": "xínglǐxiāng",
+      "meaningVi": "vali"
+    },
+    {
+      "level": 3,
+      "row": 247,
+      "word": "兴趣",
+      "rawWord": "兴趣",
+      "pinyin": "xìngqù",
+      "meaningVi": "hứng thú"
+    },
+    {
+      "level": 3,
+      "row": 248,
+      "word": "熊猫",
+      "rawWord": "熊猫",
+      "pinyin": "xióngmāo",
+      "meaningVi": "gấu trúc"
+    },
+    {
+      "level": 3,
+      "row": 249,
+      "word": "需要",
+      "rawWord": "需要",
+      "pinyin": "xūyào",
+      "meaningVi": "cần"
+    },
+    {
+      "level": 3,
+      "row": 250,
+      "word": "选择",
+      "rawWord": "选择",
+      "pinyin": "xuǎnzé",
+      "meaningVi": "lựa chọn"
+    },
+    {
+      "level": 3,
+      "row": 251,
+      "word": "眼镜",
+      "rawWord": "眼镜",
+      "pinyin": "yǎnjìng",
+      "meaningVi": "kính"
+    },
+    {
+      "level": 3,
+      "row": 252,
+      "word": "要求",
+      "rawWord": "要求",
+      "pinyin": "yāoqiú",
+      "meaningVi": "yêu cầu"
+    },
+    {
+      "level": 3,
+      "row": 253,
+      "word": "爷爷",
+      "rawWord": "爷爷",
+      "pinyin": "yéye",
+      "meaningVi": "ông nội"
+    },
+    {
+      "level": 3,
+      "row": 254,
+      "word": "一定",
+      "rawWord": "一定",
+      "pinyin": "yīdìng",
+      "meaningVi": "nhất định"
+    },
+    {
+      "level": 3,
+      "row": 255,
+      "word": "一共",
+      "rawWord": "一共",
+      "pinyin": "yīgòng",
+      "meaningVi": "tổng cộng"
+    },
+    {
+      "level": 3,
+      "row": 256,
+      "word": "一会儿",
+      "rawWord": "一会儿",
+      "pinyin": "yīhuìr",
+      "meaningVi": "một lát"
+    },
+    {
+      "level": 3,
+      "row": 257,
+      "word": "一样",
+      "rawWord": "一样",
+      "pinyin": "yīyàng",
+      "meaningVi": "giống nhau"
+    },
+    {
+      "level": 3,
+      "row": 258,
+      "word": "以后",
+      "rawWord": "以后",
+      "pinyin": "yǐhòu",
+      "meaningVi": "sau này"
+    },
+    {
+      "level": 3,
+      "row": 259,
+      "word": "以前",
+      "rawWord": "以前",
+      "pinyin": "yǐqián",
+      "meaningVi": "trước đây"
+    },
+    {
+      "level": 3,
+      "row": 260,
+      "word": "以为",
+      "rawWord": "以为",
+      "pinyin": "yǐwéi",
+      "meaningVi": "cho rằng"
+    },
+    {
+      "level": 3,
+      "row": 261,
+      "word": "一般",
+      "rawWord": "一般",
+      "pinyin": "yībān",
+      "meaningVi": "thông thường"
+    },
+    {
+      "level": 3,
+      "row": 262,
+      "word": "一边",
+      "rawWord": "一边",
+      "pinyin": "yībiān",
+      "meaningVi": "vừa ... vừa ..."
+    },
+    {
+      "level": 3,
+      "row": 263,
+      "word": "一直",
+      "rawWord": "一直",
+      "pinyin": "yīzhí",
+      "meaningVi": "luôn luôn"
+    },
+    {
+      "level": 3,
+      "row": 264,
+      "word": "音乐",
+      "rawWord": "音乐",
+      "pinyin": "yīnyuè",
+      "meaningVi": "âm nhạc"
+    },
+    {
+      "level": 3,
+      "row": 265,
+      "word": "银行",
+      "rawWord": "银行",
+      "pinyin": "yínháng",
+      "meaningVi": "ngân hàng"
+    },
+    {
+      "level": 3,
+      "row": 266,
+      "word": "应该",
+      "rawWord": "应该",
+      "pinyin": "yīnggāi",
+      "meaningVi": "nên"
+    },
+    {
+      "level": 3,
+      "row": 267,
+      "word": "影响",
+      "rawWord": "影响",
+      "pinyin": "yǐngxiǎng",
+      "meaningVi": "ảnh hưởng"
+    },
+    {
+      "level": 3,
+      "row": 268,
+      "word": "用",
+      "rawWord": "用",
+      "pinyin": "yòng",
+      "meaningVi": "dùng"
+    },
+    {
+      "level": 3,
+      "row": 269,
+      "word": "游戏",
+      "rawWord": "游戏",
+      "pinyin": "yóuxì",
+      "meaningVi": "trò chơi"
+    },
+    {
+      "level": 3,
+      "row": 270,
+      "word": "又",
+      "rawWord": "又",
+      "pinyin": "yòu",
+      "meaningVi": "lại, vừa"
+    },
+    {
+      "level": 3,
+      "row": 271,
+      "word": "有名",
+      "rawWord": "有名",
+      "pinyin": "yǒumíng",
+      "meaningVi": "nổi tiếng"
+    },
+    {
+      "level": 3,
+      "row": 272,
+      "word": "遇到",
+      "rawWord": "遇到",
+      "pinyin": "yùdào",
+      "meaningVi": "gặp phải"
+    },
+    {
+      "level": 3,
+      "row": 273,
+      "word": "月亮",
+      "rawWord": "月亮",
+      "pinyin": "yuèliàng",
+      "meaningVi": "mặt trăng"
+    },
+    {
+      "level": 3,
+      "row": 274,
+      "word": "云",
+      "rawWord": "云",
+      "pinyin": "yún",
+      "meaningVi": "mây"
+    },
+    {
+      "level": 3,
+      "row": 275,
+      "word": "站",
+      "rawWord": "站",
+      "pinyin": "zhàn",
+      "meaningVi": "đứng, trạm"
+    },
+    {
+      "level": 3,
+      "row": 277,
+      "word": "着急",
+      "rawWord": "着急",
+      "pinyin": "zhāojí",
+      "meaningVi": "lo lắng"
+    },
+    {
+      "level": 3,
+      "row": 278,
+      "word": "照顾",
+      "rawWord": "照顾",
+      "pinyin": "zhàogu",
+      "meaningVi": "chăm sóc"
+    },
+    {
+      "level": 3,
+      "row": 279,
+      "word": "照片",
+      "rawWord": "照片",
+      "pinyin": "zhàopiàn",
+      "meaningVi": "bức ảnh"
+    },
+    {
+      "level": 3,
+      "row": 280,
+      "word": "照相机",
+      "rawWord": "照相机",
+      "pinyin": "zhàoxiàngjī",
+      "meaningVi": "máy ảnh"
+    },
+    {
+      "level": 3,
+      "row": 281,
+      "word": "只",
+      "rawWord": "只",
+      "pinyin": "zhǐ",
+      "meaningVi": "chỉ"
+    },
+    {
+      "level": 3,
+      "row": 282,
+      "word": "中间",
+      "rawWord": "中间",
+      "pinyin": "zhōngjiān",
+      "meaningVi": "ở giữa"
+    },
+    {
+      "level": 3,
+      "row": 283,
+      "word": "终于",
+      "rawWord": "终于",
+      "pinyin": "zhōngyú",
+      "meaningVi": "cuối cùng"
+    },
+    {
+      "level": 3,
+      "row": 284,
+      "word": "种",
+      "rawWord": "种",
+      "pinyin": "zhǒng",
+      "meaningVi": "loại, hạt giống"
+    },
+    {
+      "level": 3,
+      "row": 285,
+      "word": "重要",
+      "rawWord": "重要",
+      "pinyin": "zhòngyào",
+      "meaningVi": "quan trọng"
+    },
+    {
+      "level": 3,
+      "row": 286,
+      "word": "主要",
+      "rawWord": "主要",
+      "pinyin": "zhǔyào",
+      "meaningVi": "chủ yếu"
+    },
+    {
+      "level": 3,
+      "row": 287,
+      "word": "周末",
+      "rawWord": "周末",
+      "pinyin": "zhōumò",
+      "meaningVi": "cuối tuần"
+    },
+    {
+      "level": 3,
+      "row": 288,
+      "word": "祝",
+      "rawWord": "祝",
+      "pinyin": "zhù",
+      "meaningVi": "chúc"
+    },
+    {
+      "level": 3,
+      "row": 289,
+      "word": "注意",
+      "rawWord": "注意",
+      "pinyin": "zhùyì",
+      "meaningVi": "chú ý"
+    },
+    {
+      "level": 3,
+      "row": 290,
+      "word": "字典",
+      "rawWord": "字典",
+      "pinyin": "zìdiǎn",
+      "meaningVi": "từ điển"
+    },
+    {
+      "level": 3,
+      "row": 291,
+      "word": "自己",
+      "rawWord": "自己",
+      "pinyin": "zìjǐ",
+      "meaningVi": "bản thân"
+    },
+    {
+      "level": 3,
+      "row": 292,
+      "word": "总是",
+      "rawWord": "总是",
+      "pinyin": "zǒngshì",
+      "meaningVi": "luôn luôn"
+    },
+    {
+      "level": 3,
+      "row": 293,
+      "word": "最近",
+      "rawWord": "最近",
+      "pinyin": "zuìjìn",
+      "meaningVi": "gần đây"
+    },
+    {
+      "level": 3,
+      "row": 294,
+      "word": "作业",
+      "rawWord": "作业",
+      "pinyin": "zuòyè",
+      "meaningVi": "bài tập về nhà"
+    },
+    {
+      "level": 3,
+      "row": 295,
+      "word": "作用",
+      "rawWord": "作用",
+      "pinyin": "zuòyòng",
+      "meaningVi": "tác dụng"
+    },
+    {
+      "level": 4,
+      "row": 1,
+      "word": "爱情",
+      "rawWord": "爱情",
+      "pinyin": "ài qíng [ái tình]",
+      "meaningVi": "tình yêu"
+    },
+    {
+      "level": 4,
+      "row": 2,
+      "word": "安排",
+      "rawWord": "安排",
+      "pinyin": "ān pái [an bài]",
+      "meaningVi": "sắp xếp"
+    },
+    {
+      "level": 4,
+      "row": 3,
+      "word": "安全",
+      "rawWord": "安全",
+      "pinyin": "ān quán [an toàn]",
+      "meaningVi": "an toàn"
+    },
+    {
+      "level": 4,
+      "row": 4,
+      "word": "按时",
+      "rawWord": "按时",
+      "pinyin": "àn shí",
+      "meaningVi": "đúng hạn"
+    },
+    {
+      "level": 4,
+      "row": 5,
+      "word": "按照",
+      "rawWord": "按照",
+      "pinyin": "àn zhào",
+      "meaningVi": "dựa vào, theo"
+    },
+    {
+      "level": 4,
+      "row": 6,
+      "word": "百分之",
+      "rawWord": "百分之",
+      "pinyin": "bǎi fēn zhī",
+      "meaningVi": "%"
+    },
+    {
+      "level": 4,
+      "row": 7,
+      "word": "棒",
+      "rawWord": "棒",
+      "pinyin": "bàng",
+      "meaningVi": "cây gậy/ giỏi, tốt"
+    },
+    {
+      "level": 4,
+      "row": 8,
+      "word": "包子",
+      "rawWord": "包子",
+      "pinyin": "bāo zi",
+      "meaningVi": "bánh bao"
+    },
+    {
+      "level": 4,
+      "row": 9,
+      "word": "保护",
+      "rawWord": "保护",
+      "pinyin": "bǎo hù",
+      "meaningVi": "che chở, bảo vệ"
+    },
+    {
+      "level": 4,
+      "row": 10,
+      "word": "保证",
+      "rawWord": "保证",
+      "pinyin": "bǎo zhèng",
+      "meaningVi": "đảm bảo, cam đoan"
+    },
+    {
+      "level": 4,
+      "row": 11,
+      "word": "报名",
+      "rawWord": "报名",
+      "pinyin": "bào míng",
+      "meaningVi": "đăng kí"
+    },
+    {
+      "level": 4,
+      "row": 12,
+      "word": "抱",
+      "rawWord": "抱",
+      "pinyin": "bào",
+      "meaningVi": "ôm"
+    },
+    {
+      "level": 4,
+      "row": 13,
+      "word": "抱歉",
+      "rawWord": "抱歉",
+      "pinyin": "bào qiàn",
+      "meaningVi": "xin lỗi"
+    },
+    {
+      "level": 4,
+      "row": 14,
+      "word": "倍",
+      "rawWord": "倍",
+      "pinyin": "bèi",
+      "meaningVi": "lần"
+    },
+    {
+      "level": 4,
+      "row": 15,
+      "word": "本来",
+      "rawWord": "本来",
+      "pinyin": "běn lái",
+      "meaningVi": "vốn có"
+    },
+    {
+      "level": 4,
+      "row": 16,
+      "word": "笨",
+      "rawWord": "笨",
+      "pinyin": "bèn",
+      "meaningVi": "ngốc nghếch"
+    },
+    {
+      "level": 4,
+      "row": 17,
+      "word": "比如",
+      "rawWord": "比如",
+      "pinyin": "bǐ rú",
+      "meaningVi": "ví dụ như"
+    },
+    {
+      "level": 4,
+      "row": 18,
+      "word": "毕业",
+      "rawWord": "毕业",
+      "pinyin": "bì yè",
+      "meaningVi": "tốt nghiệp"
+    },
+    {
+      "level": 4,
+      "row": 19,
+      "word": "遍",
+      "rawWord": "遍",
+      "pinyin": "biàn",
+      "meaningVi": "lần, lượt"
+    },
+    {
+      "level": 4,
+      "row": 20,
+      "word": "标准",
+      "rawWord": "标准",
+      "pinyin": "biāo zhǔn",
+      "meaningVi": "tiêu chuẩn"
+    },
+    {
+      "level": 4,
+      "row": 21,
+      "word": "表格",
+      "rawWord": "表格",
+      "pinyin": "biǎo gé",
+      "meaningVi": "bảng biểu"
+    },
+    {
+      "level": 4,
+      "row": 24,
+      "word": "表扬",
+      "rawWord": "表扬",
+      "pinyin": "biǎo yáng",
+      "meaningVi": "tuyên dương"
+    },
+    {
+      "level": 4,
+      "row": 25,
+      "word": "饼干",
+      "rawWord": "饼干",
+      "pinyin": "bǐng gān",
+      "meaningVi": "bánh"
+    },
+    {
+      "level": 4,
+      "row": 26,
+      "word": "并且",
+      "rawWord": "并且",
+      "pinyin": "bìng qiě",
+      "meaningVi": "đồng thời"
+    },
+    {
+      "level": 4,
+      "row": 27,
+      "word": "博士",
+      "rawWord": "博士",
+      "pinyin": "bó shì",
+      "meaningVi": "tiến sĩ"
+    },
+    {
+      "level": 4,
+      "row": 28,
+      "word": "不得不",
+      "rawWord": "不得不",
+      "pinyin": "bù dé bù",
+      "meaningVi": "đành"
+    },
+    {
+      "level": 4,
+      "row": 29,
+      "word": "不管",
+      "rawWord": "不管",
+      "pinyin": "bù guǎn",
+      "meaningVi": "bất kể"
+    },
+    {
+      "level": 4,
+      "row": 30,
+      "word": "不过",
+      "rawWord": "不过",
+      "pinyin": "bù guò",
+      "meaningVi": "nhưng, có điều"
+    },
+    {
+      "level": 4,
+      "row": 31,
+      "word": "不仅",
+      "rawWord": "不仅",
+      "pinyin": "bù jǐn",
+      "meaningVi": "không những"
+    },
+    {
+      "level": 4,
+      "row": 32,
+      "word": "部分",
+      "rawWord": "部分",
+      "pinyin": "bù fèn",
+      "meaningVi": "bộ phận, phần"
+    },
+    {
+      "level": 4,
+      "row": 33,
+      "word": "擦",
+      "rawWord": "擦",
+      "pinyin": "cā",
+      "meaningVi": "lau"
+    },
+    {
+      "level": 4,
+      "row": 34,
+      "word": "猜",
+      "rawWord": "猜",
+      "pinyin": "cāi",
+      "meaningVi": "đoán"
+    },
+    {
+      "level": 4,
+      "row": 35,
+      "word": "材料",
+      "rawWord": "材料",
+      "pinyin": "cái liào",
+      "meaningVi": "tài liệu"
+    },
+    {
+      "level": 4,
+      "row": 36,
+      "word": "参观",
+      "rawWord": "参观",
+      "pinyin": "cān guān",
+      "meaningVi": "tham quan"
+    },
+    {
+      "level": 4,
+      "row": 37,
+      "word": "餐厅",
+      "rawWord": "餐厅",
+      "pinyin": "cān tīng",
+      "meaningVi": "căng tin, nhà ăn"
+    },
+    {
+      "level": 4,
+      "row": 38,
+      "word": "厕所",
+      "rawWord": "厕所",
+      "pinyin": "cè suǒ",
+      "meaningVi": "phòng vệ sinh"
+    },
+    {
+      "level": 4,
+      "row": 39,
+      "word": "差不多",
+      "rawWord": "差不多",
+      "pinyin": "chà bù duō",
+      "meaningVi": "gần như"
+    },
+    {
+      "level": 4,
+      "row": 40,
+      "word": "长城",
+      "rawWord": "长城",
+      "pinyin": "cháng chéng",
+      "meaningVi": "Trường Thành"
+    },
+    {
+      "level": 4,
+      "row": 41,
+      "word": "长江",
+      "rawWord": "长江",
+      "pinyin": "cháng jiāng",
+      "meaningVi": "Trường Giang"
+    },
+    {
+      "level": 4,
+      "row": 42,
+      "word": "尝",
+      "rawWord": "尝",
+      "pinyin": "cháng",
+      "meaningVi": "nếm thử"
+    },
+    {
+      "level": 4,
+      "row": 43,
+      "word": "场",
+      "rawWord": "场",
+      "pinyin": "chǎng",
+      "meaningVi": "trận, suất"
+    },
+    {
+      "level": 4,
+      "row": 44,
+      "word": "超过",
+      "rawWord": "超过",
+      "pinyin": "chāo guò",
+      "meaningVi": "vượt trên"
+    },
+    {
+      "level": 4,
+      "row": 45,
+      "word": "成功",
+      "rawWord": "成功",
+      "pinyin": "chéng gōng",
+      "meaningVi": "thành công"
+    },
+    {
+      "level": 4,
+      "row": 46,
+      "word": "成为",
+      "rawWord": "成为",
+      "pinyin": "chéng wéi",
+      "meaningVi": "trở thành"
+    },
+    {
+      "level": 4,
+      "row": 47,
+      "word": "诚实",
+      "rawWord": "诚实",
+      "pinyin": "chéng shí",
+      "meaningVi": "trung thực"
+    },
+    {
+      "level": 4,
+      "row": 48,
+      "word": "乘坐",
+      "rawWord": "乘坐",
+      "pinyin": "chéng zuò",
+      "meaningVi": "ngồi xe"
+    },
+    {
+      "level": 4,
+      "row": 49,
+      "word": "吃惊",
+      "rawWord": "吃惊",
+      "pinyin": "chī jīng",
+      "meaningVi": "ngạc nhiên"
+    },
+    {
+      "level": 4,
+      "row": 50,
+      "word": "重新",
+      "rawWord": "重新",
+      "pinyin": "chóng xīn",
+      "meaningVi": "làm lại"
+    },
+    {
+      "level": 4,
+      "row": 51,
+      "word": "抽烟",
+      "rawWord": "抽烟",
+      "pinyin": "chōu yān",
+      "meaningVi": "hút thuốc"
+    },
+    {
+      "level": 4,
+      "row": 52,
+      "word": "出差",
+      "rawWord": "出差",
+      "pinyin": "chū chāi",
+      "meaningVi": "đi công tác"
+    },
+    {
+      "level": 4,
+      "row": 53,
+      "word": "出发",
+      "rawWord": "出发",
+      "pinyin": "chū fā",
+      "meaningVi": "xuất phát"
+    },
+    {
+      "level": 4,
+      "row": 54,
+      "word": "出生",
+      "rawWord": "出生",
+      "pinyin": "chū shēng",
+      "meaningVi": "ra đời"
+    },
+    {
+      "level": 4,
+      "row": 57,
+      "word": "传真",
+      "rawWord": "传真",
+      "pinyin": "chuán zhēn",
+      "meaningVi": "fax, bản fax"
+    },
+    {
+      "level": 4,
+      "row": 58,
+      "word": "窗户",
+      "rawWord": "窗户",
+      "pinyin": "chuāng hù",
+      "meaningVi": "cửa sổ"
+    },
+    {
+      "level": 4,
+      "row": 60,
+      "word": "从来",
+      "rawWord": "从来",
+      "pinyin": "cóng lái",
+      "meaningVi": "từ trước đến nay"
+    },
+    {
+      "level": 4,
+      "row": 61,
+      "word": "粗心",
+      "rawWord": "粗心",
+      "pinyin": "cū xīn",
+      "meaningVi": "thô lỗ, cẩu thả"
+    },
+    {
+      "level": 4,
+      "row": 62,
+      "word": "存",
+      "rawWord": "存",
+      "pinyin": "cún",
+      "meaningVi": "giữ, tiết kiệm, tồn"
+    },
+    {
+      "level": 4,
+      "row": 63,
+      "word": "错误",
+      "rawWord": "错误",
+      "pinyin": "cuò wù",
+      "meaningVi": "sai lầm"
+    },
+    {
+      "level": 4,
+      "row": 64,
+      "word": "答案",
+      "rawWord": "答案",
+      "pinyin": "dá àn",
+      "meaningVi": "đáp án"
+    },
+    {
+      "level": 4,
+      "row": 65,
+      "word": "打扮",
+      "rawWord": "打扮",
+      "pinyin": "dǎ bàn",
+      "meaningVi": "trau chuốt, trang điểm"
+    },
+    {
+      "level": 4,
+      "row": 66,
+      "word": "打扰",
+      "rawWord": "打扰",
+      "pinyin": "dǎ rǎo",
+      "meaningVi": "làm phiền"
+    },
+    {
+      "level": 4,
+      "row": 67,
+      "word": "打印",
+      "rawWord": "打印",
+      "pinyin": "dǎ yìn",
+      "meaningVi": "in ấn"
+    },
+    {
+      "level": 4,
+      "row": 68,
+      "word": "打招呼",
+      "rawWord": "打招呼",
+      "pinyin": "dǎ zhāo hū",
+      "meaningVi": "chào hỏi"
+    },
+    {
+      "level": 4,
+      "row": 69,
+      "word": "打折",
+      "rawWord": "打折",
+      "pinyin": "dǎ zhé",
+      "meaningVi": "giảm giá"
+    },
+    {
+      "level": 4,
+      "row": 70,
+      "word": "打针",
+      "rawWord": "打针",
+      "pinyin": "dǎ zhēn",
+      "meaningVi": "tiêm"
+    },
+    {
+      "level": 4,
+      "row": 71,
+      "word": "大概",
+      "rawWord": "大概",
+      "pinyin": "dà gài",
+      "meaningVi": "khoảng"
+    },
+    {
+      "level": 4,
+      "row": 72,
+      "word": "大使馆",
+      "rawWord": "大使馆",
+      "pinyin": "dà shǐ guǎn",
+      "meaningVi": "đại sứ quán"
+    },
+    {
+      "level": 4,
+      "row": 73,
+      "word": "大约",
+      "rawWord": "大约",
+      "pinyin": "dà yuē",
+      "meaningVi": "khoảng"
+    },
+    {
+      "level": 4,
+      "row": 74,
+      "word": "大夫",
+      "rawWord": "大夫",
+      "pinyin": "dài fū",
+      "meaningVi": "bác sĩ, đại phu"
+    },
+    {
+      "level": 4,
+      "row": 75,
+      "word": "戴",
+      "rawWord": "戴",
+      "pinyin": "dài",
+      "meaningVi": "đeo"
+    },
+    {
+      "level": 4,
+      "row": 76,
+      "word": "当",
+      "rawWord": "当",
+      "pinyin": "dāng",
+      "meaningVi": "làm"
+    },
+    {
+      "level": 4,
+      "row": 77,
+      "word": "当时",
+      "rawWord": "当时",
+      "pinyin": "dāng shí",
+      "meaningVi": "lúc đó"
+    },
+    {
+      "level": 4,
+      "row": 78,
+      "word": "刀",
+      "rawWord": "刀",
+      "pinyin": "dāo",
+      "meaningVi": "cái dao"
+    },
+    {
+      "level": 4,
+      "row": 79,
+      "word": "导游",
+      "rawWord": "导游",
+      "pinyin": "dǎo yóu",
+      "meaningVi": "hướng dẫn viên du lịch"
+    },
+    {
+      "level": 4,
+      "row": 80,
+      "word": "到处",
+      "rawWord": "到处",
+      "pinyin": "dào chù",
+      "meaningVi": "khắp nơi"
+    },
+    {
+      "level": 4,
+      "row": 81,
+      "word": "到底",
+      "rawWord": "到底",
+      "pinyin": "dào dǐ",
+      "meaningVi": "cuối cùng"
+    },
+    {
+      "level": 4,
+      "row": 82,
+      "word": "倒",
+      "rawWord": "倒",
+      "pinyin": "dǎo",
+      "meaningVi": "đổ, ngã"
+    },
+    {
+      "level": 4,
+      "row": 83,
+      "word": "道歉",
+      "rawWord": "道歉",
+      "pinyin": "dào qiàn",
+      "meaningVi": "xin lỗi"
+    },
+    {
+      "level": 4,
+      "row": 84,
+      "word": "得意",
+      "rawWord": "得意",
+      "pinyin": "dé yì",
+      "meaningVi": "đắc ý"
+    },
+    {
+      "level": 4,
+      "row": 86,
+      "word": "登机牌",
+      "rawWord": "登机牌",
+      "pinyin": "dēng jī pái",
+      "meaningVi": "thẻ lên tàu"
+    },
+    {
+      "level": 4,
+      "row": 89,
+      "word": "底",
+      "rawWord": "底",
+      "pinyin": "dǐ",
+      "meaningVi": "đáy"
+    },
+    {
+      "level": 4,
+      "row": 90,
+      "word": "地点",
+      "rawWord": "地点",
+      "pinyin": "dì diǎn",
+      "meaningVi": "địa điểm"
+    },
+    {
+      "level": 4,
+      "row": 91,
+      "word": "地球",
+      "rawWord": "地球",
+      "pinyin": "dì qiú",
+      "meaningVi": "địa cầu"
+    },
+    {
+      "level": 4,
+      "row": 92,
+      "word": "地址",
+      "rawWord": "地址",
+      "pinyin": "dì zhǐ",
+      "meaningVi": "địa chỉ"
+    },
+    {
+      "level": 4,
+      "row": 93,
+      "word": "调查",
+      "rawWord": "调查",
+      "pinyin": "diào chá",
+      "meaningVi": "điều tra"
+    },
+    {
+      "level": 4,
+      "row": 94,
+      "word": "掉",
+      "rawWord": "掉",
+      "pinyin": "diào",
+      "meaningVi": "rơi"
+    },
+    {
+      "level": 4,
+      "row": 95,
+      "word": "丢",
+      "rawWord": "丢",
+      "pinyin": "diū",
+      "meaningVi": "mất"
+    },
+    {
+      "level": 4,
+      "row": 96,
+      "word": "动作",
+      "rawWord": "动作",
+      "pinyin": "dòng zuò",
+      "meaningVi": "động tác"
+    },
+    {
+      "level": 4,
+      "row": 97,
+      "word": "堵车",
+      "rawWord": "堵车",
+      "pinyin": "dǔ chē",
+      "meaningVi": "tắc đường"
+    },
+    {
+      "level": 4,
+      "row": 98,
+      "word": "肚子",
+      "rawWord": "肚子",
+      "pinyin": "dù zi",
+      "meaningVi": "bụng"
+    },
+    {
+      "level": 4,
+      "row": 99,
+      "word": "短信",
+      "rawWord": "短信",
+      "pinyin": "duǎn xìn",
+      "meaningVi": "tin nhắn"
+    },
+    {
+      "level": 4,
+      "row": 100,
+      "word": "对话",
+      "rawWord": "对话",
+      "pinyin": "duì huà",
+      "meaningVi": "hội thoại, đối thoại"
+    },
+    {
+      "level": 4,
+      "row": 101,
+      "word": "对面",
+      "rawWord": "对面",
+      "pinyin": "duì miàn",
+      "meaningVi": "đối diện"
+    },
+    {
+      "level": 4,
+      "row": 102,
+      "word": "对于",
+      "rawWord": "对于",
+      "pinyin": "duì yú",
+      "meaningVi": "về (vấn đề gì đó)"
+    },
+    {
+      "level": 4,
+      "row": 103,
+      "word": "儿童",
+      "rawWord": "儿童",
+      "pinyin": "ér tóng",
+      "meaningVi": "trẻ con"
+    },
+    {
+      "level": 4,
+      "row": 104,
+      "word": "而",
+      "rawWord": "而",
+      "pinyin": "ér",
+      "meaningVi": "còn"
+    },
+    {
+      "level": 4,
+      "row": 105,
+      "word": "发生",
+      "rawWord": "发生",
+      "pinyin": "fā shēng",
+      "meaningVi": "xảy ra"
+    },
+    {
+      "level": 4,
+      "row": 106,
+      "word": "发展",
+      "rawWord": "发展",
+      "pinyin": "fā zhǎn",
+      "meaningVi": "phát triển"
+    },
+    {
+      "level": 4,
+      "row": 107,
+      "word": "法律",
+      "rawWord": "法律",
+      "pinyin": "fǎ lǜ",
+      "meaningVi": "pháp luật"
+    },
+    {
+      "level": 4,
+      "row": 108,
+      "word": "翻译",
+      "rawWord": "翻译",
+      "pinyin": "fān yì",
+      "meaningVi": "phiên dịch"
+    },
+    {
+      "level": 4,
+      "row": 109,
+      "word": "烦恼",
+      "rawWord": "烦恼",
+      "pinyin": "fán nǎo",
+      "meaningVi": "phiền não"
+    },
+    {
+      "level": 4,
+      "row": 110,
+      "word": "反对",
+      "rawWord": "反对",
+      "pinyin": "fǎn duì",
+      "meaningVi": "phản đối"
+    },
+    {
+      "level": 4,
+      "row": 111,
+      "word": "方法",
+      "rawWord": "方法",
+      "pinyin": "fāng fǎ",
+      "meaningVi": "phương pháp"
+    },
+    {
+      "level": 4,
+      "row": 112,
+      "word": "方面",
+      "rawWord": "方面",
+      "pinyin": "fāng miàn",
+      "meaningVi": "phương diện"
+    },
+    {
+      "level": 4,
+      "row": 113,
+      "word": "方向",
+      "rawWord": "方向",
+      "pinyin": "fāng xiàng",
+      "meaningVi": "phương hướng"
+    },
+    {
+      "level": 4,
+      "row": 114,
+      "word": "房东",
+      "rawWord": "房东",
+      "pinyin": "fáng dōng",
+      "meaningVi": "chủ nhà"
+    },
+    {
+      "level": 4,
+      "row": 115,
+      "word": "放弃",
+      "rawWord": "放弃",
+      "pinyin": "fàng qì",
+      "meaningVi": "vứt bỏ, từ bỏ"
+    },
+    {
+      "level": 4,
+      "row": 116,
+      "word": "放暑假",
+      "rawWord": "放暑假",
+      "pinyin": "fàng shǔ jià",
+      "meaningVi": "nghỉ hè"
+    },
+    {
+      "level": 4,
+      "row": 117,
+      "word": "放松",
+      "rawWord": "放松",
+      "pinyin": "fàng sōng",
+      "meaningVi": "thư giãn"
+    },
+    {
+      "level": 4,
+      "row": 118,
+      "word": "份",
+      "rawWord": "份",
+      "pinyin": "fèn",
+      "meaningVi": "phần"
+    },
+    {
+      "level": 4,
+      "row": 119,
+      "word": "丰富",
+      "rawWord": "丰富",
+      "pinyin": "fēng fù",
+      "meaningVi": "phong phú"
+    },
+    {
+      "level": 4,
+      "row": 120,
+      "word": "否则",
+      "rawWord": "否则",
+      "pinyin": "fǒu zé",
+      "meaningVi": "nếu không thì"
+    },
+    {
+      "level": 4,
+      "row": 121,
+      "word": "符合",
+      "rawWord": "符合",
+      "pinyin": "fú hé",
+      "meaningVi": "phù hợp"
+    },
+    {
+      "level": 4,
+      "row": 122,
+      "word": "父亲",
+      "rawWord": "父亲",
+      "pinyin": "fù qīn",
+      "meaningVi": "bố"
+    },
+    {
+      "level": 4,
+      "row": 123,
+      "word": "付款",
+      "rawWord": "付款",
+      "pinyin": "fù kuǎn",
+      "meaningVi": "thanh toán"
+    },
+    {
+      "level": 4,
+      "row": 124,
+      "word": "负责",
+      "rawWord": "负责",
+      "pinyin": "fù zé",
+      "meaningVi": "phụ trách"
+    },
+    {
+      "level": 4,
+      "row": 125,
+      "word": "复印",
+      "rawWord": "复印",
+      "pinyin": "fù yìn",
+      "meaningVi": "phô tô"
+    },
+    {
+      "level": 4,
+      "row": 126,
+      "word": "复杂",
+      "rawWord": "复杂",
+      "pinyin": "fù zá",
+      "meaningVi": "phức tạp"
+    },
+    {
+      "level": 4,
+      "row": 127,
+      "word": "富",
+      "rawWord": "富",
+      "pinyin": "fù",
+      "meaningVi": "giàu"
+    },
+    {
+      "level": 4,
+      "row": 128,
+      "word": "改变",
+      "rawWord": "改变",
+      "pinyin": "gǎi biàn",
+      "meaningVi": "thay đổi"
+    },
+    {
+      "level": 4,
+      "row": 129,
+      "word": "干杯",
+      "rawWord": "干杯",
+      "pinyin": "gān bēi",
+      "meaningVi": "cạn ly"
+    },
+    {
+      "level": 4,
+      "row": 130,
+      "word": "赶",
+      "rawWord": "赶",
+      "pinyin": "gǎn",
+      "meaningVi": "đuổi theo"
+    },
+    {
+      "level": 4,
+      "row": 132,
+      "word": "感动",
+      "rawWord": "感动",
+      "pinyin": "gǎn dòng",
+      "meaningVi": "cảm động"
+    },
+    {
+      "level": 4,
+      "row": 133,
+      "word": "感觉",
+      "rawWord": "感觉",
+      "pinyin": "gǎn jué",
+      "meaningVi": "cảm giác"
+    },
+    {
+      "level": 4,
+      "row": 134,
+      "word": "感情",
+      "rawWord": "感情",
+      "pinyin": "gǎn qíng",
+      "meaningVi": "tình cảm"
+    },
+    {
+      "level": 4,
+      "row": 135,
+      "word": "感谢",
+      "rawWord": "感谢",
+      "pinyin": "gǎn xiè",
+      "meaningVi": "cảm ơn"
+    },
+    {
+      "level": 4,
+      "row": 136,
+      "word": "干",
+      "rawWord": "干",
+      "pinyin": "gān",
+      "meaningVi": "khô"
+    },
+    {
+      "level": 4,
+      "row": 137,
+      "word": "刚",
+      "rawWord": "刚",
+      "pinyin": "gāng",
+      "meaningVi": "vừa mới"
+    },
+    {
+      "level": 4,
+      "row": 138,
+      "word": "高速公路",
+      "rawWord": "高速公路",
+      "pinyin": "gāo sù gōng lù",
+      "meaningVi": "đường cao tốc"
+    },
+    {
+      "level": 4,
+      "row": 139,
+      "word": "胳膊",
+      "rawWord": "胳膊",
+      "pinyin": "gē bo",
+      "meaningVi": "cánh tay"
+    },
+    {
+      "level": 4,
+      "row": 140,
+      "word": "各",
+      "rawWord": "各",
+      "pinyin": "gè",
+      "meaningVi": "các"
+    },
+    {
+      "level": 4,
+      "row": 141,
+      "word": "工资",
+      "rawWord": "工资",
+      "pinyin": "gōng zī",
+      "meaningVi": "lương"
+    },
+    {
+      "level": 4,
+      "row": 142,
+      "word": "公里",
+      "rawWord": "公里",
+      "pinyin": "gōng lǐ",
+      "meaningVi": "km"
+    },
+    {
+      "level": 4,
+      "row": 143,
+      "word": "功夫",
+      "rawWord": "功夫",
+      "pinyin": "gōng fū",
+      "meaningVi": "công phu"
+    },
+    {
+      "level": 4,
+      "row": 144,
+      "word": "共同",
+      "rawWord": "共同",
+      "pinyin": "gòng tóng",
+      "meaningVi": "giống nhau"
+    },
+    {
+      "level": 4,
+      "row": 145,
+      "word": "购物",
+      "rawWord": "购物",
+      "pinyin": "gòu wù",
+      "meaningVi": "mua sắm"
+    },
+    {
+      "level": 4,
+      "row": 146,
+      "word": "够",
+      "rawWord": "够",
+      "pinyin": "gòu",
+      "meaningVi": "đủ"
+    },
+    {
+      "level": 4,
+      "row": 147,
+      "word": "估计",
+      "rawWord": "估计",
+      "pinyin": "gū jì",
+      "meaningVi": "ước lượng"
+    },
+    {
+      "level": 4,
+      "row": 148,
+      "word": "鼓励",
+      "rawWord": "鼓励",
+      "pinyin": "gǔ lì",
+      "meaningVi": "cổ vũ"
+    },
+    {
+      "level": 4,
+      "row": 149,
+      "word": "故意",
+      "rawWord": "故意",
+      "pinyin": "gù yì",
+      "meaningVi": "cố ý"
+    },
+    {
+      "level": 4,
+      "row": 150,
+      "word": "顾客",
+      "rawWord": "顾客",
+      "pinyin": "gù kè",
+      "meaningVi": "khách hàng"
+    },
+    {
+      "level": 4,
+      "row": 151,
+      "word": "挂",
+      "rawWord": "挂",
+      "pinyin": "guà",
+      "meaningVi": "treo, ngắt điện thoại"
+    },
+    {
+      "level": 4,
+      "row": 152,
+      "word": "关键",
+      "rawWord": "关键",
+      "pinyin": "guān jiàn",
+      "meaningVi": "mấu chốt"
+    },
+    {
+      "level": 4,
+      "row": 153,
+      "word": "观众",
+      "rawWord": "观众",
+      "pinyin": "guān zhòng",
+      "meaningVi": "khán giả"
+    },
+    {
+      "level": 4,
+      "row": 154,
+      "word": "管理",
+      "rawWord": "管理",
+      "pinyin": "guǎn lǐ",
+      "meaningVi": "quản lý"
+    },
+    {
+      "level": 4,
+      "row": 155,
+      "word": "光",
+      "rawWord": "光",
+      "pinyin": "guāng",
+      "meaningVi": "chỉ, hết"
+    },
+    {
+      "level": 4,
+      "row": 156,
+      "word": "广播",
+      "rawWord": "广播",
+      "pinyin": "guǎng bō",
+      "meaningVi": "phát thanh"
+    },
+    {
+      "level": 4,
+      "row": 157,
+      "word": "广告",
+      "rawWord": "广告",
+      "pinyin": "guǎng gào",
+      "meaningVi": "quảng cáo"
+    },
+    {
+      "level": 4,
+      "row": 158,
+      "word": "逛",
+      "rawWord": "逛",
+      "pinyin": "guàng",
+      "meaningVi": "đi dạo"
+    },
+    {
+      "level": 4,
+      "row": 159,
+      "word": "规定",
+      "rawWord": "规定",
+      "pinyin": "guī dìng",
+      "meaningVi": "qui định"
+    },
+    {
+      "level": 4,
+      "row": 160,
+      "word": "国籍",
+      "rawWord": "国籍",
+      "pinyin": "guó jí",
+      "meaningVi": "quốc tịch"
+    },
+    {
+      "level": 4,
+      "row": 161,
+      "word": "国际",
+      "rawWord": "国际",
+      "pinyin": "guó jì",
+      "meaningVi": "quốc tế"
+    },
+    {
+      "level": 4,
+      "row": 163,
+      "word": "过程",
+      "rawWord": "过程",
+      "pinyin": "guò chéng",
+      "meaningVi": "quá trình"
+    },
+    {
+      "level": 4,
+      "row": 164,
+      "word": "海洋",
+      "rawWord": "海洋",
+      "pinyin": "hǎi yáng",
+      "meaningVi": "đại dương"
+    },
+    {
+      "level": 4,
+      "row": 165,
+      "word": "害羞",
+      "rawWord": "害羞",
+      "pinyin": "hài xiū",
+      "meaningVi": "xấu hổ"
+    },
+    {
+      "level": 4,
+      "row": 166,
+      "word": "寒假",
+      "rawWord": "寒假",
+      "pinyin": "hán jià",
+      "meaningVi": "kì nghỉ đông"
+    },
+    {
+      "level": 4,
+      "row": 167,
+      "word": "汗",
+      "rawWord": "汗",
+      "pinyin": "hàn",
+      "meaningVi": "mồ hôi"
+    },
+    {
+      "level": 4,
+      "row": 168,
+      "word": "航班",
+      "rawWord": "航班",
+      "pinyin": "háng bān",
+      "meaningVi": "chuyến bay"
+    },
+    {
+      "level": 4,
+      "row": 169,
+      "word": "好处",
+      "rawWord": "好处",
+      "pinyin": "hǎo chù",
+      "meaningVi": "cái tốt"
+    },
+    {
+      "level": 4,
+      "row": 170,
+      "word": "好像",
+      "rawWord": "好像",
+      "pinyin": "hǎo xiàng",
+      "meaningVi": "dường như"
+    },
+    {
+      "level": 4,
+      "row": 171,
+      "word": "号码",
+      "rawWord": "号码",
+      "pinyin": "hào mǎ",
+      "meaningVi": "số"
+    },
+    {
+      "level": 4,
+      "row": 172,
+      "word": "合格",
+      "rawWord": "合格",
+      "pinyin": "hé gé",
+      "meaningVi": "đạt yêu cầu"
+    },
+    {
+      "level": 4,
+      "row": 173,
+      "word": "合适",
+      "rawWord": "合适",
+      "pinyin": "hé shì",
+      "meaningVi": "thích hợp"
+    },
+    {
+      "level": 4,
+      "row": 174,
+      "word": "盒子",
+      "rawWord": "盒子",
+      "pinyin": "hé zi",
+      "meaningVi": "cái hộp"
+    },
+    {
+      "level": 4,
+      "row": 175,
+      "word": "后悔",
+      "rawWord": "后悔",
+      "pinyin": "hòu huǐ",
+      "meaningVi": "hối hận"
+    },
+    {
+      "level": 4,
+      "row": 176,
+      "word": "厚",
+      "rawWord": "厚",
+      "pinyin": "hòu",
+      "meaningVi": "dày"
+    },
+    {
+      "level": 4,
+      "row": 177,
+      "word": "互联网",
+      "rawWord": "互联网",
+      "pinyin": "hù lián wǎng",
+      "meaningVi": "mạng internet"
+    },
+    {
+      "level": 4,
+      "row": 178,
+      "word": "互相",
+      "rawWord": "互相",
+      "pinyin": "hù xiāng",
+      "meaningVi": "lẫn nhau"
+    },
+    {
+      "level": 4,
+      "row": 179,
+      "word": "护士",
+      "rawWord": "护士",
+      "pinyin": "hù shì",
+      "meaningVi": "y tá"
+    },
+    {
+      "level": 4,
+      "row": 180,
+      "word": "怀疑",
+      "rawWord": "怀疑",
+      "pinyin": "huái yí",
+      "meaningVi": "nghi ngờ"
+    },
+    {
+      "level": 4,
+      "row": 181,
+      "word": "回忆",
+      "rawWord": "回忆",
+      "pinyin": "huí yì",
+      "meaningVi": "hồi ức, nhớ lại"
+    },
+    {
+      "level": 4,
+      "row": 182,
+      "word": "活动",
+      "rawWord": "活动",
+      "pinyin": "huó dòng",
+      "meaningVi": "hoạt động"
+    },
+    {
+      "level": 4,
+      "row": 183,
+      "word": "活泼",
+      "rawWord": "活泼",
+      "pinyin": "huó pō",
+      "meaningVi": "hoạt bát"
+    },
+    {
+      "level": 4,
+      "row": 184,
+      "word": "火",
+      "rawWord": "火",
+      "pinyin": "huǒ",
+      "meaningVi": "lửa"
+    },
+    {
+      "level": 4,
+      "row": 185,
+      "word": "获得",
+      "rawWord": "获得",
+      "pinyin": "huò dé",
+      "meaningVi": "giành được"
+    },
+    {
+      "level": 4,
+      "row": 186,
+      "word": "积极",
+      "rawWord": "积极",
+      "pinyin": "jī jí",
+      "meaningVi": "tích cực"
+    },
+    {
+      "level": 4,
+      "row": 187,
+      "word": "积累",
+      "rawWord": "积累",
+      "pinyin": "jī lěi",
+      "meaningVi": "tích lũy"
+    },
+    {
+      "level": 4,
+      "row": 188,
+      "word": "基础",
+      "rawWord": "基础",
+      "pinyin": "jī chǔ",
+      "meaningVi": "cơ sở, căn bản"
+    },
+    {
+      "level": 4,
+      "row": 189,
+      "word": "激动",
+      "rawWord": "激动",
+      "pinyin": "jī dòng",
+      "meaningVi": "xúc động"
+    },
+    {
+      "level": 4,
+      "row": 190,
+      "word": "及时",
+      "rawWord": "及时",
+      "pinyin": "jí shí",
+      "meaningVi": "kịp thời"
+    },
+    {
+      "level": 4,
+      "row": 191,
+      "word": "即使",
+      "rawWord": "即使",
+      "pinyin": "jí shǐ",
+      "meaningVi": "cho dù"
+    },
+    {
+      "level": 4,
+      "row": 192,
+      "word": "计划",
+      "rawWord": "计划",
+      "pinyin": "jì huà",
+      "meaningVi": "kế hoạch"
+    },
+    {
+      "level": 4,
+      "row": 193,
+      "word": "记者",
+      "rawWord": "记者",
+      "pinyin": "jì zhě",
+      "meaningVi": "phóng viên"
+    },
+    {
+      "level": 4,
+      "row": 194,
+      "word": "技术",
+      "rawWord": "技术",
+      "pinyin": "jì shù",
+      "meaningVi": "kỹ thuật"
+    },
+    {
+      "level": 4,
+      "row": 195,
+      "word": "既然",
+      "rawWord": "既然",
+      "pinyin": "jì rán",
+      "meaningVi": "đã…."
+    },
+    {
+      "level": 4,
+      "row": 196,
+      "word": "继续",
+      "rawWord": "继续",
+      "pinyin": "jì xù",
+      "meaningVi": "tiếp tục"
+    },
+    {
+      "level": 4,
+      "row": 197,
+      "word": "寄",
+      "rawWord": "寄",
+      "pinyin": "jì",
+      "meaningVi": "gửi"
+    },
+    {
+      "level": 4,
+      "row": 198,
+      "word": "加班",
+      "rawWord": "加班",
+      "pinyin": "jiā bān",
+      "meaningVi": "tăng ca"
+    },
+    {
+      "level": 4,
+      "row": 199,
+      "word": "加油站",
+      "rawWord": "加油站",
+      "pinyin": "jiā yóu zhàn",
+      "meaningVi": "cây xăng"
+    },
+    {
+      "level": 4,
+      "row": 200,
+      "word": "家具",
+      "rawWord": "家具",
+      "pinyin": "jiā jù",
+      "meaningVi": "đồ gia dụng"
+    },
+    {
+      "level": 4,
+      "row": 201,
+      "word": "假",
+      "rawWord": "假",
+      "pinyin": "jiǎ",
+      "meaningVi": "giả"
+    },
+    {
+      "level": 4,
+      "row": 202,
+      "word": "价格",
+      "rawWord": "价格",
+      "pinyin": "jià gé",
+      "meaningVi": "giá cả"
+    },
+    {
+      "level": 4,
+      "row": 203,
+      "word": "坚持",
+      "rawWord": "坚持",
+      "pinyin": "jiān chí",
+      "meaningVi": "kiên trì"
+    },
+    {
+      "level": 4,
+      "row": 204,
+      "word": "减肥",
+      "rawWord": "减肥",
+      "pinyin": "jiǎn féi",
+      "meaningVi": "giảm béo"
+    },
+    {
+      "level": 4,
+      "row": 205,
+      "word": "减少",
+      "rawWord": "减少",
+      "pinyin": "jiǎn shǎo",
+      "meaningVi": "cắt giảm"
+    },
+    {
+      "level": 4,
+      "row": 206,
+      "word": "建议",
+      "rawWord": "建议",
+      "pinyin": "jiàn yì",
+      "meaningVi": "kiến nghị"
+    },
+    {
+      "level": 4,
+      "row": 207,
+      "word": "将来",
+      "rawWord": "将来",
+      "pinyin": "jiāng lái",
+      "meaningVi": "tương lai"
+    },
+    {
+      "level": 4,
+      "row": 208,
+      "word": "奖金",
+      "rawWord": "奖金",
+      "pinyin": "jiǎng jīn",
+      "meaningVi": "học bổng"
+    },
+    {
+      "level": 4,
+      "row": 209,
+      "word": "降低",
+      "rawWord": "降低",
+      "pinyin": "jiàng dī",
+      "meaningVi": "hạ thấp"
+    },
+    {
+      "level": 4,
+      "row": 210,
+      "word": "降落",
+      "rawWord": "降落",
+      "pinyin": "jiàng luò",
+      "meaningVi": "hạ cánh"
+    },
+    {
+      "level": 4,
+      "row": 211,
+      "word": "交",
+      "rawWord": "交",
+      "pinyin": "jiāo",
+      "meaningVi": "giao"
+    },
+    {
+      "level": 4,
+      "row": 212,
+      "word": "交流",
+      "rawWord": "交流",
+      "pinyin": "jiāo liú",
+      "meaningVi": "giao lưu"
+    },
+    {
+      "level": 4,
+      "row": 213,
+      "word": "交通",
+      "rawWord": "交通",
+      "pinyin": "jiāo tōng",
+      "meaningVi": "giao thông"
+    },
+    {
+      "level": 4,
+      "row": 214,
+      "word": "郊区",
+      "rawWord": "郊区",
+      "pinyin": "jiāo qū",
+      "meaningVi": "ngoại ô"
+    },
+    {
+      "level": 4,
+      "row": 215,
+      "word": "骄傲",
+      "rawWord": "骄傲",
+      "pinyin": "jiāo ào",
+      "meaningVi": "tự hào, kiêu ngạo"
+    },
+    {
+      "level": 4,
+      "row": 216,
+      "word": "饺子",
+      "rawWord": "饺子",
+      "pinyin": "jiǎo zi",
+      "meaningVi": "sủi cảo"
+    },
+    {
+      "level": 4,
+      "row": 217,
+      "word": "教授",
+      "rawWord": "教授",
+      "pinyin": "jiào shòu",
+      "meaningVi": "giáo sư"
+    },
+    {
+      "level": 4,
+      "row": 218,
+      "word": "教育",
+      "rawWord": "教育",
+      "pinyin": "jiào yù",
+      "meaningVi": "giáo dục"
+    },
+    {
+      "level": 4,
+      "row": 219,
+      "word": "接受",
+      "rawWord": "接受",
+      "pinyin": "jiē shòu",
+      "meaningVi": "tiếp nhận"
+    },
+    {
+      "level": 4,
+      "row": 220,
+      "word": "接着",
+      "rawWord": "接着",
+      "pinyin": "jiē zhe",
+      "meaningVi": "tiếp theo"
+    },
+    {
+      "level": 4,
+      "row": 221,
+      "word": "节",
+      "rawWord": "节",
+      "pinyin": "jié",
+      "meaningVi": "tiết"
+    },
+    {
+      "level": 4,
+      "row": 222,
+      "word": "节约",
+      "rawWord": "节约",
+      "pinyin": "jié yuē",
+      "meaningVi": "tiết kiệm"
+    },
+    {
+      "level": 4,
+      "row": 223,
+      "word": "结果",
+      "rawWord": "结果",
+      "pinyin": "jié guǒ",
+      "meaningVi": "kết quả"
+    },
+    {
+      "level": 4,
+      "row": 224,
+      "word": "解释",
+      "rawWord": "解释",
+      "pinyin": "jiě shì",
+      "meaningVi": "giải thích"
+    },
+    {
+      "level": 4,
+      "row": 225,
+      "word": "尽管",
+      "rawWord": "尽管",
+      "pinyin": "jǐn guǎn",
+      "meaningVi": "tuy rằng"
+    },
+    {
+      "level": 4,
+      "row": 226,
+      "word": "紧张",
+      "rawWord": "紧张",
+      "pinyin": "jǐn zhāng",
+      "meaningVi": "căng thẳng"
+    },
+    {
+      "level": 4,
+      "row": 227,
+      "word": "进行",
+      "rawWord": "进行",
+      "pinyin": "jìn xíng",
+      "meaningVi": "tiến hành"
+    },
+    {
+      "level": 4,
+      "row": 228,
+      "word": "禁止",
+      "rawWord": "禁止",
+      "pinyin": "jìn zhǐ",
+      "meaningVi": "cấm"
+    },
+    {
+      "level": 4,
+      "row": 229,
+      "word": "京剧",
+      "rawWord": "京剧",
+      "pinyin": "jīng jù",
+      "meaningVi": "kinh kịch"
+    },
+    {
+      "level": 4,
+      "row": 230,
+      "word": "经济",
+      "rawWord": "经济",
+      "pinyin": "jīng jì",
+      "meaningVi": "kinh tế"
+    },
+    {
+      "level": 4,
+      "row": 232,
+      "word": "经验",
+      "rawWord": "经验",
+      "pinyin": "jīng yàn",
+      "meaningVi": "kinh nghiệm"
+    },
+    {
+      "level": 4,
+      "row": 233,
+      "word": "精彩",
+      "rawWord": "精彩",
+      "pinyin": "jīng cǎi",
+      "meaningVi": "hấp dẫn"
+    },
+    {
+      "level": 4,
+      "row": 234,
+      "word": "景色",
+      "rawWord": "景色",
+      "pinyin": "jǐng sè",
+      "meaningVi": "cảnh sắc"
+    },
+    {
+      "level": 4,
+      "row": 235,
+      "word": "警察",
+      "rawWord": "警察",
+      "pinyin": "jǐng chá",
+      "meaningVi": "cảnh sát"
+    },
+    {
+      "level": 4,
+      "row": 236,
+      "word": "竞争",
+      "rawWord": "竞争",
+      "pinyin": "jìng zhēng",
+      "meaningVi": "cạnh tranh"
+    },
+    {
+      "level": 4,
+      "row": 237,
+      "word": "竟然",
+      "rawWord": "竟然",
+      "pinyin": "jìng rán",
+      "meaningVi": "vậy mà lại"
+    },
+    {
+      "level": 4,
+      "row": 238,
+      "word": "镜子",
+      "rawWord": "镜子",
+      "pinyin": "jìng zi",
+      "meaningVi": "kính, gương"
+    },
+    {
+      "level": 4,
+      "row": 239,
+      "word": "究竟",
+      "rawWord": "究竟",
+      "pinyin": "jiū jìng",
+      "meaningVi": "rốt cuộc"
+    },
+    {
+      "level": 4,
+      "row": 240,
+      "word": "举",
+      "rawWord": "举",
+      "pinyin": "jǔ",
+      "meaningVi": "giơ, nâng"
+    },
+    {
+      "level": 4,
+      "row": 241,
+      "word": "举办",
+      "rawWord": "举办",
+      "pinyin": "jǔ bàn",
+      "meaningVi": "tổ chức"
+    },
+    {
+      "level": 4,
+      "row": 243,
+      "word": "拒绝",
+      "rawWord": "拒绝",
+      "pinyin": "jù jué",
+      "meaningVi": "từ chối"
+    },
+    {
+      "level": 4,
+      "row": 244,
+      "word": "距离",
+      "rawWord": "距离",
+      "pinyin": "jù lí",
+      "meaningVi": "khoảng cách"
+    },
+    {
+      "level": 4,
+      "row": 245,
+      "word": "聚会",
+      "rawWord": "聚会",
+      "pinyin": "jù huì",
+      "meaningVi": "tụ tập"
+    },
+    {
+      "level": 4,
+      "row": 246,
+      "word": "开玩笑",
+      "rawWord": "开玩笑",
+      "pinyin": "kāi wán xiào",
+      "meaningVi": "đùa"
+    },
+    {
+      "level": 4,
+      "row": 247,
+      "word": "开心",
+      "rawWord": "开心",
+      "pinyin": "kāi xīn",
+      "meaningVi": "vui vẻ"
+    },
+    {
+      "level": 4,
+      "row": 248,
+      "word": "看法",
+      "rawWord": "看法",
+      "pinyin": "kàn fǎ",
+      "meaningVi": "quan điểm"
+    },
+    {
+      "level": 4,
+      "row": 249,
+      "word": "考虑",
+      "rawWord": "考虑",
+      "pinyin": "kǎo lǜ",
+      "meaningVi": "suy nghĩ"
+    },
+    {
+      "level": 4,
+      "row": 250,
+      "word": "烤鸭",
+      "rawWord": "烤鸭",
+      "pinyin": "kǎo yā",
+      "meaningVi": "vịt quay"
+    },
+    {
+      "level": 4,
+      "row": 251,
+      "word": "科学",
+      "rawWord": "科学",
+      "pinyin": "kē xué",
+      "meaningVi": "khoa học"
+    },
+    {
+      "level": 4,
+      "row": 252,
+      "word": "棵",
+      "rawWord": "棵",
+      "pinyin": "kē",
+      "meaningVi": "lượng từ cho cây"
+    },
+    {
+      "level": 4,
+      "row": 253,
+      "word": "咳嗽",
+      "rawWord": "咳嗽",
+      "pinyin": "ké sou",
+      "meaningVi": "ho"
+    },
+    {
+      "level": 4,
+      "row": 254,
+      "word": "可怜",
+      "rawWord": "可怜",
+      "pinyin": "kě lián",
+      "meaningVi": "đáng thương"
+    },
+    {
+      "level": 4,
+      "row": 255,
+      "word": "可是",
+      "rawWord": "可是",
+      "pinyin": "kě shì",
+      "meaningVi": "nhưng"
+    },
+    {
+      "level": 4,
+      "row": 256,
+      "word": "可惜",
+      "rawWord": "可惜",
+      "pinyin": "kě xī",
+      "meaningVi": "đáng tiếc"
+    },
+    {
+      "level": 4,
+      "row": 257,
+      "word": "客厅",
+      "rawWord": "客厅",
+      "pinyin": "kè tīng",
+      "meaningVi": "phòng khách"
+    },
+    {
+      "level": 4,
+      "row": 258,
+      "word": "肯定",
+      "rawWord": "肯定",
+      "pinyin": "kěn dìng",
+      "meaningVi": "khẳng định"
+    },
+    {
+      "level": 4,
+      "row": 259,
+      "word": "空",
+      "rawWord": "空",
+      "pinyin": "kōng",
+      "meaningVi": "trống rỗng"
+    },
+    {
+      "level": 4,
+      "row": 260,
+      "word": "空气",
+      "rawWord": "空气",
+      "pinyin": "kōng qì",
+      "meaningVi": "không khí"
+    },
+    {
+      "level": 4,
+      "row": 261,
+      "word": "恐怕",
+      "rawWord": "恐怕",
+      "pinyin": "kǒng pà",
+      "meaningVi": "e rằng"
+    },
+    {
+      "level": 4,
+      "row": 262,
+      "word": "苦",
+      "rawWord": "苦",
+      "pinyin": "kǔ",
+      "meaningVi": "khổ, đắng"
+    },
+    {
+      "level": 4,
+      "row": 263,
+      "word": "矿泉水",
+      "rawWord": "矿泉水",
+      "pinyin": "kuàng quán shuǐ",
+      "meaningVi": "nước khoáng"
+    },
+    {
+      "level": 4,
+      "row": 264,
+      "word": "困",
+      "rawWord": "困",
+      "pinyin": "kùn",
+      "meaningVi": "buồn ngủ"
+    },
+    {
+      "level": 4,
+      "row": 265,
+      "word": "困难",
+      "rawWord": "困难",
+      "pinyin": "kùn nán",
+      "meaningVi": "khó khăn"
+    },
+    {
+      "level": 4,
+      "row": 266,
+      "word": "垃圾桶",
+      "rawWord": "垃圾桶",
+      "pinyin": "lā jī tǒng",
+      "meaningVi": "thùng rác"
+    },
+    {
+      "level": 4,
+      "row": 267,
+      "word": "拉",
+      "rawWord": "拉",
+      "pinyin": "lā",
+      "meaningVi": "kéo"
+    },
+    {
+      "level": 4,
+      "row": 268,
+      "word": "辣",
+      "rawWord": "辣",
+      "pinyin": "là",
+      "meaningVi": "cay"
+    },
+    {
+      "level": 4,
+      "row": 269,
+      "word": "来不及",
+      "rawWord": "来不及",
+      "pinyin": "lái bù jí",
+      "meaningVi": "không kịp"
+    },
+    {
+      "level": 4,
+      "row": 270,
+      "word": "来得及",
+      "rawWord": "来得及",
+      "pinyin": "lái de jí",
+      "meaningVi": "kịp"
+    },
+    {
+      "level": 4,
+      "row": 271,
+      "word": "来自",
+      "rawWord": "来自",
+      "pinyin": "lái zì",
+      "meaningVi": "đến từ"
+    },
+    {
+      "level": 4,
+      "row": 272,
+      "word": "懒",
+      "rawWord": "懒",
+      "pinyin": "lǎn",
+      "meaningVi": "lười biếng"
+    },
+    {
+      "level": 4,
+      "row": 273,
+      "word": "浪费",
+      "rawWord": "浪费",
+      "pinyin": "làng fèi",
+      "meaningVi": "lãng phí"
+    },
+    {
+      "level": 4,
+      "row": 274,
+      "word": "浪漫",
+      "rawWord": "浪漫",
+      "pinyin": "làng màn",
+      "meaningVi": "lãng mạn"
+    },
+    {
+      "level": 4,
+      "row": 275,
+      "word": "老虎",
+      "rawWord": "老虎",
+      "pinyin": "lǎo hǔ",
+      "meaningVi": "hổ"
+    },
+    {
+      "level": 4,
+      "row": 276,
+      "word": "冷静",
+      "rawWord": "冷静",
+      "pinyin": "lěng jìng",
+      "meaningVi": "bình tĩnh"
+    },
+    {
+      "level": 4,
+      "row": 277,
+      "word": "礼拜天",
+      "rawWord": "礼拜天",
+      "pinyin": "lǐ bài tiān",
+      "meaningVi": "chủ nhật"
+    },
+    {
+      "level": 4,
+      "row": 278,
+      "word": "礼貌",
+      "rawWord": "礼貌",
+      "pinyin": "lǐ mào",
+      "meaningVi": "lễ phép, lịch sự"
+    },
+    {
+      "level": 4,
+      "row": 279,
+      "word": "理发",
+      "rawWord": "理发",
+      "pinyin": "lǐ fà",
+      "meaningVi": "cắt tóc"
+    },
+    {
+      "level": 4,
+      "row": 280,
+      "word": "理解",
+      "rawWord": "理解",
+      "pinyin": "lǐ jiě",
+      "meaningVi": "lý giải, hiểu"
+    },
+    {
+      "level": 4,
+      "row": 281,
+      "word": "理想",
+      "rawWord": "理想",
+      "pinyin": "lǐ xiǎng",
+      "meaningVi": "lý tưởng"
+    },
+    {
+      "level": 4,
+      "row": 282,
+      "word": "力气",
+      "rawWord": "力气",
+      "pinyin": "lì qì",
+      "meaningVi": "sức lực"
+    },
+    {
+      "level": 4,
+      "row": 283,
+      "word": "厉害",
+      "rawWord": "厉害",
+      "pinyin": "lì hài",
+      "meaningVi": "lợi hại"
+    },
+    {
+      "level": 4,
+      "row": 284,
+      "word": "例如",
+      "rawWord": "例如",
+      "pinyin": "lì rú",
+      "meaningVi": "ví dụ"
+    },
+    {
+      "level": 4,
+      "row": 285,
+      "word": "俩",
+      "rawWord": "俩",
+      "pinyin": "liǎ",
+      "meaningVi": "hai người"
+    },
+    {
+      "level": 4,
+      "row": 286,
+      "word": "连",
+      "rawWord": "连",
+      "pinyin": "lián",
+      "meaningVi": "liên kết, nối"
+    },
+    {
+      "level": 4,
+      "row": 287,
+      "word": "联系",
+      "rawWord": "联系",
+      "pinyin": "lián xì",
+      "meaningVi": "liên hệ"
+    },
+    {
+      "level": 4,
+      "row": 288,
+      "word": "凉快",
+      "rawWord": "凉快",
+      "pinyin": "liáng kuài",
+      "meaningVi": "mát mẻ"
+    },
+    {
+      "level": 4,
+      "row": 289,
+      "word": "零钱",
+      "rawWord": "零钱",
+      "pinyin": "líng qián",
+      "meaningVi": "tiền lẻ"
+    },
+    {
+      "level": 4,
+      "row": 290,
+      "word": "另外",
+      "rawWord": "另外",
+      "pinyin": "lìng wài",
+      "meaningVi": "ngoài ra, còn lại"
+    },
+    {
+      "level": 4,
+      "row": 291,
+      "word": "留",
+      "rawWord": "留",
+      "pinyin": "liú",
+      "meaningVi": "lưu lại, ở lại"
+    },
+    {
+      "level": 4,
+      "row": 292,
+      "word": "流利",
+      "rawWord": "流利",
+      "pinyin": "liú lì",
+      "meaningVi": "lưu loát"
+    },
+    {
+      "level": 4,
+      "row": 293,
+      "word": "流行",
+      "rawWord": "流行",
+      "pinyin": "liú xíng",
+      "meaningVi": "thịnh hành"
+    },
+    {
+      "level": 4,
+      "row": 294,
+      "word": "旅行",
+      "rawWord": "旅行",
+      "pinyin": "lǚ xíng",
+      "meaningVi": "du lịch"
+    },
+    {
+      "level": 4,
+      "row": 295,
+      "word": "律师",
+      "rawWord": "律师",
+      "pinyin": "lǜ shī",
+      "meaningVi": "luật sư"
+    },
+    {
+      "level": 4,
+      "row": 296,
+      "word": "乱",
+      "rawWord": "乱",
+      "pinyin": "luàn",
+      "meaningVi": "loạn"
+    },
+    {
+      "level": 4,
+      "row": 297,
+      "word": "麻烦",
+      "rawWord": "麻烦",
+      "pinyin": "má fan",
+      "meaningVi": "phiền phức, làm phiền"
+    },
+    {
+      "level": 4,
+      "row": 298,
+      "word": "马虎",
+      "rawWord": "马虎",
+      "pinyin": "mǎ hu",
+      "meaningVi": "qua loa"
+    },
+    {
+      "level": 4,
+      "row": 299,
+      "word": "满",
+      "rawWord": "满",
+      "pinyin": "mǎn",
+      "meaningVi": "đầy"
+    },
+    {
+      "level": 4,
+      "row": 300,
+      "word": "毛",
+      "rawWord": "毛",
+      "pinyin": "máo",
+      "meaningVi": "lông"
+    },
+    {
+      "level": 4,
+      "row": 301,
+      "word": "毛巾",
+      "rawWord": "毛巾",
+      "pinyin": "máo jīn",
+      "meaningVi": "khăn bông"
+    },
+    {
+      "level": 4,
+      "row": 302,
+      "word": "美丽",
+      "rawWord": "美丽",
+      "pinyin": "měi lì",
+      "meaningVi": "đẹp"
+    },
+    {
+      "level": 4,
+      "row": 303,
+      "word": "梦",
+      "rawWord": "梦",
+      "pinyin": "mèng",
+      "meaningVi": "giấc mơ, mơ"
+    },
+    {
+      "level": 4,
+      "row": 304,
+      "word": "迷路",
+      "rawWord": "迷路",
+      "pinyin": "mí lù",
+      "meaningVi": "lạc đường"
+    },
+    {
+      "level": 4,
+      "row": 305,
+      "word": "密码",
+      "rawWord": "密码",
+      "pinyin": "mì mǎ",
+      "meaningVi": "mật khẩu"
+    },
+    {
+      "level": 4,
+      "row": 306,
+      "word": "免费",
+      "rawWord": "免费",
+      "pinyin": "miǎn fèi",
+      "meaningVi": "miễn phí"
+    },
+    {
+      "level": 4,
+      "row": 307,
+      "word": "秒",
+      "rawWord": "秒",
+      "pinyin": "miǎo",
+      "meaningVi": "giây"
+    },
+    {
+      "level": 4,
+      "row": 308,
+      "word": "民族",
+      "rawWord": "民族",
+      "pinyin": "mín zú",
+      "meaningVi": "dân tộc"
+    },
+    {
+      "level": 4,
+      "row": 309,
+      "word": "母亲",
+      "rawWord": "母亲",
+      "pinyin": "mǔ qin",
+      "meaningVi": "mẹ"
+    },
+    {
+      "level": 4,
+      "row": 310,
+      "word": "目的",
+      "rawWord": "目的",
+      "pinyin": "mù dì",
+      "meaningVi": "mục đích"
+    },
+    {
+      "level": 4,
+      "row": 311,
+      "word": "耐心",
+      "rawWord": "耐心",
+      "pinyin": "nài xīn",
+      "meaningVi": "nhẫn nại"
+    },
+    {
+      "level": 4,
+      "row": 312,
+      "word": "难道",
+      "rawWord": "难道",
+      "pinyin": "nán dào",
+      "meaningVi": "lẽ nào"
+    },
+    {
+      "level": 4,
+      "row": 313,
+      "word": "难受",
+      "rawWord": "难受",
+      "pinyin": "nán shòu",
+      "meaningVi": "buồn"
+    },
+    {
+      "level": 4,
+      "row": 314,
+      "word": "内",
+      "rawWord": "内",
+      "pinyin": "nèi",
+      "meaningVi": "bên trong"
+    },
+    {
+      "level": 4,
+      "row": 315,
+      "word": "内容",
+      "rawWord": "内容",
+      "pinyin": "nèi róng",
+      "meaningVi": "nội dung"
+    },
+    {
+      "level": 4,
+      "row": 316,
+      "word": "能力",
+      "rawWord": "能力",
+      "pinyin": "néng lì",
+      "meaningVi": "năng lực"
+    },
+    {
+      "level": 4,
+      "row": 317,
+      "word": "年龄",
+      "rawWord": "年龄",
+      "pinyin": "nián líng",
+      "meaningVi": "tuổi tác"
+    },
+    {
+      "level": 4,
+      "row": 318,
+      "word": "弄",
+      "rawWord": "弄",
+      "pinyin": "nòng",
+      "meaningVi": "làm"
+    },
+    {
+      "level": 4,
+      "row": 319,
+      "word": "暖和",
+      "rawWord": "暖和",
+      "pinyin": "nuǎn huo",
+      "meaningVi": "ấm áp"
+    },
+    {
+      "level": 4,
+      "row": 320,
+      "word": "偶尔",
+      "rawWord": "偶尔",
+      "pinyin": "ǒu ěr",
+      "meaningVi": "đôi khi"
+    },
+    {
+      "level": 4,
+      "row": 321,
+      "word": "排队",
+      "rawWord": "排队",
+      "pinyin": "pái duì",
+      "meaningVi": "xếp hàng"
+    },
+    {
+      "level": 4,
+      "row": 322,
+      "word": "排列",
+      "rawWord": "排列",
+      "pinyin": "pái liè",
+      "meaningVi": "sắp xếp, xếp"
+    },
+    {
+      "level": 4,
+      "row": 323,
+      "word": "判断",
+      "rawWord": "判断",
+      "pinyin": "pàn duàn",
+      "meaningVi": "phán đoán"
+    },
+    {
+      "level": 4,
+      "row": 324,
+      "word": "陪",
+      "rawWord": "陪",
+      "pinyin": "péi",
+      "meaningVi": "cùng"
+    },
+    {
+      "level": 4,
+      "row": 325,
+      "word": "批评",
+      "rawWord": "批评",
+      "pinyin": "pī píng",
+      "meaningVi": "phê bình"
+    },
+    {
+      "level": 4,
+      "row": 326,
+      "word": "皮肤",
+      "rawWord": "皮肤",
+      "pinyin": "pí fū",
+      "meaningVi": "da"
+    },
+    {
+      "level": 4,
+      "row": 327,
+      "word": "脾气",
+      "rawWord": "脾气",
+      "pinyin": "pí qì",
+      "meaningVi": "tính khí"
+    },
+    {
+      "level": 4,
+      "row": 328,
+      "word": "篇",
+      "rawWord": "篇",
+      "pinyin": "piān",
+      "meaningVi": "lượng từ cho bài viết"
+    },
+    {
+      "level": 4,
+      "row": 329,
+      "word": "骗",
+      "rawWord": "骗",
+      "pinyin": "piàn",
+      "meaningVi": "lừa"
+    },
+    {
+      "level": 4,
+      "row": 330,
+      "word": "乒乓球",
+      "rawWord": "乒乓球",
+      "pinyin": "pīng pāng qiú",
+      "meaningVi": "bóng bàn"
+    },
+    {
+      "level": 4,
+      "row": 331,
+      "word": "平时",
+      "rawWord": "平时",
+      "pinyin": "píng shí",
+      "meaningVi": "bình thường"
+    },
+    {
+      "level": 4,
+      "row": 332,
+      "word": "破",
+      "rawWord": "破",
+      "pinyin": "pò",
+      "meaningVi": "rách, nổ"
+    },
+    {
+      "level": 4,
+      "row": 334,
+      "word": "普遍",
+      "rawWord": "普遍",
+      "pinyin": "pǔ biàn",
+      "meaningVi": "phổ biến"
+    },
+    {
+      "level": 4,
+      "row": 336,
+      "word": "其次",
+      "rawWord": "其次",
+      "pinyin": "qí cì",
+      "meaningVi": "tiếp theo"
+    },
+    {
+      "level": 4,
+      "row": 337,
+      "word": "其中",
+      "rawWord": "其中",
+      "pinyin": "qí zhōng",
+      "meaningVi": "trong đó"
+    },
+    {
+      "level": 4,
+      "row": 338,
+      "word": "气候",
+      "rawWord": "气候",
+      "pinyin": "qì hòu",
+      "meaningVi": "khí hậu"
+    },
+    {
+      "level": 4,
+      "row": 339,
+      "word": "千万",
+      "rawWord": "千万",
+      "pinyin": "qiān wàn",
+      "meaningVi": "nhất thiết"
+    },
+    {
+      "level": 4,
+      "row": 340,
+      "word": "签证",
+      "rawWord": "签证",
+      "pinyin": "qiān zhèng",
+      "meaningVi": "visa"
+    },
+    {
+      "level": 4,
+      "row": 341,
+      "word": "敲",
+      "rawWord": "敲",
+      "pinyin": "qiāo",
+      "meaningVi": "gõ"
+    },
+    {
+      "level": 4,
+      "row": 342,
+      "word": "桥",
+      "rawWord": "桥",
+      "pinyin": "qiáo",
+      "meaningVi": "cầu"
+    },
+    {
+      "level": 4,
+      "row": 343,
+      "word": "巧克力",
+      "rawWord": "巧克力",
+      "pinyin": "qiǎo kè lì",
+      "meaningVi": "sô cô la"
+    },
+    {
+      "level": 4,
+      "row": 344,
+      "word": "亲戚",
+      "rawWord": "亲戚",
+      "pinyin": "qīn qi",
+      "meaningVi": "họ hàng"
+    },
+    {
+      "level": 4,
+      "row": 345,
+      "word": "轻",
+      "rawWord": "轻",
+      "pinyin": "qīng",
+      "meaningVi": "nhẹ"
+    },
+    {
+      "level": 4,
+      "row": 346,
+      "word": "轻松",
+      "rawWord": "轻松",
+      "pinyin": "qīng sōng",
+      "meaningVi": "thoải mái"
+    },
+    {
+      "level": 4,
+      "row": 347,
+      "word": "情况",
+      "rawWord": "情况",
+      "pinyin": "qíng kuàng",
+      "meaningVi": "tình hình"
+    },
+    {
+      "level": 4,
+      "row": 348,
+      "word": "穷",
+      "rawWord": "穷",
+      "pinyin": "qióng",
+      "meaningVi": "nghèo"
+    },
+    {
+      "level": 4,
+      "row": 349,
+      "word": "区别",
+      "rawWord": "区别",
+      "pinyin": "qū bié",
+      "meaningVi": "khác biệt"
+    },
+    {
+      "level": 4,
+      "row": 350,
+      "word": "取",
+      "rawWord": "取",
+      "pinyin": "qǔ",
+      "meaningVi": "lấy"
+    },
+    {
+      "level": 4,
+      "row": 351,
+      "word": "全部",
+      "rawWord": "全部",
+      "pinyin": "quán bù",
+      "meaningVi": "toàn bộ"
+    },
+    {
+      "level": 4,
+      "row": 352,
+      "word": "缺点",
+      "rawWord": "缺点",
+      "pinyin": "quē diǎn",
+      "meaningVi": "khuyết điểm"
+    },
+    {
+      "level": 4,
+      "row": 353,
+      "word": "缺少",
+      "rawWord": "缺少",
+      "pinyin": "quē shǎo",
+      "meaningVi": "thiếu"
+    },
+    {
+      "level": 4,
+      "row": 354,
+      "word": "却",
+      "rawWord": "却",
+      "pinyin": "què",
+      "meaningVi": "lại, nhưng"
+    },
+    {
+      "level": 4,
+      "row": 355,
+      "word": "确实",
+      "rawWord": "确实",
+      "pinyin": "què shí",
+      "meaningVi": "thật sự"
+    },
+    {
+      "level": 4,
+      "row": 356,
+      "word": "然而",
+      "rawWord": "然而",
+      "pinyin": "rán ér",
+      "meaningVi": "vậy mà"
+    },
+    {
+      "level": 4,
+      "row": 357,
+      "word": "热闹",
+      "rawWord": "热闹",
+      "pinyin": "rè nào",
+      "meaningVi": "náo nhiệt"
+    },
+    {
+      "level": 4,
+      "row": 358,
+      "word": "任何",
+      "rawWord": "任何",
+      "pinyin": "rèn hé",
+      "meaningVi": "bất kì"
+    },
+    {
+      "level": 4,
+      "row": 359,
+      "word": "任务",
+      "rawWord": "任务",
+      "pinyin": "rèn wù",
+      "meaningVi": "nhiệm vụ"
+    },
+    {
+      "level": 4,
+      "row": 360,
+      "word": "扔",
+      "rawWord": "扔",
+      "pinyin": "rēng",
+      "meaningVi": "ném"
+    },
+    {
+      "level": 4,
+      "row": 361,
+      "word": "仍然",
+      "rawWord": "仍然",
+      "pinyin": "réng rán",
+      "meaningVi": "vẫn"
+    },
+    {
+      "level": 4,
+      "row": 362,
+      "word": "日记",
+      "rawWord": "日记",
+      "pinyin": "rì jì",
+      "meaningVi": "nhật kí"
+    },
+    {
+      "level": 4,
+      "row": 363,
+      "word": "入口",
+      "rawWord": "入口",
+      "pinyin": "rù kǒu",
+      "meaningVi": "cửa vào"
+    },
+    {
+      "level": 4,
+      "row": 364,
+      "word": "散步",
+      "rawWord": "散步",
+      "pinyin": "sàn bù",
+      "meaningVi": "tản bộ"
+    },
+    {
+      "level": 4,
+      "row": 365,
+      "word": "森林",
+      "rawWord": "森林",
+      "pinyin": "sēn lín",
+      "meaningVi": "rừng sâu"
+    },
+    {
+      "level": 4,
+      "row": 366,
+      "word": "沙发",
+      "rawWord": "沙发",
+      "pinyin": "shā fā",
+      "meaningVi": "ghế sô pha"
+    },
+    {
+      "level": 4,
+      "row": 367,
+      "word": "伤心",
+      "rawWord": "伤心",
+      "pinyin": "shāng xīn",
+      "meaningVi": "tổn thương"
+    },
+    {
+      "level": 4,
+      "row": 368,
+      "word": "商量",
+      "rawWord": "商量",
+      "pinyin": "shāng liáng",
+      "meaningVi": "thương lượng, bàn bạc"
+    },
+    {
+      "level": 4,
+      "row": 369,
+      "word": "稍微",
+      "rawWord": "稍微",
+      "pinyin": "shāo wēi",
+      "meaningVi": "một chút"
+    },
+    {
+      "level": 4,
+      "row": 370,
+      "word": "勺子",
+      "rawWord": "勺子",
+      "pinyin": "sháo zi",
+      "meaningVi": "cái thìa"
+    },
+    {
+      "level": 4,
+      "row": 371,
+      "word": "社会",
+      "rawWord": "社会",
+      "pinyin": "shè huì",
+      "meaningVi": "xã hội"
+    },
+    {
+      "level": 4,
+      "row": 372,
+      "word": "申请",
+      "rawWord": "申请",
+      "pinyin": "shēn qǐng",
+      "meaningVi": "xin"
+    },
+    {
+      "level": 4,
+      "row": 373,
+      "word": "深",
+      "rawWord": "深",
+      "pinyin": "shēn",
+      "meaningVi": "sâu"
+    },
+    {
+      "level": 4,
+      "row": 374,
+      "word": "甚至",
+      "rawWord": "甚至",
+      "pinyin": "shèn zhì",
+      "meaningVi": "thậm chí"
+    },
+    {
+      "level": 4,
+      "row": 375,
+      "word": "生活",
+      "rawWord": "生活",
+      "pinyin": "shēng huó",
+      "meaningVi": "cuộc sống"
+    },
+    {
+      "level": 4,
+      "row": 376,
+      "word": "生命",
+      "rawWord": "生命",
+      "pinyin": "shēng mìng",
+      "meaningVi": "tính mạng"
+    },
+    {
+      "level": 4,
+      "row": 377,
+      "word": "生意",
+      "rawWord": "生意",
+      "pinyin": "shēng yì",
+      "meaningVi": "kinh doanh"
+    },
+    {
+      "level": 4,
+      "row": 378,
+      "word": "省",
+      "rawWord": "省",
+      "pinyin": "shěng",
+      "meaningVi": "tỉnh thành"
+    },
+    {
+      "level": 4,
+      "row": 379,
+      "word": "剩",
+      "rawWord": "剩",
+      "pinyin": "shèng",
+      "meaningVi": "thừa"
+    },
+    {
+      "level": 4,
+      "row": 380,
+      "word": "失败",
+      "rawWord": "失败",
+      "pinyin": "shī bài",
+      "meaningVi": "thất bại"
+    },
+    {
+      "level": 4,
+      "row": 381,
+      "word": "失望",
+      "rawWord": "失望",
+      "pinyin": "shī wàng",
+      "meaningVi": "thất vọng"
+    },
+    {
+      "level": 4,
+      "row": 382,
+      "word": "师傅",
+      "rawWord": "师傅",
+      "pinyin": "shī fù",
+      "meaningVi": "sư phụ"
+    },
+    {
+      "level": 4,
+      "row": 383,
+      "word": "十分",
+      "rawWord": "十分",
+      "pinyin": "shí fēn",
+      "meaningVi": "vô cùng"
+    },
+    {
+      "level": 4,
+      "row": 384,
+      "word": "实际",
+      "rawWord": "实际",
+      "pinyin": "shí jì",
+      "meaningVi": "thực tế"
+    },
+    {
+      "level": 4,
+      "row": 385,
+      "word": "实在",
+      "rawWord": "实在",
+      "pinyin": "shí zài",
+      "meaningVi": "thật sự"
+    },
+    {
+      "level": 4,
+      "row": 387,
+      "word": "使用",
+      "rawWord": "使用",
+      "pinyin": "shǐ yòng",
+      "meaningVi": "sử dụng"
+    },
+    {
+      "level": 4,
+      "row": 388,
+      "word": "世纪",
+      "rawWord": "世纪",
+      "pinyin": "shì jì",
+      "meaningVi": "thế kỉ"
+    },
+    {
+      "level": 4,
+      "row": 389,
+      "word": "是否",
+      "rawWord": "是否",
+      "pinyin": "shì fǒu",
+      "meaningVi": "liệu có phải"
+    },
+    {
+      "level": 4,
+      "row": 390,
+      "word": "适合",
+      "rawWord": "适合",
+      "pinyin": "shì hé",
+      "meaningVi": "thích hợp"
+    },
+    {
+      "level": 4,
+      "row": 391,
+      "word": "适应",
+      "rawWord": "适应",
+      "pinyin": "shì yìng",
+      "meaningVi": "thích nghi"
+    },
+    {
+      "level": 4,
+      "row": 392,
+      "word": "收",
+      "rawWord": "收",
+      "pinyin": "shōu",
+      "meaningVi": "nhận"
+    },
+    {
+      "level": 4,
+      "row": 393,
+      "word": "收入",
+      "rawWord": "收入",
+      "pinyin": "shōu rù",
+      "meaningVi": "thu nhập"
+    },
+    {
+      "level": 4,
+      "row": 394,
+      "word": "收拾",
+      "rawWord": "收拾",
+      "pinyin": "shōu shí",
+      "meaningVi": "dọn dẹp"
+    },
+    {
+      "level": 4,
+      "row": 395,
+      "word": "首都",
+      "rawWord": "首都",
+      "pinyin": "shǒu dū",
+      "meaningVi": "thủ đô"
+    },
+    {
+      "level": 4,
+      "row": 396,
+      "word": "首先",
+      "rawWord": "首先",
+      "pinyin": "shǒu xiān",
+      "meaningVi": "đầu tiên"
+    },
+    {
+      "level": 4,
+      "row": 397,
+      "word": "受不了",
+      "rawWord": "受不了",
+      "pinyin": "shòu bù liǎo",
+      "meaningVi": "không chịu nổi"
+    },
+    {
+      "level": 4,
+      "row": 398,
+      "word": "受到",
+      "rawWord": "受到",
+      "pinyin": "shòu dào",
+      "meaningVi": "nhận được"
+    },
+    {
+      "level": 4,
+      "row": 399,
+      "word": "售货员",
+      "rawWord": "售货员",
+      "pinyin": "shòu huò yuán",
+      "meaningVi": "nhân viên bán vé"
+    },
+    {
+      "level": 4,
+      "row": 400,
+      "word": "输",
+      "rawWord": "输",
+      "pinyin": "shū",
+      "meaningVi": "thua"
+    },
+    {
+      "level": 4,
+      "row": 401,
+      "word": "熟悉",
+      "rawWord": "熟悉",
+      "pinyin": "shú xī",
+      "meaningVi": "quen thuộc"
+    },
+    {
+      "level": 4,
+      "row": 402,
+      "word": "数量",
+      "rawWord": "数量",
+      "pinyin": "shù liàng",
+      "meaningVi": "số lượng"
+    },
+    {
+      "level": 4,
+      "row": 403,
+      "word": "数字",
+      "rawWord": "数字",
+      "pinyin": "shù zi",
+      "meaningVi": "con cố"
+    },
+    {
+      "level": 4,
+      "row": 404,
+      "word": "帅",
+      "rawWord": "帅",
+      "pinyin": "shuài",
+      "meaningVi": "đẹp trai"
+    },
+    {
+      "level": 4,
+      "row": 405,
+      "word": "顺便",
+      "rawWord": "顺便",
+      "pinyin": "shùn biàn",
+      "meaningVi": "nhân tiện"
+    },
+    {
+      "level": 4,
+      "row": 406,
+      "word": "顺利",
+      "rawWord": "顺利",
+      "pinyin": "shùn lì",
+      "meaningVi": "thuận lợi"
+    },
+    {
+      "level": 4,
+      "row": 407,
+      "word": "顺序",
+      "rawWord": "顺序",
+      "pinyin": "shùn xù",
+      "meaningVi": "thứ tự"
+    },
+    {
+      "level": 4,
+      "row": 408,
+      "word": "说明",
+      "rawWord": "说明",
+      "pinyin": "shuō míng",
+      "meaningVi": "nói rõ"
+    },
+    {
+      "level": 4,
+      "row": 409,
+      "word": "硕士",
+      "rawWord": "硕士",
+      "pinyin": "shuò shì",
+      "meaningVi": "thạc sĩ"
+    },
+    {
+      "level": 4,
+      "row": 410,
+      "word": "死",
+      "rawWord": "死",
+      "pinyin": "sǐ",
+      "meaningVi": "chết"
+    },
+    {
+      "level": 4,
+      "row": 411,
+      "word": "速度",
+      "rawWord": "速度",
+      "pinyin": "sù dù",
+      "meaningVi": "tốc độ"
+    },
+    {
+      "level": 4,
+      "row": 412,
+      "word": "塑料袋",
+      "rawWord": "塑料袋",
+      "pinyin": "sù liào dài",
+      "meaningVi": "túi ni lông"
+    },
+    {
+      "level": 4,
+      "row": 413,
+      "word": "酸",
+      "rawWord": "酸",
+      "pinyin": "suān",
+      "meaningVi": "chua"
+    },
+    {
+      "level": 4,
+      "row": 414,
+      "word": "随便",
+      "rawWord": "随便",
+      "pinyin": "suí biàn",
+      "meaningVi": "tùy tiện, tự nhiên"
+    },
+    {
+      "level": 4,
+      "row": 415,
+      "word": "随着",
+      "rawWord": "随着",
+      "pinyin": "suí zhe",
+      "meaningVi": "cùng với"
+    },
+    {
+      "level": 4,
+      "row": 416,
+      "word": "孙子",
+      "rawWord": "孙子",
+      "pinyin": "sūn zi",
+      "meaningVi": "cháu trai"
+    },
+    {
+      "level": 4,
+      "row": 417,
+      "word": "所有",
+      "rawWord": "所有",
+      "pinyin": "suǒ yǒu",
+      "meaningVi": "tất cả"
+    },
+    {
+      "level": 4,
+      "row": 418,
+      "word": "台",
+      "rawWord": "台",
+      "pinyin": "tái",
+      "meaningVi": "cái, chiếc"
+    },
+    {
+      "level": 4,
+      "row": 419,
+      "word": "抬",
+      "rawWord": "抬",
+      "pinyin": "tái",
+      "meaningVi": "ngẩng"
+    },
+    {
+      "level": 4,
+      "row": 420,
+      "word": "态度",
+      "rawWord": "态度",
+      "pinyin": "tài dù",
+      "meaningVi": "thái độ"
+    },
+    {
+      "level": 4,
+      "row": 421,
+      "word": "谈",
+      "rawWord": "谈",
+      "pinyin": "tán",
+      "meaningVi": "nói chuyện"
+    },
+    {
+      "level": 4,
+      "row": 422,
+      "word": "弹钢琴",
+      "rawWord": "弹钢琴",
+      "pinyin": "tán gāng qín",
+      "meaningVi": "chơi piano"
+    },
+    {
+      "level": 4,
+      "row": 423,
+      "word": "汤",
+      "rawWord": "汤",
+      "pinyin": "tāng",
+      "meaningVi": "canh"
+    },
+    {
+      "level": 4,
+      "row": 425,
+      "word": "躺",
+      "rawWord": "躺",
+      "pinyin": "tǎng",
+      "meaningVi": "nằm"
+    },
+    {
+      "level": 4,
+      "row": 426,
+      "word": "趟",
+      "rawWord": "趟",
+      "pinyin": "tàng",
+      "meaningVi": "chuyến"
+    },
+    {
+      "level": 4,
+      "row": 427,
+      "word": "讨论",
+      "rawWord": "讨论",
+      "pinyin": "tǎo lùn",
+      "meaningVi": "thảo luận"
+    },
+    {
+      "level": 4,
+      "row": 428,
+      "word": "讨厌",
+      "rawWord": "讨厌",
+      "pinyin": "tǎo yàn",
+      "meaningVi": "ghét"
+    },
+    {
+      "level": 4,
+      "row": 429,
+      "word": "特点",
+      "rawWord": "特点",
+      "pinyin": "tè diǎn",
+      "meaningVi": "đặc điểm"
+    },
+    {
+      "level": 4,
+      "row": 430,
+      "word": "提",
+      "rawWord": "提",
+      "pinyin": "tí",
+      "meaningVi": "đề ra"
+    },
+    {
+      "level": 4,
+      "row": 431,
+      "word": "提供",
+      "rawWord": "提供",
+      "pinyin": "tí gōng",
+      "meaningVi": "cung cấp"
+    },
+    {
+      "level": 4,
+      "row": 432,
+      "word": "提前",
+      "rawWord": "提前",
+      "pinyin": "tí qián",
+      "meaningVi": "trước thời hạn"
+    },
+    {
+      "level": 4,
+      "row": 433,
+      "word": "提醒",
+      "rawWord": "提醒",
+      "pinyin": "tí xǐng",
+      "meaningVi": "nhắc nhở"
+    },
+    {
+      "level": 4,
+      "row": 434,
+      "word": "填空",
+      "rawWord": "填空",
+      "pinyin": "tián kòng",
+      "meaningVi": "điền trống"
+    },
+    {
+      "level": 4,
+      "row": 435,
+      "word": "条件",
+      "rawWord": "条件",
+      "pinyin": "tiáo jiàn",
+      "meaningVi": "điều kiện"
+    },
+    {
+      "level": 4,
+      "row": 436,
+      "word": "停",
+      "rawWord": "停",
+      "pinyin": "tíng",
+      "meaningVi": "dừng"
+    },
+    {
+      "level": 4,
+      "row": 437,
+      "word": "挺",
+      "rawWord": "挺",
+      "pinyin": "tǐng",
+      "meaningVi": "rất"
+    },
+    {
+      "level": 4,
+      "row": 438,
+      "word": "通过",
+      "rawWord": "通过",
+      "pinyin": "tōng guò",
+      "meaningVi": "thông qua"
+    },
+    {
+      "level": 4,
+      "row": 439,
+      "word": "通知",
+      "rawWord": "通知",
+      "pinyin": "tōng zhī",
+      "meaningVi": "thông báo"
+    },
+    {
+      "level": 4,
+      "row": 440,
+      "word": "同情",
+      "rawWord": "同情",
+      "pinyin": "tóng qíng",
+      "meaningVi": "đồng tình"
+    },
+    {
+      "level": 4,
+      "row": 441,
+      "word": "同时",
+      "rawWord": "同时",
+      "pinyin": "tóng shí",
+      "meaningVi": "đồng thời"
+    },
+    {
+      "level": 4,
+      "row": 442,
+      "word": "推",
+      "rawWord": "推",
+      "pinyin": "tuī",
+      "meaningVi": "đẩy"
+    },
+    {
+      "level": 4,
+      "row": 443,
+      "word": "推迟",
+      "rawWord": "推迟",
+      "pinyin": "tuī chí",
+      "meaningVi": "kéo dài thời gian"
+    },
+    {
+      "level": 4,
+      "row": 444,
+      "word": "脱",
+      "rawWord": "脱",
+      "pinyin": "tuō",
+      "meaningVi": "cởi"
+    },
+    {
+      "level": 4,
+      "row": 445,
+      "word": "袜子",
+      "rawWord": "袜子",
+      "pinyin": "wà zi",
+      "meaningVi": "tất chân"
+    },
+    {
+      "level": 4,
+      "row": 446,
+      "word": "完全",
+      "rawWord": "完全",
+      "pinyin": "wán quán",
+      "meaningVi": "hoàn toàn"
+    },
+    {
+      "level": 4,
+      "row": 447,
+      "word": "网球",
+      "rawWord": "网球",
+      "pinyin": "wǎng qiú",
+      "meaningVi": "tennis"
+    },
+    {
+      "level": 4,
+      "row": 448,
+      "word": "网站",
+      "rawWord": "网站",
+      "pinyin": "wǎng zhàn",
+      "meaningVi": "trang mạng"
+    },
+    {
+      "level": 4,
+      "row": 449,
+      "word": "往往",
+      "rawWord": "往往",
+      "pinyin": "wǎng wǎng",
+      "meaningVi": "thường (quá khứ)"
+    },
+    {
+      "level": 4,
+      "row": 450,
+      "word": "危险",
+      "rawWord": "危险",
+      "pinyin": "wēi xiǎn",
+      "meaningVi": "nguy hiểm"
+    },
+    {
+      "level": 4,
+      "row": 451,
+      "word": "卫生间",
+      "rawWord": "卫生间",
+      "pinyin": "wèi shēng jiān",
+      "meaningVi": "phòng vệ sinh"
+    },
+    {
+      "level": 4,
+      "row": 452,
+      "word": "味道",
+      "rawWord": "味道",
+      "pinyin": "wèi dào",
+      "meaningVi": "mùi vị"
+    },
+    {
+      "level": 4,
+      "row": 453,
+      "word": "温度",
+      "rawWord": "温度",
+      "pinyin": "wēn dù",
+      "meaningVi": "nhiệt độ"
+    },
+    {
+      "level": 4,
+      "row": 454,
+      "word": "文章",
+      "rawWord": "文章",
+      "pinyin": "wén zhāng",
+      "meaningVi": "bài văn"
+    },
+    {
+      "level": 4,
+      "row": 455,
+      "word": "污染",
+      "rawWord": "污染",
+      "pinyin": "wū rǎn",
+      "meaningVi": "ô nhiễm"
+    },
+    {
+      "level": 4,
+      "row": 456,
+      "word": "无",
+      "rawWord": "无",
+      "pinyin": "wú",
+      "meaningVi": "không"
+    },
+    {
+      "level": 4,
+      "row": 457,
+      "word": "无聊",
+      "rawWord": "无聊",
+      "pinyin": "wú liáo",
+      "meaningVi": "nhàm chán"
+    },
+    {
+      "level": 4,
+      "row": 458,
+      "word": "无论",
+      "rawWord": "无论",
+      "pinyin": "wú lùn",
+      "meaningVi": "bất luận"
+    },
+    {
+      "level": 4,
+      "row": 459,
+      "word": "误会",
+      "rawWord": "误会",
+      "pinyin": "wù huì",
+      "meaningVi": "hiểu lầm"
+    },
+    {
+      "level": 4,
+      "row": 460,
+      "word": "西红柿",
+      "rawWord": "西红柿",
+      "pinyin": "xī hóng shì",
+      "meaningVi": "cà chua"
+    },
+    {
+      "level": 4,
+      "row": 461,
+      "word": "吸引",
+      "rawWord": "吸引",
+      "pinyin": "xī yǐn",
+      "meaningVi": "thu hút"
+    },
+    {
+      "level": 4,
+      "row": 462,
+      "word": "咸",
+      "rawWord": "咸",
+      "pinyin": "xián",
+      "meaningVi": "mặn"
+    },
+    {
+      "level": 4,
+      "row": 463,
+      "word": "现金",
+      "rawWord": "现金",
+      "pinyin": "xiàn jīn",
+      "meaningVi": "tiền mặt"
+    },
+    {
+      "level": 4,
+      "row": 464,
+      "word": "羡慕",
+      "rawWord": "羡慕",
+      "pinyin": "xiàn mù",
+      "meaningVi": "ngưỡng mộ"
+    },
+    {
+      "level": 4,
+      "row": 465,
+      "word": "相反",
+      "rawWord": "相反",
+      "pinyin": "xiāng fǎn",
+      "meaningVi": "ngược lại"
+    },
+    {
+      "level": 4,
+      "row": 467,
+      "word": "香",
+      "rawWord": "香",
+      "pinyin": "xiāng",
+      "meaningVi": "thơm"
+    },
+    {
+      "level": 4,
+      "row": 468,
+      "word": "详细",
+      "rawWord": "详细",
+      "pinyin": "xiáng xì",
+      "meaningVi": "tỉ mỉ"
+    },
+    {
+      "level": 4,
+      "row": 469,
+      "word": "响",
+      "rawWord": "响",
+      "pinyin": "xiǎng",
+      "meaningVi": "kêu"
+    },
+    {
+      "level": 4,
+      "row": 470,
+      "word": "橡皮",
+      "rawWord": "橡皮",
+      "pinyin": "xiàng pí",
+      "meaningVi": "cục tẩy"
+    },
+    {
+      "level": 4,
+      "row": 471,
+      "word": "消息",
+      "rawWord": "消息",
+      "pinyin": "xiāo xi",
+      "meaningVi": "thông tin, tin"
+    },
+    {
+      "level": 4,
+      "row": 472,
+      "word": "小吃",
+      "rawWord": "小吃",
+      "pinyin": "xiǎo chī",
+      "meaningVi": "đồ ăn vặt"
+    },
+    {
+      "level": 4,
+      "row": 473,
+      "word": "小伙子",
+      "rawWord": "小伙子",
+      "pinyin": "xiǎo huǒ zi",
+      "meaningVi": "anh chàng"
+    },
+    {
+      "level": 4,
+      "row": 474,
+      "word": "小说",
+      "rawWord": "小说",
+      "pinyin": "xiǎo shuō",
+      "meaningVi": "tiểu thuyết"
+    },
+    {
+      "level": 4,
+      "row": 475,
+      "word": "笑话",
+      "rawWord": "笑话",
+      "pinyin": "xiào huà",
+      "meaningVi": "truyện cười"
+    },
+    {
+      "level": 4,
+      "row": 476,
+      "word": "效果",
+      "rawWord": "效果",
+      "pinyin": "xiào guǒ",
+      "meaningVi": "hiệu quả"
+    },
+    {
+      "level": 4,
+      "row": 477,
+      "word": "心情",
+      "rawWord": "心情",
+      "pinyin": "xīn qíng",
+      "meaningVi": "tâm trạng"
+    },
+    {
+      "level": 4,
+      "row": 478,
+      "word": "辛苦",
+      "rawWord": "辛苦",
+      "pinyin": "xīn kǔ",
+      "meaningVi": "vất vả"
+    },
+    {
+      "level": 4,
+      "row": 479,
+      "word": "信封",
+      "rawWord": "信封",
+      "pinyin": "xìn fēng",
+      "meaningVi": "bức thư"
+    },
+    {
+      "level": 4,
+      "row": 480,
+      "word": "信息",
+      "rawWord": "信息",
+      "pinyin": "xìn xī",
+      "meaningVi": "thông tin"
+    },
+    {
+      "level": 4,
+      "row": 481,
+      "word": "信心",
+      "rawWord": "信心",
+      "pinyin": "xìn xīn",
+      "meaningVi": "niềm tin"
+    },
+    {
+      "level": 4,
+      "row": 482,
+      "word": "兴奋",
+      "rawWord": "兴奋",
+      "pinyin": "xīng fèn",
+      "meaningVi": "hưng phấn, hứng khởi"
+    },
+    {
+      "level": 4,
+      "row": 483,
+      "word": "行",
+      "rawWord": "行",
+      "pinyin": "xíng",
+      "meaningVi": "được"
+    },
+    {
+      "level": 4,
+      "row": 484,
+      "word": "醒",
+      "rawWord": "醒",
+      "pinyin": "xǐng",
+      "meaningVi": "tỉnh"
+    },
+    {
+      "level": 4,
+      "row": 485,
+      "word": "幸福",
+      "rawWord": "幸福",
+      "pinyin": "xìng fú",
+      "meaningVi": "hạnh phúc"
+    },
+    {
+      "level": 4,
+      "row": 486,
+      "word": "性别",
+      "rawWord": "性别",
+      "pinyin": "xìng bié",
+      "meaningVi": "giới tính"
+    },
+    {
+      "level": 4,
+      "row": 487,
+      "word": "性格",
+      "rawWord": "性格",
+      "pinyin": "xìng gé",
+      "meaningVi": "tính cách"
+    },
+    {
+      "level": 4,
+      "row": 488,
+      "word": "修理",
+      "rawWord": "修理",
+      "pinyin": "xiū lǐ",
+      "meaningVi": "sửa chữa"
+    },
+    {
+      "level": 4,
+      "row": 489,
+      "word": "许多",
+      "rawWord": "许多",
+      "pinyin": "xǔ duō",
+      "meaningVi": "rất nhiều"
+    },
+    {
+      "level": 4,
+      "row": 490,
+      "word": "学期",
+      "rawWord": "学期",
+      "pinyin": "xué qī",
+      "meaningVi": "học kì"
+    },
+    {
+      "level": 4,
+      "row": 491,
+      "word": "压力",
+      "rawWord": "压力",
+      "pinyin": "yā lì",
+      "meaningVi": "áp lực"
+    },
+    {
+      "level": 4,
+      "row": 492,
+      "word": "呀",
+      "rawWord": "呀",
+      "pinyin": "yā",
+      "meaningVi": "a"
+    },
+    {
+      "level": 4,
+      "row": 493,
+      "word": "牙膏",
+      "rawWord": "牙膏",
+      "pinyin": "yá gāo",
+      "meaningVi": "kem đánh răng"
+    },
+    {
+      "level": 4,
+      "row": 494,
+      "word": "亚洲",
+      "rawWord": "亚洲",
+      "pinyin": "yà zhōu",
+      "meaningVi": "châu Á"
+    },
+    {
+      "level": 4,
+      "row": 495,
+      "word": "严格",
+      "rawWord": "严格",
+      "pinyin": "yán gé",
+      "meaningVi": "nghiêm khắc"
+    },
+    {
+      "level": 4,
+      "row": 496,
+      "word": "严重",
+      "rawWord": "严重",
+      "pinyin": "yán zhòng",
+      "meaningVi": "nghiêm trọng"
+    },
+    {
+      "level": 4,
+      "row": 497,
+      "word": "研究",
+      "rawWord": "研究",
+      "pinyin": "yán jiū",
+      "meaningVi": "nghiên cứu"
+    },
+    {
+      "level": 4,
+      "row": 498,
+      "word": "盐",
+      "rawWord": "盐",
+      "pinyin": "yán",
+      "meaningVi": "muối"
+    },
+    {
+      "level": 4,
+      "row": 500,
+      "word": "演出",
+      "rawWord": "演出",
+      "pinyin": "yǎn chū",
+      "meaningVi": "buổi diễn"
+    },
+    {
+      "level": 4,
+      "row": 501,
+      "word": "演员",
+      "rawWord": "演员",
+      "pinyin": "yǎn yuán",
+      "meaningVi": "diễn viên"
+    },
+    {
+      "level": 4,
+      "row": 502,
+      "word": "阳光",
+      "rawWord": "阳光",
+      "pinyin": "yáng guāng",
+      "meaningVi": "ánh nắng"
+    },
+    {
+      "level": 4,
+      "row": 503,
+      "word": "养成",
+      "rawWord": "养成",
+      "pinyin": "yǎng chéng",
+      "meaningVi": "nuôi dưỡng, hình thành"
+    },
+    {
+      "level": 4,
+      "row": 504,
+      "word": "样子",
+      "rawWord": "样子",
+      "pinyin": "yàng zi",
+      "meaningVi": "kiểu dáng, dáng vẻ"
+    },
+    {
+      "level": 4,
+      "row": 505,
+      "word": "邀请",
+      "rawWord": "邀请",
+      "pinyin": "yāo qǐng",
+      "meaningVi": "mời"
+    },
+    {
+      "level": 4,
+      "row": 506,
+      "word": "要是",
+      "rawWord": "要是",
+      "pinyin": "yào shì",
+      "meaningVi": "nếu"
+    },
+    {
+      "level": 4,
+      "row": 507,
+      "word": "钥匙",
+      "rawWord": "钥匙",
+      "pinyin": "yào shi",
+      "meaningVi": "chìa khóa"
+    },
+    {
+      "level": 4,
+      "row": 508,
+      "word": "也许",
+      "rawWord": "也许",
+      "pinyin": "yě xǔ",
+      "meaningVi": "có lẽ"
+    },
+    {
+      "level": 4,
+      "row": 509,
+      "word": "叶子",
+      "rawWord": "叶子",
+      "pinyin": "yè zi",
+      "meaningVi": "chiếc lá"
+    },
+    {
+      "level": 4,
+      "row": 510,
+      "word": "页",
+      "rawWord": "页",
+      "pinyin": "yè",
+      "meaningVi": "trang mạng"
+    },
+    {
+      "level": 4,
+      "row": 511,
+      "word": "一切",
+      "rawWord": "一切",
+      "pinyin": "yī qiè",
+      "meaningVi": "tất cả"
+    },
+    {
+      "level": 4,
+      "row": 512,
+      "word": "以",
+      "rawWord": "以",
+      "pinyin": "yǐ",
+      "meaningVi": "lấy, với"
+    },
+    {
+      "level": 4,
+      "row": 514,
+      "word": "艺术",
+      "rawWord": "艺术",
+      "pinyin": "yì shù",
+      "meaningVi": "nghệ thuật"
+    },
+    {
+      "level": 4,
+      "row": 515,
+      "word": "意见",
+      "rawWord": "意见",
+      "pinyin": "yì jiàn",
+      "meaningVi": "ý kiến"
+    },
+    {
+      "level": 4,
+      "row": 516,
+      "word": "因此",
+      "rawWord": "因此",
+      "pinyin": "yīn cǐ",
+      "meaningVi": "cho nên"
+    },
+    {
+      "level": 4,
+      "row": 517,
+      "word": "引起",
+      "rawWord": "引起",
+      "pinyin": "yǐn qǐ",
+      "meaningVi": "dẫn đến, gây ra"
+    },
+    {
+      "level": 4,
+      "row": 518,
+      "word": "印象",
+      "rawWord": "印象",
+      "pinyin": "yìn xiàng",
+      "meaningVi": "ấn tượng"
+    },
+    {
+      "level": 4,
+      "row": 519,
+      "word": "赢",
+      "rawWord": "赢",
+      "pinyin": "yíng",
+      "meaningVi": "thắng"
+    },
+    {
+      "level": 4,
+      "row": 520,
+      "word": "应聘",
+      "rawWord": "应聘",
+      "pinyin": "yìng pìn",
+      "meaningVi": "ứng tuyển"
+    },
+    {
+      "level": 4,
+      "row": 521,
+      "word": "永远",
+      "rawWord": "永远",
+      "pinyin": "yǒng yuǎn",
+      "meaningVi": "mãi mãi"
+    },
+    {
+      "level": 4,
+      "row": 522,
+      "word": "勇敢",
+      "rawWord": "勇敢",
+      "pinyin": "yǒng gǎn",
+      "meaningVi": "dũng cảm"
+    },
+    {
+      "level": 4,
+      "row": 523,
+      "word": "优点",
+      "rawWord": "优点",
+      "pinyin": "yōu diǎn",
+      "meaningVi": "ưu điểm"
+    },
+    {
+      "level": 4,
+      "row": 524,
+      "word": "优秀",
+      "rawWord": "优秀",
+      "pinyin": "yōu xiù",
+      "meaningVi": "ưu tú"
+    },
+    {
+      "level": 4,
+      "row": 525,
+      "word": "幽默",
+      "rawWord": "幽默",
+      "pinyin": "yōu mò",
+      "meaningVi": "hài hước"
+    },
+    {
+      "level": 4,
+      "row": 526,
+      "word": "尤其",
+      "rawWord": "尤其",
+      "pinyin": "yóu qí",
+      "meaningVi": "đặc biệt là"
+    },
+    {
+      "level": 4,
+      "row": 527,
+      "word": "由",
+      "rawWord": "由",
+      "pinyin": "yóu",
+      "meaningVi": "do"
+    },
+    {
+      "level": 4,
+      "row": 528,
+      "word": "由于",
+      "rawWord": "由于",
+      "pinyin": "yóu yú",
+      "meaningVi": "do"
+    },
+    {
+      "level": 4,
+      "row": 529,
+      "word": "邮局",
+      "rawWord": "邮局",
+      "pinyin": "yóu jú",
+      "meaningVi": "bưu điện"
+    },
+    {
+      "level": 4,
+      "row": 530,
+      "word": "友好",
+      "rawWord": "友好",
+      "pinyin": "yǒu hǎo",
+      "meaningVi": "hữu hảo"
+    },
+    {
+      "level": 4,
+      "row": 531,
+      "word": "友谊",
+      "rawWord": "友谊",
+      "pinyin": "yǒu yì",
+      "meaningVi": "hữu nghị"
+    },
+    {
+      "level": 4,
+      "row": 532,
+      "word": "有趣",
+      "rawWord": "有趣",
+      "pinyin": "yǒu qù",
+      "meaningVi": "hứng thú"
+    },
+    {
+      "level": 4,
+      "row": 533,
+      "word": "于是",
+      "rawWord": "于是",
+      "pinyin": "yú shì",
+      "meaningVi": "thế là"
+    },
+    {
+      "level": 4,
+      "row": 534,
+      "word": "愉快",
+      "rawWord": "愉快",
+      "pinyin": "yú kuài",
+      "meaningVi": "vui vẻ"
+    },
+    {
+      "level": 4,
+      "row": 535,
+      "word": "与",
+      "rawWord": "与",
+      "pinyin": "yǔ",
+      "meaningVi": "và"
+    },
+    {
+      "level": 4,
+      "row": 536,
+      "word": "羽毛球",
+      "rawWord": "羽毛球",
+      "pinyin": "yǔ máo qiú",
+      "meaningVi": "cầu lông"
+    },
+    {
+      "level": 4,
+      "row": 537,
+      "word": "语法",
+      "rawWord": "语法",
+      "pinyin": "yǔ fǎ",
+      "meaningVi": "ngữ pháp"
+    },
+    {
+      "level": 4,
+      "row": 538,
+      "word": "语言",
+      "rawWord": "语言",
+      "pinyin": "yǔ yán",
+      "meaningVi": "ngôn ngữ"
+    },
+    {
+      "level": 4,
+      "row": 539,
+      "word": "预习",
+      "rawWord": "预习",
+      "pinyin": "yù xí",
+      "meaningVi": "chuẩn bị trước"
+    },
+    {
+      "level": 4,
+      "row": 540,
+      "word": "原来",
+      "rawWord": "原来",
+      "pinyin": "yuán lái",
+      "meaningVi": "hóa ra, vốn, cũ"
+    },
+    {
+      "level": 4,
+      "row": 541,
+      "word": "原谅",
+      "rawWord": "原谅",
+      "pinyin": "yuán liàng",
+      "meaningVi": "tha thứ"
+    },
+    {
+      "level": 4,
+      "row": 542,
+      "word": "原因",
+      "rawWord": "原因",
+      "pinyin": "yuán yīn",
+      "meaningVi": "nguyên nhân"
+    },
+    {
+      "level": 4,
+      "row": 543,
+      "word": "约会",
+      "rawWord": "约会",
+      "pinyin": "yuē huì",
+      "meaningVi": "hẹn, cuộc hẹn"
+    },
+    {
+      "level": 4,
+      "row": 544,
+      "word": "阅读",
+      "rawWord": "阅读",
+      "pinyin": "yuè dú",
+      "meaningVi": "đọc hiểu"
+    },
+    {
+      "level": 4,
+      "row": 546,
+      "word": "允许",
+      "rawWord": "允许",
+      "pinyin": "yǔn xǔ",
+      "meaningVi": "cho phép"
+    },
+    {
+      "level": 4,
+      "row": 547,
+      "word": "杂志",
+      "rawWord": "杂志",
+      "pinyin": "zá zhì",
+      "meaningVi": "tạp chí"
+    },
+    {
+      "level": 4,
+      "row": 548,
+      "word": "咱们",
+      "rawWord": "咱们",
+      "pinyin": "zán men",
+      "meaningVi": "chúng ta"
+    },
+    {
+      "level": 4,
+      "row": 549,
+      "word": "暂时",
+      "rawWord": "暂时",
+      "pinyin": "zàn shí",
+      "meaningVi": "tạm thời"
+    },
+    {
+      "level": 4,
+      "row": 550,
+      "word": "脏",
+      "rawWord": "脏",
+      "pinyin": "zāng",
+      "meaningVi": "bẩn"
+    },
+    {
+      "level": 4,
+      "row": 551,
+      "word": "责任",
+      "rawWord": "责任",
+      "pinyin": "zé rèn",
+      "meaningVi": "trách nhiệm"
+    },
+    {
+      "level": 4,
+      "row": 552,
+      "word": "增加",
+      "rawWord": "增加",
+      "pinyin": "zēng jiā",
+      "meaningVi": "tăng thêm"
+    },
+    {
+      "level": 4,
+      "row": 553,
+      "word": "占线",
+      "rawWord": "占线",
+      "pinyin": "zhàn xiàn",
+      "meaningVi": "máy bận"
+    },
+    {
+      "level": 4,
+      "row": 554,
+      "word": "招聘",
+      "rawWord": "招聘",
+      "pinyin": "zhāo pìn",
+      "meaningVi": "tuyển dụng"
+    },
+    {
+      "level": 4,
+      "row": 555,
+      "word": "照",
+      "rawWord": "照",
+      "pinyin": "zhào",
+      "meaningVi": "chiếu, chụp"
+    },
+    {
+      "level": 4,
+      "row": 556,
+      "word": "真正",
+      "rawWord": "真正",
+      "pinyin": "zhēn zhèng",
+      "meaningVi": "thật"
+    },
+    {
+      "level": 4,
+      "row": 557,
+      "word": "整理",
+      "rawWord": "整理",
+      "pinyin": "zhěng lǐ",
+      "meaningVi": "chỉnh sửa"
+    },
+    {
+      "level": 4,
+      "row": 558,
+      "word": "正常",
+      "rawWord": "正常",
+      "pinyin": "zhèng cháng",
+      "meaningVi": "bình thường"
+    },
+    {
+      "level": 4,
+      "row": 559,
+      "word": "正好",
+      "rawWord": "正好",
+      "pinyin": "zhèng hǎo",
+      "meaningVi": "vừa hay"
+    },
+    {
+      "level": 4,
+      "row": 560,
+      "word": "正确",
+      "rawWord": "正确",
+      "pinyin": "zhèng què",
+      "meaningVi": "chính xác"
+    },
+    {
+      "level": 4,
+      "row": 561,
+      "word": "正式",
+      "rawWord": "正式",
+      "pinyin": "zhèng shì",
+      "meaningVi": "chính thức"
+    },
+    {
+      "level": 4,
+      "row": 562,
+      "word": "证明",
+      "rawWord": "证明",
+      "pinyin": "zhèng míng",
+      "meaningVi": "chứng minh"
+    },
+    {
+      "level": 4,
+      "row": 563,
+      "word": "之",
+      "rawWord": "之",
+      "pinyin": "zhī",
+      "meaningVi": "của"
+    },
+    {
+      "level": 4,
+      "row": 564,
+      "word": "支持",
+      "rawWord": "支持",
+      "pinyin": "zhī chí",
+      "meaningVi": "ủng hộ"
+    },
+    {
+      "level": 4,
+      "row": 565,
+      "word": "知识",
+      "rawWord": "知识",
+      "pinyin": "zhī shí",
+      "meaningVi": "tri thức, kiến thức"
+    },
+    {
+      "level": 4,
+      "row": 566,
+      "word": "直接",
+      "rawWord": "直接",
+      "pinyin": "zhí jiē",
+      "meaningVi": "trực tiếp"
+    },
+    {
+      "level": 4,
+      "row": 567,
+      "word": "值得",
+      "rawWord": "值得",
+      "pinyin": "zhí dé",
+      "meaningVi": "đáng"
+    },
+    {
+      "level": 4,
+      "row": 568,
+      "word": "职业",
+      "rawWord": "职业",
+      "pinyin": "zhí yè",
+      "meaningVi": "nghề nghiệp"
+    },
+    {
+      "level": 4,
+      "row": 569,
+      "word": "植物",
+      "rawWord": "植物",
+      "pinyin": "zhí wù",
+      "meaningVi": "thực vật"
+    },
+    {
+      "level": 4,
+      "row": 570,
+      "word": "只好",
+      "rawWord": "只好",
+      "pinyin": "zhǐ hǎo",
+      "meaningVi": "đành"
+    },
+    {
+      "level": 4,
+      "row": 571,
+      "word": "只要",
+      "rawWord": "只要",
+      "pinyin": "zhǐ yào",
+      "meaningVi": "chỉ cần"
+    },
+    {
+      "level": 4,
+      "row": 572,
+      "word": "指",
+      "rawWord": "指",
+      "pinyin": "zhǐ",
+      "meaningVi": "chỉ"
+    },
+    {
+      "level": 4,
+      "row": 573,
+      "word": "至少",
+      "rawWord": "至少",
+      "pinyin": "zhì shǎo",
+      "meaningVi": "chí ít"
+    },
+    {
+      "level": 4,
+      "row": 574,
+      "word": "质量",
+      "rawWord": "质量",
+      "pinyin": "zhì liàng",
+      "meaningVi": "chất lượng"
+    },
+    {
+      "level": 4,
+      "row": 575,
+      "word": "重",
+      "rawWord": "重",
+      "pinyin": "zhòng",
+      "meaningVi": "nặng"
+    },
+    {
+      "level": 4,
+      "row": 576,
+      "word": "重点",
+      "rawWord": "重点",
+      "pinyin": "zhòng diǎn",
+      "meaningVi": "trọng điểm"
+    },
+    {
+      "level": 4,
+      "row": 577,
+      "word": "重视",
+      "rawWord": "重视",
+      "pinyin": "zhòng shì",
+      "meaningVi": "coi trọng"
+    },
+    {
+      "level": 4,
+      "row": 578,
+      "word": "周围",
+      "rawWord": "周围",
+      "pinyin": "zhōu wéi",
+      "meaningVi": "xung quanh"
+    },
+    {
+      "level": 4,
+      "row": 579,
+      "word": "主意",
+      "rawWord": "主意",
+      "pinyin": "zhǔ yì",
+      "meaningVi": "chủ ý"
+    },
+    {
+      "level": 4,
+      "row": 580,
+      "word": "祝贺",
+      "rawWord": "祝贺",
+      "pinyin": "zhù hè",
+      "meaningVi": "chúc mừng"
+    },
+    {
+      "level": 4,
+      "row": 581,
+      "word": "著名",
+      "rawWord": "著名",
+      "pinyin": "zhù míng",
+      "meaningVi": "nổi tiếng"
+    },
+    {
+      "level": 4,
+      "row": 582,
+      "word": "专门",
+      "rawWord": "专门",
+      "pinyin": "zhuān mén",
+      "meaningVi": "chuyên môn"
+    },
+    {
+      "level": 4,
+      "row": 583,
+      "word": "专业",
+      "rawWord": "专业",
+      "pinyin": "zhuān yè",
+      "meaningVi": "chuyên ngành"
+    },
+    {
+      "level": 4,
+      "row": 584,
+      "word": "转",
+      "rawWord": "转",
+      "pinyin": "zhuǎn",
+      "meaningVi": "chuyển"
+    },
+    {
+      "level": 4,
+      "row": 585,
+      "word": "赚",
+      "rawWord": "赚",
+      "pinyin": "zhuàn",
+      "meaningVi": "kiếm"
+    },
+    {
+      "level": 4,
+      "row": 586,
+      "word": "准确",
+      "rawWord": "准确",
+      "pinyin": "zhǔn què",
+      "meaningVi": "chính xác"
+    },
+    {
+      "level": 4,
+      "row": 587,
+      "word": "准时",
+      "rawWord": "准时",
+      "pinyin": "zhǔn shí",
+      "meaningVi": "đúng giờ"
+    },
+    {
+      "level": 4,
+      "row": 588,
+      "word": "仔细",
+      "rawWord": "仔细",
+      "pinyin": "zǐ xì",
+      "meaningVi": "cẩn thận"
+    },
+    {
+      "level": 4,
+      "row": 589,
+      "word": "自然",
+      "rawWord": "自然",
+      "pinyin": "zì rán",
+      "meaningVi": "tự nhiên"
+    },
+    {
+      "level": 4,
+      "row": 590,
+      "word": "自信",
+      "rawWord": "自信",
+      "pinyin": "zì xìn",
+      "meaningVi": "tự tin"
+    },
+    {
+      "level": 4,
+      "row": 591,
+      "word": "总结",
+      "rawWord": "总结",
+      "pinyin": "zǒng jié",
+      "meaningVi": "tổng kết"
+    },
+    {
+      "level": 4,
+      "row": 592,
+      "word": "租",
+      "rawWord": "租",
+      "pinyin": "zū",
+      "meaningVi": "thuê"
+    },
+    {
+      "level": 4,
+      "row": 593,
+      "word": "最好",
+      "rawWord": "最好",
+      "pinyin": "zuì hǎo",
+      "meaningVi": "tốt nhất"
+    },
+    {
+      "level": 4,
+      "row": 594,
+      "word": "尊重",
+      "rawWord": "尊重",
+      "pinyin": "zūn zhòng",
+      "meaningVi": "tôn trọng"
+    },
+    {
+      "level": 4,
+      "row": 595,
+      "word": "左右",
+      "rawWord": "左右",
+      "pinyin": "zuǒ yòu",
+      "meaningVi": "khoảng"
+    },
+    {
+      "level": 4,
+      "row": 596,
+      "word": "作家",
+      "rawWord": "作家",
+      "pinyin": "zuò jiā",
+      "meaningVi": "tác gia"
+    },
+    {
+      "level": 4,
+      "row": 598,
+      "word": "作者",
+      "rawWord": "作者",
+      "pinyin": "zuò zhě",
+      "meaningVi": "tác giả"
+    },
+    {
+      "level": 4,
+      "row": 599,
+      "word": "座",
+      "rawWord": "座",
+      "pinyin": "zuò",
+      "meaningVi": "tòa"
+    },
+    {
+      "level": 4,
+      "row": 600,
+      "word": "座位",
+      "rawWord": "座位",
+      "pinyin": "zuò wèi",
+      "meaningVi": "chỗ ngồi"
+    }
+  ]
+}

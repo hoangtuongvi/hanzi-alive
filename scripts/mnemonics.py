@@ -14,8 +14,10 @@ def load_mnemonics(characters):
     cues={c:r['image'] for c,r in rows.items()}
     for line in (DIRECTORY/'extra-cues.txt').read_text().splitlines():
         glyph,image=line.split('|',1)
-        assert glyph not in cues,('Duplicate image cue',glyph)
-        cues[glyph]=image
+        if glyph in cues:
+            assert cues[glyph]==image,('Conflicting image cue',glyph,cues[glyph],image)
+        else:
+            cues[glyph]=image
     words={}
     for path in [*sorted(DIRECTORY.glob('words-*.txt')),DIRECTORY/'single-senses.txt']:
         for line in path.read_text().splitlines():

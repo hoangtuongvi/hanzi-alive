@@ -8,8 +8,8 @@ import type {Lesson} from '../src/types';
 
 const lessons = JSON.parse(readFileSync(new URL('../public/data/lessons.json', import.meta.url), 'utf8')) as Lesson[];
 
-test('all 1,000 words have a focused lesson without unavailable-history detours', () => {
-  assert.equal(lessons.length, 1000);
+test('all 1,251 words have a focused lesson without unavailable-history detours', () => {
+  assert.equal(lessons.length, 1251);
   for (const lesson of lessons) {
     const steps = getFocusedSteps(lesson);
     assert.deepEqual(steps.slice(0, 4).map(step => step.key), ['word', 'parts', 'visual', 'story'], lesson.word);
@@ -78,7 +78,7 @@ test('next word reaches every lesson in corpus order and wraps without reorderin
     current = next!;
     visited.add(current.id);
   }
-  assert.equal(visited.size, 1000);
+  assert.equal(visited.size, 1251);
   assert.equal(nextFocusedWord(lessons, current.id), lessons[0]);
   assert.deepEqual(lessons.map(lesson => lesson.id), originalIds);
 });
