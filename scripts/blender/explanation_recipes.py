@@ -7,6 +7,8 @@ Positions use viewer X/Y/Z; the last two optional values are scale and rotation.
 This module is deliberately importable without Blender for validation.
 """
 import hashlib
+import importlib
+import importlib.util
 import json
 from pathlib import Path
 
@@ -16,9 +18,13 @@ RECIPES = {}
 def source_revision(name):
     """A changed recipe or prop library invalidates only generated expansion assets."""
     here=Path(__file__).resolve().parent
+    libraries=['explanation_props.py','explanation_scenes.py']
+    for prefix,module in COMPLETION_MODULES:
+        if any(item['prop'].startswith(prefix+'-') for item in RECIPES[name]['parts']+RECIPES[name]['extras']):
+            libraries.append(module+'_props.py')
     return {'recipeSha256':hashlib.sha256(json.dumps(RECIPES[name],ensure_ascii=False,sort_keys=True).encode()).hexdigest(),
             'sourceSha256':{file:hashlib.sha256((here/file).read_bytes()).hexdigest()
-                            for file in ('explanation_props.py','explanation_scenes.py')}}
+                            for file in libraries}}
 
 
 def obj(kind, x=0, y=0, scale=1, z=0, rotation=0):
@@ -400,3 +406,10 @@ add('价格','price-grid','Coins sit beside a ruled board: imagine each square r
 add('商店','trade-shop','Coins and a market table wait beside a small building: a shop is a place for trade.',['商','店'],[p('coins',-1,.0,1.05),p('house',.85,.0,1.3)],[p('table',-1,-.80,.95)])
 add('服务员','attendant-duty','A uniformed person carries out a task beside a tray and a companion: picture an attendant serving the group.',['服','务','员'],[p('shirt',-1.35,.10,1),p('plate',-.05,-.55,1.1),p('person',1.25,-.10,1.15)])
 add('售货员','shop-salesperson','A selling table displays goods beside a person: the salesperson helps customers choose.',['售','货','员'],[p('table',-1.20,-.55,1.05),p('bag',-.1,.05,.9),p('person',1.20,-.10,1.15)])
+
+# Explicit completion inventories are separately editable; missing modules do
+# not admit placeholder scenes. --require-complete checks the corpus boundary.
+COMPLETION_MODULES=(('first','complete_first'),('second','complete_second'),('third','complete_third'))
+for _prefix,_module in COMPLETION_MODULES:
+    if importlib.util.find_spec(_module) is not None:
+        importlib.import_module(_module).register(add,obj)

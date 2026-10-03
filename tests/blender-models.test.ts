@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
 import * as THREE from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {loadBlenderMeaningModel,disposeBlenderMeaningModel} from '../src/explorer/blender-models';
@@ -18,6 +19,11 @@ test('every registered Blender export loads with embedded resources, ordered cal
   for(const asset of assets){
     assert.ok(asset.asset);assert.ok(asset.anchors);
     const bytes=readFileSync(new URL(`../public${asset.asset}`,import.meta.url));
+    const recorded=manifest.assets[asset.scene];
+    assert.equal(createHash('sha256').update(bytes).digest('hex'),recorded.sha256,`${asset.word}: GLB checksum`);
+    const native=readFileSync(new URL(`../${recorded.blendFile}`,import.meta.url));
+    assert.equal(native.length,recorded.blendBytes,`${asset.word}: native file size`);
+    assert.equal(createHash('sha256').update(native).digest('hex'),recorded.blendSha256,`${asset.word}: native Blender checksum`);
     assert.equal(bytes.toString('ascii',0,4),'glTF',asset.word);
     assert.equal(bytes.readUInt32LE(4),2,asset.word);
     assert.equal(bytes.readUInt32LE(8),bytes.byteLength,asset.word);

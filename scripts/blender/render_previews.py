@@ -1,6 +1,6 @@
 """Render a browsable contact sheet from saved native files without changing them.
 
-Blender --background --python scripts/blender/render_previews.py -- [names|--all]
+Blender --background --python scripts/blender/render_previews.py -- [names|--all|--completion-review]
 The HTML pages and PNGs are local QA artifacts in outputs/blender-review/.
 """
 import bpy
@@ -15,6 +15,24 @@ OUT.mkdir(parents=True,exist_ok=True)
 assets=json.loads((ROOT/'public/models/blender/manifest.json').read_text())['assets']
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 names=list(assets) if '--all' in args else args
+if '--completion-review' in args:
+    sys.path.insert(0,str(Path(__file__).resolve().parent))
+    from explanation_recipes import RECIPES
+    candidates={name:recipe for name,recipe in RECIPES.items() if name.startswith('complete-')}
+    priority_words=set('高手 银行 巧克力 不好意思 自相矛盾 画蛇添足 的 了 是 被 能 张 身体 电影 或者 结婚 关心 反对 最后 不过 记者 挺 压力 内容 南 管理 世纪 安全 教育 提醒 躺 印象 亮 汗 节 转 孙子 生意 趟 填空 友好 重 脏'.split())
+    names=[name for name,recipe in candidates.items() if recipe['word'] in priority_words]
+    def cues(name):
+        return {item['prop'] for item in candidates[name]['parts']+candidates[name]['extras']
+                if item['prop'].startswith(('first-','second-','third-'))}
+    unseen=set().union(*(cues(name) for name in candidates))
+    for name in names:unseen-=cues(name)
+    # A small deterministic contact sheet exercises every new sculpted prop,
+    # plus risky readings, grammar, four-part labels and spatial relationships.
+    while unseen:
+        name=max((name for name in candidates if name not in names),key=lambda name:len(cues(name)&unseen))
+        if not cues(name)&unseen:raise ValueError('Uncovered custom cue')
+        names.append(name);unseen-=cues(name)
+    print(f'COMPLETION_REVIEW: {len(names)} scenes; every used completion prop covered',flush=True)
 if not names:raise ValueError('Provide scene names or --all')
 for name in names:
     if name not in assets:raise ValueError('Unknown scene: '+name)

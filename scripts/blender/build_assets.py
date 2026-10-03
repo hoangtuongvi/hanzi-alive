@@ -152,7 +152,8 @@ def run(names, render):
         if render:
             bpy.context.scene.render.filepath=str(previews/(name+'.png'))
             bpy.ops.render.render(write_still=True)
-        manifest['assets'][name]={'word':SCENES[name][0],'url':'/models/blender/'+name+'.glb','blendFile':'assets/blender/'+name+'.blend','sha256':hashlib.sha256(glb.read_bytes()).hexdigest(),'bytes':glb.stat().st_size,'meshes':len(meshes),'triangles':triangles,'anchors':anchors,'design':meta}
+        blend=native/(name+'.blend')
+        manifest['assets'][name]={'word':SCENES[name][0],'url':'/models/blender/'+name+'.glb','blendFile':'assets/blender/'+name+'.blend','blendSha256':hashlib.sha256(blend.read_bytes()).hexdigest(),'blendBytes':blend.stat().st_size,'sha256':hashlib.sha256(glb.read_bytes()).hexdigest(),'bytes':glb.stat().st_size,'meshes':len(meshes),'triangles':triangles,'anchors':anchors,'design':meta}
         manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
         print('HANZI_ASSET',name,json.dumps(manifest['assets'][name],ensure_ascii=False),flush=True)
 
@@ -166,6 +167,8 @@ if '--missing' in args:
     def current(name):
         asset=assets.get(name)
         if not asset:return False
+        blend=ROOT/asset['blendFile']
+        if asset.get('blendSha256') and (not blend.is_file() or hashlib.sha256(blend.read_bytes()).hexdigest()!=asset['blendSha256']):return False
         if name in EXPLANATIONS:
             if any(asset.get('design',{}).get(key)!=value for key,value in source_revision(name).items()):return False
         glb=ROOT/'public'/asset['url'].lstrip('/')

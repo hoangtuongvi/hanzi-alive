@@ -5,6 +5,8 @@ Coordinates follow the viewer (X right, Y up, Z toward the reader). Props are
 centered near the origin and transformed as a group by the recipe compositor.
 """
 import math
+import importlib
+import importlib.util
 import bpy
 from mathutils import Matrix
 from rest_scene import material, oval, tube, v, finish
@@ -634,7 +636,19 @@ def build_prop(kind, name, mats):
         for i in range(count):
             s.ball(((i%cols-(cols-1)/2)*.19,(i//cols)*.22-.15,0),(.071,.071,.071),'gold','counting bead %d'%(i+1))
     else:
-        raise ValueError('No designed object for '+kind)
+        if kind not in CUSTOM_BUILDERS:
+            raise ValueError('No designed object for '+kind)
+        CUSTOM_BUILDERS[kind](kind,s)
+
+
+CUSTOM_BUILDERS={}
+for _module in ('complete_first_props','complete_second_props','complete_third_props'):
+    if importlib.util.find_spec(_module) is not None:
+        _library=importlib.import_module(_module)
+        for _kind in _library.KINDS:
+            if _kind in CUSTOM_BUILDERS:
+                raise ValueError('Duplicate custom prop: '+_kind)
+            CUSTOM_BUILDERS[_kind]=_library.build
 
 
 def place(kind, name, position, scale, mats, rotation=0):

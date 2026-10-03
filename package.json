@@ -8,8 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "data": "python3 scripts/build_data.py",
-    "test": "node --import tsx --test tests/*.test.ts && python3 scripts/check_data.py && python3 scripts/blender/sync_catalog.py --check",
-    "blender:check": "python3 scripts/blender/sync_catalog.py --check",
+    "test": "node --import tsx --test tests/*.test.ts && python3 tests/test_blender_catalog.py && python3 scripts/check_data.py && python3 scripts/blender/check_recipes.py --require-complete && python3 scripts/blender/sync_catalog.py --check --require-complete",
+    "blender:check": "python3 scripts/blender/check_recipes.py --require-complete && python3 scripts/blender/sync_catalog.py --check --require-complete",
     "coverage": "python3 scripts/audit_coverage.py",
     "coverage:check": "python3 scripts/audit_coverage.py --check"
   },

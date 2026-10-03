@@ -1,8 +1,8 @@
 # Hanzi Alive
 
-An automatic visual lesson for **休, 清, and 晴**. A word separates into its written parts, becomes an interactive 3D scene, and reveals a story connecting the images to its meaning.
+Automatic visual lessons for **1,251 Chinese words**, including the original **休, 清, and 晴** demo. A word separates into its written parts, becomes an interactive 3D scene, and reveals a story connecting the images to its meaning.
 
-The project now plans 1,251 word lessons: the original 1,000-word corpus plus 251 missing entries from the supplied HSK 1–4 workbook. The original three-word demo remains available, and a growing illustrated collection admits only words with authored scene assets. All 1,251 lessons have draft text and sourced stroke geometry; they are **not yet 1,251 finished illustrations**. See [the current coverage report](docs/word-coverage.md).
+The project contains 1,251 word lessons: the original 1,000-word corpus plus 251 entries from the supplied HSK 1–4 workbook. The original three-word demo remains available, and the illustrated collection admits only words with authored scene assets. All 1,251 lessons now have Blender explanations, draft mnemonic text and sourced stroke geometry. The mnemonics remain drafts pending independent linguistic/editorial review. See [the current coverage report](docs/word-coverage.md).
 
 ## Run
 
@@ -15,9 +15,9 @@ npm run dev
 
 Open [the demo](http://localhost:5173/?view=theatre&word=休). All assets load locally; no account, API key, or runtime AI service is required.
 
-Open [the illustrated collection](http://localhost:5173/?view=collection&word=休) to explore completed scene definitions, with the same simple Back/Next flow as the demo. Words without an illustration remain in the production queue instead of entering this collection.
+Open [the illustrated collection](http://localhost:5173/?view=collection&word=休) to explore all 1,251 scene definitions, with the same simple Back/Next flow as the demo. Future words without an illustration would remain in the production queue instead of entering this collection; the current corpus has none.
 
-The hosted demo uses Sites, configured in `.openai/hosting.json`, and serves the static production build from `dist/`. The current source collection contains **371 illustrated lessons** (29.7% of the 1,251-word corpus). Use `?view=collection&word=休` for the collection, or `?view=theatre&word=休` for the original three-word demo. A Git push does not itself republish the hosted demo.
+The hosted demo uses Sites, configured in `.openai/hosting.json`, and serves the static production build from `dist/`. The source collection contains **1,251 Blender explanations for all 1,251 words** (100% coverage). Use `?view=collection&word=休` for the collection, or `?view=theatre&word=休` for the original three-word demo. A Git push does not itself republish the hosted demo.
 
 ```sh
 npm test
@@ -45,13 +45,13 @@ Demo links support the original three words. Collection links use `?view=collect
 
 Illustrated scenes are authored in **Blender 4.5 LTS** and exported as self-contained GLB models. The browser loads those models with Three.js, keeping the existing rotation, component labels, and timed transitions. 休 has a resting traveler and a broadleaf tree; 清 and 晴 share the same curved green grass and river stones. The expanding collection reuses that tree and meadow vocabulary across new, individually composed scenes. Scene meshes and materials are original project assets; no external model pack or texture service is required.
 
-The collection includes 27 detailed scene builders and 344 compact explanation dioramas assembled from an original sculpted object library. Each diorama has an explicit word-specific recipe, ordered component anchors and its own mnemonic story. They cover nature, food, family, objects, counts, directions, actions, school, travel and emotions. They are draft learning illustrations, not independently reviewed etymologies. Reusable props broaden coverage; these are not 371 independently sculpted artworks. The remaining 880 words stay outside the illustrated collection, including the explicitly excluded 高手.
+The collection includes 27 detailed scene builders and 1,224 compact explanation dioramas assembled from an original sculpted object library. Each diorama has an explicit word-specific recipe, ordered component anchors and its own mnemonic story. They cover concrete objects, actions, particles, idioms and abstract meanings. All database words are included, with no writing-only entries. They are draft learning illustrations, not independently reviewed etymologies or 1,251 independently sculpted artworks. The recipes preserve the database's selected readings and meanings, including uncommon selections, and distinguish invented cue associations from literal word translations.
 
-Editable Blender files live in `assets/blender/`, and browser exports live in `public/models/blender/`. The export manifest records Blender version, sizes, mesh counts, anchors, and checksums. If a model cannot load, an existing procedural illustration provides a fallback where available; otherwise the lesson pauses and offers a retry.
+Editable Blender files live in `assets/blender/`, and browser exports live in `public/models/blender/`. The export manifest records Blender version, sizes, mesh counts, anchors, and checksums for both native files and GLBs. If a model cannot load, an existing procedural illustration provides a fallback where available; otherwise the lesson pauses and offers a retry.
 
 The mnemonic stories are invented memory connections, not historical derivations. For example, 清 uses: “Only in clear water can you see the green grass.” Green remains the image for 青 in both 清 and 晴.
 
-The scene catalog holds the current presentation stories and any lesson-specific mnemonic labels. 好 uses a girl-and-boy family story, while the source dictionary component records remain separate. The production queue includes these presentation revisions. 高手 is excluded from the illustrated collection.
+The scene catalog holds the current presentation stories and any lesson-specific mnemonic labels. 好 uses a girl-and-boy family story, while the source dictionary component records remain separate. The production queue includes these presentation revisions. The latest all-word request restores 高手; the illustration exclusion list is now empty.
 
 The 3D written forms use sourced stroke geometry from Make Me a Hanzi. The supplied reference assets provide 休’s oracle, bronze, and seal forms, each with a source link shown during its historical phase. The oracle form represents a Shang tradition; the bronze form a Western Zhou tradition; the seal form belongs to the tradition recorded in the Shuowen dictionary, rather than a dated Qin inscription. No historical forms are invented for 清 or 晴.
 
@@ -71,19 +71,22 @@ To rebuild or resume the complete library, then admit verified exports and refre
 
 ```sh
 blender --background --factory-startup --python-exit-code 1 --python scripts/blender/build_assets.py -- --all --missing
-python3 scripts/blender/sync_catalog.py
+python3 scripts/blender/check_recipes.py --require-complete
+python3 scripts/blender/sync_catalog.py --require-complete
 npm run coverage
 npm test
 npm run build
 ```
 
-`--missing` skips existing native files paired with checksum-verified GLBs; changed explanation recipes or prop-library sources are rebuilt automatically. Use `--explanations` for just the modular dioramas, or omit `--missing` to rebuild all selected scenes. Catalog synchronization rejects missing files, stale recipes, mismatched component order and the exclusion list. Check it without writing with `npm run blender:check`.
+`--missing` skips existing native files paired with checksum-verified GLBs; changed explanation recipes or used prop-library sources are rebuilt automatically. Use `--explanations` for just the modular dioramas, or omit `--missing` to rebuild all selected scenes. Catalog synchronization rejects missing or changed files, stale recipes, mismatched component order and excluded words. `--require-complete` additionally requires an exact match to every database word. Check all invariants without writing with `npm run blender:check`; the test suite also checks full coverage and parses every GLB with the actual browser model loader.
 
-The recipes in `scripts/blender/explanation_recipes.py` list exact objects, positions, sizes and stories. `explanation_props.py` contains the original geometry, and `explanation_scenes.py` composes it. No unsupported word receives a generic fallback illustration. Render contact sheets from saved native files without changing them:
+The explicit inventories in `scripts/blender/explanation_recipes.py` and `complete_first.py`, `complete_second.py`, `complete_third.py` list objects, positions, sizes and stories. `explanation_props.py` and the three `complete_*_props.py` libraries contain original geometry, and `explanation_scenes.py` composes it. Repeated objects retain exact source glyph order; helper objects show relationships, action or the remembered result. No unknown word receives a generic fallback illustration. Render contact sheets from saved native files without changing them:
 
 ```sh
 blender --background --python-exit-code 1 --python scripts/blender/render_previews.py -- --all
 ```
+
+Use `--completion-review` instead of `--all` for a deterministic spot-check set covering every newly used sculpted prop, selected-sense exceptions, grammar and key spatial relationships. This visual sample supplements, but does not replace, the full-corpus model-loading tests.
 
 With the development server running, open `/outputs/blender-review/page-1.html`. Preview images are ignored by Git; native sources, GLBs, scripts and manifests are checked in.
 

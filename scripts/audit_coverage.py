@@ -128,6 +128,8 @@ def build_report() -> dict:
         glb = ROOT / "public" / asset["url"].lstrip("/")
         native = ROOT / asset["blendFile"]
         valid = glb.is_file() and native.is_file() and digest(glb) == asset["sha256"]
+        if valid and asset.get("blendSha256"):
+            valid = digest(native) == asset["blendSha256"]
         verify(valid, f"Missing or changed Blender asset: {name}.")
         blender_assets.append({"word": asset["word"], "scene": name, "glb": asset["url"], "native": asset["blendFile"], "verified": valid})
 
@@ -245,6 +247,7 @@ def markdown(report: dict) -> str:
     history = "、".join(v["historicalWords"]) or "none detected"
     blender_words = "、".join(asset["word"] for asset in v["blenderAssets"])
     scene_words = "、".join(scene["word"] for scene in v["authoredScenes"])
+    visual_task = "Maintain and review visual explanations" if v['blenderWords']==w['lessons'] else "Expand authored visual scenes"
     total = lambda value: f"{value:,}"
     return f"""# Word coverage
 
@@ -281,7 +284,7 @@ The visual counts are not additive. Three-dimensional writing, reusable scene re
 
 1. **Review the drafts.** The collection records {total(e['independentlyReviewedWordsRecorded'])} independently reviewed words. Files in `data/curation/element-review/` contain source/gloss worklists, not reviewer verdicts. Automated checks establish consistency and coverage, not memorability, linguistic accuracy or learner outcomes.
 2. **Resolve uncertain splits without inventing strokes.** {c['partialTopLevelStrokeMapping']} characters have partial source mappings, affecting {c['wordsContainingPartialStrokeMapping']} word lessons. Those split characters contain {c['unassignedStrokesInSplitCharacters']} unassigned strokes. Preserve them intact and neutral unless stronger source evidence supports a mapping. Whole-outline mnemonic cues are a separate category and can overlap partial mappings.
-3. **Expand authored visual scenes.** {v['blenderWords']} words currently have Blender exports and {v['authoredSceneDefinitions']} have word-specific scene definitions. Of these, {v['composedExplanationScenes']} are explicit compositions of reusable sculpted props. They are draft explanations, not independently reviewed artworks. {total(w['lessons']-v['blenderWords'])} words remain without a Blender scene; generic glyph rendering is not counted as an illustration.
+3. **{visual_task}.** {v['blenderWords']} words currently have Blender exports and {v['authoredSceneDefinitions']} have word-specific scene definitions. Of these, {v['composedExplanationScenes']} are explicit compositions of reusable sculpted props. They are draft explanations, not independently reviewed artworks. {total(w['lessons']-v['blenderWords'])} words remain without a Blender scene; generic glyph rendering is not counted as an illustration.
 4. **Expand sourced history separately.** Imported etymology metadata exists for {c['records'] - s['importedEtymologyTypes'].get('missing', 0)} characters. That does not make their invented memory stories historical explanations, and it does not provide bundled ancient glyphs beyond {history}.
 
 ### Characters with partial stroke mappings
