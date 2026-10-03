@@ -8,6 +8,7 @@ import {disposeBlenderMeaningModel,loadBlenderMeaningModel} from './blender-mode
 import {getSceneDefinition} from './scene-catalog';
 import {blendExplorerPoses,easeTransition,explorerPose,TRANSITION_DURATION} from './transitions';
 import {layoutBreakdownCallouts,layoutCallouts,type ScreenBounds,type ScreenPoint} from './callout-layout';
+import {createExplorerRenderer,interruptedGraphicsFailure,stageFailure,type StageFailure} from './graphics';
 
 interface ExplorerStageProps {
   lesson:Lesson;
@@ -37,7 +38,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
   const wakeRef=useRef<(()=>void)|null>(null);
   const stateRef=useRef({progress,show3D,onReady});stateRef.current={progress,show3D,onReady};
   const [status,setStatus]=useState<'loading'|'ready'|'recovering'|'error'>('loading');
-  const [error,setError]=useState('');
+  const [error,setError]=useState<StageFailure|null>(null);
   const [labels,setLabels]=useState<Label[]>([]);
   const [retry,setRetry]=useState(0);
   const parts=useMemo(()=>lessonParts(lesson,characters),[lesson,characters]);
@@ -66,7 +67,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     const motion=matchMedia('(prefers-reduced-motion: reduce)');
     let reducedMotion=motion.matches;
     const cameraMaterials:THREE.Material[]=[];
-    setStatus('loading');setError('');setLabels([]);stateRef.current.onReady?.(false);
+    setStatus('loading');setError(null);setLabels([]);stateRef.current.onReady?.(false);
 
     function setOpacity(group:THREE.Group,opacity:number){
       group.visible=opacity>.001;
@@ -184,11 +185,11 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     }
     function wake(){if(!disposed&&ready&&!document.hidden&&!frameId)frameId=requestAnimationFrame(frame);}
     wakeRef.current=wake;
-    function fail(message:string){
+    function fail(failure:StageFailure){
       if(disposed)return;
       ready=false;cancelAnimationFrame(frameId);frameId=0;
       if(renderer)renderer.domElement.style.visibility='hidden';
-      setStatus('error');setError(message);setLabels([]);stateRef.current.onReady?.(false);
+      setStatus('error');setError(failure);setLabels([]);stateRef.current.onReady?.(false);
     }
     function pauseForContextLoss(){
       if(disposed)return;
@@ -198,7 +199,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
       setStatus('recovering');setLabels([]);stateRef.current.onReady?.(false);
       clearTimeout(recoveryTimeout);
       recoveryTimeout=setTimeout(()=>{
-        if(contextUnavailable)fail('The browser could not restore the 3D view. Reload it to continue.');
+        if(contextUnavailable)fail(interruptedGraphicsFailure);
       },8000);
     }
     function contextLost(event:Event){event.preventDefault();pauseForContextLoss();}
@@ -263,7 +264,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     async function init(){
       try{
         // The renderer belongs to the mounted explorer, not an individual word.
-        renderer=rendererRef.current??new THREE.WebGLRenderer({antialias:true,alpha:true,powerPreference:'low-power'});
+        renderer=rendererRef.current??createExplorerRenderer(document.createElement('canvas'));
         rendererRef.current=renderer;
         renderer.outputColorSpace=THREE.SRGBColorSpace;
         renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.65;
@@ -328,7 +329,10 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
       }catch(reason){
         abort.abort();
         if(blenderModel){disposeBlenderMeaningModel(blenderModel);blenderModel=null;}
-        if(!disposed&&!(reason instanceof DOMException&&reason.name==='AbortError'))fail('The 3D view could not load. Reload it to try again.');
+        if(!disposed&&!(reason instanceof DOMException&&reason.name==='AbortError')){
+          console.error(`The 3D view for ${lesson.word} failed to initialize:`,reason);
+          fail(stageFailure(reason));
+        }
       }
     }
     void init();
@@ -362,11 +366,8 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     <div ref={renderHost} className="explorer-render-area" style={{position:'absolute',inset:0,overflow:'hidden'}}/>
     {status!=='ready'&&<div className="explorer-three-loading" role="status" style={{position:'absolute',inset:0,display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column',gap:14,textAlign:'center',padding:30}}>
       <span style={{fontFamily:'serif',fontSize:100,color:'#e5e8d8',lineHeight:1.2}}>{lesson.word}</span>
-      <p style={{maxWidth:320,color:'#9da69b',fontSize:14}}>{status==='error'?error:status==='recovering'?'Restoring the 3D view…':'Preparing your 3D explorer…'}</p>
-      {status==='error'&&<button className="quiet" type="button" onClick={()=>{
-        if(!rendererRef.current||rendererRef.current.getContext().isContextLost())window.location.reload();
-        else setRetry(value=>value+1);
-      }}>Reload 3D view ↻</button>}
+      <p style={{maxWidth:320,color:'#9da69b',fontSize:14}}>{status==='error'?error?.message:status==='recovering'?'Restoring the 3D view…':'Preparing your 3D explorer…'}</p>
+      {status==='error'&&error?.recovery==='retry-scene'&&<button className="quiet" type="button" onClick={()=>setRetry(value=>value+1)}>Try loading again ↻</button>}
     </div>}
     <svg ref={leaders} className="explorer-callout-lines" aria-hidden="true" style={{position:'absolute',inset:0,width:'100%',height:'100%',pointerEvents:'none',overflow:'hidden'}}>
       {labels.map(label=><path key={label.key} ref={element=>{if(element)linesRef.current.set(label.key,element);else linesRef.current.delete(label.key);}} fill="none" stroke={label.color} strokeWidth="1" strokeLinecap="round" style={{opacity:0}}/>)}

@@ -9,6 +9,7 @@ import '../src/styles.css';
 if (!import.meta.env.DEV) throw new Error('The graphics test harness is development-only.');
 
 type GraphicsContext = WebGLRenderingContext | WebGL2RenderingContext;
+const simulateBlockedStartup=new URLSearchParams(window.location.search).get('graphicsFailure')==='blocked';
 const root = document.getElementById('root')!;
 const text = (id:string, value:string|number):void => {
   document.getElementById(id)!.textContent = String(value);
@@ -53,11 +54,20 @@ function stopStress(message?:string):void {
 function appError():string {
   if (runtimeError) return runtimeError;
   const status = root.querySelector('.explorer-three-loading, .app-error')?.textContent?.trim() ?? '';
-  return /could not|couldn’t|paused|unavailable|failed/i.test(status) ? status : '';
+  return /could not|couldn’t|paused|blocked|unavailable|failed/i.test(status) ? status : '';
 }
 
 const originalGetContext = HTMLCanvasElement.prototype.getContext;
 HTMLCanvasElement.prototype.getContext = function(this:HTMLCanvasElement, kind:string, options?:unknown) {
+  if(simulateBlockedStartup&&['webgl','webgl2','experimental-webgl'].includes(kind)){
+    // Reproduce the browser's creation failure without crashing the GPU or
+    // changing any browser settings. This instrumentation is test-only.
+    this.dispatchEvent(new WebGLContextEvent('webglcontextcreationerror',{
+      statusMessage:'Web page caused context loss and was blocked',
+    }));
+    log('Simulated a browser-blocked graphics startup.');
+    return null;
+  }
   const getContext = originalGetContext as (this:HTMLCanvasElement, kind:string, options?:unknown) => RenderingContext|null;
   const context = getContext.call(this, kind, options);
   if (context && ['webgl', 'webgl2', 'experimental-webgl'].includes(kind)) {
