@@ -18,6 +18,12 @@ export const SCENE_CATALOG:readonly SceneDefinition[]=catalog as SceneDefinition
 const byWord=new Map(SCENE_CATALOG.map(scene=>[scene.word,scene]));
 export function getSceneDefinition(word:string):SceneDefinition|undefined {return byWord.get(word);}
 
+/** CPU-rendered stills keep every Blender lesson usable without WebGL. */
+export function getScenePoster(word:string):string|undefined {
+  const scene=byWord.get(word);
+  return scene?.format==='blender'?`/models/posters/${scene.scene}.webp`:undefined;
+}
+
 /** Only authored illustrations count as scenes; extruded writing is a separate tier. */
 export function getVisualCoverage(lessons:readonly Pick<Lesson,'word'>[]){
   const words=new Set(lessons.map(lesson=>lesson.word));

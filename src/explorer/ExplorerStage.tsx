@@ -8,7 +8,8 @@ import {disposeBlenderMeaningModel,loadBlenderMeaningModel} from './blender-mode
 import {getSceneDefinition} from './scene-catalog';
 import {blendExplorerPoses,easeTransition,explorerPose,TRANSITION_DURATION} from './transitions';
 import {layoutBreakdownCallouts,layoutCallouts,type ScreenBounds,type ScreenPoint} from './callout-layout';
-import {createExplorerRenderer,interruptedGraphicsFailure,stageFailure,type StageFailure} from './graphics';
+import {createExplorerRenderer,GraphicsInitializationError,interruptedGraphicsFailure,stageFailure,type StageFailure} from './graphics';
+import ExplorerFallback from './ExplorerFallback';
 
 interface ExplorerStageProps {
   lesson:Lesson;
@@ -30,6 +31,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
   const host=useRef<HTMLDivElement>(null);
   const renderHost=useRef<HTMLDivElement>(null);
   const rendererRef=useRef<THREE.WebGLRenderer|null>(null);
+  const graphicsFailureRef=useRef<GraphicsInitializationError|null>(null);
   const labelsRef=useRef(new Map<string,HTMLDivElement>());
   const linesRef=useRef(new Map<string,SVGPathElement>());
   const dotsRef=useRef(new Map<string,SVGCircleElement>());
@@ -212,7 +214,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     function contextRestored(){
       if(disposed)return;
       contextUnavailable=false;clearTimeout(recoveryTimeout);
-      setStatus('loading');resize();resumeWhenReady();
+      setStatus('loading');stateRef.current.onReady?.(false);resize();resumeWhenReady();
     }
     function cameraFocus(){
       if(renderer){renderer.domElement.style.outline='2px solid #ebb08d';renderer.domElement.style.outlineOffset='-3px';}
@@ -263,6 +265,9 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     }
     async function init(){
       try{
+        // Browsing lessons must not repeatedly request a browser-blocked context.
+        // A browser reload starts a fresh graphics session and clears this ref.
+        if(graphicsFailureRef.current)throw graphicsFailureRef.current;
         // The renderer belongs to the mounted explorer, not an individual word.
         renderer=rendererRef.current??createExplorerRenderer(document.createElement('canvas'));
         rendererRef.current=renderer;
@@ -330,7 +335,8 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
         abort.abort();
         if(blenderModel){disposeBlenderMeaningModel(blenderModel);blenderModel=null;}
         if(!disposed&&!(reason instanceof DOMException&&reason.name==='AbortError')){
-          console.error(`The 3D view for ${lesson.word} failed to initialize:`,reason);
+          if(reason!==graphicsFailureRef.current)console.error(`The 3D view for ${lesson.word} failed to initialize:`,reason);
+          if(reason instanceof GraphicsInitializationError)graphicsFailureRef.current=reason;
           fail(stageFailure(reason));
         }
       }
@@ -364,11 +370,13 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
   useEffect(()=>{wakeRef.current?.();},[labels]);
   return <div ref={host} className="explorer-three-stage" aria-hidden={concealed} inert={concealed} style={{position:'absolute',inset:0,overflow:'hidden',pointerEvents:concealed?'none':undefined}}>
     <div ref={renderHost} className="explorer-render-area" style={{position:'absolute',inset:0,overflow:'hidden'}}/>
-    {status!=='ready'&&<div className="explorer-three-loading" role="status" style={{position:'absolute',inset:0,display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column',gap:14,textAlign:'center',padding:30}}>
+    {(status==='error'||status==='recovering')&&<ExplorerFallback key={lesson.id} lesson={lesson} characters={characters} progress={progress}
+      recoveryState={status} message={error?.message??'The browser is restoring 3D graphics.'} onReady={onReady}/>}
+    {status==='loading'&&<div className="explorer-three-loading" role="status" style={{position:'absolute',inset:0,display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column',gap:14,textAlign:'center',padding:30}}>
       <span style={{fontFamily:'serif',fontSize:100,color:'#e5e8d8',lineHeight:1.2}}>{lesson.word}</span>
-      <p style={{maxWidth:320,color:'#9da69b',fontSize:14}}>{status==='error'?error?.message:status==='recovering'?'Restoring the 3D view…':'Preparing your 3D explorer…'}</p>
-      {status==='error'&&error?.recovery==='retry-scene'&&<button className="quiet" type="button" onClick={()=>setRetry(value=>value+1)}>Try loading again ↻</button>}
+      <p style={{maxWidth:320,color:'#9da69b',fontSize:14}}>Preparing your 3D explorer…</p>
     </div>}
+    {status==='error'&&error?.recovery==='retry-scene'&&<button className="explorer-fallback-retry quiet" type="button" onClick={()=>setRetry(value=>value+1)}>Retry interactive view ↻</button>}
     <svg ref={leaders} className="explorer-callout-lines" aria-hidden="true" style={{position:'absolute',inset:0,width:'100%',height:'100%',pointerEvents:'none',overflow:'hidden'}}>
       {labels.map(label=><path key={label.key} ref={element=>{if(element)linesRef.current.set(label.key,element);else linesRef.current.delete(label.key);}} fill="none" stroke={label.color} strokeWidth="1" strokeLinecap="round" style={{opacity:0}}/>)}
       {labels.map(label=><circle key={`${label.key}-anchor`} ref={element=>{if(element)dotsRef.current.set(label.key,element);else dotsRef.current.delete(label.key);}} r="2" fill={label.color} style={{opacity:0}}/>)}

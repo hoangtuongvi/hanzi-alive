@@ -10,6 +10,7 @@ if (!import.meta.env.DEV) throw new Error('The graphics test harness is developm
 
 type GraphicsContext = WebGLRenderingContext | WebGL2RenderingContext;
 const simulateBlockedStartup=new URLSearchParams(window.location.search).get('graphicsFailure')==='blocked';
+if(new URLSearchParams(window.location.search).has('appOnly'))document.getElementById('graphics-test-panel')!.hidden=true;
 const root = document.getElementById('root')!;
 const text = (id:string, value:string|number):void => {
   document.getElementById(id)!.textContent = String(value);
@@ -29,11 +30,11 @@ const seenCanvases = new WeakSet<HTMLCanvasElement>();
 const contexts = new WeakMap<HTMLCanvasElement, GraphicsContext>();
 const canvasIds = new WeakMap<HTMLCanvasElement, number>();
 const restoreExtensions = new WeakMap<HTMLCanvasElement, WEBGL_lose_context>();
-let contextCount = 0, canvasSequence = 0, losses = 0, restores = 0;
+let contextCount = 0, canvasSequence = 0, losses = 0, restores = 0, creationAttempts=0;
 let expectedLoss = false;
 let restoreTimer:number|undefined;
 let stressTimer:number|undefined;
-let stressClicks = 0, stressBaseline = 0, stressLosses = 0;
+let stressClicks = 0, stressBaseline = 0, stressLosses = 0, stressCreationBaseline=0;
 let stressCanvas:HTMLCanvasElement|undefined;
 let pendingAutoRestore = false;
 let runtimeError = '';
@@ -53,12 +54,14 @@ function stopStress(message?:string):void {
 }
 function appError():string {
   if (runtimeError) return runtimeError;
+  if(root.querySelector('.explorer-fallback[data-poster-state="missing"]'))return 'The still illustration could not load.';
   const status = root.querySelector('.explorer-three-loading, .app-error')?.textContent?.trim() ?? '';
   return /could not|couldn’t|paused|blocked|unavailable|failed/i.test(status) ? status : '';
 }
 
 const originalGetContext = HTMLCanvasElement.prototype.getContext;
 HTMLCanvasElement.prototype.getContext = function(this:HTMLCanvasElement, kind:string, options?:unknown) {
+  if(['webgl','webgl2','experimental-webgl'].includes(kind))creationAttempts++;
   if(simulateBlockedStartup&&['webgl','webgl2','experimental-webgl'].includes(kind)){
     // Reproduce the browser's creation failure without crashing the GPU or
     // changing any browser settings. This instrumentation is test-only.
@@ -92,7 +95,7 @@ HTMLCanvasElement.prototype.getContext = function(this:HTMLCanvasElement, kind:s
         log(`Canvas ${canvasIds.get(this)} restored its context.`);
         if (pendingAutoRestore) {
           pendingAutoRestore = false;
-          result('Context restored. Confirm that the scene and lesson playback resume on the same canvas.');
+          result('Context restored. Confirm that the interactive view returns on the same canvas.');
         }
         expectedLoss = false;
         refresh();
@@ -113,8 +116,9 @@ function refresh():void {
   text('test-loss-count', losses);
   text('test-restore-count', restores);
   text('test-phase', phase ? `${phase.getAttribute('aria-label')} · ${phase.dataset.phase}` : 'Waiting');
-  text('test-scene-source', canvas?.dataset.sceneSource ?? 'Waiting');
-  text('test-app-status', runtimeError || root.querySelector('.explorer-three-loading, .app-error, .app-loading')?.textContent?.trim() || (canvas ? 'Scene available' : 'Waiting for the app'));
+  const fallback=root.querySelector<HTMLElement>('.explorer-fallback');
+  text('test-scene-source', fallback?'poster':canvas?.dataset.sceneSource ?? 'Waiting');
+  text('test-app-status', runtimeError || root.querySelector('.explorer-three-loading, .app-error, .app-loading')?.textContent?.trim() || (fallback?`Still illustration ${fallback.dataset.posterState}`:canvas ? 'Scene available' : 'Waiting for the app'));
 }
 
 function loseContext(autoRestore:boolean):void {
@@ -127,7 +131,7 @@ function loseContext(autoRestore:boolean):void {
   expectedLoss = true;
   restoreExtensions.set(appCanvas()!, extension);
   pendingAutoRestore = autoRestore;
-  result(autoRestore ? 'Losing the context now; restoration will be requested in one second.' : 'Context loss requested. The app should pause until restoration.');
+  result(autoRestore ? 'Losing the context now; restoration will be requested in one second.' : 'Context loss requested. The app should continue with a still illustration.');
   extension.loseContext();
   if (autoRestore) restoreTimer = window.setTimeout(() => {
     extension.restoreContext();
@@ -155,25 +159,36 @@ button('test-stop').addEventListener('click', () => stopStress(`Stopped after ${
 button('test-stress').addEventListener('click', () => {
   stopStress();
   const canvas = appCanvas();
-  if (!canvas || !currentContext() || currentContext()!.isContextLost()) { result('Cannot start: wait for an available app graphics context.'); return; }
+  if (!simulateBlockedStartup&&(!canvas || !currentContext() || currentContext()!.isContextLost())) { result('Cannot start: wait for an available app graphics context.'); return; }
+  if(simulateBlockedStartup&&!root.querySelector('.explorer-fallback[data-poster-state="ready"]')){result('Cannot start: wait for the still illustration.');return;}
   const error = appError();
   if (error) { result(`Cannot start while the app reports an error: ${error}`); return; }
   stressClicks = 0;
   stressBaseline = contextCount;
+  stressCreationBaseline=creationAttempts;
   stressLosses = losses;
-  stressCanvas = canvas;
+  stressCanvas = canvas??undefined;
   button('test-stress').disabled = true;
   button('test-stop').disabled = false;
-  result(`Starting 30 real Next clicks, 350 ms apart. Baseline: ${stressBaseline} contexts, canvas ${canvasIds.get(canvas)}.`);
+  result(`Starting 30 real Next clicks, 350 ms apart. Baseline: ${stressBaseline} contexts, ${simulateBlockedStartup?'still view':`canvas ${canvasIds.get(canvas!)}`}.`);
   function tick():void {
     const error = appError();
     if (error || losses !== stressLosses) { stopStress(`FAIL after ${stressClicks} clicks: ${error || 'unexpected context loss'}`); return; }
-    if (contextCount !== stressBaseline || appCanvas() !== stressCanvas || root.querySelectorAll('canvas').length !== 1) {
+    if(simulateBlockedStartup&&creationAttempts!==stressCreationBaseline){stopStress('FAIL: navigation repeatedly requested blocked graphics.');return;}
+    if (contextCount !== stressBaseline || (appCanvas()??undefined) !== stressCanvas || root.querySelectorAll('canvas').length !== (simulateBlockedStartup?0:1)) {
       stopStress(`FAIL after ${stressClicks} clicks: canvas or context changed (${stressBaseline} → ${contextCount} contexts).`);
       return;
     }
     if (stressClicks === 30) {
-      stopStress(`PASS: 30 Next clicks completed; the same canvas and ${contextCount} WebGL context(s) remain, with no context loss or app errors.`);
+      if(simulateBlockedStartup){
+        const illustration=root.querySelector<HTMLImageElement>('.explorer-fallback-poster');
+        const phase=root.querySelector<HTMLElement>('.focused-content');
+        const word=phase?.getAttribute('aria-label')?.replace(/ lesson$/,'');
+        if(!illustration?.complete||!illustration.naturalWidth||!illustration.alt.startsWith(`${word}:`)||phase?.dataset.phase!=='story'){
+          stopStress('FAIL: the final still illustration and story did not become available.');return;
+        }
+      }
+      stopStress(`PASS: 30 Next clicks completed; ${simulateBlockedStartup?'the final still illustration and story are visible without WebGL':`the same canvas and ${contextCount} WebGL context(s) remain, with no context loss or app errors`}.`);
       return;
     }
     const next = root.querySelector<HTMLButtonElement>('button.focused-next');
@@ -182,7 +197,7 @@ button('test-stress').addEventListener('click', () => {
     stressClicks++;
     text('test-result', `Stress test running: ${stressClicks}/30 Next clicks; ${contextCount} WebGL context(s).`);
     // Give the final word a little longer to finish its actual asset load.
-    stressTimer = window.setTimeout(tick, stressClicks === 30 ? 2000 : 350);
+    stressTimer = window.setTimeout(tick, stressClicks === 30 ? (simulateBlockedStartup?10000:2000) : 350);
   }
   stressTimer = window.setTimeout(tick, 350);
 });
