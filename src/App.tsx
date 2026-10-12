@@ -19,14 +19,14 @@ async function getJSON<T,>(path:string, signal:AbortSignal):Promise<T> {
 
 export default function App(){
   const [data, setData] = useState<DemoData|null>(null);
-  const [collection,setCollection]=useState(()=>new URLSearchParams(window.location.search).get('view')==='collection');
+  const [collection,setCollection]=useState(()=>new URLSearchParams(window.location.search).get('view')!=='theatre');
   const [word, setWord] = useState(() => new URLSearchParams(window.location.search).get('word')||'休');
   const [error, setError] = useState('');
 
   useEffect(() => {
     const syncLocation = ():void => {
       const params=new URLSearchParams(window.location.search);
-      const expanded=params.get('view')==='collection';
+      const expanded=params.get('view')!=='theatre';
       setCollection(expanded);
       setWord(expanded?params.get('word')||'休':getDemoWord(window.location.search));
     };

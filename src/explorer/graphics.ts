@@ -21,7 +21,13 @@ export function createExplorerRenderer(canvas:HTMLCanvasElement):WebGLRenderer {
   };
   canvas.addEventListener('webglcontextcreationerror',capture);
   try{
-    return new WebGLRenderer({canvas,antialias:true,alpha:true,powerPreference:'low-power'});
+    const renderer=new WebGLRenderer({canvas,antialias:true,alpha:true,powerPreference:'low-power'});
+    // Shader compilation failures otherwise only reach the console, leaving
+    // playback marked ready while the canvas can be empty.
+    renderer.debug.onShaderError=(gl,program)=>{
+      throw new Error(`The 3D shader could not compile: ${gl.getProgramInfoLog(program)||'unknown graphics error'}`);
+    };
+    return renderer;
   }catch(cause){
     throw new GraphicsInitializationError(statusMessage,cause);
   }finally{

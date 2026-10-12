@@ -13,7 +13,7 @@ npm ci
 npm run dev
 ```
 
-Open [the demo](http://localhost:5173/?view=theatre&word=休). All assets load locally; no account, API key, or runtime AI service is required.
+Open [Hanzi Alive](http://localhost:5173/) for the complete 1,251-word collection. The original [three-word demo](http://localhost:5173/?view=theatre&word=休) remains available at its explicit URL. All assets load locally; no account, API key, or runtime AI service is required.
 
 Open [the illustrated collection](http://localhost:5173/?view=collection&word=休) to explore all 1,251 scene definitions, with the same simple Back/Next flow as the demo. Future words without an illustration would remain in the production queue instead of entering this collection; the current corpus has none.
 
@@ -109,6 +109,10 @@ The 1,251-word source corpus feeds the production queue and the growing illustra
 Tests cover demo-only data and routes, navigation in both directions, playback timing and cancellation, sourced forms, and the underlying corpus invariants. Production files are generated in `dist/` and use web-root asset paths.
 
 For graphics lifecycle checks, run the development server and open `/tests/graphics-lifecycle.html`. Its controls exercise 30 Next clicks, actual WebGL context loss/restoration, and navigation while graphics are interrupted. The canvas identity and context count must stay constant during navigation, and the current lesson must resume after restoration. React StrictMode may create and retire one additional context at the initial development mount. This harness is excluded from the production build.
+
+The harness also injects draw failures and initial writing-download failures. A draw failure must reach the still view without an uncaught exception, and restoring graphics after a failed initial download must restart scene initialization. Playback starts only after a successful render. Shader compilation failures use the same recovery path.
+
+For complete GPU coverage, open `/tests/collection-render.html` and start its audit. It renders the Blender illustration and sourced writing for all 1,251 lessons, using reduced motion to inspect settled frames, then returns to the first word. It checks actual draw counts, WebGL errors, context stability, the selected scene asset and GPU resource counts before/after the full cycle. It is also excluded from production. These checks cover application behavior; browser or operating-system GPU resets still require recovery handling.
 
 The harness also has a blocked-startup simulation (`graphicsFailure=blocked`). Every lesson must remain usable: sourced writing, memory elements, a Blender-rendered still and the story continue without WebGL. The navigation test works in both interactive and still modes. Add `appOnly=1` for layout checks without the test controls. A graphics interruption shows the still view while waiting and resumes on the same canvas if graphics return, including after the restoration timeout.
 

@@ -38,6 +38,15 @@ let stressClicks = 0, stressBaseline = 0, stressLosses = 0, stressCreationBaseli
 let stressCanvas:HTMLCanvasElement|undefined;
 let pendingAutoRestore = false;
 let runtimeError = '';
+let failNextRender=false,failNextWriting=false;
+const originalFetch=window.fetch;
+window.fetch=function(input,init){
+  if(failNextWriting&&String(input).includes('/data/characters/')){
+    failNextWriting=false;
+    return Promise.resolve(new Response('Simulated missing writing source',{status:503}));
+  }
+  return originalFetch.call(this,input,init);
+};
 
 function appCanvas():HTMLCanvasElement|null { return root.querySelector('canvas'); }
 function currentContext():GraphicsContext|undefined {
@@ -78,6 +87,15 @@ HTMLCanvasElement.prototype.getContext = function(this:HTMLCanvasElement, kind:s
     contexts.set(this, graphics);
     if (!seenContexts.has(graphics)) {
       seenContexts.add(graphics);
+      const drawElements=graphics.drawElements,drawArrays=graphics.drawArrays;
+      graphics.drawElements=function(...args){
+        if(failNextRender){failNextRender=false;throw new Error('Simulated render failure');}
+        return drawElements.apply(this,args);
+      };
+      graphics.drawArrays=function(...args){
+        if(failNextRender){failNextRender=false;throw new Error('Simulated render failure');}
+        return drawArrays.apply(this,args);
+      };
       contextCount++;
       log(`WebGL context ${contextCount} created.`);
     }
@@ -141,6 +159,16 @@ function loseContext(autoRestore:boolean):void {
 }
 
 button('test-auto-recover').addEventListener('click', () => loseContext(true));
+button('test-render-failure').addEventListener('click',()=>{
+  failNextRender=true;
+  root.querySelector<HTMLButtonElement>('button.focused-next')?.click();
+  result('Simulated render failure requested. The still view and story must continue without an uncaught error.');
+});
+button('test-writing-failure').addEventListener('click',()=>{
+  failNextWriting=true;
+  root.querySelector<HTMLButtonElement>('button.focused-next')?.click();
+  result('Simulated initial download failure requested. Lose and restore the context; initialization must restart.');
+});
 button('test-lose').addEventListener('click', () => loseContext(false));
 button('test-restore').addEventListener('click', () => {
   window.clearTimeout(restoreTimer);

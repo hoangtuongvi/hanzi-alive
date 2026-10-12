@@ -18,6 +18,8 @@ interface ExplorerStageProps {
   show3D:boolean;
   resetKey:number;
   onReady?:(ready:boolean)=>void;
+  /** Optional observation hook for the development graphics audit. */
+  onFrame?:(renderer:THREE.WebGLRenderer)=>void;
 }
 interface Label {key:string;glyph:string;image:string;color:string;modern?:GlyphLabel;scene?:SceneLabel;}
 const neutralColor=new THREE.Color(0xe5e8d8);
@@ -27,7 +29,7 @@ const sceneLabelDirections:Record<string,ScreenPoint[]>={
   '晴':[{x:1,y:-.35},{x:1,y:.1}],
 };
 
-export default function ExplorerStage({lesson,characters,progress,show3D,resetKey,onReady}:ExplorerStageProps){
+export default function ExplorerStage({lesson,characters,progress,show3D,resetKey,onReady,onFrame}:ExplorerStageProps){
   const host=useRef<HTMLDivElement>(null);
   const renderHost=useRef<HTMLDivElement>(null);
   const rendererRef=useRef<THREE.WebGLRenderer|null>(null);
@@ -38,7 +40,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
   const leaders=useRef<SVGSVGElement>(null);
   const controlsRef=useRef<OrbitControls|null>(null);
   const wakeRef=useRef<(()=>void)|null>(null);
-  const stateRef=useRef({progress,show3D,onReady});stateRef.current={progress,show3D,onReady};
+  const stateRef=useRef({progress,show3D,onReady,onFrame});stateRef.current={progress,show3D,onReady,onFrame};
   const [status,setStatus]=useState<'loading'|'ready'|'recovering'|'error'>('loading');
   const [error,setError]=useState<StageFailure|null>(null);
   const [labels,setLabels]=useState<Label[]>([]);
@@ -55,7 +57,7 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
   useEffect(()=>{controlsRef.current?.reset();wakeRef.current?.();},[resetKey]);
   useEffect(()=>{
     const viewport=renderHost.current;if(!viewport)return;
-    let disposed=false,frameId=0,lastTime:number|null=null,ready=false,loaded=false,contextUnavailable=false;
+    let disposed=false,frameId=0,lastTime:number|null=null,ready=false,loaded=false,contextUnavailable=false,firstFrame=true;
     let recoveryTimeout:ReturnType<typeof setTimeout>|undefined;
     let renderer:THREE.WebGLRenderer|undefined,controls:OrbitControls|undefined,observer:ResizeObserver|undefined;
     let scene:THREE.Scene|undefined,camera:THREE.PerspectiveCamera|undefined,root:THREE.Group|undefined;
@@ -172,18 +174,30 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     function frame(time:number){
       frameId=0;
       if(disposed||!ready||document.hidden||!renderer||!scene||!camera||!controls)return;
-      const requestedKey=`${stateRef.current.progress}|${stateRef.current.show3D}`;
-      if(requestedKey!==targetKey){
-        targetKey=requestedKey;fromPose=pose;
-        targetPose=explorerPose(stateRef.current.progress,content.length>1,!!sceneGroup,stateRef.current.show3D);
-        elapsed=0;lastTime=time;
+      try{
+        const requestedKey=`${stateRef.current.progress}|${stateRef.current.show3D}`;
+        if(requestedKey!==targetKey){
+          targetKey=requestedKey;fromPose=pose;
+          targetPose=explorerPose(stateRef.current.progress,content.length>1,!!sceneGroup,stateRef.current.show3D);
+          elapsed=0;lastTime=time;
+        }
+        const dt=lastTime===null?0:Math.min(time-lastTime,100);lastTime=time;
+        elapsed=reducedMotion?TRANSITION_DURATION:Math.min(TRANSITION_DURATION,elapsed+dt);
+        pose=blendExplorerPoses(fromPose,targetPose,easeTransition(elapsed/TRANSITION_DURATION));
+        const moving=controls.update();
+        updateModel();renderer.render(scene,camera);
+        if(renderer.getContext().isContextLost()){pauseForContextLoss();return;}
+        stateRef.current.onFrame?.(renderer);
+        if(firstFrame){
+          firstFrame=false;renderer.domElement.style.visibility='visible';
+          setLabels(activeLabels);setStatus('ready');stateRef.current.onReady?.(true);
+        }
+        if((moving||elapsed<TRANSITION_DURATION)&&!frameId)frameId=requestAnimationFrame(frame);
+      }catch(reason){
+        if(renderer.getContext().isContextLost()){pauseForContextLoss();return;}
+        console.error(`The 3D view for ${lesson.word} failed to render:`,reason);
+        fail(stageFailure(reason));
       }
-      const dt=lastTime===null?0:Math.min(time-lastTime,100);lastTime=time;
-      elapsed=reducedMotion?TRANSITION_DURATION:Math.min(TRANSITION_DURATION,elapsed+dt);
-      pose=blendExplorerPoses(fromPose,targetPose,easeTransition(elapsed/TRANSITION_DURATION));
-      const moving=controls.update();
-      updateModel();renderer.render(scene,camera);
-      if((moving||elapsed<TRANSITION_DURATION)&&!frameId)frameId=requestAnimationFrame(frame);
     }
     function wake(){if(!disposed&&ready&&!document.hidden&&!frameId)frameId=requestAnimationFrame(frame);}
     wakeRef.current=wake;
@@ -207,13 +221,14 @@ export default function ExplorerStage({lesson,characters,progress,show3D,resetKe
     function contextLost(event:Event){event.preventDefault();pauseForContextLoss();}
     function resumeWhenReady(){
       if(disposed||!loaded||contextUnavailable||!renderer||renderer.getContext().isContextLost())return;
-      renderer.domElement.style.visibility='visible';
-      setLabels(activeLabels);setStatus('ready');ready=true;lastTime=null;
-      stateRef.current.onReady?.(true);wake();
+      firstFrame=true;ready=true;lastTime=null;wake();
     }
     function contextRestored(){
       if(disposed)return;
       contextUnavailable=false;clearTimeout(recoveryTimeout);
+      // A failed initial download has no pending initialization to resume.
+      // Restart it on the restored renderer instead of waiting indefinitely.
+      if(abort.signal.aborted){setRetry(value=>value+1);return;}
       setStatus('loading');stateRef.current.onReady?.(false);resize();resumeWhenReady();
     }
     function cameraFocus(){

@@ -41,10 +41,13 @@
         <button id="test-auto-recover" type="button">Test loss and automatic restore</button>
         <button id="test-lose" type="button">Lose graphics context</button>
         <button id="test-restore" type="button">Restore graphics context</button>
+        <button id="test-render-failure" type="button">Simulate render failure</button>
+        <button id="test-writing-failure" type="button">Simulate writing download failure</button>
         <button id="test-stress" type="button">Stress test: 30 Next clicks</button>
         <button id="test-stop" type="button" disabled>Stop stress test</button>
       </div>
       <p>Test status: <output id="test-result" aria-live="polite">Ready. Wait for the app canvas, then run a test.</output></p>
+      <p><a href="/tests/collection-render.html">Audit rendering of all 1,251 lessons</a></p>
       <details><summary>Test event log</summary><pre id="test-events">Harness starting…</pre></details>
     </aside>
     <div id="root"></div>
