@@ -19,6 +19,10 @@ Open [the illustrated collection](http://localhost:5173/?view=collection&word=�
 
 The hosted demo uses Sites, configured in `.openai/hosting.json`, and serves the static production build from `dist/`. The source collection contains **1,251 Blender explanations for all 1,251 words** (100% coverage). Use `?view=collection&word=休` for the collection, or `?view=theatre&word=休` for the original three-word demo. A Git push does not itself republish the hosted demo.
 
+The complete [1,251-word demo](https://hanzi-alive-demo.prettyspoon1.chatgpt.site) is deployed separately as an owner-private Site; sign in with the ChatGPT account that owns it. Its project ID is `appgprj_6acd0397752c8191bf13e7b58f0ec45c`. The original `hanzi-alive.kuan-builds.chatgpt.site` project and root hosting manifest remain unchanged because the connected account cannot access that project. For demo updates, open this separate project through the Sites source workflow and retain its own hosting manifest; do not create another Site or use the original project's ID.
+
+The October 13, 2026 graphics review rendered all 1,251 illustrations and written forms (2,504 checks including the return to the first lesson), with one persistent context, zero context losses, zero runtime errors, and identical starting/ending GPU resource counts. Navigation and recovery checks also passed. This verifies the application paths, not immunity to browser, driver, or operating-system graphics resets.
+
 ```sh
 npm test
 npm run build
